@@ -1,0 +1,4 @@
+EPlus reads comma separated decimals.
+For the moment I am rounding up
+
+Start from testing again

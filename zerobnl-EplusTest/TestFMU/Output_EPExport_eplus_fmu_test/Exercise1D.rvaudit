@@ -1,0 +1,16 @@
+ ReadVarsESO
+ processing:.Exercise1D.rvi
+ input file:Exercise1D.eso
+ output file:Exercise1D.csv
+ getting all vars from:Exercise1D.eso
+  number variables requested for output=          10
+ ReadVars Run Time=00hr 00min  0.03sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:.Exercise1D.mvi
+ input file:Exercise1D.mtr
+ output file:Exercise1DMeter.csv
+ getting all vars from:Exercise1D.mtr
+  number variables requested for output=           1
+ ReadVars Run Time=00hr 00min  0.03sec
+ ReadVarsESO program completed successfully.

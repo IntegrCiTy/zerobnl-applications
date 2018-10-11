@@ -1,0 +1,267 @@
+2018-09-25 18:11:04,013 :: DEBUG :: ZEROBNL -> node.py :: __init__ :: Node Base1 created in group GRP1
+2018-09-25 18:11:04,020 :: DEBUG :: ZEROBNL -> node.py :: __init__ :: Base1 -> SUB to tcp://10.0.75.1:5556
+2018-09-25 18:11:04,023 :: DEBUG :: ZEROBNL -> node.py :: __init__ :: Base1 -> PUSH to tcp://10.0.75.1:5557
+2018-09-25 18:11:05,528 :: DEBUG :: ZEROBNL -> node.py :: run :: init_values: {'Tr_second': 45}
+2018-09-25 18:11:05,528 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: Base1 -> attribute Tr_second set to value 45
+2018-09-25 18:11:05,528 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 -> RUNNING ...
+2018-09-25 18:11:05,535 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | STEP | 3600:seconds
+2018-09-25 18:11:05,536 :: INFO :: ZEROBNL -> node.py :: step :: Base1 -> STEP 3600 seconds
+2018-09-25 18:11:05,701 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:05,707 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Tr_second = 46 saved to RedisDB
+2018-09-25 18:11:05,708 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:05,708 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 is waiting ...
+2018-09-25 18:11:05,716 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | UPDATE | {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 18:11:05,716 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: Base1 -> UPDATE inputs
+2018-09-25 18:11:05,717 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: Base1 -> attribute Ts_second set to value 30
+2018-09-25 18:11:05,717 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Ts_second
+2018-09-25 18:11:05,720 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Ts_second = 0 saved to RedisDB
+2018-09-25 18:11:05,721 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | STEP | 3600:seconds
+2018-09-25 18:11:05,722 :: INFO :: ZEROBNL -> node.py :: step :: Base1 -> STEP 3600 seconds
+2018-09-25 18:11:05,724 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:05,728 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Tr_second = 45 saved to RedisDB
+2018-09-25 18:11:05,728 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:05,728 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 is waiting ...
+2018-09-25 18:11:05,735 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | UPDATE | {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 18:11:05,736 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: Base1 -> UPDATE inputs
+2018-09-25 18:11:05,736 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: Base1 -> attribute Ts_second set to value 30
+2018-09-25 18:11:05,736 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Ts_second
+2018-09-25 18:11:05,738 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Ts_second = 0 saved to RedisDB
+2018-09-25 18:11:05,740 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | STEP | 3600:seconds
+2018-09-25 18:11:05,740 :: INFO :: ZEROBNL -> node.py :: step :: Base1 -> STEP 3600 seconds
+2018-09-25 18:11:05,742 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:05,746 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Tr_second = 44 saved to RedisDB
+2018-09-25 18:11:05,746 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:05,746 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 is waiting ...
+2018-09-25 18:11:05,754 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | UPDATE | {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 18:11:05,754 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: Base1 -> UPDATE inputs
+2018-09-25 18:11:05,754 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: Base1 -> attribute Ts_second set to value 30
+2018-09-25 18:11:05,755 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Ts_second
+2018-09-25 18:11:05,757 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Ts_second = 0 saved to RedisDB
+2018-09-25 18:11:05,758 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | STEP | 3600:seconds
+2018-09-25 18:11:05,759 :: INFO :: ZEROBNL -> node.py :: step :: Base1 -> STEP 3600 seconds
+2018-09-25 18:11:05,760 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:05,764 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Tr_second = 42 saved to RedisDB
+2018-09-25 18:11:05,764 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:05,764 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 is waiting ...
+2018-09-25 18:11:05,771 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | UPDATE | {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 18:11:05,772 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: Base1 -> UPDATE inputs
+2018-09-25 18:11:05,772 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: Base1 -> attribute Ts_second set to value 30
+2018-09-25 18:11:05,772 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Ts_second
+2018-09-25 18:11:05,774 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Ts_second = 0 saved to RedisDB
+2018-09-25 18:11:05,776 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | STEP | 3600:seconds
+2018-09-25 18:11:05,776 :: INFO :: ZEROBNL -> node.py :: step :: Base1 -> STEP 3600 seconds
+2018-09-25 18:11:05,778 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:05,781 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Tr_second = 41 saved to RedisDB
+2018-09-25 18:11:05,781 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:05,781 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 is waiting ...
+2018-09-25 18:11:05,789 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | UPDATE | {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 18:11:05,790 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: Base1 -> UPDATE inputs
+2018-09-25 18:11:05,790 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: Base1 -> attribute Ts_second set to value 30
+2018-09-25 18:11:05,790 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Ts_second
+2018-09-25 18:11:05,793 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Ts_second = 0 saved to RedisDB
+2018-09-25 18:11:05,794 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | STEP | 3600:seconds
+2018-09-25 18:11:05,795 :: INFO :: ZEROBNL -> node.py :: step :: Base1 -> STEP 3600 seconds
+2018-09-25 18:11:05,796 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:05,799 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Tr_second = 39 saved to RedisDB
+2018-09-25 18:11:05,799 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:05,799 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 is waiting ...
+2018-09-25 18:11:05,807 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | UPDATE | {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 18:11:05,807 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: Base1 -> UPDATE inputs
+2018-09-25 18:11:05,807 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: Base1 -> attribute Ts_second set to value 30
+2018-09-25 18:11:05,807 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Ts_second
+2018-09-25 18:11:05,810 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Ts_second = 0 saved to RedisDB
+2018-09-25 18:11:05,811 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | STEP | 3600:seconds
+2018-09-25 18:11:05,812 :: INFO :: ZEROBNL -> node.py :: step :: Base1 -> STEP 3600 seconds
+2018-09-25 18:11:05,814 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:05,816 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Tr_second = 38 saved to RedisDB
+2018-09-25 18:11:05,816 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:05,818 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 is waiting ...
+2018-09-25 18:11:05,827 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | UPDATE | {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 18:11:05,827 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: Base1 -> UPDATE inputs
+2018-09-25 18:11:05,827 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: Base1 -> attribute Ts_second set to value 30
+2018-09-25 18:11:05,827 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Ts_second
+2018-09-25 18:11:05,829 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Ts_second = 0 saved to RedisDB
+2018-09-25 18:11:05,830 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | STEP | 3600:seconds
+2018-09-25 18:11:05,831 :: INFO :: ZEROBNL -> node.py :: step :: Base1 -> STEP 3600 seconds
+2018-09-25 18:11:05,832 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:05,834 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Tr_second = 36 saved to RedisDB
+2018-09-25 18:11:05,835 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:05,836 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 is waiting ...
+2018-09-25 18:11:05,843 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | UPDATE | {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 18:11:05,844 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: Base1 -> UPDATE inputs
+2018-09-25 18:11:05,844 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: Base1 -> attribute Ts_second set to value 30
+2018-09-25 18:11:05,844 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Ts_second
+2018-09-25 18:11:05,847 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Ts_second = 0 saved to RedisDB
+2018-09-25 18:11:05,848 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | STEP | 3600:seconds
+2018-09-25 18:11:05,848 :: INFO :: ZEROBNL -> node.py :: step :: Base1 -> STEP 3600 seconds
+2018-09-25 18:11:05,850 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:05,854 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Tr_second = 35 saved to RedisDB
+2018-09-25 18:11:05,854 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:05,854 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 is waiting ...
+2018-09-25 18:11:05,862 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | UPDATE | {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 18:11:05,862 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: Base1 -> UPDATE inputs
+2018-09-25 18:11:05,862 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: Base1 -> attribute Ts_second set to value 30
+2018-09-25 18:11:05,862 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Ts_second
+2018-09-25 18:11:05,865 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Ts_second = 0 saved to RedisDB
+2018-09-25 18:11:05,866 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | STEP | 3600:seconds
+2018-09-25 18:11:05,867 :: INFO :: ZEROBNL -> node.py :: step :: Base1 -> STEP 3600 seconds
+2018-09-25 18:11:05,869 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:05,873 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Tr_second = 34 saved to RedisDB
+2018-09-25 18:11:05,873 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:05,874 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 is waiting ...
+2018-09-25 18:11:05,882 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | UPDATE | {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 18:11:05,882 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: Base1 -> UPDATE inputs
+2018-09-25 18:11:05,882 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: Base1 -> attribute Ts_second set to value 30
+2018-09-25 18:11:05,882 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Ts_second
+2018-09-25 18:11:05,884 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Ts_second = 0 saved to RedisDB
+2018-09-25 18:11:05,886 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | STEP | 3600:seconds
+2018-09-25 18:11:05,887 :: INFO :: ZEROBNL -> node.py :: step :: Base1 -> STEP 3600 seconds
+2018-09-25 18:11:05,889 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:05,892 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Tr_second = 33 saved to RedisDB
+2018-09-25 18:11:05,892 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:05,893 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 is waiting ...
+2018-09-25 18:11:05,900 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | UPDATE | {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 18:11:05,901 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: Base1 -> UPDATE inputs
+2018-09-25 18:11:05,901 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: Base1 -> attribute Ts_second set to value 30
+2018-09-25 18:11:05,901 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Ts_second
+2018-09-25 18:11:05,903 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Ts_second = 0 saved to RedisDB
+2018-09-25 18:11:05,905 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | STEP | 3600:seconds
+2018-09-25 18:11:05,905 :: INFO :: ZEROBNL -> node.py :: step :: Base1 -> STEP 3600 seconds
+2018-09-25 18:11:05,908 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:05,911 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Tr_second = 32 saved to RedisDB
+2018-09-25 18:11:05,911 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:05,912 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 is waiting ...
+2018-09-25 18:11:05,920 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | UPDATE | {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 18:11:05,921 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: Base1 -> UPDATE inputs
+2018-09-25 18:11:05,921 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: Base1 -> attribute Ts_second set to value 30
+2018-09-25 18:11:05,921 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Ts_second
+2018-09-25 18:11:05,924 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Ts_second = 0 saved to RedisDB
+2018-09-25 18:11:05,926 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | STEP | 3600:seconds
+2018-09-25 18:11:05,926 :: INFO :: ZEROBNL -> node.py :: step :: Base1 -> STEP 3600 seconds
+2018-09-25 18:11:05,928 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:05,931 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Tr_second = 31 saved to RedisDB
+2018-09-25 18:11:05,931 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:05,931 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 is waiting ...
+2018-09-25 18:11:05,940 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | UPDATE | {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 18:11:05,940 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: Base1 -> UPDATE inputs
+2018-09-25 18:11:05,940 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: Base1 -> attribute Ts_second set to value 30
+2018-09-25 18:11:05,941 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Ts_second
+2018-09-25 18:11:05,943 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Ts_second = 0 saved to RedisDB
+2018-09-25 18:11:05,945 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | STEP | 3600:seconds
+2018-09-25 18:11:05,945 :: INFO :: ZEROBNL -> node.py :: step :: Base1 -> STEP 3600 seconds
+2018-09-25 18:11:05,947 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:05,950 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Tr_second = 30 saved to RedisDB
+2018-09-25 18:11:05,950 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:05,952 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 is waiting ...
+2018-09-25 18:11:05,959 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | UPDATE | {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 18:11:05,960 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: Base1 -> UPDATE inputs
+2018-09-25 18:11:05,960 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: Base1 -> attribute Ts_second set to value 30
+2018-09-25 18:11:05,960 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Ts_second
+2018-09-25 18:11:05,962 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Ts_second = 0 saved to RedisDB
+2018-09-25 18:11:05,964 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | STEP | 3600:seconds
+2018-09-25 18:11:05,964 :: INFO :: ZEROBNL -> node.py :: step :: Base1 -> STEP 3600 seconds
+2018-09-25 18:11:05,966 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:05,969 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Tr_second = 30 saved to RedisDB
+2018-09-25 18:11:05,969 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:05,970 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 is waiting ...
+2018-09-25 18:11:05,978 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | UPDATE | {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 18:11:05,978 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: Base1 -> UPDATE inputs
+2018-09-25 18:11:05,979 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: Base1 -> attribute Ts_second set to value 30
+2018-09-25 18:11:05,979 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Ts_second
+2018-09-25 18:11:05,981 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Ts_second = 0 saved to RedisDB
+2018-09-25 18:11:05,983 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | STEP | 3600:seconds
+2018-09-25 18:11:05,983 :: INFO :: ZEROBNL -> node.py :: step :: Base1 -> STEP 3600 seconds
+2018-09-25 18:11:05,985 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:05,988 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Tr_second = 29 saved to RedisDB
+2018-09-25 18:11:05,988 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:05,989 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 is waiting ...
+2018-09-25 18:11:05,996 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | UPDATE | {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 18:11:05,996 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: Base1 -> UPDATE inputs
+2018-09-25 18:11:05,996 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: Base1 -> attribute Ts_second set to value 30
+2018-09-25 18:11:05,996 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Ts_second
+2018-09-25 18:11:05,999 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Ts_second = 0 saved to RedisDB
+2018-09-25 18:11:06,001 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | STEP | 3600:seconds
+2018-09-25 18:11:06,002 :: INFO :: ZEROBNL -> node.py :: step :: Base1 -> STEP 3600 seconds
+2018-09-25 18:11:06,003 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:06,009 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Tr_second = 28 saved to RedisDB
+2018-09-25 18:11:06,009 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:06,009 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 is waiting ...
+2018-09-25 18:11:06,017 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | UPDATE | {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 18:11:06,017 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: Base1 -> UPDATE inputs
+2018-09-25 18:11:06,017 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: Base1 -> attribute Ts_second set to value 30
+2018-09-25 18:11:06,017 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Ts_second
+2018-09-25 18:11:06,020 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Ts_second = 0 saved to RedisDB
+2018-09-25 18:11:06,021 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | STEP | 3600:seconds
+2018-09-25 18:11:06,022 :: INFO :: ZEROBNL -> node.py :: step :: Base1 -> STEP 3600 seconds
+2018-09-25 18:11:06,024 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:06,028 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Tr_second = 28 saved to RedisDB
+2018-09-25 18:11:06,028 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:06,028 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 is waiting ...
+2018-09-25 18:11:06,036 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | UPDATE | {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 18:11:06,037 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: Base1 -> UPDATE inputs
+2018-09-25 18:11:06,037 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: Base1 -> attribute Ts_second set to value 30
+2018-09-25 18:11:06,037 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Ts_second
+2018-09-25 18:11:06,039 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Ts_second = 0 saved to RedisDB
+2018-09-25 18:11:06,042 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | STEP | 3600:seconds
+2018-09-25 18:11:06,042 :: INFO :: ZEROBNL -> node.py :: step :: Base1 -> STEP 3600 seconds
+2018-09-25 18:11:06,044 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:06,048 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Tr_second = 27 saved to RedisDB
+2018-09-25 18:11:06,048 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:06,048 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 is waiting ...
+2018-09-25 18:11:06,056 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | UPDATE | {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 18:11:06,056 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: Base1 -> UPDATE inputs
+2018-09-25 18:11:06,057 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: Base1 -> attribute Ts_second set to value 30
+2018-09-25 18:11:06,057 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Ts_second
+2018-09-25 18:11:06,059 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Ts_second = 0 saved to RedisDB
+2018-09-25 18:11:06,061 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | STEP | 3600:seconds
+2018-09-25 18:11:06,061 :: INFO :: ZEROBNL -> node.py :: step :: Base1 -> STEP 3600 seconds
+2018-09-25 18:11:06,064 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:06,067 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Tr_second = 27 saved to RedisDB
+2018-09-25 18:11:06,067 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:06,067 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 is waiting ...
+2018-09-25 18:11:06,076 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | UPDATE | {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 18:11:06,076 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: Base1 -> UPDATE inputs
+2018-09-25 18:11:06,076 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: Base1 -> attribute Ts_second set to value 30
+2018-09-25 18:11:06,076 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Ts_second
+2018-09-25 18:11:06,078 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Ts_second = 0 saved to RedisDB
+2018-09-25 18:11:06,080 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | STEP | 3600:seconds
+2018-09-25 18:11:06,080 :: INFO :: ZEROBNL -> node.py :: step :: Base1 -> STEP 3600 seconds
+2018-09-25 18:11:06,083 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:06,086 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Tr_second = 27 saved to RedisDB
+2018-09-25 18:11:06,086 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:06,087 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 is waiting ...
+2018-09-25 18:11:06,095 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | UPDATE | {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 18:11:06,095 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: Base1 -> UPDATE inputs
+2018-09-25 18:11:06,095 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: Base1 -> attribute Ts_second set to value 30
+2018-09-25 18:11:06,095 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Ts_second
+2018-09-25 18:11:06,098 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Ts_second = 0 saved to RedisDB
+2018-09-25 18:11:06,100 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | STEP | 3600:seconds
+2018-09-25 18:11:06,100 :: INFO :: ZEROBNL -> node.py :: step :: Base1 -> STEP 3600 seconds
+2018-09-25 18:11:06,102 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:06,105 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Tr_second = 26 saved to RedisDB
+2018-09-25 18:11:06,105 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:06,105 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 is waiting ...
+2018-09-25 18:11:06,114 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | UPDATE | {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 18:11:06,114 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: Base1 -> UPDATE inputs
+2018-09-25 18:11:06,115 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: Base1 -> attribute Ts_second set to value 30
+2018-09-25 18:11:06,115 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Ts_second
+2018-09-25 18:11:06,117 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Ts_second = 0 saved to RedisDB
+2018-09-25 18:11:06,118 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | STEP | 3600:seconds
+2018-09-25 18:11:06,119 :: INFO :: ZEROBNL -> node.py :: step :: Base1 -> STEP 3600 seconds
+2018-09-25 18:11:06,121 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:06,124 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Tr_second = 26 saved to RedisDB
+2018-09-25 18:11:06,124 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:06,125 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 is waiting ...
+2018-09-25 18:11:06,132 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | UPDATE | {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 18:11:06,132 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: Base1 -> UPDATE inputs
+2018-09-25 18:11:06,133 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: Base1 -> attribute Ts_second set to value 30
+2018-09-25 18:11:06,133 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Ts_second
+2018-09-25 18:11:06,135 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Ts_second = 0 saved to RedisDB
+2018-09-25 18:11:06,136 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received GRP1 | STEP | 3600:seconds
+2018-09-25 18:11:06,137 :: INFO :: ZEROBNL -> node.py :: step :: Base1 -> STEP 3600 seconds
+2018-09-25 18:11:06,138 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:06,142 :: DEBUG :: ZEROBNL -> node.py :: _send_attribute_value_to_results_db :: Base1 -> Tr_second = 26 saved to RedisDB
+2018-09-25 18:11:06,143 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: Base1 -> get attribute Tr_second
+2018-09-25 18:11:06,143 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 is waiting ...
+2018-09-25 18:11:06,145 :: DEBUG :: ZEROBNL -> node.py :: run :: Base1 received ALL | END | 0
+2018-09-25 18:11:06,146 :: INFO :: ZEROBNL -> node.py :: exit :: Base1 -> EXIT

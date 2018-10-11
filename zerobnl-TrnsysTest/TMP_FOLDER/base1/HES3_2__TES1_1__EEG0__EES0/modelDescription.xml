@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fmiModelDescription
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	fmiVersion="2.0"
+	modelName="HES3_2__TES1_1__EEG0__EES0"
+	guid="{9c4fa426-73bb-11e8-a9d7-705a0f8897e1}"
+	generationTool="FMI++ TRNSYS Export Utility"
+	author="arnaudo"
+	generationDateAndTime="2018-06-19T14:23:45"
+	variableNamingConvention="flat"
+	numberOfEventIndicators="0">
+	<CoSimulation
+		modelIdentifier="HES3_2__TES1_1__EEG0__EES0"
+		needsExecutionTool="false"
+		canHandleVariableCommunicationStepSize="false"
+		canNotUseMemoryManagementFunctions="true"
+		canInterpolateInputs="false"
+		maxOutputDerivativeOrder="0"
+		canGetAndSetFMUstate="false"
+		providesDirectionalDerivative="false"/>
+	<VendorAnnotations>
+		<Tool name="FMI++Export">
+			<Executable
+				executableURI="file:///C:/Trnsys17/exe/trnexe.exe"
+				entryPointURI="fmu://resources/HES3_2__TES1_1__EEG0__EES0.dck"
+				preArguments=""
+				postArguments="/n"/></Tool>
+	</VendorAnnotations>
+	<ModelVariables>
+		<ScalarVariable name="Tindoor" valueReference="1" variability="continuous" causality="input" >
+			<Real/>
+		</ScalarVariable>
+		<ScalarVariable name="Tsupply" valueReference="1001" variability="continuous" causality="output" >
+			<Real/>
+		</ScalarVariable>
+	</ModelVariables>
+	<ModelStructure/>
+</fmiModelDescription>

@@ -1,0 +1,221 @@
+2018-09-25 16:10:55,006 :: DEBUG :: ZEROBNL -> orch.py :: __init__ :: ORCH -> created
+2018-09-25 16:10:55,006 :: DEBUG :: ZEROBNL -> orch.py :: __init__ :: ORCH -> PUB to 5556
+2018-09-25 16:10:55,006 :: DEBUG :: ZEROBNL -> orch.py :: __init__ :: ORCH -> PULL to 5557
+2018-09-25 16:10:55,006 :: INFO :: ZEROBNL -> orch.py :: wait_all_nodes_to_connect :: ORCH is waiting for all nodes to connect...
+2018-09-25 16:10:55,772 :: INFO :: ZEROBNL -> orch.py :: wait_all_nodes_to_connect :: Nodes connected: 1/2
+2018-09-25 16:11:05,526 :: INFO :: ZEROBNL -> orch.py :: wait_all_nodes_to_connect :: Nodes connected: 2/2
+2018-09-25 16:11:05,526 :: INFO :: ZEROBNL -> orch.py :: run :: ORCH -> STEP 0/24: 3600 seconds
+2018-09-25 16:11:05,526 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP0, STEP 3600
+2018-09-25 16:11:05,530 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:05,531 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}}
+2018-09-25 16:11:05,531 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP1, STEP 3600
+2018-09-25 16:11:05,706 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:05,706 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:05,706 :: INFO :: ZEROBNL -> orch.py :: run :: ORCH -> STEP 1/24: 3600 seconds
+2018-09-25 16:11:05,706 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP0, UPDATE 3600
+2018-09-25 16:11:05,709 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP0, STEP 3600
+2018-09-25 16:11:05,712 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:05,712 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:05,712 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP1, UPDATE 3600
+2018-09-25 16:11:05,717 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP1, STEP 3600
+2018-09-25 16:11:05,726 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:05,726 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:05,726 :: INFO :: ZEROBNL -> orch.py :: run :: ORCH -> STEP 2/24: 3600 seconds
+2018-09-25 16:11:05,726 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP0, UPDATE 3600
+2018-09-25 16:11:05,729 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP0, STEP 3600
+2018-09-25 16:11:05,731 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:05,731 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:05,732 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP1, UPDATE 3600
+2018-09-25 16:11:05,736 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP1, STEP 3600
+2018-09-25 16:11:05,744 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:05,744 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:05,744 :: INFO :: ZEROBNL -> orch.py :: run :: ORCH -> STEP 3/24: 3600 seconds
+2018-09-25 16:11:05,744 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP0, UPDATE 3600
+2018-09-25 16:11:05,747 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP0, STEP 3600
+2018-09-25 16:11:05,750 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:05,750 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:05,750 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP1, UPDATE 3600
+2018-09-25 16:11:05,755 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP1, STEP 3600
+2018-09-25 16:11:05,762 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:05,762 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:05,762 :: INFO :: ZEROBNL -> orch.py :: run :: ORCH -> STEP 4/24: 3600 seconds
+2018-09-25 16:11:05,762 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP0, UPDATE 3600
+2018-09-25 16:11:05,765 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP0, STEP 3600
+2018-09-25 16:11:05,767 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:05,767 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:05,768 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP1, UPDATE 3600
+2018-09-25 16:11:05,772 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP1, STEP 3600
+2018-09-25 16:11:05,779 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:05,779 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:05,779 :: INFO :: ZEROBNL -> orch.py :: run :: ORCH -> STEP 5/24: 3600 seconds
+2018-09-25 16:11:05,779 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP0, UPDATE 3600
+2018-09-25 16:11:05,782 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP0, STEP 3600
+2018-09-25 16:11:05,785 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:05,785 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:05,785 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP1, UPDATE 3600
+2018-09-25 16:11:05,790 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP1, STEP 3600
+2018-09-25 16:11:05,797 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:05,798 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:05,798 :: INFO :: ZEROBNL -> orch.py :: run :: ORCH -> STEP 6/24: 3600 seconds
+2018-09-25 16:11:05,798 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP0, UPDATE 3600
+2018-09-25 16:11:05,800 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP0, STEP 3600
+2018-09-25 16:11:05,803 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:05,803 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:05,803 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP1, UPDATE 3600
+2018-09-25 16:11:05,808 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP1, STEP 3600
+2018-09-25 16:11:05,816 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:05,816 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:05,816 :: INFO :: ZEROBNL -> orch.py :: run :: ORCH -> STEP 7/24: 3600 seconds
+2018-09-25 16:11:05,816 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP0, UPDATE 3600
+2018-09-25 16:11:05,819 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP0, STEP 3600
+2018-09-25 16:11:05,822 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:05,823 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:05,823 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP1, UPDATE 3600
+2018-09-25 16:11:05,827 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP1, STEP 3600
+2018-09-25 16:11:05,833 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:05,834 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:05,834 :: INFO :: ZEROBNL -> orch.py :: run :: ORCH -> STEP 8/24: 3600 seconds
+2018-09-25 16:11:05,834 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP0, UPDATE 3600
+2018-09-25 16:11:05,837 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP0, STEP 3600
+2018-09-25 16:11:05,840 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:05,840 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:05,840 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP1, UPDATE 3600
+2018-09-25 16:11:05,844 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP1, STEP 3600
+2018-09-25 16:11:05,852 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:05,852 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:05,852 :: INFO :: ZEROBNL -> orch.py :: run :: ORCH -> STEP 9/24: 3600 seconds
+2018-09-25 16:11:05,852 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP0, UPDATE 3600
+2018-09-25 16:11:05,855 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP0, STEP 3600
+2018-09-25 16:11:05,858 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:05,858 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:05,858 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP1, UPDATE 3600
+2018-09-25 16:11:05,862 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP1, STEP 3600
+2018-09-25 16:11:05,871 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:05,871 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:05,872 :: INFO :: ZEROBNL -> orch.py :: run :: ORCH -> STEP 10/24: 3600 seconds
+2018-09-25 16:11:05,872 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP0, UPDATE 3600
+2018-09-25 16:11:05,875 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP0, STEP 3600
+2018-09-25 16:11:05,877 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:05,878 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:05,878 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP1, UPDATE 3600
+2018-09-25 16:11:05,882 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP1, STEP 3600
+2018-09-25 16:11:05,890 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:05,890 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:05,890 :: INFO :: ZEROBNL -> orch.py :: run :: ORCH -> STEP 11/24: 3600 seconds
+2018-09-25 16:11:05,891 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP0, UPDATE 3600
+2018-09-25 16:11:05,894 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP0, STEP 3600
+2018-09-25 16:11:05,896 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:05,896 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:05,897 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP1, UPDATE 3600
+2018-09-25 16:11:05,901 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP1, STEP 3600
+2018-09-25 16:11:05,910 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:05,910 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:05,910 :: INFO :: ZEROBNL -> orch.py :: run :: ORCH -> STEP 12/24: 3600 seconds
+2018-09-25 16:11:05,910 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP0, UPDATE 3600
+2018-09-25 16:11:05,913 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP0, STEP 3600
+2018-09-25 16:11:05,916 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:05,916 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:05,917 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP1, UPDATE 3600
+2018-09-25 16:11:05,922 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP1, STEP 3600
+2018-09-25 16:11:05,929 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:05,929 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:05,929 :: INFO :: ZEROBNL -> orch.py :: run :: ORCH -> STEP 13/24: 3600 seconds
+2018-09-25 16:11:05,929 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP0, UPDATE 3600
+2018-09-25 16:11:05,932 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP0, STEP 3600
+2018-09-25 16:11:05,935 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:05,936 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:05,936 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP1, UPDATE 3600
+2018-09-25 16:11:05,941 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP1, STEP 3600
+2018-09-25 16:11:05,950 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:05,950 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:05,950 :: INFO :: ZEROBNL -> orch.py :: run :: ORCH -> STEP 14/24: 3600 seconds
+2018-09-25 16:11:05,950 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP0, UPDATE 3600
+2018-09-25 16:11:05,952 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP0, STEP 3600
+2018-09-25 16:11:05,955 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:05,956 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:05,956 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP1, UPDATE 3600
+2018-09-25 16:11:05,960 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP1, STEP 3600
+2018-09-25 16:11:05,968 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:05,968 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:05,968 :: INFO :: ZEROBNL -> orch.py :: run :: ORCH -> STEP 15/24: 3600 seconds
+2018-09-25 16:11:05,968 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP0, UPDATE 3600
+2018-09-25 16:11:05,971 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP0, STEP 3600
+2018-09-25 16:11:05,974 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:05,974 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:05,974 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP1, UPDATE 3600
+2018-09-25 16:11:05,979 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP1, STEP 3600
+2018-09-25 16:11:05,987 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:05,987 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:05,987 :: INFO :: ZEROBNL -> orch.py :: run :: ORCH -> STEP 16/24: 3600 seconds
+2018-09-25 16:11:05,987 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP0, UPDATE 3600
+2018-09-25 16:11:05,989 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP0, STEP 3600
+2018-09-25 16:11:05,992 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:05,992 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:05,992 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP1, UPDATE 3600
+2018-09-25 16:11:05,997 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP1, STEP 3600
+2018-09-25 16:11:06,007 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:06,007 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:06,007 :: INFO :: ZEROBNL -> orch.py :: run :: ORCH -> STEP 17/24: 3600 seconds
+2018-09-25 16:11:06,008 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP0, UPDATE 3600
+2018-09-25 16:11:06,010 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP0, STEP 3600
+2018-09-25 16:11:06,012 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:06,013 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:06,013 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP1, UPDATE 3600
+2018-09-25 16:11:06,018 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP1, STEP 3600
+2018-09-25 16:11:06,026 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:06,026 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:06,026 :: INFO :: ZEROBNL -> orch.py :: run :: ORCH -> STEP 18/24: 3600 seconds
+2018-09-25 16:11:06,026 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP0, UPDATE 3600
+2018-09-25 16:11:06,029 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP0, STEP 3600
+2018-09-25 16:11:06,032 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:06,032 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:06,032 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP1, UPDATE 3600
+2018-09-25 16:11:06,037 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP1, STEP 3600
+2018-09-25 16:11:06,046 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:06,046 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:06,046 :: INFO :: ZEROBNL -> orch.py :: run :: ORCH -> STEP 19/24: 3600 seconds
+2018-09-25 16:11:06,046 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP0, UPDATE 3600
+2018-09-25 16:11:06,049 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP0, STEP 3600
+2018-09-25 16:11:06,052 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:06,052 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:06,052 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP1, UPDATE 3600
+2018-09-25 16:11:06,057 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP1, STEP 3600
+2018-09-25 16:11:06,066 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:06,066 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:06,066 :: INFO :: ZEROBNL -> orch.py :: run :: ORCH -> STEP 20/24: 3600 seconds
+2018-09-25 16:11:06,066 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP0, UPDATE 3600
+2018-09-25 16:11:06,068 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP0, STEP 3600
+2018-09-25 16:11:06,072 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:06,072 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:06,072 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP1, UPDATE 3600
+2018-09-25 16:11:06,076 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP1, STEP 3600
+2018-09-25 16:11:06,084 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:06,085 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:06,085 :: INFO :: ZEROBNL -> orch.py :: run :: ORCH -> STEP 21/24: 3600 seconds
+2018-09-25 16:11:06,085 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP0, UPDATE 3600
+2018-09-25 16:11:06,088 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP0, STEP 3600
+2018-09-25 16:11:06,091 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:06,091 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:06,091 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP1, UPDATE 3600
+2018-09-25 16:11:06,095 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP1, STEP 3600
+2018-09-25 16:11:06,103 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:06,103 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:06,103 :: INFO :: ZEROBNL -> orch.py :: run :: ORCH -> STEP 22/24: 3600 seconds
+2018-09-25 16:11:06,104 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP0, UPDATE 3600
+2018-09-25 16:11:06,107 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP0, STEP 3600
+2018-09-25 16:11:06,109 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:06,109 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:06,109 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP1, UPDATE 3600
+2018-09-25 16:11:06,114 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP1, STEP 3600
+2018-09-25 16:11:06,121 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:06,121 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:06,121 :: INFO :: ZEROBNL -> orch.py :: run :: ORCH -> STEP 23/24: 3600 seconds
+2018-09-25 16:11:06,122 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP0, UPDATE 3600
+2018-09-25 16:11:06,125 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP0, STEP 3600
+2018-09-25 16:11:06,127 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:06,127 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:06,127 :: DEBUG :: ZEROBNL -> orch.py :: update_attributes :: ORCH -> GRP GRP1, UPDATE 3600
+2018-09-25 16:11:06,131 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> GRP GRP1, STEP 3600
+2018-09-25 16:11:06,140 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: ORCH -> STEP 3600 1/1
+2018-09-25 16:11:06,140 :: DEBUG :: ZEROBNL -> orch.py :: make_step :: STATE: {'Base0': {'b': 30.0}, 'Base1': {'Tr_second': 0}}
+2018-09-25 16:11:06,140 :: INFO :: ZEROBNL -> orch.py :: run :: ORCH -> Work done, sending EXIT to all nodes

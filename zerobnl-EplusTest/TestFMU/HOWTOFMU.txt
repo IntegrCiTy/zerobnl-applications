@@ -1,0 +1,3 @@
+C:\EnergyPlusToFMU\Scripts>python EnergyPlusToFMU.py -d -i C:\EnergyPlusV8-9-0\Energy+.idd -w C:\GitHub_Projects\IntegrCiTy_Exp\zerobnl-EplusTest\TestFMU\FileWeather.epw C:\GitHub_Projects\IntegrCiTy_Exp\zerobnl-EplusTest\TestFMU\Exercise1D.idf
+
+With Python 27

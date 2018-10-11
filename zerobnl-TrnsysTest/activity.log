@@ -1,0 +1,46 @@
+2018-09-06 18:11:17,764 :: DEBUG :: ZEROBNL -> interactions.py :: __init__ :: GraphCreator initialized
+2018-09-06 18:11:17,765 :: INFO :: ZEROBNL -> interactions.py :: add_meta :: Meta-model BaseMeta created.
+2018-09-06 18:11:17,768 :: INFO :: ZEROBNL -> interactions.py :: add_meta :: Meta-model TrnsysMeta created.
+2018-09-06 18:11:17,769 :: INFO :: ZEROBNL -> interactions.py :: add_model :: Model BaseModel created.
+2018-09-06 18:11:17,771 :: INFO :: ZEROBNL -> interactions.py :: add_model :: Model TrnsysModel created.
+2018-09-06 18:11:17,773 :: INFO :: ZEROBNL -> interactions.py :: add_node :: Node Base0 created.
+2018-09-06 18:11:17,776 :: INFO :: ZEROBNL -> interactions.py :: add_node :: Node Base1 created.
+2018-09-06 18:11:17,781 :: INFO :: ZEROBNL -> interactions.py :: add_link :: Link created Base0 -> Base1.
+2018-09-06 18:11:17,783 :: INFO :: ZEROBNL -> interactions.py :: add_link :: Link created Base1 -> Base0.
+2018-09-06 18:11:17,788 :: INFO :: ZEROBNL -> interactions.py :: create_group :: The group ('Base0',) have been created.
+2018-09-06 18:11:17,790 :: INFO :: ZEROBNL -> interactions.py :: create_group :: The group ('Base1',) have been created.
+2018-09-06 18:11:17,794 :: INFO :: ZEROBNL -> interactions.py :: create_sequence :: The sequence [['GRP0', ('Base0',)], ['GRP1', ('Base1',)]] have been created.
+2018-09-06 18:11:17,797 :: INFO :: ZEROBNL -> interactions.py :: create_steps :: 24 steps have been created.
+2018-09-06 18:11:17,809 :: DEBUG :: ZEROBNL -> compose.py :: clean_temp_folder :: TMP_FOLDER does not exist
+2018-09-06 18:11:17,809 :: INFO :: ZEROBNL -> main.py :: _deploy_files_and_folders :: Starting the simulation's deployment...
+2018-09-06 18:11:17,812 :: DEBUG :: ZEROBNL -> compose.py :: create_sub_folder_in_temporary_folder :: Folder TMP_FOLDER\orch created for orch
+2018-09-06 18:11:17,812 :: DEBUG :: ZEROBNL -> compose.py :: dump_dict_to_json_in_folder :: Data dumped in TMP_FOLDER\orch\sequence.json
+2018-09-06 18:11:17,815 :: DEBUG :: ZEROBNL -> compose.py :: dump_dict_to_json_in_folder :: Data dumped in TMP_FOLDER\orch\steps.json
+2018-09-06 18:11:17,835 :: DEBUG :: ZEROBNL -> compose.py :: copy_files_to_folder :: File c:\sourcecodes\zerobnl\zerobnl\deploy\..\core\orch.py added in folder TMP_FOLDER\orch
+2018-09-06 18:11:17,838 :: DEBUG :: ZEROBNL -> compose.py :: copy_files_to_folder :: File c:\sourcecodes\zerobnl\zerobnl\deploy\..\..\Dockerfiles\Dockerfile added in folder TMP_FOLDER\orch
+2018-09-06 18:11:17,838 :: DEBUG :: ZEROBNL -> main.py :: _deploy_files_and_folders :: ORCH sub-folder is ready
+2018-09-06 18:11:17,841 :: DEBUG :: ZEROBNL -> compose.py :: create_sub_folder_in_temporary_folder :: Folder TMP_FOLDER\base0 created for Base0
+2018-09-06 18:11:17,844 :: DEBUG :: ZEROBNL -> compose.py :: copy_files_to_folder :: File Dockerfile_base added in folder TMP_FOLDER\base0
+2018-09-06 18:11:17,845 :: DEBUG :: ZEROBNL -> compose.py :: dump_dict_to_json_in_folder :: Data dumped in TMP_FOLDER\base0\init_values.json
+2018-09-06 18:11:17,848 :: DEBUG :: ZEROBNL -> compose.py :: dump_dict_to_json_in_folder :: Data dumped in TMP_FOLDER\base0\node_attributes.json
+2018-09-06 18:11:17,861 :: DEBUG :: ZEROBNL -> compose.py :: copy_files_to_folder :: File wrapper_base.py added in folder TMP_FOLDER\base0
+2018-09-06 18:11:17,861 :: DEBUG :: ZEROBNL -> compose.py :: create_sub_folder_in_temporary_folder :: Folder TMP_FOLDER\base1 created for Base1
+2018-09-06 18:11:17,864 :: DEBUG :: ZEROBNL -> compose.py :: copy_files_to_folder :: File c:\sourcecodes\zerobnl\zerobnl\edit\..\..\Dockerfiles\Dockerfile added in folder TMP_FOLDER\base1
+2018-09-06 18:11:17,864 :: DEBUG :: ZEROBNL -> compose.py :: dump_dict_to_json_in_folder :: Data dumped in TMP_FOLDER\base1\init_values.json
+2018-09-06 18:11:17,866 :: DEBUG :: ZEROBNL -> compose.py :: dump_dict_to_json_in_folder :: Data dumped in TMP_FOLDER\base1\node_attributes.json
+2018-09-06 18:11:17,876 :: DEBUG :: ZEROBNL -> compose.py :: copy_files_to_folder :: File wrapper_trnsys.py added in folder TMP_FOLDER\base1
+2018-09-06 18:11:17,883 :: DEBUG :: ZEROBNL -> compose.py :: copy_files_to_folder :: File HES3_2__TES1_1__EEG0__EES0.fmu added in folder TMP_FOLDER\base1
+2018-09-06 18:11:17,883 :: DEBUG :: ZEROBNL -> main.py :: _deploy_files_and_folders :: Nodes sub-folder are ready
+2018-09-06 18:11:18,893 :: DEBUG :: ZEROBNL -> compose.py :: run_redis :: Running new RedisDB ...
+2018-09-06 18:11:18,915 :: DEBUG :: ZEROBNL -> compose.py :: run_redis :: RedisDB is running
+2018-09-06 18:11:18,925 :: WARNING :: ZEROBNL -> main.py :: run_simulation :: Local node to run in [TMP_FOLDER\base1] > python wrapper_trnsys.py Base1 GRP1
+2018-09-06 18:11:18,926 :: DEBUG :: ZEROBNL -> compose.py :: create_yaml_orch_entry :: Created yaml orchestrator entry
+2018-09-06 18:11:18,927 :: DEBUG :: ZEROBNL -> compose.py :: create_yaml_node_entry :: Created yaml node entry for Base0
+2018-09-06 18:11:18,933 :: DEBUG :: ZEROBNL -> compose.py :: create_yaml_docker_compose :: Created complete docker-compose file in docker-compose.yml
+2018-09-06 18:11:18,938 :: DEBUG :: ZEROBNL -> main.py :: run_simulation :: docker-compose.yaml file created, ready to launch simulation
+2018-09-06 18:11:18,938 :: INFO :: ZEROBNL -> main.py :: run_simulation :: Starting simulation...
+2018-09-06 18:11:18,939 :: INFO :: ZEROBNL -> main.py :: run_simulation :: Waiting for local nodes to run...
+2018-09-06 18:12:01,614 :: INFO :: ZEROBNL -> main.py :: run_simulation :: Simulation finished in 0 min and 43 sec
+2018-09-06 18:12:01,623 :: INFO :: ZEROBNL -> results.py :: connect_to_results_db :: Connected to Redis DB
+2018-09-06 18:12:01,682 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base0 - a
+2018-09-06 18:12:01,716 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base1 - Tindoor

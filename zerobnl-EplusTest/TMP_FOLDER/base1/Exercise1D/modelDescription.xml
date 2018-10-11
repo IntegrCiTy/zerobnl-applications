@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This is file 'modelDescription.xml' for input 'Exercise1D.idf'. -->
+<fmiModelDescription  fmiVersion="1.0"
+  modelName="Exercise1D.idf"
+  modelIdentifier="Exercise1D"
+  guid="bee8761c79847788d0f86f9028fbf0c6"
+  description="Automatically generated from EnergyPlus input file Exercise1D.idf"
+  generationTool="idf-to-fmu-export-prep-win.exe"
+  generationDateAndTime="2018-09-19T12:11:34Z"
+  variableNamingConvention="flat"
+  numberOfContinuousStates="0"
+  numberOfEventIndicators="0">
+  <!-- Note guid is an md5 checksum of the IDF file. -->
+  <!-- Exposed model variables. -->
+  <ModelVariables>
+    <!-- Note valueReferences are (1, 2, 3...) for causality="input" (to E+). -->
+    <!-- Note valueReferences are (100001, 100002, 100003...) for "output" (from E+). -->
+    <!-- Note the order of valueReferences should match the order of elements in file 'variables.cfg'. -->
+    <ScalarVariable  name="Ts_second"  valueReference="1"
+      variability="continuous"  causality="input"
+      description="IDF line 10">
+      <Real  start="60"/>
+    </ScalarVariable>
+    <ScalarVariable  name="Tr_second"  valueReference="100001"
+      variability="continuous"  causality="output"
+      description="IDF line 16">
+      <Real/>
+    </ScalarVariable>
+  </ModelVariables>
+  <!-- Implementation details for co-simulation. -->
+  <Implementation>
+    <!-- EnergyPlus provided as tool (as opposed to source code or DLL). -->
+    <CoSimulation_Tool>
+      <Capabilities
+        canHandleVariableCommunicationStepSize="false"
+        canHandleEvents="false"
+        canRejectSteps="false"
+        canInterpolateInputs="false"
+        maxOutputDerivativeOrder="0"
+        canRunAsynchronuously="false"
+        canSignalEvents="false"
+        canBeInstantiatedOnlyOncePerProcess="false"
+        canNotUseMemoryManagementFunctions="true"/>
+      <Model
+        entryPoint="fmu://resources/Exercise1D.idf"
+        manualStart="false"
+        type="text/plain">
+        <File  file="fmu://resources/variables.cfg"/>
+        <File  file="fmu://resources/FileWeather.epw"/>
+      </Model>
+    </CoSimulation_Tool>
+  </Implementation>
+</fmiModelDescription>
