@@ -37,7 +37,7 @@ class MyNode(Node):
 		
 		#self.y = np.random.choice([-1, 0, 1])
 		#self.b = self.a + self.y * self.c
-		self.b = 55. + self.a #self.a + 15
+		self.b = 10. + self.a #self.a + 15
 		#self.save_attribute("y")
 
 
