@@ -46,9 +46,16 @@ while ( ( time + step_size ) - stop_time < time_diff_resolution ):
   time += step_size
 
   fmu.setRealValue( 'Ts_second', 60 )
-  assert fmu.getLastStatus() == fmipp.fmiOK
+  assert fmu.getLastStatus() == fmipp.fmiOK 
+  
 
-  temp_supply = fmu.getRealValue( 'Tr_second' )
+  temp_supply1 = fmu.getRealValue( 'Tr_second' )
   assert fmu.getLastStatus() == fmipp.fmiOK
+  
+  temp_supply2 = fmu.getRealValue( 'Tr_second' )
+  assert fmu.getLastStatus() == fmipp.fmiOK
+  
+  print('aa',temp_supply1)
+  print('bb', temp_supply2)
 
-  print( 'time = {}, Tr_secondary = {}'.format( time, temp_supply ) )
+  #print( 'time = {}, Tr_secondary = {}'.format( time, temp_supply ) )
