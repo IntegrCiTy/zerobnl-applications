@@ -1,30 +1,28 @@
 networks:
-  simulation:
-    driver: bridge
+  default:
+    external:
+      name: simulation
 services:
   base0:
     build:
+      args:
+        BRANCH: simple_feature
       context: base0
-      dockerfile: Dockerfile_base
-    command: wrapper_base.py Base0 GRP0
+      dockerfile: Dockerfile
+    command: wrapper.py
     container_name: base0
     depends_on:
     - orch
-    environment:
-      ZMQ_PUSH_ADDRESS: tcp://orch:5557
-      ZMQ_SUB_ADDRESS: tcp://orch:5556
-    networks:
-    - simulation
     volumes:
     - .\base0:/code
   orch:
     build:
+      args:
+        BRANCH: simple_feature
       context: orch
       dockerfile: Dockerfile
-    command: orch.py
+    command: main.py
     container_name: orch
-    networks:
-    - simulation
     ports:
     - 5556:5556
     - 5557:5557

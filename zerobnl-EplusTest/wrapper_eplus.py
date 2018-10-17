@@ -25,10 +25,10 @@ class MyNode(Node):
 		self.fmu = fmipp.FMUCoSimulationV1(uri_to_extracted_fmu, model_name, logging_on, time_diff_resolution)
 		print( 'successfully loaded the FMU' )
 
-		## FMU instantiation
+		## FMU instantiation		
 		start_time = 0.
 		stop_time = 3600. * 24.  # 24 hours
-		self.step_size = 3600 # 1 hour
+		self.step_size = 3600. # 1 hour
 		self.tempo=self.step_size
 		instance_name = "eplus_fmu_test"
 		visible = False
@@ -43,14 +43,15 @@ class MyNode(Node):
 		assert status == fmipp.fmiOK        
 		print( 'successfully initialized the FMU' )  
 
-	def set_attribute(self, attr, value):
-		value=round(value)	
+	def set_attribute(self, attr, value):		
 		"""This method is called to set an attribute of the model to a given value, you need to adapt it to your model."""
 		super().set_attribute(attr, value)  # Keep this line, it triggers the parent class method.
 				
 		#setattr(self, attr, value)
 		self.fmu.setRealValue(attr, value)
-		assert self.fmu.getLastStatus() == fmipp.fmiOK  
+		assert self.fmu.getLastStatus() == fmipp.fmiOK 
+
+		print('Ts',value)
 
 	def get_attribute(self, attr):		
 		"""This method is called to get the value of an attribute, you need to adapt it to your model."""
@@ -58,16 +59,14 @@ class MyNode(Node):
 
 		#return getattr(self, attr)
 		val = self.fmu.getRealValue(attr)
-		val=round(val)
-		print('Treturn',val)
+		assert self.fmu.getLastStatus() == fmipp.fmiOK
+		print('Tr',val)	
 		return val
 
-	def step(self, value):
-		value=round(value)
+	def step(self, value):		
 		"""This method is called to make a step, you need to adapt it to your model."""
 		super().step(value)  # Keep this line, it triggers the parent class method.
-		value *= self.UNIT[unit]  # Keep this line, it converts the step value to seconds
-
+		
 		#self.y = np.random.choice([-1, 0, 1])
 		#self.b = self.a + self.y * self.c
 		#self.save_attribute("y")		
