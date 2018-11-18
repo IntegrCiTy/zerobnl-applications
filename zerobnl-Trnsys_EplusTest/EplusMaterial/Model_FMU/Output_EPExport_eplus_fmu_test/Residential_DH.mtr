@@ -1,0 +1,60 @@
+Program Version,EnergyPlus, Version 8.9.0-40101eaafd, YMD=2018.11.16 16:18
+1,5,Environment Title[],Latitude[deg],Longitude[deg],Time Zone[],Elevation[m]
+2,8,Day of Simulation[],Month[],Day of Month[],DST Indicator[1=yes 0=no],Hour[],StartMinute[],EndMinute[],DayType
+3,5,Cumulative Day of Simulation[],Month[],Day of Month[],DST Indicator[1=yes 0=no],DayType  ! When Daily Meters Requested
+4,2,Cumulative Days of Simulation[],Month[]  ! When Monthly Meters Requested
+5,1,Cumulative Days of Simulation[] ! When Run Period Meters Requested
+6,1,Calendar Year of Simulation[] ! When Annual Meters Requested
+346,1,DistrictHeating:Facility [J] !Hourly
+End of Data Dictionary
+1,ANNUAL SIM 1,  59.65,  17.95,   1.00,  61.00
+2,1, 1, 1, 0, 1, 0.00,60.00,Sunday
+346,3991662.652514212
+2,1, 1, 1, 0, 2, 0.00,60.00,Sunday
+346,3705378.0661959236
+2,1, 1, 1, 0, 3, 0.00,60.00,Sunday
+346,3453724.803887163
+2,1, 1, 1, 0, 4, 0.00,60.00,Sunday
+346,3297987.7439612105
+2,1, 1, 1, 0, 5, 0.00,60.00,Sunday
+346,3187374.1947790596
+2,1, 1, 1, 0, 6, 0.00,60.00,Sunday
+346,3110537.799650218
+2,1, 1, 1, 0, 7, 0.00,60.00,Sunday
+346,3084300.602869925
+2,1, 1, 1, 0, 8, 0.00,60.00,Sunday
+346,3226757.1716101944
+2,1, 1, 1, 0, 9, 0.00,60.00,Sunday
+346,3391388.084705778
+2,1, 1, 1, 0,10, 0.00,60.00,Sunday
+346,3454259.0708250466
+2,1, 1, 1, 0,11, 0.00,60.00,Sunday
+346,3134124.635848961
+2,1, 1, 1, 0,12, 0.00,60.00,Sunday
+346,2887669.8253991685
+2,1, 1, 1, 0,13, 0.00,60.00,Sunday
+346,2782331.2359046174
+2,1, 1, 1, 0,14, 0.00,60.00,Sunday
+346,2812407.1356524114
+2,1, 1, 1, 0,15, 0.00,60.00,Sunday
+346,3508292.4068163388
+2,1, 1, 1, 0,16, 0.00,60.00,Sunday
+346,3987748.626294157
+2,1, 1, 1, 0,17, 0.00,60.00,Sunday
+346,4183058.531636019
+2,1, 1, 1, 0,18, 0.00,60.00,Sunday
+346,4275884.252567536
+2,1, 1, 1, 0,19, 0.00,60.00,Sunday
+346,4345763.887093016
+2,1, 1, 1, 0,20, 0.00,60.00,Sunday
+346,4359201.881003903
+2,1, 1, 1, 0,21, 0.00,60.00,Sunday
+346,4367152.839880923
+2,1, 1, 1, 0,22, 0.00,60.00,Sunday
+346,4352827.875536498
+2,1, 1, 1, 0,23, 0.00,60.00,Sunday
+346,4361232.567856793
+2,1, 1, 1, 0,24, 0.00,60.00,Sunday
+346,4386606.351269709
+End of Data
+ Number of Records Written=          24

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fmiModelDescription fmiVersion="1.0" modelName="COG_waste" modelIdentifier="COG_waste" description="TRNSYS FMI CS export" generationTool="FMI++ TRNSYS Export Utility" generationDateAndTime="2018-11-17T17:21:12" variableNamingConvention="flat" numberOfContinuousStates="0" numberOfEventIndicators="0" author="arnaudo" guid="{cc712570-ea84-11e8-b0c5-705a0f8897e1}">
+	<ModelVariables>
+		<ScalarVariable name="Treturn" valueReference="1" variability="continuous" causality="input">
+			<Real/>
+		</ScalarVariable>
+		<ScalarVariable name="Tsupply" valueReference="1001" variability="continuous" causality="output">
+			<Real/>
+		</ScalarVariable>
+	</ModelVariables>
+	<Implementation>
+		<CoSimulation_Tool>
+			<Capabilities canHandleVariableCommunicationStepSize="false" canHandleEvents="true" canRejectSteps="false" canInterpolateInputs="false" maxOutputDerivativeOrder="0" canRunAsynchronuously="false" canSignalEvents="false" canBeInstantiatedOnlyOncePerProcess="false" canNotUseMemoryManagementFunctions="true"/>
+			<Model entryPoint="fmu://COG_waste.dck" manualStart="false" type="application/x-trnexe">
+				<File file="fmu://caseData.txt"/>
+			</Model>
+		</CoSimulation_Tool>
+	</Implementation>
+	<VendorAnnotations>
+		<trnexe preArguments="" postArguments="" executableURI="file:///C:/Trnsys17/exe/trnexe.exe"/>
+	</VendorAnnotations>
+</fmiModelDescription>

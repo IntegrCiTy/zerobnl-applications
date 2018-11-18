@@ -1,0 +1,319 @@
+2018-11-17 18:37:53,762 :: DEBUG :: ZEROBNL -> node.py :: __init__ :: LOAD CONFIG NODE
+2018-11-17 18:37:53,764 :: DEBUG :: ZEROBNL -> node.py :: __init__ :: CONNECT REDIS
+2018-11-17 18:37:53,792 :: DEBUG :: ZEROBNL -> node.py :: __init__ :: CREATE SUB/SEND
+2018-11-17 18:37:53,792 :: DEBUG :: ZEROBNL -> node.py :: __init__ :: CONNECT TO SUB/SEND
+2018-11-17 18:37:53,793 :: DEBUG :: ZEROBNL -> node.py :: __init__ :: SUBSCRIBED TO GRP/ALL
+2018-11-17 18:37:53,794 :: DEBUG :: ZEROBNL -> node.py :: __init__ :: INIT DONE
+2018-11-17 18:37:55,647 :: DEBUG :: ZEROBNL -> node.py :: run :: INIT VALUES DONE
+2018-11-17 18:37:55,650 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:55,651 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {}
+2018-11-17 18:37:55,651 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:56,205 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:56,207 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 66.10650933794886}
+2018-11-17 18:37:56,207 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 66.10650933794886
+2018-11-17 18:37:56,215 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:56,216 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-11-17 18:37:56,216 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-11-17 18:37:56,217 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tr_second
+2018-11-17 18:37:56,232 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tr_second': 26.32650057914879}
+2018-11-17 18:37:56,232 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-11-17 18:37:56,233 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:56,233 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 66.10650933794886, ('Base1', 'Tr_second'): 26.32650057914879}
+2018-11-17 18:37:56,235 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 66.10650933794886
+2018-11-17 18:37:56,238 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:56,549 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:56,550 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.797899114329795, ('Base1', 'Tr_second'): 26.32650057914879}
+2018-11-17 18:37:56,550 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.797899114329795
+2018-11-17 18:37:56,553 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:56,554 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-11-17 18:37:56,554 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-11-17 18:37:56,556 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tr_second
+2018-11-17 18:37:56,561 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tr_second': 26.32606111153347}
+2018-11-17 18:37:56,561 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-11-17 18:37:56,562 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:56,562 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.797899114329795, ('Base1', 'Tr_second'): 26.32606111153347}
+2018-11-17 18:37:56,564 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.797899114329795
+2018-11-17 18:37:56,566 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:56,729 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:56,731 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.73647867734209, ('Base1', 'Tr_second'): 26.32606111153347}
+2018-11-17 18:37:56,731 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.73647867734209
+2018-11-17 18:37:56,735 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:56,737 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-11-17 18:37:56,737 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-11-17 18:37:56,739 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tr_second
+2018-11-17 18:37:56,743 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tr_second': 26.31356108014563}
+2018-11-17 18:37:56,743 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-11-17 18:37:56,745 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:56,746 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.73647867734209, ('Base1', 'Tr_second'): 26.31356108014563}
+2018-11-17 18:37:56,746 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.73647867734209
+2018-11-17 18:37:56,751 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:56,787 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:56,787 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.72590811639578, ('Base1', 'Tr_second'): 26.31356108014563}
+2018-11-17 18:37:56,787 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.72590811639578
+2018-11-17 18:37:56,791 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:56,793 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-11-17 18:37:56,793 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-11-17 18:37:56,794 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tr_second
+2018-11-17 18:37:56,799 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tr_second': 26.2935651154607}
+2018-11-17 18:37:56,799 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-11-17 18:37:56,801 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:56,801 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.72590811639578, ('Base1', 'Tr_second'): 26.2935651154607}
+2018-11-17 18:37:56,801 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.72590811639578
+2018-11-17 18:37:56,804 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:56,843 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:56,843 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.74334375214663, ('Base1', 'Tr_second'): 26.2935651154607}
+2018-11-17 18:37:56,843 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.74334375214663
+2018-11-17 18:37:56,847 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:56,849 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-11-17 18:37:56,849 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-11-17 18:37:56,850 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tr_second
+2018-11-17 18:37:56,856 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tr_second': 26.2694498373062}
+2018-11-17 18:37:56,857 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-11-17 18:37:56,857 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:56,858 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.74334375214663, ('Base1', 'Tr_second'): 26.2694498373062}
+2018-11-17 18:37:56,858 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.74334375214663
+2018-11-17 18:37:56,863 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:56,901 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:56,902 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.685747433246334, ('Base1', 'Tr_second'): 26.2694498373062}
+2018-11-17 18:37:56,902 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.685747433246334
+2018-11-17 18:37:56,904 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:56,906 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-11-17 18:37:56,906 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-11-17 18:37:56,908 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tr_second
+2018-11-17 18:37:56,913 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tr_second': 26.2431705721666}
+2018-11-17 18:37:56,913 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-11-17 18:37:56,915 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:56,916 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.685747433246334, ('Base1', 'Tr_second'): 26.2431705721666}
+2018-11-17 18:37:56,916 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.685747433246334
+2018-11-17 18:37:56,918 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:56,953 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:56,953 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.69094120840142, ('Base1', 'Tr_second'): 26.2431705721666}
+2018-11-17 18:37:56,953 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.69094120840142
+2018-11-17 18:37:56,957 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:56,959 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-11-17 18:37:56,959 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-11-17 18:37:56,960 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tr_second
+2018-11-17 18:37:56,964 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tr_second': 26.21632694694862}
+2018-11-17 18:37:56,964 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-11-17 18:37:56,967 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:56,967 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.69094120840142, ('Base1', 'Tr_second'): 26.21632694694862}
+2018-11-17 18:37:56,967 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.69094120840142
+2018-11-17 18:37:56,977 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:57,016 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:57,017 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.635026616512036, ('Base1', 'Tr_second'): 26.21632694694862}
+2018-11-17 18:37:57,017 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.635026616512036
+2018-11-17 18:37:57,021 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:57,022 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-11-17 18:37:57,022 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-11-17 18:37:57,024 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tr_second
+2018-11-17 18:37:57,026 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tr_second': 26.19252633927195}
+2018-11-17 18:37:57,028 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-11-17 18:37:57,029 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:57,030 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.635026616512036, ('Base1', 'Tr_second'): 26.19252633927195}
+2018-11-17 18:37:57,030 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.635026616512036
+2018-11-17 18:37:57,033 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:57,067 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:57,067 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.638512210308214, ('Base1', 'Tr_second'): 26.19252633927195}
+2018-11-17 18:37:57,067 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.638512210308214
+2018-11-17 18:37:57,072 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:57,074 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-11-17 18:37:57,074 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-11-17 18:37:57,075 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tr_second
+2018-11-17 18:37:57,078 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tr_second': 26.17540603361373}
+2018-11-17 18:37:57,079 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-11-17 18:37:57,082 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:57,082 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.638512210308214, ('Base1', 'Tr_second'): 26.17540603361373}
+2018-11-17 18:37:57,082 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.638512210308214
+2018-11-17 18:37:57,084 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:57,119 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:57,119 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.595748742351674, ('Base1', 'Tr_second'): 26.17540603361373}
+2018-11-17 18:37:57,119 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.595748742351674
+2018-11-17 18:37:57,123 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:57,124 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-11-17 18:37:57,124 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-11-17 18:37:57,125 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tr_second
+2018-11-17 18:37:57,131 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tr_second': 26.16393391730278}
+2018-11-17 18:37:57,131 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-11-17 18:37:57,133 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:57,133 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.595748742351674, ('Base1', 'Tr_second'): 26.16393391730278}
+2018-11-17 18:37:57,133 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.595748742351674
+2018-11-17 18:37:57,137 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:57,160 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:57,160 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.60793633630911, ('Base1', 'Tr_second'): 26.16393391730278}
+2018-11-17 18:37:57,160 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.60793633630911
+2018-11-17 18:37:57,166 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:57,168 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-11-17 18:37:57,168 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-11-17 18:37:57,170 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tr_second
+2018-11-17 18:37:57,174 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tr_second': 26.1490585753488}
+2018-11-17 18:37:57,174 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-11-17 18:37:57,176 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:57,176 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.60793633630911, ('Base1', 'Tr_second'): 26.1490585753488}
+2018-11-17 18:37:57,177 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.60793633630911
+2018-11-17 18:37:57,181 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:57,204 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:57,206 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.59364273408378, ('Base1', 'Tr_second'): 26.1490585753488}
+2018-11-17 18:37:57,206 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.59364273408378
+2018-11-17 18:37:57,210 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:57,210 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-11-17 18:37:57,211 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-11-17 18:37:57,212 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tr_second
+2018-11-17 18:37:57,217 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tr_second': 26.12516256497653}
+2018-11-17 18:37:57,218 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-11-17 18:37:57,219 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:57,220 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.59364273408378, ('Base1', 'Tr_second'): 26.12516256497653}
+2018-11-17 18:37:57,220 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.59364273408378
+2018-11-17 18:37:57,224 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:57,252 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:57,252 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.54607340846339, ('Base1', 'Tr_second'): 26.12516256497653}
+2018-11-17 18:37:57,252 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.54607340846339
+2018-11-17 18:37:57,257 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:57,258 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-11-17 18:37:57,258 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-11-17 18:37:57,260 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tr_second
+2018-11-17 18:37:57,265 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tr_second': 26.09636722185386}
+2018-11-17 18:37:57,266 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-11-17 18:37:57,267 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:57,267 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.54607340846339, ('Base1', 'Tr_second'): 26.09636722185386}
+2018-11-17 18:37:57,267 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.54607340846339
+2018-11-17 18:37:57,272 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:57,321 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:57,321 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.54115901762684, ('Base1', 'Tr_second'): 26.09636722185386}
+2018-11-17 18:37:57,321 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.54115901762684
+2018-11-17 18:37:57,327 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:57,329 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-11-17 18:37:57,331 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-11-17 18:37:57,332 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tr_second
+2018-11-17 18:37:57,337 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tr_second': 26.06728958376786}
+2018-11-17 18:37:57,337 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-11-17 18:37:57,338 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:57,338 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.54115901762684, ('Base1', 'Tr_second'): 26.06728958376786}
+2018-11-17 18:37:57,338 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.54115901762684
+2018-11-17 18:37:57,342 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:57,382 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:57,382 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.489874023278915, ('Base1', 'Tr_second'): 26.06728958376786}
+2018-11-17 18:37:57,382 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.489874023278915
+2018-11-17 18:37:57,387 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:57,388 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-11-17 18:37:57,388 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-11-17 18:37:57,390 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tr_second
+2018-11-17 18:37:57,393 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tr_second': 26.05154015508226}
+2018-11-17 18:37:57,393 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-11-17 18:37:57,396 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:57,396 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.489874023278915, ('Base1', 'Tr_second'): 26.05154015508226}
+2018-11-17 18:37:57,397 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.489874023278915
+2018-11-17 18:37:57,400 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:57,432 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:57,432 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.495541434603155, ('Base1', 'Tr_second'): 26.05154015508226}
+2018-11-17 18:37:57,432 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.495541434603155
+2018-11-17 18:37:57,437 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:57,437 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-11-17 18:37:57,438 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-11-17 18:37:57,439 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tr_second
+2018-11-17 18:37:57,444 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tr_second': 26.05976464196091}
+2018-11-17 18:37:57,444 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-11-17 18:37:57,448 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:57,448 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.495541434603155, ('Base1', 'Tr_second'): 26.05976464196091}
+2018-11-17 18:37:57,448 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.495541434603155
+2018-11-17 18:37:57,450 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:57,476 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:57,477 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.48188963500902, ('Base1', 'Tr_second'): 26.05976464196091}
+2018-11-17 18:37:57,477 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.48188963500902
+2018-11-17 18:37:57,481 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:57,484 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-11-17 18:37:57,484 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-11-17 18:37:57,484 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tr_second
+2018-11-17 18:37:57,490 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tr_second': 26.08483506074929}
+2018-11-17 18:37:57,490 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-11-17 18:37:57,492 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:57,492 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.48188963500902, ('Base1', 'Tr_second'): 26.08483506074929}
+2018-11-17 18:37:57,492 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.48188963500902
+2018-11-17 18:37:57,493 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:57,521 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:57,521 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.525881704767535, ('Base1', 'Tr_second'): 26.08483506074929}
+2018-11-17 18:37:57,521 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.525881704767535
+2018-11-17 18:37:57,526 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:57,527 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-11-17 18:37:57,527 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-11-17 18:37:57,529 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tr_second
+2018-11-17 18:37:57,533 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tr_second': 26.11714771882713}
+2018-11-17 18:37:57,533 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-11-17 18:37:57,534 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:57,534 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.525881704767535, ('Base1', 'Tr_second'): 26.11714771882713}
+2018-11-17 18:37:57,534 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.525881704767535
+2018-11-17 18:37:57,537 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:57,570 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:57,570 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.53963235407585, ('Base1', 'Tr_second'): 26.11714771882713}
+2018-11-17 18:37:57,571 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.53963235407585
+2018-11-17 18:37:57,574 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:57,575 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-11-17 18:37:57,575 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-11-17 18:37:57,577 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tr_second
+2018-11-17 18:37:57,582 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tr_second': 26.15206593380787}
+2018-11-17 18:37:57,582 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-11-17 18:37:57,583 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:57,583 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.53963235407585, ('Base1', 'Tr_second'): 26.15206593380787}
+2018-11-17 18:37:57,583 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.53963235407585
+2018-11-17 18:37:57,588 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:57,626 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:57,627 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.59115154147151, ('Base1', 'Tr_second'): 26.15206593380787}
+2018-11-17 18:37:57,627 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.59115154147151
+2018-11-17 18:37:57,630 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:57,632 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-11-17 18:37:57,632 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-11-17 18:37:57,633 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tr_second
+2018-11-17 18:37:57,637 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tr_second': 26.18703119661826}
+2018-11-17 18:37:57,637 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-11-17 18:37:57,638 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:57,638 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.59115154147151, ('Base1', 'Tr_second'): 26.18703119661826}
+2018-11-17 18:37:57,638 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.59115154147151
+2018-11-17 18:37:57,641 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:57,679 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:57,679 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.61015619362425, ('Base1', 'Tr_second'): 26.18703119661826}
+2018-11-17 18:37:57,679 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.61015619362425
+2018-11-17 18:37:57,684 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:57,684 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-11-17 18:37:57,685 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-11-17 18:37:57,687 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tr_second
+2018-11-17 18:37:57,691 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tr_second': 26.22031432106366}
+2018-11-17 18:37:57,691 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-11-17 18:37:57,692 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:57,692 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.61015619362425, ('Base1', 'Tr_second'): 26.22031432106366}
+2018-11-17 18:37:57,692 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.61015619362425
+2018-11-17 18:37:57,698 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:57,726 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:57,727 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.65818501333299, ('Base1', 'Tr_second'): 26.22031432106366}
+2018-11-17 18:37:57,727 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.65818501333299
+2018-11-17 18:37:57,731 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:57,733 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-11-17 18:37:57,733 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-11-17 18:37:57,734 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tr_second
+2018-11-17 18:37:57,738 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tr_second': 26.25122872891611}
+2018-11-17 18:37:57,738 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-11-17 18:37:57,739 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:57,739 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.65818501333299, ('Base1', 'Tr_second'): 26.25122872891611}
+2018-11-17 18:37:57,741 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.65818501333299
+2018-11-17 18:37:57,744 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:57,780 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:57,780 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.67529691880741, ('Base1', 'Tr_second'): 26.25122872891611}
+2018-11-17 18:37:57,781 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.67529691880741
+2018-11-17 18:37:57,785 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:57,787 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-11-17 18:37:57,787 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-11-17 18:37:57,788 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tr_second
+2018-11-17 18:37:57,792 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tr_second': 26.2797880975465}
+2018-11-17 18:37:57,792 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-11-17 18:37:57,793 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:57,793 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.67529691880741, ('Base1', 'Tr_second'): 26.2797880975465}
+2018-11-17 18:37:57,793 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.67529691880741
+2018-11-17 18:37:57,799 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:57,831 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-11-17 18:37:57,831 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.71653523158409, ('Base1', 'Tr_second'): 26.2797880975465}
+2018-11-17 18:37:57,831 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Ts_second to 52.71653523158409
+2018-11-17 18:37:57,834 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-11-17 18:37:57,836 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-11-17 18:37:57,836 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-11-17 18:37:57,837 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tr_second
+2018-11-17 18:37:57,846 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tr_second': 26.30700687535156}
+2018-11-17 18:37:57,846 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-11-17 18:37:57,853 :: DEBUG :: ZEROBNL -> node.py :: exit :: EXIT

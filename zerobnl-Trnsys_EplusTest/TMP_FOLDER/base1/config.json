@@ -1,0 +1,1 @@
+{"NAME": "Base1", "GROUP": "GRP1", "LOCAL": true, "INPUT_MAP": "{('Base0', 'Tsupply'): 'Ts_second'}", "OUTPUTS": ["Tr_second"], "INIT_VALUES": {}, "PARAMETERS": {}, "START": "2000-01-01 00:00:00", "TIME_UNIT": "seconds"}
