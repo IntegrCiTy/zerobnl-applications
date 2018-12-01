@@ -1,4 +1,4 @@
-Program Version,EnergyPlus, Version 8.9.0-40101eaafd, YMD=2018.11.16 16:18
+Program Version,EnergyPlus, Version 8.9.0-40101eaafd, YMD=2018.11.30 14:37
 ! This file shows details about the branches, nodes, and other
 ! elements of the flow connections.
 ! This file is intended for use in "debugging" potential problems
@@ -158,8 +158,6 @@ Program Version,EnergyPlus, Version 8.9.0-40101eaafd, YMD=2018.11.16 16:18
 ! <#Non-Parent Node Connections>,<Number of Non-Parent Node Connections>
  #Non-Parent Node Connections,23
 ! <Non-Parent Node Connection>,<Node Name>,<Node ObjectType>,<Node ObjectName>,<Node ConnectionType>,<Node FluidStream>
- Non-Parent Node Connection,ZONE ONE ZONE AIR NODE,ZONEHVAC:EQUIPMENTCONNECTIONS,ZONE ONE,ZoneNode,1
- Non-Parent Node Connection,ZONE ONE RETURN OUTLET,ZONEHVAC:EQUIPMENTCONNECTIONS,ZONE ONE,ZoneReturn,1
  Non-Parent Node Connection,SUPPLY OUTLET PIPE OUTLET NODE,SETPOINTMANAGER:SCHEDULED,MAIN LOOP SETPOINT,Setpoint,1
  Non-Parent Node Connection,SUPPLY OUTLET PIPE INLET NODE,PIPE:ADIABATIC,SUPPLY OUTLET PIPE,Inlet,1
  Non-Parent Node Connection,SUPPLY OUTLET PIPE OUTLET NODE,PIPE:ADIABATIC,SUPPLY OUTLET PIPE,Outlet,1
@@ -175,6 +173,8 @@ Program Version,EnergyPlus, Version 8.9.0-40101eaafd, YMD=2018.11.16 16:18
  Non-Parent Node Connection,DH INLET NODE,CONNECTOR:SPLITTER,SUPPLY SPLITTER,Outlet,1
  Non-Parent Node Connection,SUPPLY OUTLET PIPE INLET NODE,CONNECTOR:MIXER,SUPPLY MIXER,Outlet,1
  Non-Parent Node Connection,DH OUTLET NODE,CONNECTOR:MIXER,SUPPLY MIXER,Inlet,1
+ Non-Parent Node Connection,ZONE ONE ZONE AIR NODE,ZONEHVAC:EQUIPMENTCONNECTIONS,ZONE ONE,ZoneNode,1
+ Non-Parent Node Connection,ZONE ONE RETURN OUTLET,ZONEHVAC:EQUIPMENTCONNECTIONS,ZONE ONE,ZoneReturn,1
  Non-Parent Node Connection,RADIATOR INLET NODE,ZONEHVAC:BASEBOARD:RADIANTCONVECTIVE:WATER,RADIATOR,Inlet,1
  Non-Parent Node Connection,RADIATOR OUTLET NODE,ZONEHVAC:BASEBOARD:RADIANTCONVECTIVE:WATER,RADIATOR,Outlet,1
  Non-Parent Node Connection,DH INLET NODE,DISTRICTHEATING,DISTRICT HEATING 1,Inlet,1

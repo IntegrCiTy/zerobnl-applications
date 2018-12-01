@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fmiModelDescription fmiVersion="1.0" modelName="COG_waste" modelIdentifier="COG_waste" description="TRNSYS FMI CS export" generationTool="FMI++ TRNSYS Export Utility" generationDateAndTime="2018-11-17T17:21:12" variableNamingConvention="flat" numberOfContinuousStates="0" numberOfEventIndicators="0" author="arnaudo" guid="{cc712570-ea84-11e8-b0c5-705a0f8897e1}">
+<fmiModelDescription fmiVersion="1.0" modelName="COG_waste" modelIdentifier="COG_waste" description="TRNSYS FMI CS export" generationTool="FMI++ TRNSYS Export Utility" generationDateAndTime="2018-11-30T16:16:43" variableNamingConvention="flat" numberOfContinuousStates="0" numberOfEventIndicators="0" author="arnaudo" guid="{f20dd92e-f4b2-11e8-a770-705a0f8897e1}">
 	<ModelVariables>
 		<ScalarVariable name="Treturn" valueReference="1" variability="continuous" causality="input">
+			<Real/>
+		</ScalarVariable>
+		<ScalarVariable name="mdot_return" valueReference="2" variability="continuous" causality="input">
 			<Real/>
 		</ScalarVariable>
 		<ScalarVariable name="Tsupply" valueReference="1001" variability="continuous" causality="output">
@@ -13,6 +16,8 @@
 			<Capabilities canHandleVariableCommunicationStepSize="false" canHandleEvents="true" canRejectSteps="false" canInterpolateInputs="false" maxOutputDerivativeOrder="0" canRunAsynchronuously="false" canSignalEvents="false" canBeInstantiatedOnlyOncePerProcess="false" canNotUseMemoryManagementFunctions="true"/>
 			<Model entryPoint="fmu://COG_waste.dck" manualStart="false" type="application/x-trnexe">
 				<File file="fmu://caseData.txt"/>
+				<File file="fmu://TS_set.txt"/>
+				<File file="fmu://SWE_Stockholm.Arlanda.024600_IWEC.epw"/>
 			</Model>
 		</CoSimulation_Tool>
 	</Implementation>

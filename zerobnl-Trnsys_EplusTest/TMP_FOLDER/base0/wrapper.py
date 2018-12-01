@@ -56,8 +56,7 @@ class MyNode(Node):
 		"""This method is called to get the value of an attribute, you need to adapt it to your model."""
 		super().get_attribute(attr)  # Keep this line, it triggers the parent class method.
 
-		#return getattr(self, attr)
-		print('base plus 60',attr)
+		#return getattr(self, attr)		
 		return self.fmu.getRealValue(attr)
 
 	def step(self, value):

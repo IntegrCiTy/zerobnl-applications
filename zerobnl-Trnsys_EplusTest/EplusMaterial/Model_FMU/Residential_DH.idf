@@ -4,14 +4,23 @@
 !-NOTE: All comments with '!-' are ignored by the IDFEditor and are generated automatically.
 !-      Use '!' comments if they need to be retained when using the IDFEditor.
 
-
 ExternalInterface,
     FunctionalMockupUnitExport;  !- Name of External Interface
 
 ExternalInterface:FunctionalMockupUnitExport:From:Variable,
     DISTRICT HEATING 1,      !- Output:Variable Index Key Name
+    District Heating Mass Flow Rate,  !- Output:Variable Name
+    mdot;                    !- FMU Variable Name
+
+ExternalInterface:FunctionalMockupUnitExport:From:Variable,
+    DISTRICT HEATING 1,      !- Output:Variable Index Key Name
     District Heating Inlet Temperature,  !- Output:Variable Name
     Tr_second;               !- FMU Variable Name
+
+ExternalInterface:FunctionalMockupUnitExport:From:Variable,
+    ZONE ONE,                !- Output:Variable Index Key Name
+    Zone Air Temperature,    !- Output:Variable Name
+    Tindoor;                 !- FMU Variable Name
 
 ExternalInterface:FunctionalMockupUnitExport:To:Schedule,
     SupplyTempFMU,           !- Schedule Name
@@ -19,11 +28,11 @@ ExternalInterface:FunctionalMockupUnitExport:To:Schedule,
     Ts_second,               !- FMU Variable Name
     60;                      !- Initial Value
 
-ExternalInterface:FunctionalMockupUnitExport:From:Variable,
-    ZONE ONE,                !- Output:Variable Index Key Name
-    Zone Air Temperature ,   !- Output:Variable Name
-    Tindoor;                 !- FMU Variable Name
+ThermostatSetpoint:SingleHeating,
+    Office Thermostat Dual SP Control,  !- Name
+    ALWAYS 20;               !- Setpoint Temperature Schedule Name
 
+Output:Variable,*,Baseboard Total Heating Rate ,Hourly;
 Output:Variable,*,Baseboard Hot Water Mass Flow Rate,Hourly;
 
 ZoneHVAC:Baseboard:RadiantConvective:Water,
@@ -31,13 +40,13 @@ ZoneHVAC:Baseboard:RadiantConvective:Water,
     ,                        !- Availability Schedule Name
     Radiator Inlet Node,     !- Inlet Node Name
     Radiator Outlet Node,    !- Outlet Node Name
-    45,                      !- Rated Average Water Temperature {C}
-    0.063,                   !- Rated Water Mass Flow Rate {kg/s}
+    50,                      !- Rated Average Water Temperature {C}
+    0.044,                   !- Rated Water Mass Flow Rate {kg/s}
     HeatingDesignCapacity,   !- Heating Design Capacity Method
-    10000,                   !- Heating Design Capacity {W}
+    1835,                    !- Heating Design Capacity {W}
     ,                        !- Heating Design Capacity Per Floor Area {W/m2}
     1,                       !- Fraction of Autosized Heating Design Capacity
-    0.00007,                 !- Maximum Water Flow Rate {m3/s}
+    0.00005,                 !- Maximum Water Flow Rate {m3/s}
     0.001,                   !- Convergence Tolerance
     0.4,                     !- Fraction Radiant
     ,                        !- Fraction of Radiant Energy Incident on People
@@ -64,7 +73,7 @@ Pump:VariableSpeed,
     Pump Outlet Node,        !- Outlet Node Name
     0.005,                   !- Design Maximum Flow Rate {m3/s}
     179352,                  !- Design Pump Head {Pa}
-    2250,                    !- Design Power Consumption {W}
+    1500,                    !- Design Power Consumption {W}
     0.9,                     !- Motor Efficiency
     ,                        !- Fraction of Motor Inefficiencies to Fluid Stream
     ,                        !- Coefficient 1 of the Part Load Performance Curve
@@ -100,7 +109,7 @@ DistrictHeating,
     District Heating 1,      !- Name
     DH Inlet Node,           !- Hot Water Inlet Node Name
     DH Outlet Node,          !- Hot Water Outlet Node Name
-    10000;                   !- Nominal Capacity {W}
+    2000;                    !- Nominal Capacity {W}
 
 Branch,
     Supply Outlet Pipe Branch,  !- Name
@@ -255,7 +264,7 @@ Schedule:Compact,
 SetpointManager:Scheduled,
     Main Loop SetPoint,      !- Name
     Temperature,             !- Control Variable
-    Main Loop Temp Sch,      !- Schedule Name
+    SupplyTempFMU,           !- Schedule Name
     Main Loop SetPoint Node; !- Setpoint Node or NodeList Name
 
 Schedule:Compact,
@@ -263,7 +272,7 @@ Schedule:Compact,
     Any Number,              !- Schedule Type Limits Name
     Through: 12/31,          !- Field 1
     For: AllDays,            !- Field 2
-    Until: 24:00, 70;        !- Field 4
+    Until: 24:00, 55;        !- Field 4
 
 NodeList,
     Main Loop SetPoint Node, !- Name
@@ -331,21 +340,6 @@ ScheduleTypeLimits,
     0.0,                     !- Lower Limit Value
     1.0,                     !- Upper Limit Value
     Continuous;              !- Numeric Type
-
-Lights,
-    ZONE ONE Lights,         !- Name
-    ZONE ONE,                !- Zone or ZoneList Name
-    Office Lighting,         !- Schedule Name
-    LightingLevel,           !- Design Level Calculation Method
-    1000,                    !- Lighting Level {W}
-    ,                        !- Watts per Zone Floor Area {W/m2}
-    ,                        !- Watts per Person {W/person}
-    ,                        !- Return Air Fraction
-    ,                        !- Fraction Radiant
-    ,                        !- Fraction Visible
-    1,                       !- Fraction Replaceable
-    General,                 !- End-Use Subcategory
-    No;                      !- Return Air Fraction Calculated from Plenum Temperature
 
 WindowMaterial:Glazing,
     CLEAR 6MM,               !- Name
@@ -425,7 +419,7 @@ Building,
     0.0,                     !- North Axis {deg}
     Urban,                   !- Terrain
     0.04,                    !- Loads Convergence Tolerance Value
-    0.4,                     !- Temperature Convergence Tolerance Value {deltaC}
+    0.001,                   !- Temperature Convergence Tolerance Value {deltaC}
     FullInteriorAndExterior, !- Solar Distribution
     ,                        !- Maximum Number of Warmup Days
     6;                       !- Minimum Number of Warmup Days
@@ -666,14 +660,14 @@ Schedule:Compact,
     Any Number,              !- Schedule Type Limits Name
     Through: 12/31,          !- Field 1
     For: AllDays,            !- Field 2
-    Until: 24:00, 4;         !- Field 4
+    Until: 24:00, 1;         !- Field 4
 
 Schedule:Compact,
     ALWAYS 20,               !- Name
     Any Number,              !- Schedule Type Limits Name
     Through: 12/31,          !- Field 1
     For: AllDays,            !- Field 2
-    Until: 24:00, 20;        !- Field 4
+    Until: 24:00, 19;        !- Field 4
 
 Schedule:Compact,
     ALWAYS 24,               !- Name
@@ -702,13 +696,8 @@ ZoneControl:Thermostat,
     ZONE ONE Thermostat,     !- Name
     ZONE ONE,                !- Zone or ZoneList Name
     ALWAYS 4,                !- Control Type Schedule Name
-    ThermostatSetpoint:DualSetpoint,  !- Control 1 Object Type
+    ThermostatSetpoint:SingleHeating,  !- Control 1 Object Type
     Office Thermostat Dual SP Control;  !- Control 1 Name
-
-ThermostatSetpoint:DualSetpoint,
-    Office Thermostat Dual SP Control,  !- Name
-    ALWAYS 20,               !- Heating Setpoint Temperature Schedule Name
-    ALWAYS 24;               !- Cooling Setpoint Temperature Schedule Name
 
 Output:Variable,*,Site Outdoor Air Drybulb Temperature,Hourly;
 Output:Variable,*,Zone Air Temperature,Hourly;

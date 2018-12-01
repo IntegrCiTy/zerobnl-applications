@@ -1,0 +1,11 @@
+STATUS: 4 - CATEGORY: ABORT - MESSAGE: unable to create shared memory segment: FMI_SEGMENT_PID23012
+ERROR: The system cannot find the file specified.
+STATUS: 1 - CATEGORY: WARNING - MESSAGE: IPC interface not operational
+STATUS: 1 - CATEGORY: WARNING - MESSAGE: retry to initialize IPC interface
+STATUS: 4 - CATEGORY: ABORT - MESSAGE: unable to create shared memory segment: FMI_SEGMENT_PID23012
+ERROR: The system cannot find the file specified.
+STATUS: 1 - CATEGORY: WARNING - MESSAGE: IPC interface not operational
+STATUS: 1 - CATEGORY: WARNING - MESSAGE: retry to initialize IPC interface
+STATUS: 4 - CATEGORY: ABORT - MESSAGE: unable to create shared memory segment: FMI_SEGMENT_PID23012
+ERROR: The system cannot find the file specified.
+STATUS: 1 - CATEGORY: WARNING - MESSAGE: IPC interface not operational

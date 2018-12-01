@@ -1,0 +1,5 @@
+import matplotlib.pyplot as plt
+plt.figure(figsize=(18, 8))
+plt.plot(load_profile.Time,load_profile.Percent_winter, "o-", label="Winter", alpha=1)
+plt.plot(load_profile.Time,load_profile.Percent_summer, "o-", label="Summer", alpha=1)
+plt.legend()

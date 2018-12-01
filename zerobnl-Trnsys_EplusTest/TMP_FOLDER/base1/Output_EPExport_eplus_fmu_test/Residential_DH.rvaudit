@@ -12,5 +12,5 @@
  output file:Residential_DHMeter.csv
  getting all vars from:Residential_DH.mtr
   number variables requested for output=           1
- ReadVars Run Time=00hr 00min  0.05sec
+ ReadVars Run Time=00hr 00min  0.03sec
  ReadVarsESO program completed successfully.

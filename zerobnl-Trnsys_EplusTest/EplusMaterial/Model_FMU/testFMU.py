@@ -45,14 +45,22 @@ while ( ( time + step_size ) - stop_time < time_diff_resolution ):
 	# # Advance time.
 	time += step_size
 
-	fmu.setRealValue( 'Ts_second', 60 )
+	fmu.setRealValue( 'Ts_second', 50 )
 	assert fmu.getLastStatus() == fmipp.fmiOK 
 
 	temp_return = fmu.getRealValue( 'Tr_second' )
 	assert fmu.getLastStatus() == fmipp.fmiOK
-
-	temp_indoor = fmu.getRealValue( 'Tindoor' )
+	
+	temp_return2 = fmu.getRealValue( 'Tr_second' )
 	assert fmu.getLastStatus() == fmipp.fmiOK
 
+	#temp_indoor = fmu.getRealValue( 'Tindoor' )
+	#assert fmu.getLastStatus() == fmipp.fmiOK
+	
+	massflow = fmu.getRealValue( 'mdot' )
+	assert fmu.getLastStatus() == fmipp.fmiOK	
+
 	print( 'time = {}, Tr_secondary = {}'.format( time, temp_return ) )
-	print( 'time = {}, Tindoor = {}'.format( time, temp_indoor ) )
+	print( 'time = {}, Tr_secondary = {}'.format( time, temp_return2 ) )
+	#print( 'time = {}, Tindoor = {}'.format( time, temp_indoor ) )
+	print( 'time = {}, massflow = {}'.format( time, massflow ) )

@@ -1,1 +1,1 @@
-{"NAME": "Base0", "GROUP": "GRP0", "LOCAL": true, "INPUT_MAP": "{('Base1', 'Tr_second'): 'Treturn'}", "OUTPUTS": ["Tsupply"], "INIT_VALUES": {"Treturn": 40}, "PARAMETERS": {}, "START": "2000-01-01 00:00:00", "TIME_UNIT": "seconds"}
+{"NAME": "Base0", "GROUP": "GRP0", "LOCAL": true, "INPUT_MAP": "{('Base1', 'Tr_second'): 'Treturn', ('Base1', 'mdot'): 'mdot_return'}", "OUTPUTS": ["Tsupply"], "INIT_VALUES": {"Treturn": 40, "mdot_return": 0.04}, "PARAMETERS": {}, "START": "2000-01-01 00:00:00", "TIME_UNIT": "seconds"}

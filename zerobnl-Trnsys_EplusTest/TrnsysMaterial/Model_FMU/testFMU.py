@@ -30,6 +30,8 @@ status = fmu.initialize( start_time, stop_time_defined, stop_time )
 assert status == fmipp.fmiOK
 
 fmu.setRealValue( 'Treturn', 40. ) # Very important to initialize 
+fmu.setRealValue( 'mdot_return', 0.04 )
+
 #assert fmu.getLastStatus() == fmipp.fmiOK
 
 print( 'successfully initialized the FMU' )
@@ -49,6 +51,8 @@ while ( ( time + step_size ) - stop_time < time_diff_resolution ):
   time += step_size
 
   fmu.setRealValue( 'Treturn', 40. )
+  assert fmu.getLastStatus() == fmipp.fmiOK
+  fmu.setRealValue( 'mdot_return', 0.04 )
   assert fmu.getLastStatus() == fmipp.fmiOK
 
   temp_supply = fmu.getRealValue( 'Tsupply' )

@@ -28,7 +28,7 @@ class MyNode(Node):
 		## FMU instantiation		
 		start_time = 0.
 		stop_time = 3600. * 24.  # 24 hours
-		self.step_size = 3600. # 1 hour
+		self.step_size = 3600.# 1/6 hour
 		self.tempo=self.step_size
 		instance_name = "eplus_fmu_test"
 		visible = False
