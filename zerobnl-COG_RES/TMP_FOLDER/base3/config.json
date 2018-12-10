@@ -1,0 +1,1 @@
+{"NAME": "Base3", "GROUP": "GRP3", "LOCAL": false, "INPUT_MAP": "{('Base2', 'Tindoor'): 'demandOK'}", "OUTPUTS": ["COGwflag"], "INIT_VALUES": {}, "PARAMETERS": {}, "START": "2000-01-01 00:00:00", "TIME_UNIT": "seconds"}

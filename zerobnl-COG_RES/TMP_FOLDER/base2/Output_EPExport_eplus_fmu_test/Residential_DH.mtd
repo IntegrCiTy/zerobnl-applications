@@ -1,0 +1,114 @@
+
+ Meters for 8,ZONE ONE:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZONE ONE [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ZONE ONE [J]
+
+ Meters for 69,ZONE ONE:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZONE ONE [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ZONE ONE [J]
+
+ Meters for 96,RADIATOR:Baseboard Total Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=Baseboard:EnergyTransfer [J]
+
+ Meters for 121,RADIATOR:Baseboard Hot Water Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=Baseboard:PlantLoopHeatingDemand [J]
+
+ Meters for 161,DISTRICT HEATING 1:District Heating Hot Water Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:Plant [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 202,PUMP 1:Pump Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Pumps:Electricity [J]
+
+ Meters for 239,Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 264,Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 265,Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ For Meter=EnergyTransfer:Facility [J], ResourceType=EnergyTransfer, contents are:
+  ZONE ONE:Zone Air System Sensible Heating Energy
+  ZONE ONE:Zone Air System Sensible Cooling Energy
+  RADIATOR:Baseboard Total Heating Energy
+
+ For Meter=EnergyTransfer:Building [J], ResourceType=EnergyTransfer, Group=Building, contents are:
+  ZONE ONE:Zone Air System Sensible Heating Energy
+  ZONE ONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ZONE ONE [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ZONE ONE:Zone Air System Sensible Heating Energy
+  ZONE ONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  ZONE ONE:Zone Air System Sensible Heating Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ZONE ONE [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ZONE ONE:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  ZONE ONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ZONE ONE [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ZONE ONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:HVAC [J], ResourceType=EnergyTransfer, Group=HVAC, contents are:
+  RADIATOR:Baseboard Total Heating Energy
+
+ For Meter=Baseboard:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Baseboard, contents are:
+  RADIATOR:Baseboard Total Heating Energy
+
+ For Meter=PlantLoopHeatingDemand:Facility [J], ResourceType=PlantLoopHeatingDemand, contents are:
+  RADIATOR:Baseboard Hot Water Energy
+
+ For Meter=PlantLoopHeatingDemand:HVAC [J], ResourceType=PlantLoopHeatingDemand, Group=HVAC, contents are:
+  RADIATOR:Baseboard Hot Water Energy
+
+ For Meter=Baseboard:PlantLoopHeatingDemand [J], ResourceType=PlantLoopHeatingDemand, EndUse=Baseboard, contents are:
+  RADIATOR:Baseboard Hot Water Energy
+
+ For Meter=DistrictHeating:Facility [J], ResourceType=DistrictHeating, contents are:
+  DISTRICT HEATING 1:District Heating Hot Water Energy
+
+ For Meter=DistrictHeating:Plant [J], ResourceType=DistrictHeating, Group=Plant, contents are:
+  DISTRICT HEATING 1:District Heating Hot Water Energy
+
+ For Meter=Heating:DistrictHeating [J], ResourceType=DistrictHeating, EndUse=Heating, contents are:
+  DISTRICT HEATING 1:District Heating Hot Water Energy
+
+ For Meter=Electricity:Facility [J], ResourceType=Electricity, contents are:
+  PUMP 1:Pump Electric Energy
+
+ For Meter=Electricity:Plant [J], ResourceType=Electricity, Group=Plant, contents are:
+  PUMP 1:Pump Electric Energy
+
+ For Meter=Pumps:Electricity [J], ResourceType=Electricity, EndUse=Pumps, contents are:
+  PUMP 1:Pump Electric Energy
+
+ For Meter=Carbon Equivalent:Facility [kg], ResourceType=Carbon Equivalent, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass
+
+ For Meter=CarbonEquivalentEmissions:Carbon Equivalent [kg], ResourceType=Carbon Equivalent, EndUse=CarbonEquivalentEmissions, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass

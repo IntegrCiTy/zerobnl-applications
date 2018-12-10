@@ -1,0 +1,18 @@
+2018-12-10 16:32:19,366 :: DEBUG :: ZEROBNL -> deploy.py :: run :: CREATE NODES
+2018-12-10 16:32:20,272 :: DEBUG :: ZEROBNL -> deploy.py :: run :: CREATE ORCH
+2018-12-10 16:32:20,319 :: DEBUG :: ZEROBNL -> deploy.py :: run :: LAUNCH NETWORK+REDIS
+2018-12-10 16:32:20,333 :: DEBUG :: ZEROBNL -> deploy.py :: run :: DUMP YAML
+2018-12-10 16:32:20,333 :: WARNING :: ZEROBNL -> deploy.py :: run :: Local node to run in [TMP_FOLDER\base0] > python wrapper.py
+2018-12-10 16:32:20,336 :: WARNING :: ZEROBNL -> deploy.py :: run :: Local node to run in [TMP_FOLDER\base2] > python wrapper.py
+2018-12-10 16:32:20,336 :: INFO :: ZEROBNL -> deploy.py :: run :: Waiting for local nodes to run...
+2018-12-10 16:32:47,855 :: INFO :: ZEROBNL -> deploy.py :: run :: Simulation finished in 0 min and 28 sec
+2018-12-10 16:32:47,856 :: DEBUG :: ZEROBNL -> deploy.py :: run :: FINISHED PROCESS
+2018-12-10 16:32:47,915 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base0 - MDOTsupply
+2018-12-10 16:32:47,916 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base0 - Tsupply
+2018-12-10 16:32:48,126 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base1 - TS
+2018-12-10 16:32:48,261 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base0 - COGw_Flag
+2018-12-10 16:32:48,262 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base0 - mdot_return
+2018-12-10 16:32:48,263 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base0 - Treturn
+2018-12-10 16:32:48,311 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base1 - COG_TS
+2018-12-10 16:32:48,312 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base1 - COG_mdot
+2018-12-10 16:32:48,358 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base1 - TS

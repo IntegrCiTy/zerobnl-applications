@@ -1,0 +1,3 @@
+This file should contain the TYPE numbers of all user-written components that require descriptors and not initial values for the inputs to the model.  The Type numbers should be listed one per line.
+208  !Tess Library Model: Type208.for
+535  !Tess Library Model: Type535.for
