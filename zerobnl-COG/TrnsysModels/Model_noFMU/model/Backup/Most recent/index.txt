@@ -1,0 +1,14 @@
+HES3_1__TES0__EEG1_2__EES0_original
+It is the one from the beginning with no double condenser
+
+HES3_1__TES0__EEG1_2__EES0_originalUpgrade
+It is the one most similar to Nader's plant and it is connected to the python version of dyesopt which is located in this folder.
+The boiler is broken down in its 3 components but it does not work as I wish.
+In particular, I do not manage to get the correct supply temperature to the HPT. This is due to the fact that the efficiencies os the 
+3 components are quite low, as they are estimated in the python code.
+My guess is that there should be an iterative calculation to size this component.
+Since I do not have time for this now, I leave it for later. The alternative is to have just a balance node.
+
+HES3_1__TES0__EEG1_2__EES0
+It is the one most similar to Nader's plant and it is connected to the python version of dyesopt which is located in this folder.
+I consider it validated as for the design pdf from Nader, corresponding to 85MW_535C_125bar

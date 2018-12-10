@@ -1,0 +1,55 @@
+networks:
+  default:
+    external:
+      name: simulation
+services:
+  base1:
+    build:
+      args:
+        BRANCH: simple_feature
+      context: base1
+      dockerfile: Dockerfile
+    command: wrapper.py
+    container_name: base1
+    depends_on:
+    - orch
+    volumes:
+    - .\base1:/code
+  base2:
+    build:
+      args:
+        BRANCH: simple_feature
+      context: base2
+      dockerfile: Dockerfile
+    command: wrapper.py
+    container_name: base2
+    depends_on:
+    - orch
+    volumes:
+    - .\base2:/code
+  base3:
+    build:
+      args:
+        BRANCH: simple_feature
+      context: base3
+      dockerfile: Dockerfile
+    command: wrapper.py
+    container_name: base3
+    depends_on:
+    - orch
+    volumes:
+    - .\base3:/code
+  orch:
+    build:
+      args:
+        BRANCH: simple_feature
+      context: orch
+      dockerfile: Dockerfile
+    command: main.py
+    container_name: orch
+    ports:
+    - 5556:5556
+    - 5557:5557
+    volumes:
+    - .\orch:/code
+version: '3'

@@ -1,0 +1,1 @@
+{"NAME": "Base0", "GROUP": "GRP0", "LOCAL": true, "INPUT_MAP": "{('Base2', 'CDEM_TR'): 'Treturn', ('Base2', 'CDEM_mdotR'): 'mdot_return', ('Base3', 'COGwflag'): 'COGw_Flag'}", "OUTPUTS": ["Tsupply", "MDOTsupply"], "INIT_VALUES": {"Treturn": 40, "mdot_return": 0.04, "COGw_Flag": 1}, "PARAMETERS": {}, "START": "2000-01-01 00:00:00", "TIME_UNIT": "seconds"}

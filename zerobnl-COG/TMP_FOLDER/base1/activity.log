@@ -1,0 +1,820 @@
+2018-12-10 13:38:25,205 :: DEBUG :: ZEROBNL -> node.py :: __init__ :: LOAD CONFIG NODE
+2018-12-10 13:38:25,206 :: DEBUG :: ZEROBNL -> node.py :: __init__ :: CONNECT REDIS
+2018-12-10 13:38:25,206 :: DEBUG :: ZEROBNL -> node.py :: __init__ :: CREATE SUB/SEND
+2018-12-10 13:38:25,207 :: DEBUG :: ZEROBNL -> node.py :: __init__ :: CONNECT TO SUB/SEND
+2018-12-10 13:38:25,209 :: DEBUG :: ZEROBNL -> node.py :: __init__ :: SUBSCRIBED TO GRP/ALL
+2018-12-10 13:38:25,209 :: DEBUG :: ZEROBNL -> node.py :: __init__ :: INIT DONE
+2018-12-10 13:38:25,209 :: DEBUG :: ZEROBNL -> node.py :: run :: INIT VALUES DONE
+2018-12-10 13:38:27,897 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:27,897 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {}
+2018-12-10 13:38:27,897 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:27,998 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:27,998 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.97025039442919, ('Base0', 'MDOTsupply'): 0.04}
+2018-12-10 13:38:27,999 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.97025039442919
+2018-12-10 13:38:27,999 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,001 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,002 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,002 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,003 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-10 13:38:28,004 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-10 13:38:28,004 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:28,005 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:28,005 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'TS': 43.97025039442919}
+2018-12-10 13:38:28,005 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-10 13:38:28,005 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,006 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.97025039442919, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.97025039442919}
+2018-12-10 13:38:28,006 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.97025039442919
+2018-12-10 13:38:28,006 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,008 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,008 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,008 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,014 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,014 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.97025039442919, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.97025039442919, ('Base2', 'CDEM_TR'): 13.970250394429193, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0}
+2018-12-10 13:38:28,014 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.97025039442919
+2018-12-10 13:38:28,014 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,016 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,017 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,021 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,025 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,025 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.97025039442919, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.97025039442919, ('Base2', 'CDEM_TR'): 13.970250394429193, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,025 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.97025039442919
+2018-12-10 13:38:28,025 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,027 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,027 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,028 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,053 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,054 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.953579310475426, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.97025039442919, ('Base2', 'CDEM_TR'): 13.970250394429193, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,054 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.953579310475426
+2018-12-10 13:38:28,054 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,055 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,055 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,055 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,064 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-10 13:38:28,064 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-10 13:38:28,064 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:28,065 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:28,065 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'TS': 43.953579310475426}
+2018-12-10 13:38:28,065 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-10 13:38:28,066 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,066 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.953579310475426, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.953579310475426, ('Base2', 'CDEM_TR'): 13.970250394429193, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,066 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.953579310475426
+2018-12-10 13:38:28,066 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,067 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,067 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,071 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,078 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,079 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.953579310475426, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.953579310475426, ('Base2', 'CDEM_TR'): 13.953579310475426, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,079 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.953579310475426
+2018-12-10 13:38:28,079 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,081 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,081 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,082 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,091 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,092 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.953579310475426, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.953579310475426, ('Base2', 'CDEM_TR'): 13.953579310475426, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,092 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.953579310475426
+2018-12-10 13:38:28,093 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,094 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,094 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,095 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,119 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,119 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95874992485089, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.953579310475426, ('Base2', 'CDEM_TR'): 13.953579310475426, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,119 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95874992485089
+2018-12-10 13:38:28,119 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,121 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,121 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,121 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,129 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-10 13:38:28,129 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-10 13:38:28,129 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:28,130 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:28,130 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'TS': 43.95874992485089}
+2018-12-10 13:38:28,130 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-10 13:38:28,132 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,133 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95874992485089, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95874992485089, ('Base2', 'CDEM_TR'): 13.953579310475426, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,134 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95874992485089
+2018-12-10 13:38:28,134 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,136 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,136 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,137 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,147 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,147 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95874992485089, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95874992485089, ('Base2', 'CDEM_TR'): 13.958749924850892, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,147 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95874992485089
+2018-12-10 13:38:28,147 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,148 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,148 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,149 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,160 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,160 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95874992485089, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95874992485089, ('Base2', 'CDEM_TR'): 13.958749924850892, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,160 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95874992485089
+2018-12-10 13:38:28,161 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,163 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,164 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,164 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,188 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,188 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.955032880021626, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95874992485089, ('Base2', 'CDEM_TR'): 13.958749924850892, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,188 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.955032880021626
+2018-12-10 13:38:28,188 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,189 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,190 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,190 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,196 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-10 13:38:28,196 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-10 13:38:28,197 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:28,197 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:28,197 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'TS': 43.955032880021626}
+2018-12-10 13:38:28,197 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-10 13:38:28,199 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,200 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.955032880021626, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.955032880021626, ('Base2', 'CDEM_TR'): 13.958749924850892, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,201 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.955032880021626
+2018-12-10 13:38:28,201 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,202 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,202 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,204 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,213 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,214 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.955032880021626, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.955032880021626, ('Base2', 'CDEM_TR'): 13.955032880021626, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,214 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.955032880021626
+2018-12-10 13:38:28,214 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,214 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,215 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,216 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,227 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,227 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.955032880021626, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.955032880021626, ('Base2', 'CDEM_TR'): 13.955032880021626, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,227 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.955032880021626
+2018-12-10 13:38:28,227 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,228 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,228 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,229 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,259 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,259 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95612221146615, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.955032880021626, ('Base2', 'CDEM_TR'): 13.955032880021626, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,259 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95612221146615
+2018-12-10 13:38:28,260 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,260 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,261 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,261 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,270 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-10 13:38:28,270 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-10 13:38:28,270 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:28,271 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:28,271 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'TS': 43.95612221146615}
+2018-12-10 13:38:28,271 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-10 13:38:28,273 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,274 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95612221146615, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95612221146615, ('Base2', 'CDEM_TR'): 13.955032880021626, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,274 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95612221146615
+2018-12-10 13:38:28,274 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,275 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,275 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,276 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,288 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,288 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95612221146615, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95612221146615, ('Base2', 'CDEM_TR'): 13.956122211466152, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,289 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95612221146615
+2018-12-10 13:38:28,289 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,289 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,289 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,290 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,300 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,301 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95612221146615, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95612221146615, ('Base2', 'CDEM_TR'): 13.956122211466152, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,301 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95612221146615
+2018-12-10 13:38:28,301 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,302 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,303 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,304 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,330 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,331 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95586306831089, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95612221146615, ('Base2', 'CDEM_TR'): 13.956122211466152, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,331 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95586306831089
+2018-12-10 13:38:28,331 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,332 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,332 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,333 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,343 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-10 13:38:28,343 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-10 13:38:28,343 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:28,344 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:28,344 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'TS': 43.95586306831089}
+2018-12-10 13:38:28,344 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-10 13:38:28,346 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,347 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95586306831089, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95586306831089, ('Base2', 'CDEM_TR'): 13.956122211466152, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,347 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95586306831089
+2018-12-10 13:38:28,347 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,348 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,348 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,349 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,367 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,367 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95586306831089, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95586306831089, ('Base2', 'CDEM_TR'): 13.95586306831089, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,368 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95586306831089
+2018-12-10 13:38:28,368 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,369 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,369 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,370 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,385 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,385 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95586306831089, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95586306831089, ('Base2', 'CDEM_TR'): 13.95586306831089, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,385 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95586306831089
+2018-12-10 13:38:28,385 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,387 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,387 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,387 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,417 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,418 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95591911780098, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95586306831089, ('Base2', 'CDEM_TR'): 13.95586306831089, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,418 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95591911780098
+2018-12-10 13:38:28,418 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,419 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,419 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,420 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,429 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-10 13:38:28,429 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-10 13:38:28,430 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:28,431 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:28,431 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'TS': 43.95591911780098}
+2018-12-10 13:38:28,432 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-10 13:38:28,433 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,434 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95591911780098, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95591911780098, ('Base2', 'CDEM_TR'): 13.95586306831089, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,434 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95591911780098
+2018-12-10 13:38:28,434 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,437 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,438 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,438 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,458 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,458 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95591911780098, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95591911780098, ('Base2', 'CDEM_TR'): 13.955919117800981, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,458 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95591911780098
+2018-12-10 13:38:28,458 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,459 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,460 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,461 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,473 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,473 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95591911780098, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95591911780098, ('Base2', 'CDEM_TR'): 13.955919117800981, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,474 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95591911780098
+2018-12-10 13:38:28,474 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,475 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,475 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,476 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,504 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,504 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.955907637438706, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95591911780098, ('Base2', 'CDEM_TR'): 13.955919117800981, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,504 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.955907637438706
+2018-12-10 13:38:28,504 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,505 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,505 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,506 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,514 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-10 13:38:28,514 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-10 13:38:28,514 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:28,515 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:28,515 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'TS': 43.955907637438706}
+2018-12-10 13:38:28,515 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-10 13:38:28,516 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,517 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.955907637438706, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.955907637438706, ('Base2', 'CDEM_TR'): 13.955919117800981, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,517 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.955907637438706
+2018-12-10 13:38:28,517 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,518 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,518 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,519 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,531 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,531 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.955907637438706, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.955907637438706, ('Base2', 'CDEM_TR'): 13.955907637438706, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,531 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.955907637438706
+2018-12-10 13:38:28,531 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,532 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,532 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,533 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,542 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,543 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.955907637438706, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.955907637438706, ('Base2', 'CDEM_TR'): 13.955907637438706, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,543 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.955907637438706
+2018-12-10 13:38:28,543 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,543 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,544 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,545 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,572 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,573 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.955909907817784, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.955907637438706, ('Base2', 'CDEM_TR'): 13.955907637438706, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,573 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.955909907817784
+2018-12-10 13:38:28,573 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,574 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,575 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,575 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,580 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-10 13:38:28,581 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-10 13:38:28,581 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:28,581 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:28,582 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'TS': 43.955909907817784}
+2018-12-10 13:38:28,582 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-10 13:38:28,583 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,583 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.955909907817784, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.955909907817784, ('Base2', 'CDEM_TR'): 13.955907637438706, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,583 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.955909907817784
+2018-12-10 13:38:28,583 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,584 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,584 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,584 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,596 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,596 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.955909907817784, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.955909907817784, ('Base2', 'CDEM_TR'): 13.955909907817784, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,596 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.955909907817784
+2018-12-10 13:38:28,596 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,597 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,597 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,599 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,607 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,608 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.955909907817784, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.955909907817784, ('Base2', 'CDEM_TR'): 13.955909907817784, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,608 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.955909907817784
+2018-12-10 13:38:28,608 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,608 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,609 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,609 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,639 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,639 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95590946963424, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.955909907817784, ('Base2', 'CDEM_TR'): 13.955909907817784, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,639 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95590946963424
+2018-12-10 13:38:28,639 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,640 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,640 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,641 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,648 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-10 13:38:28,648 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-10 13:38:28,648 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:28,648 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:28,649 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'TS': 43.95590946963424}
+2018-12-10 13:38:28,649 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-10 13:38:28,655 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,655 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95590946963424, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95590946963424, ('Base2', 'CDEM_TR'): 13.955909907817784, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,655 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95590946963424
+2018-12-10 13:38:28,656 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,657 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,657 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,659 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,663 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,663 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95590946963424, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95590946963424, ('Base2', 'CDEM_TR'): 13.955909469634243, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,663 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95590946963424
+2018-12-10 13:38:28,664 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,664 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,664 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,666 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,677 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,681 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95590946963424, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95590946963424, ('Base2', 'CDEM_TR'): 13.955909469634243, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,681 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95590946963424
+2018-12-10 13:38:28,682 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,683 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,683 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,684 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,704 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,704 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.955909552694294, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95590946963424, ('Base2', 'CDEM_TR'): 13.955909469634243, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,704 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.955909552694294
+2018-12-10 13:38:28,704 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,705 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,706 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,706 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,713 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-10 13:38:28,713 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-10 13:38:28,713 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:28,714 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:28,714 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'TS': 43.955909552694294}
+2018-12-10 13:38:28,714 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-10 13:38:28,715 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,715 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.955909552694294, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.955909552694294, ('Base2', 'CDEM_TR'): 13.955909469634243, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,715 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.955909552694294
+2018-12-10 13:38:28,716 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,716 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,716 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,717 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,729 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,729 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.955909552694294, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.955909552694294, ('Base2', 'CDEM_TR'): 13.955909552694294, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,729 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.955909552694294
+2018-12-10 13:38:28,729 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,730 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,730 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,731 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,741 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,744 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.955909552694294, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.955909552694294, ('Base2', 'CDEM_TR'): 13.955909552694294, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,744 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.955909552694294
+2018-12-10 13:38:28,744 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,745 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,745 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,746 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,769 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,770 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.955909537166015, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.955909552694294, ('Base2', 'CDEM_TR'): 13.955909552694294, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,770 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.955909537166015
+2018-12-10 13:38:28,770 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,770 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,770 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,771 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,781 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-10 13:38:28,781 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-10 13:38:28,781 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:28,782 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:28,782 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'TS': 43.955909537166015}
+2018-12-10 13:38:28,782 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-10 13:38:28,784 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,785 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.955909537166015, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.955909537166015, ('Base2', 'CDEM_TR'): 13.955909552694294, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,785 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.955909537166015
+2018-12-10 13:38:28,785 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,789 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,789 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,790 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,796 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,797 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.955909537166015, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.955909537166015, ('Base2', 'CDEM_TR'): 13.955909537166015, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,797 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.955909537166015
+2018-12-10 13:38:28,797 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,799 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,799 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,803 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,807 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,808 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.955909537166015, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.955909537166015, ('Base2', 'CDEM_TR'): 13.955909537166015, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,808 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.955909537166015
+2018-12-10 13:38:28,808 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,810 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,811 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,813 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,833 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,833 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.955909540065484, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.955909537166015, ('Base2', 'CDEM_TR'): 13.955909537166015, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,833 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.955909540065484
+2018-12-10 13:38:28,833 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,834 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,834 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,835 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,843 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-10 13:38:28,843 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-10 13:38:28,843 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:28,844 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:28,844 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'TS': 43.955909540065484}
+2018-12-10 13:38:28,844 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-10 13:38:28,845 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,845 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.955909540065484, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.955909540065484, ('Base2', 'CDEM_TR'): 13.955909537166015, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,845 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.955909540065484
+2018-12-10 13:38:28,845 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,846 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,848 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,849 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,859 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,860 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.955909540065484, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.955909540065484, ('Base2', 'CDEM_TR'): 13.955909540065484, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,861 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.955909540065484
+2018-12-10 13:38:28,861 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,862 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,862 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,863 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,871 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,872 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.955909540065484, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.955909540065484, ('Base2', 'CDEM_TR'): 13.955909540065484, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,872 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.955909540065484
+2018-12-10 13:38:28,872 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,873 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,873 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,874 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,898 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,899 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95590953952677, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.955909540065484, ('Base2', 'CDEM_TR'): 13.955909540065484, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,899 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95590953952677
+2018-12-10 13:38:28,899 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,900 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,900 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,901 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,910 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-10 13:38:28,910 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-10 13:38:28,910 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:28,911 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:28,911 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'TS': 43.95590953952677}
+2018-12-10 13:38:28,911 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-10 13:38:28,912 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,913 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95590953952677, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95590953952677, ('Base2', 'CDEM_TR'): 13.955909540065484, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,913 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95590953952677
+2018-12-10 13:38:28,913 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,914 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,914 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,916 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,925 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,925 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95590953952677, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95590953952677, ('Base2', 'CDEM_TR'): 13.955909539526772, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,925 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95590953952677
+2018-12-10 13:38:28,925 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,926 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,926 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,927 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,936 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,936 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95590953952677, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95590953952677, ('Base2', 'CDEM_TR'): 13.955909539526772, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,937 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95590953952677
+2018-12-10 13:38:28,937 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,937 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,937 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,938 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,971 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,971 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.955909539593975, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95590953952677, ('Base2', 'CDEM_TR'): 13.955909539526772, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,971 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.955909539593975
+2018-12-10 13:38:28,971 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,972 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,972 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,973 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,981 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-10 13:38:28,982 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-10 13:38:28,982 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:28,982 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:28,983 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'TS': 43.955909539593975}
+2018-12-10 13:38:28,983 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-10 13:38:28,985 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,985 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.955909539593975, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.955909539593975, ('Base2', 'CDEM_TR'): 13.955909539526772, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,985 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.955909539593975
+2018-12-10 13:38:28,985 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,986 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,987 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,988 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:28,996 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:28,997 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.955909539593975, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.955909539593975, ('Base2', 'CDEM_TR'): 13.955909539593975, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:28,997 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.955909539593975
+2018-12-10 13:38:28,997 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:28,998 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:28,998 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:28,999 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:29,009 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:29,010 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.955909539593975, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.955909539593975, ('Base2', 'CDEM_TR'): 13.955909539593975, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:29,010 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.955909539593975
+2018-12-10 13:38:29,010 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:29,011 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:29,012 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:29,013 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:29,040 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:29,040 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95590953958388, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.955909539593975, ('Base2', 'CDEM_TR'): 13.955909539593975, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:29,040 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95590953958388
+2018-12-10 13:38:29,040 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:29,041 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:29,041 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:29,042 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:29,049 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-10 13:38:29,049 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-10 13:38:29,049 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:29,050 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:29,050 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'TS': 43.95590953958388}
+2018-12-10 13:38:29,050 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-10 13:38:29,053 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:29,054 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95590953958388, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95590953958388, ('Base2', 'CDEM_TR'): 13.955909539593975, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:29,054 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95590953958388
+2018-12-10 13:38:29,054 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:29,055 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:29,055 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:29,056 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:29,065 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:29,066 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95590953958388, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95590953958388, ('Base2', 'CDEM_TR'): 13.955909539583878, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:29,066 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95590953958388
+2018-12-10 13:38:29,066 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:29,067 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:29,068 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:29,069 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:29,076 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:29,077 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95590953958388, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95590953958388, ('Base2', 'CDEM_TR'): 13.955909539583878, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:29,077 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95590953958388
+2018-12-10 13:38:29,077 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:29,078 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:29,078 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:29,079 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:29,103 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:29,104 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.955909539599986, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95590953958388, ('Base2', 'CDEM_TR'): 13.955909539583878, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:29,104 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.955909539599986
+2018-12-10 13:38:29,104 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:29,105 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:29,105 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:29,105 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:29,113 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-10 13:38:29,114 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-10 13:38:29,114 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:29,114 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:29,114 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'TS': 43.955909539599986}
+2018-12-10 13:38:29,115 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-10 13:38:29,115 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:29,116 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.955909539599986, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.955909539599986, ('Base2', 'CDEM_TR'): 13.955909539583878, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:29,116 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.955909539599986
+2018-12-10 13:38:29,116 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:29,118 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:29,120 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:29,121 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:29,129 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:29,129 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.955909539599986, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.955909539599986, ('Base2', 'CDEM_TR'): 13.955909539599986, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:29,129 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.955909539599986
+2018-12-10 13:38:29,130 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:29,130 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:29,131 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:29,131 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:29,145 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:29,146 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.955909539599986, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.955909539599986, ('Base2', 'CDEM_TR'): 13.955909539599986, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:29,146 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.955909539599986
+2018-12-10 13:38:29,146 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:29,147 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:29,147 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:29,147 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:29,169 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:29,170 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95590953957898, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.955909539599986, ('Base2', 'CDEM_TR'): 13.955909539599986, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:29,170 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95590953957898
+2018-12-10 13:38:29,170 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:29,171 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:29,171 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:29,172 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:29,178 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-10 13:38:29,178 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-10 13:38:29,178 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:29,179 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:29,179 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'TS': 43.95590953957898}
+2018-12-10 13:38:29,179 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-10 13:38:29,181 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:29,182 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95590953957898, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95590953957898, ('Base2', 'CDEM_TR'): 13.955909539599986, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:29,182 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95590953957898
+2018-12-10 13:38:29,182 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:29,184 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:29,184 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:29,187 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:29,193 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:29,193 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95590953957898, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95590953957898, ('Base2', 'CDEM_TR'): 13.955909539578983, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:29,193 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95590953957898
+2018-12-10 13:38:29,194 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:29,196 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:29,197 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:29,198 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:29,204 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:29,205 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95590953957898, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95590953957898, ('Base2', 'CDEM_TR'): 13.955909539578983, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:29,205 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95590953957898
+2018-12-10 13:38:29,205 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:29,207 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:29,207 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:29,208 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:29,231 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:29,231 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95590953959705, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95590953957898, ('Base2', 'CDEM_TR'): 13.955909539578983, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:29,231 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95590953959705
+2018-12-10 13:38:29,231 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:29,233 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:29,233 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:29,234 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:29,241 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-10 13:38:29,241 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-10 13:38:29,241 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:29,242 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:29,242 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'TS': 43.95590953959705}
+2018-12-10 13:38:29,242 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-10 13:38:29,243 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:29,244 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95590953959705, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95590953959705, ('Base2', 'CDEM_TR'): 13.955909539578983, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:29,244 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95590953959705
+2018-12-10 13:38:29,244 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:29,245 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:29,245 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:29,246 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:29,256 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:29,256 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95590953959705, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95590953959705, ('Base2', 'CDEM_TR'): 13.955909539597052, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:29,256 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95590953959705
+2018-12-10 13:38:29,256 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:29,257 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:29,257 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:29,257 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:29,268 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:29,270 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95590953959705, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95590953959705, ('Base2', 'CDEM_TR'): 13.955909539597052, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:29,270 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95590953959705
+2018-12-10 13:38:29,270 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:29,271 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:29,271 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:29,272 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:29,299 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:29,300 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95590953960147, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95590953959705, ('Base2', 'CDEM_TR'): 13.955909539597052, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:29,300 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95590953960147
+2018-12-10 13:38:29,300 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:29,301 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:29,301 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:29,302 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:29,308 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-10 13:38:29,309 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-10 13:38:29,309 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:29,309 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:29,309 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'TS': 43.95590953960147}
+2018-12-10 13:38:29,309 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-10 13:38:29,311 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:29,311 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95590953960147, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95590953960147, ('Base2', 'CDEM_TR'): 13.955909539597052, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:29,312 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95590953960147
+2018-12-10 13:38:29,312 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:29,312 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:29,313 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:29,314 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:29,323 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:29,323 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95590953960147, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95590953960147, ('Base2', 'CDEM_TR'): 13.955909539601471, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:29,323 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95590953960147
+2018-12-10 13:38:29,323 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:29,326 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:29,326 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:29,328 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:29,336 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:29,336 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95590953960147, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95590953960147, ('Base2', 'CDEM_TR'): 13.955909539601471, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:29,336 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95590953960147
+2018-12-10 13:38:29,336 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:29,339 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:29,339 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:29,340 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:29,364 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:29,364 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95590953960019, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95590953960147, ('Base2', 'CDEM_TR'): 13.955909539601471, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:29,364 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95590953960019
+2018-12-10 13:38:29,364 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:29,365 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:29,365 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:29,367 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:29,376 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-10 13:38:29,376 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-10 13:38:29,376 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:29,377 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:29,377 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'TS': 43.95590953960019}
+2018-12-10 13:38:29,377 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-10 13:38:29,378 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:29,378 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95590953960019, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95590953960019, ('Base2', 'CDEM_TR'): 13.955909539601471, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:29,378 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95590953960019
+2018-12-10 13:38:29,378 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:29,379 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:29,379 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:29,381 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:29,392 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:29,392 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95590953960019, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95590953960019, ('Base2', 'CDEM_TR'): 13.955909539600192, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:29,392 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95590953960019
+2018-12-10 13:38:29,392 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:29,394 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:29,395 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:29,398 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:29,406 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:29,406 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95590953960019, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95590953960019, ('Base2', 'CDEM_TR'): 13.955909539600192, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:29,406 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95590953960019
+2018-12-10 13:38:29,406 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:29,407 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:29,407 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:29,409 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:29,438 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:29,438 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95590953957773, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95590953960019, ('Base2', 'CDEM_TR'): 13.955909539600192, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:29,438 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95590953957773
+2018-12-10 13:38:29,438 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:29,439 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:29,439 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:29,439 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:29,450 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-10 13:38:29,451 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-10 13:38:29,451 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:29,452 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:29,452 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'TS': 43.95590953957773}
+2018-12-10 13:38:29,452 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-10 13:38:29,453 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:29,453 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95590953957773, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95590953957773, ('Base2', 'CDEM_TR'): 13.955909539600192, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:29,453 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95590953957773
+2018-12-10 13:38:29,453 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:29,454 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:29,455 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:29,455 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:29,467 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:29,467 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95590953957773, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95590953957773, ('Base2', 'CDEM_TR'): 13.955909539577732, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:29,467 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95590953957773
+2018-12-10 13:38:29,467 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:29,468 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:29,468 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:29,470 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:29,480 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:29,483 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.95590953957773, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95590953957773, ('Base2', 'CDEM_TR'): 13.955909539577732, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:29,483 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.95590953957773
+2018-12-10 13:38:29,483 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:29,484 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:29,485 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:29,485 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:29,508 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:29,509 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.955909539611255, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.95590953957773, ('Base2', 'CDEM_TR'): 13.955909539577732, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:29,509 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.955909539611255
+2018-12-10 13:38:29,509 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:29,510 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:29,510 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:29,511 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:29,518 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-10 13:38:29,518 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-10 13:38:29,518 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:29,519 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:29,519 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'TS': 43.955909539611255}
+2018-12-10 13:38:29,519 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-10 13:38:29,522 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:29,523 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.955909539611255, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.955909539611255, ('Base2', 'CDEM_TR'): 13.955909539577732, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:29,523 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.955909539611255
+2018-12-10 13:38:29,523 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:29,524 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:29,524 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:29,526 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:29,534 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:29,539 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.955909539611255, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.955909539611255, ('Base2', 'CDEM_TR'): 13.955909539611255, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:29,539 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.955909539611255
+2018-12-10 13:38:29,540 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:29,541 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:29,541 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:29,542 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:29,547 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:29,548 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.955909539611255, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.955909539611255, ('Base2', 'CDEM_TR'): 13.955909539611255, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:29,548 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.955909539611255
+2018-12-10 13:38:29,548 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:29,549 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:29,549 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:29,551 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:29,585 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:29,587 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.955909539581654, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.955909539611255, ('Base2', 'CDEM_TR'): 13.955909539611255, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:29,587 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.955909539581654
+2018-12-10 13:38:29,587 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:29,588 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:29,588 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:29,589 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:29,599 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-10 13:38:29,600 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-10 13:38:29,600 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:29,601 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE TS
+2018-12-10 13:38:29,601 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'TS': 43.955909539581654}
+2018-12-10 13:38:29,601 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-10 13:38:29,601 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:29,603 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.955909539581654, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.955909539581654, ('Base2', 'CDEM_TR'): 13.955909539611255, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:29,603 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.955909539581654
+2018-12-10 13:38:29,603 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:29,604 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:29,604 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:29,605 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:29,619 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-10 13:38:29,619 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.955909539581654, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.955909539581654, ('Base2', 'CDEM_TR'): 13.955909539581654, ('Base2', 'CDEM_mdotR'): 0.04, ('Base2', 'CDEM_cmf'): 1.0, ('Base3', 'COGwflag'): 1}
+2018-12-10 13:38:29,619 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_TS to 43.955909539581654
+2018-12-10 13:38:29,620 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TS
+2018-12-10 13:38:29,620 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_mdot to 0.04
+2018-12-10 13:38:29,621 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_mdot
+2018-12-10 13:38:29,622 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-10 13:38:29,632 :: DEBUG :: ZEROBNL -> node.py :: exit :: EXIT
