@@ -53,7 +53,7 @@ Step 9/9 : ENTRYPOINT ["python"]
  ---> Using cache
  ---> ed1925be2551
 Successfully built ed1925be2551
-Successfully tagged tmp_folder_base3:latest
+Successfully tagged tmp_folder_base1:latest
 Step 1/9 : FROM python:3
  ---> 825141134528
 Step 2/9 : RUN pip install --upgrade pip
@@ -81,9 +81,9 @@ Step 9/9 : ENTRYPOINT ["python"]
  ---> Using cache
  ---> ed1925be2551
 Successfully built ed1925be2551
-Successfully tagged tmp_folder_base1:latest
-Attaching to orch, base3, base1
-base3    | Priority is set
-base3    | Plants are activated
-base3 exited with code 0
+Successfully tagged tmp_folder_base0:latest
+Attaching to orch, base1, base0
+base1    | Priority is set
+base1    | Plants are activated
+base1 exited with code 0
 Aborting on container exit...

@@ -39,7 +39,7 @@
   <line x1="  2675" y1="     0" x2="  2675" y2="    30" style = "stroke: Black;"/>
   <line x1="  2675" y1="    30" x2="  2650" y2="    30" style = "stroke: Black;"/>
   <text x="   200" y="    80">Unused Non-Parent Objects:</text>
-  <text x="   220" y="   100">MAIN LOOP SETPOINT</text>
+  <text x="   220" y="   100">DUALPLANT</text>
   <text x="   220" y="   120">ZONE ONE</text>
   <text x="   200" y="   160">
 The following are not supported: objects related to controls, AirTerminal:SingleDuct:Uncontrolled, or ZoneHVAC:IdealLoadsAirSystem</text>

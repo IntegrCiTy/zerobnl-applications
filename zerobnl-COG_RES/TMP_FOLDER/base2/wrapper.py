@@ -17,7 +17,7 @@ class MyNode(Node):
 		# This is where you define the attribute of your model, this one is pretty basic.
 		# FMU loading
 		work_dir = os.path.split(os.path.abspath(__file__))[0]  # define working directory
-		model_name = 'Residential_DH'  # define FMU model name
+		model_name = 'COGplant'  # define FMU model name
 		path_to_fmu = os.path.join(work_dir, model_name + '.fmu')  # path to FMU		
 		uri_to_extracted_fmu = fmipp.extractFMU(path_to_fmu, work_dir)  # extract FMU		
 		logging_on = False
@@ -25,12 +25,12 @@ class MyNode(Node):
 		self.fmu = fmipp.FMUCoSimulationV1(uri_to_extracted_fmu, model_name, logging_on, time_diff_resolution)
 		print( 'successfully loaded the FMU' )
 
-		## FMU instantiation		
+		## FMU instantiation
 		start_time = 0.
-		stop_time = 3600. * 24.  # 24 hours
-		self.step_size = 3600.# 1/6 hour
+		stop_time = 450.*8.*24.  # 24 hours
+		self.step_size = 450. # 1 hour
 		self.tempo=self.step_size
-		instance_name = "eplus_fmu_test"
+		instance_name = "trnsys_fmu_test"
 		visible = False
 		interactive = False
 		status = self.fmu.instantiate(instance_name, start_time, visible, interactive)
@@ -41,41 +41,33 @@ class MyNode(Node):
 		stop_time_defined = True
 		status = self.fmu.initialize(start_time, stop_time_defined, stop_time)
 		assert status == fmipp.fmiOK        
+		#fmu.setRealValue( 'Treturn', 40. ) # Very important to initialize 
 		print( 'successfully initialized the FMU' )  
 
-	def set_attribute(self, attr, value):		
+	def set_attribute(self, attr, value):
 		"""This method is called to set an attribute of the model to a given value, you need to adapt it to your model."""
 		super().set_attribute(attr, value)  # Keep this line, it triggers the parent class method.
-				
+
 		#setattr(self, attr, value)
 		self.fmu.setRealValue(attr, value)
-		assert self.fmu.getLastStatus() == fmipp.fmiOK 
+		assert self.fmu.getLastStatus() == fmipp.fmiOK  
 
-		print('Ts',value)
-
-	def get_attribute(self, attr):		
+	def get_attribute(self, attr):
 		"""This method is called to get the value of an attribute, you need to adapt it to your model."""
 		super().get_attribute(attr)  # Keep this line, it triggers the parent class method.
 
-		#return getattr(self, attr)
-		val = self.fmu.getRealValue(attr)
-		assert self.fmu.getLastStatus() == fmipp.fmiOK
-		print('Tr',val)	
-		return val
+		#return getattr(self, attr)		
+		return self.fmu.getRealValue(attr)
 
-	def step(self, value):		
+	def step(self, value):
 		"""This method is called to make a step, you need to adapt it to your model."""
 		super().step(value)  # Keep this line, it triggers the parent class method.
-		
-		#self.y = np.random.choice([-1, 0, 1])
-		#self.b = self.a + self.y * self.c
-		#self.save_attribute("y")		
+
 		new_step=True		
-		print('Time',self.tempo)
-		print('Step',value)
-		status = self.fmu.doStep(self.tempo-value, value, new_step)        
+		print('Time',self.tempo)		
+		status = self.fmu.doStep(self.tempo-self.step_size, self.step_size, new_step)        
 		assert status == fmipp.fmiOK  
-		self.tempo=self.tempo+value
+		self.tempo=self.tempo+self.step_size
 
 
 if __name__ == "__main__":

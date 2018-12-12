@@ -1,18 +1,20 @@
-2018-12-10 16:32:19,366 :: DEBUG :: ZEROBNL -> deploy.py :: run :: CREATE NODES
-2018-12-10 16:32:20,272 :: DEBUG :: ZEROBNL -> deploy.py :: run :: CREATE ORCH
-2018-12-10 16:32:20,319 :: DEBUG :: ZEROBNL -> deploy.py :: run :: LAUNCH NETWORK+REDIS
-2018-12-10 16:32:20,333 :: DEBUG :: ZEROBNL -> deploy.py :: run :: DUMP YAML
-2018-12-10 16:32:20,333 :: WARNING :: ZEROBNL -> deploy.py :: run :: Local node to run in [TMP_FOLDER\base0] > python wrapper.py
-2018-12-10 16:32:20,336 :: WARNING :: ZEROBNL -> deploy.py :: run :: Local node to run in [TMP_FOLDER\base2] > python wrapper.py
-2018-12-10 16:32:20,336 :: INFO :: ZEROBNL -> deploy.py :: run :: Waiting for local nodes to run...
-2018-12-10 16:32:47,855 :: INFO :: ZEROBNL -> deploy.py :: run :: Simulation finished in 0 min and 28 sec
-2018-12-10 16:32:47,856 :: DEBUG :: ZEROBNL -> deploy.py :: run :: FINISHED PROCESS
-2018-12-10 16:32:47,915 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base0 - MDOTsupply
-2018-12-10 16:32:47,916 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base0 - Tsupply
-2018-12-10 16:32:48,126 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base1 - TS
-2018-12-10 16:32:48,261 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base0 - COGw_Flag
-2018-12-10 16:32:48,262 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base0 - mdot_return
-2018-12-10 16:32:48,263 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base0 - Treturn
-2018-12-10 16:32:48,311 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base1 - COG_TS
-2018-12-10 16:32:48,312 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base1 - COG_mdot
-2018-12-10 16:32:48,358 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base1 - TS
+2018-12-12 09:40:37,867 :: DEBUG :: ZEROBNL -> deploy.py :: run :: CREATE NODES
+2018-12-12 09:40:39,112 :: DEBUG :: ZEROBNL -> deploy.py :: run :: CREATE ORCH
+2018-12-12 09:40:40,442 :: DEBUG :: ZEROBNL -> deploy.py :: run :: LAUNCH NETWORK+REDIS
+2018-12-12 09:40:40,451 :: DEBUG :: ZEROBNL -> deploy.py :: run :: DUMP YAML
+2018-12-12 09:40:40,452 :: WARNING :: ZEROBNL -> deploy.py :: run :: Local node to run in [TMP_FOLDER\base2] > python wrapper.py
+2018-12-12 09:40:40,455 :: WARNING :: ZEROBNL -> deploy.py :: run :: Local node to run in [TMP_FOLDER\base3] > python wrapper.py
+2018-12-12 09:40:40,456 :: INFO :: ZEROBNL -> deploy.py :: run :: Waiting for local nodes to run...
+2018-12-12 09:41:18,362 :: INFO :: ZEROBNL -> deploy.py :: run :: Simulation finished in 0 min and 38 sec
+2018-12-12 09:41:18,363 :: DEBUG :: ZEROBNL -> deploy.py :: run :: FINISHED PROCESS
+2018-12-12 09:41:18,416 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base0 - demandFlag
+2018-12-12 09:41:18,417 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base0 - Tth
+2018-12-12 09:41:18,647 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base1 - COGwflag
+2018-12-12 09:41:18,785 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base0 - Tindoor
+2018-12-12 09:41:18,786 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base0 - mdotTOT
+2018-12-12 09:41:18,821 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base1 - demandOK
+2018-12-12 09:41:18,850 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base1 - COGwflag
+2018-12-12 09:42:42,166 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base3 - QDH
+2018-12-12 09:42:42,168 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base3 - Tindoor
+2018-12-12 09:43:26,680 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base2 - MDOTsupply
+2018-12-12 09:43:26,682 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base2 - Tsupply

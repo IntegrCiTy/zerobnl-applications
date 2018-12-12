@@ -3,6 +3,18 @@ networks:
     external:
       name: simulation
 services:
+  base0:
+    build:
+      args:
+        BRANCH: simple_feature
+      context: base0
+      dockerfile: Dockerfile
+    command: wrapper.py
+    container_name: base0
+    depends_on:
+    - orch
+    volumes:
+    - .\base0:/code
   base1:
     build:
       args:
@@ -15,18 +27,6 @@ services:
     - orch
     volumes:
     - .\base1:/code
-  base3:
-    build:
-      args:
-        BRANCH: simple_feature
-      context: base3
-      dockerfile: Dockerfile
-    command: wrapper.py
-    container_name: base3
-    depends_on:
-    - orch
-    volumes:
-    - .\base3:/code
   orch:
     build:
       args:

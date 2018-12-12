@@ -16,11 +16,15 @@ class Ctrl(Node):
 		
         self.COGwflag = -1
 		
-        self.CAPBflag = -1
+        self.demandOK = 1
 		
-        self.demandOK = 18
+        self.TESflag = -1
+		
+        self.HOBflag = -1
 		
         self.COG_plant = {'Name':'COGplant','Flag': self.COGwflag}
+        self.TES_plant = {'Name':'TESplant','Flag': self.TESflag}
+        self.HOB_plant = {'Name':'HOBplant','Flag': self.HOBflag}
 
     def set_attribute(self, attr, value):
         """This method is called to set an attribute of the model to a given value, you need to adapt it to your model."""
@@ -54,37 +58,20 @@ class Ctrl(Node):
                 plant['Flag'] = 1 	
                 if plant['Name'] == "COGplant":
                    self.COGwflag = plant['Flag']
+				   
+                if plant['Name'] == "TESplant" and self.demandOK == -1:
+                   self.TESflag = plant['Flag']
+				
+                if plant['Name'] == "HOBplant" and self.demandOK == -2:
+                   self.HOBflag = plant['Flag']
 			
                 print('Plants are activated')
 			
-            if self.demandOK < 18: # satisfied: 1; not satisfied: -1 OBS!! This is based on the indoor temperature		
+            if self.demandOK < 0: # satisfied: 1; not satisfied: -1 OBS!! This is based on the indoor temperature		
 		
-                self.PRflag = -1
+               self.PRflag = -1
 			
-                print('The capacity over the building is over')
-			
-		    ##
-			#Check if your can use the CAPB: if demand is -1 then you need the HOB to intervene
-		    ##
-			# search for the first 0 and turn it to 1
-					
-			#ii = 0
-			
-			#for plant in self.priority:
-			
-			#	if ii == 0:
-				
-			#		plant['Flag'] = 1 	
-			
-			#		ii=ii+1
-			
-			#self.priority.remove(self.priority(0))
-			#self.priority[:] = [d for d in self.priority if d.get('Flag') != 1]	
-
-			#print('The demand is being processed')
-			
-		#else: # Display an error that the sizing is wrong
-		     
+               print('The capacity in the building is over')			
 		
 if __name__ == "__main__":
     node = Ctrl()

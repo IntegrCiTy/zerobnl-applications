@@ -11,7 +11,7 @@
             ],
             "idf_max_extensible_fields": 4,
             "idf_max_fields": 6,
-            "idf_order": 7
+            "idf_order": 8
         },
         "Demand Inlet Pipe Branch": {
             "components": [
@@ -24,7 +24,7 @@
             ],
             "idf_max_extensible_fields": 4,
             "idf_max_fields": 6,
-            "idf_order": 13
+            "idf_order": 14
         },
         "Demand Outlet Pipe Branch": {
             "components": [
@@ -37,7 +37,7 @@
             ],
             "idf_max_extensible_fields": 4,
             "idf_max_fields": 6,
-            "idf_order": 15
+            "idf_order": 16
         },
         "Pump Branch": {
             "components": [
@@ -50,7 +50,7 @@
             ],
             "idf_max_extensible_fields": 4,
             "idf_max_fields": 6,
-            "idf_order": 5
+            "idf_order": 6
         },
         "Radiator Branch": {
             "components": [
@@ -63,7 +63,7 @@
             ],
             "idf_max_extensible_fields": 4,
             "idf_max_fields": 6,
-            "idf_order": 14
+            "idf_order": 15
         },
         "Supply Outlet Pipe Branch": {
             "components": [
@@ -76,7 +76,7 @@
             ],
             "idf_max_extensible_fields": 4,
             "idf_max_fields": 6,
-            "idf_order": 9
+            "idf_order": 10
         }
     },
     "BranchList": {
@@ -94,7 +94,7 @@
             ],
             "idf_max_extensible_fields": 3,
             "idf_max_fields": 4,
-            "idf_order": 17
+            "idf_order": 18
         },
         "Supply Branches": {
             "branches": [
@@ -110,7 +110,7 @@
             ],
             "idf_max_extensible_fields": 3,
             "idf_max_fields": 4,
-            "idf_order": 16
+            "idf_order": 17
         }
     },
     "Building": {
@@ -347,7 +347,7 @@
             ],
             "idf_max_extensible_fields": 1,
             "idf_max_fields": 3,
-            "idf_order": 21,
+            "idf_order": 22,
             "outlet_branch_name": "Demand Outlet Pipe Branch"
         },
         "Supply Mixer": {
@@ -358,7 +358,7 @@
             ],
             "idf_max_extensible_fields": 1,
             "idf_max_fields": 3,
-            "idf_order": 20,
+            "idf_order": 21,
             "outlet_branch_name": "Supply Outlet Pipe Branch"
         }
     },
@@ -371,7 +371,7 @@
             ],
             "idf_max_extensible_fields": 1,
             "idf_max_fields": 3,
-            "idf_order": 19,
+            "idf_order": 20,
             "inlet_branch_name": "Demand Inlet Pipe Branch"
         },
         "Supply Splitter": {
@@ -382,7 +382,7 @@
             ],
             "idf_max_extensible_fields": 1,
             "idf_max_fields": 3,
-            "idf_order": 18,
+            "idf_order": 19,
             "inlet_branch_name": "Pump Branch"
         }
     },
@@ -394,7 +394,7 @@
             "connector_2_object_type": "Connector:Mixer",
             "idf_max_extensible_fields": 0,
             "idf_max_fields": 5,
-            "idf_order": 23
+            "idf_order": 24
         },
         "Supply Connectors": {
             "connector_1_name": "Supply Splitter",
@@ -403,7 +403,7 @@
             "connector_2_object_type": "Connector:Mixer",
             "idf_max_extensible_fields": 0,
             "idf_max_fields": 5,
-            "idf_order": 22
+            "idf_order": 23
         }
     },
     "Construction": {
@@ -444,7 +444,7 @@
             "hot_water_outlet_node_name": "DH Outlet Node",
             "idf_max_extensible_fields": 0,
             "idf_max_fields": 4,
-            "idf_order": 8,
+            "idf_order": 9,
             "nominal_capacity": 2000
         }
     },
@@ -555,7 +555,7 @@
             "visible_absorptance": 0.65
         },
         "PLASTERBOARD-1": {
-            "conductivity": 0.16,
+            "conductivity": 0.6,
             "density": 950.0,
             "idf_max_extensible_fields": 0,
             "idf_max_fields": 9,
@@ -677,7 +677,7 @@
         "Output:Variable 1": {
             "idf_max_extensible_fields": 0,
             "idf_max_fields": 3,
-            "idf_order": 2,
+            "idf_order": 3,
             "key_value": "*",
             "reporting_frequency": "Hourly",
             "variable_name": "Baseboard Total Heating Rate"
@@ -685,7 +685,7 @@
         "Output:Variable 2": {
             "idf_max_extensible_fields": 0,
             "idf_max_fields": 3,
-            "idf_order": 3,
+            "idf_order": 4,
             "key_value": "*",
             "reporting_frequency": "Hourly",
             "variable_name": "Baseboard Hot Water Mass Flow Rate"
@@ -759,7 +759,7 @@
             "idf_max_fields": 3,
             "idf_order": 87,
             "key_value": "*",
-            "reporting_frequency": "Hourly",
+            "reporting_frequency": "Timestep",
             "variable_name": "Zone Air Temperature"
         }
     },
@@ -784,21 +784,21 @@
         "Demand Inlet Pipe": {
             "idf_max_extensible_fields": 0,
             "idf_max_fields": 3,
-            "idf_order": 11,
+            "idf_order": 12,
             "inlet_node_name": "Demand Inlet Pipe Inlet Node",
             "outlet_node_name": "Demand Inlet Pipe Outlet Node"
         },
         "Demand Outlet Pipe": {
             "idf_max_extensible_fields": 0,
             "idf_max_fields": 3,
-            "idf_order": 12,
+            "idf_order": 13,
             "inlet_node_name": "Demand Outlet Pipe Inlet Node",
             "outlet_node_name": "Demand Outlet Pipe Outlet Node"
         },
         "Supply Outlet Pipe": {
             "idf_max_extensible_fields": 0,
             "idf_max_fields": 3,
-            "idf_order": 10,
+            "idf_order": 11,
             "inlet_node_name": "Supply Outlet Pipe Inlet Node",
             "outlet_node_name": "Supply Outlet Pipe Outlet Node"
         }
@@ -809,14 +809,14 @@
             "equipment_1_object_type": "DistrictHeating",
             "idf_max_extensible_fields": 0,
             "idf_max_fields": 3,
-            "idf_order": 25
+            "idf_order": 26
         }
     },
     "PlantEquipmentOperation:HeatingLoad": {
         "Purchaise Only": {
             "idf_max_extensible_fields": 0,
             "idf_max_fields": 4,
-            "idf_order": 26,
+            "idf_order": 27,
             "load_range_1_lower_limit": 0,
             "load_range_1_upper_limit": 1000000000,
             "range_1_equipment_list_name": "Heating Plant"
@@ -829,7 +829,7 @@
             "control_scheme_1_schedule_name": "On/Off Schedule",
             "idf_max_extensible_fields": 0,
             "idf_max_fields": 4,
-            "idf_order": 27
+            "idf_order": 28
         }
     },
     "PlantLoop": {
@@ -842,7 +842,7 @@
             "fluid_type": "Water",
             "idf_max_extensible_fields": 0,
             "idf_max_fields": 24,
-            "idf_order": 24,
+            "idf_order": 25,
             "load_distribution_scheme": "SequentialLoad",
             "loop_circulation_time": 2,
             "loop_temperature_setpoint_node_name": "Supply Outlet Pipe Outlet Node",
@@ -865,14 +865,14 @@
             "coefficient_2_of_the_part_load_performance_curve": 1,
             "design_electric_power_per_unit_flow_rate": 348701.1,
             "design_maximum_flow_rate": 0.005,
-            "design_minimum_flow_rate": 0,
+            "design_minimum_flow_rate": 3e-05,
             "design_power_consumption": 1500,
             "design_power_sizing_method": "PowerPerFlowPerPressure",
             "design_pump_head": 179352,
             "design_shaft_power_per_unit_flow_rate_per_unit_head": 1.282051282,
             "idf_max_extensible_fields": 0,
             "idf_max_fields": 28,
-            "idf_order": 6,
+            "idf_order": 7,
             "inlet_node_name": "Pump Inlet Node",
             "motor_efficiency": 0.9,
             "outlet_node_name": "Pump Outlet Node",
@@ -882,9 +882,9 @@
     "RunPeriod": {
         "Annual sim 1": {
             "apply_weekend_holiday_rule": "No",
-            "begin_day_of_month": 25,
+            "begin_day_of_month": 1,
             "begin_month": 1,
-            "end_day_of_month": 27,
+            "end_day_of_month": 1,
             "end_month": 1,
             "idf_max_extensible_fields": 0,
             "idf_max_fields": 13,
@@ -910,7 +910,7 @@
                     "field": "Until: 24:00"
                 },
                 {
-                    "field": 1
+                    "field": 4
                 }
             ],
             "idf_max_extensible_fields": 4,
@@ -927,14 +927,20 @@
                     "field": "For: AllDays"
                 },
                 {
+                    "field": "Until: 13:00"
+                },
+                {
+                    "field": 19
+                },
+                {
                     "field": "Until: 24:00"
                 },
                 {
-                    "field": 20
+                    "field": 24
                 }
             ],
-            "idf_max_extensible_fields": 4,
-            "idf_max_fields": 6,
+            "idf_max_extensible_fields": 6,
+            "idf_max_fields": 8,
             "idf_order": 81,
             "schedule_type_limits_name": "Any Number"
         },
@@ -970,7 +976,7 @@
                     "field": "Until: 24:00"
                 },
                 {
-                    "field": 55
+                    "field": 100
                 }
             ],
             "idf_max_extensible_fields": 4,
@@ -1105,7 +1111,7 @@
             ],
             "idf_max_extensible_fields": 4,
             "idf_max_fields": 6,
-            "idf_order": 29,
+            "idf_order": 30,
             "schedule_type_limits_name": "On/Off"
         }
     },
@@ -1126,20 +1132,21 @@
         "On/Off": {
             "idf_max_extensible_fields": 0,
             "idf_max_fields": 5,
-            "idf_order": 28,
+            "idf_order": 29,
             "lower_limit_value": 0,
             "numeric_type": "Discrete",
             "unit_type": "Dimensionless",
             "upper_limit_value": 1
         }
     },
-    "SetpointManager:Scheduled": {
-        "Main Loop SetPoint": {
+    "SetpointManager:Scheduled:DualSetpoint": {
+        "DualPlant": {
             "control_variable": "Temperature",
+            "high_setpoint_schedule_name": "Main Loop Temp Sch",
             "idf_max_extensible_fields": 0,
-            "idf_max_fields": 4,
-            "idf_order": 30,
-            "schedule_name": "Main Loop Temp Sch",
+            "idf_max_fields": 5,
+            "idf_order": 2,
+            "low_setpoint_schedule_name": "Main Loop Temp Sch",
             "setpoint_node_or_nodelist_name": "Main Loop SetPoint Node"
         }
     },
@@ -1210,12 +1217,13 @@
             "idf_order": 55
         }
     },
-    "ThermostatSetpoint:SingleHeating": {
-        "Office Thermostat Dual SP Control": {
+    "ThermostatSetpoint:DualSetpoint": {
+        "Dual": {
+            "cooling_setpoint_temperature_schedule_name": "ALWAYS 24",
+            "heating_setpoint_temperature_schedule_name": "ALWAYS 20",
             "idf_max_extensible_fields": 0,
-            "idf_max_fields": 2,
-            "idf_order": 1,
-            "setpoint_temperature_schedule_name": "ALWAYS 20"
+            "idf_max_fields": 3,
+            "idf_order": 1
         }
     },
     "Timestep": {
@@ -1223,7 +1231,7 @@
             "idf_max_extensible_fields": 0,
             "idf_max_fields": 1,
             "idf_order": 53,
-            "number_of_timesteps_per_hour": 15
+            "number_of_timesteps_per_hour": 30
         }
     },
     "Version": {
@@ -1279,8 +1287,8 @@
     },
     "ZoneControl:Thermostat": {
         "ZONE ONE Thermostat": {
-            "control_1_name": "Office Thermostat Dual SP Control",
-            "control_1_object_type": "ThermostatSetpoint:SingleHeating",
+            "control_1_name": "Dual",
+            "control_1_object_type": "ThermostatSetpoint:DualSetpoint",
             "control_type_schedule_name": "ALWAYS 4",
             "idf_max_extensible_fields": 0,
             "idf_max_fields": 5,
@@ -1297,7 +1305,7 @@
             "heating_design_capacity_method": "HeatingDesignCapacity",
             "idf_max_extensible_fields": 8,
             "idf_max_fields": 22,
-            "idf_order": 4,
+            "idf_order": 5,
             "inlet_node_name": "Radiator Inlet Node",
             "maximum_water_flow_rate": 5e-05,
             "outlet_node_name": "Radiator Outlet Node",

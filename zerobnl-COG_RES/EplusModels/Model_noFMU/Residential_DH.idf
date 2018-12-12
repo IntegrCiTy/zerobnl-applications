@@ -4,9 +4,18 @@
 !-NOTE: All comments with '!-' are ignored by the IDFEditor and are generated automatically.
 !-      Use '!' comments if they need to be retained when using the IDFEditor.
 
-ThermostatSetpoint:SingleHeating,
-    Office Thermostat Dual SP Control,  !- Name
-    ALWAYS 20;               !- Setpoint Temperature Schedule Name
+
+ThermostatSetpoint:DualSetpoint,
+    Dual,                    !- Name
+    ALWAYS 20,               !- Heating Setpoint Temperature Schedule Name
+    ALWAYS 24;               !- Cooling Setpoint Temperature Schedule Name
+
+SetpointManager:Scheduled:DualSetpoint,
+    DualPlant,               !- Name
+    Temperature,             !- Control Variable
+    Main Loop Temp Sch,      !- High Setpoint Schedule Name
+    Main Loop Temp Sch,      !- Low Setpoint Schedule Name
+    Main Loop SetPoint Node; !- Setpoint Node or NodeList Name
 
 Output:Variable,*,Baseboard Total Heating Rate ,Hourly;
 Output:Variable,*,Baseboard Hot Water Mass Flow Rate,Hourly;
@@ -56,7 +65,7 @@ Pump:VariableSpeed,
     1,                       !- Coefficient 2 of the Part Load Performance Curve
     ,                        !- Coefficient 3 of the Part Load Performance Curve
     ,                        !- Coefficient 4 of the Part Load Performance Curve
-    0,                       !- Design Minimum Flow Rate {m3/s}
+    0.00003,                 !- Design Minimum Flow Rate {m3/s}
     Continuous,              !- Pump Control Type
     ,                        !- Pump Flow Rate Schedule Name
     ,                        !- Pump Curve Name
@@ -237,18 +246,12 @@ Schedule:Compact,
     For: AllDays,            !- Field 2
     Until: 24:00, 1;         !- Field 4
 
-SetpointManager:Scheduled,
-    Main Loop SetPoint,      !- Name
-    Temperature,             !- Control Variable
-    Main Loop Temp Sch,      !- Schedule Name
-    Main Loop SetPoint Node; !- Setpoint Node or NodeList Name
-
 Schedule:Compact,
     Main Loop Temp Sch,      !- Name
     Any Number,              !- Schedule Type Limits Name
     Through: 12/31,          !- Field 1
     For: AllDays,            !- Field 2
-    Until: 24:00, 55;        !- Field 4
+    Until: 24:00,  100;      !- Field 4
 
 NodeList,
     Main Loop SetPoint Node, !- Name
@@ -264,9 +267,9 @@ Output:Variable,*,Baseboard Water Outlet Temperature,Hourly;
 RunPeriod,
     Annual sim 1,            !- Name
     1,                       !- Begin Month
-    25,                      !- Begin Day of Month
+    1,                       !- Begin Day of Month
     1,                       !- End Month
-    27,                      !- End Day of Month
+    1,                       !- End Day of Month
     ,                        !- Day of Week for Start Day
     Yes,                     !- Use Weather File Holidays and Special Days
     Yes,                     !- Use Weather File Daylight Saving Period
@@ -400,7 +403,7 @@ Building,
     ,                        !- Maximum Number of Warmup Days
     6;                       !- Minimum Number of Warmup Days
 
-Timestep,15;
+Timestep,30;
 SurfaceConvectionAlgorithm:Inside,TARP;
 SurfaceConvectionAlgorithm:Outside,TARP;
 HeatBalanceAlgorithm,ConductionTransferFunction;
@@ -429,7 +432,7 @@ Material,
     PLASTERBOARD-1,          !- Name
     MediumSmooth,            !- Roughness
     0.01200,                 !- Thickness {m}
-    0.16000,                 !- Conductivity {W/m-K}
+    0.6,                     !- Conductivity {W/m-K}
     950.000,                 !- Density {kg/m3}
     840.00,                  !- Specific Heat {J/kg-K}
     0.900000,                !- Thermal Absorptance
@@ -440,7 +443,7 @@ Material,
     FIBERGLASS QUILT-1,      !- Name
     Rough,                   !- Roughness
     0.066,                   !- Thickness {m}
-    0.040,                   !- Conductivity {W/m-K}
+    0.04,                    !- Conductivity {W/m-K}
     12.000,                  !- Density {kg/m3}
     840.00,                  !- Specific Heat {J/kg-K}
     0.900000,                !- Thermal Absorptance
@@ -450,8 +453,8 @@ Material,
 Material,
     WOOD SIDING-1,           !- Name
     Rough,                   !- Roughness
-    0.00900,                 !- Thickness {m}
-    0.14000,                 !- Conductivity {W/m-K}
+    0.009,                   !- Thickness {m}
+    0.14,                    !- Conductivity {W/m-K}
     530.000,                 !- Density {kg/m3}
     900.00,                  !- Specific Heat {J/kg-K}
     0.900000,                !- Thermal Absorptance
@@ -462,7 +465,7 @@ Material,
     PLASTERBOARD-2,          !- Name
     Rough,                   !- Roughness
     0.01000,                 !- Thickness {m}
-    0.16000,                 !- Conductivity {W/m-K}
+    0.16,                    !- Conductivity {W/m-K}
     950.000,                 !- Density {kg/m3}
     840.00,                  !- Specific Heat {J/kg-K}
     0.900000,                !- Thermal Absorptance
@@ -473,7 +476,7 @@ Material,
     FIBERGLASS QUILT-2,      !- Name
     Rough,                   !- Roughness
     0.1118,                  !- Thickness {m}
-    0.040,                   !- Conductivity {W/m-K}
+    0.04,                    !- Conductivity {W/m-K}
     12.000,                  !- Density {kg/m3}
     840.00,                  !- Specific Heat {J/kg-K}
     0.900000,                !- Thermal Absorptance
@@ -484,7 +487,7 @@ Material,
     ROOF DECK,               !- Name
     Rough,                   !- Roughness
     0.01900,                 !- Thickness {m}
-    0.14000,                 !- Conductivity {W/m-K}
+    0.14,                    !- Conductivity {W/m-K}
     530.000,                 !- Density {kg/m3}
     900.00,                  !- Specific Heat {J/kg-K}
     0.900000,                !- Thermal Absorptance
@@ -495,7 +498,7 @@ Material,
     HF-C5,                   !- Name
     MediumRough,             !- Roughness
     0.1015000,               !- Thickness {m}
-    1.729600,                !- Conductivity {W/m-K}
+    1.7296,                  !- Conductivity {W/m-K}
     2243.000,                !- Density {kg/m3}
     837.0000,                !- Specific Heat {J/kg-K}
     0.9000000,               !- Thermal Absorptance
@@ -636,14 +639,15 @@ Schedule:Compact,
     Any Number,              !- Schedule Type Limits Name
     Through: 12/31,          !- Field 1
     For: AllDays,            !- Field 2
-    Until: 24:00, 1;         !- Field 4
+    Until: 24:00,  4;        !- Field 4
 
 Schedule:Compact,
     ALWAYS 20,               !- Name
     Any Number,              !- Schedule Type Limits Name
     Through: 12/31,          !- Field 1
     For: AllDays,            !- Field 2
-    Until: 24:00,  20;       !- Field 4
+    Until: 13:00,  19,       !- Field 4
+    Until: 24:00,  24;       !- Field 6
 
 Schedule:Compact,
     ALWAYS 24,               !- Name
@@ -672,11 +676,11 @@ ZoneControl:Thermostat,
     ZONE ONE Thermostat,     !- Name
     ZONE ONE,                !- Zone or ZoneList Name
     ALWAYS 4,                !- Control Type Schedule Name
-    ThermostatSetpoint:SingleHeating,  !- Control 1 Object Type
-    Office Thermostat Dual SP Control;  !- Control 1 Name
+    ThermostatSetpoint:DualSetpoint,  !- Control 1 Object Type
+    Dual;                    !- Control 1 Name
 
 Output:Variable,*,Site Outdoor Air Drybulb Temperature,Hourly;
-Output:Variable,*,Zone Air Temperature,Hourly;
+Output:Variable,*,Zone Air Temperature,Timestep;
 Output:Meter,DistrictHeating:Facility,Hourly;
 Output:Surfaces:Drawing,DXF;
 Output:Constructions,Constructions;

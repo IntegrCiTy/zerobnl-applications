@@ -1,721 +1,858 @@
-2018-12-10 16:32:35,519 :: DEBUG :: ZEROBNL -> node.py :: __init__ :: LOAD CONFIG NODE
-2018-12-10 16:32:35,519 :: DEBUG :: ZEROBNL -> node.py :: __init__ :: CONNECT REDIS
-2018-12-10 16:32:35,544 :: DEBUG :: ZEROBNL -> node.py :: __init__ :: CREATE SUB/SEND
-2018-12-10 16:32:35,545 :: DEBUG :: ZEROBNL -> node.py :: __init__ :: CONNECT TO SUB/SEND
-2018-12-10 16:32:35,545 :: DEBUG :: ZEROBNL -> node.py :: __init__ :: SUBSCRIBED TO GRP/ALL
-2018-12-10 16:32:35,545 :: DEBUG :: ZEROBNL -> node.py :: __init__ :: INIT DONE
-2018-12-10 16:32:36,242 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 40
-2018-12-10 16:32:36,243 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.04
-2018-12-10 16:32:36,246 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:36,246 :: DEBUG :: ZEROBNL -> node.py :: run :: INIT VALUES DONE
-2018-12-10 16:32:43,536 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:43,536 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {}
-2018-12-10 16:32:43,537 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:43,539 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
-2018-12-10 16:32:43,539 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
-2018-12-10 16:32:43,671 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tsupply
-2018-12-10 16:32:43,671 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE MDOTsupply
-2018-12-10 16:32:43,680 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tsupply': 43.97025039442919, 'MDOTsupply': 0.04}
-2018-12-10 16:32:43,680 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
-2018-12-10 16:32:43,685 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:43,685 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.97025039442919, ('Base0', 'MDOTsupply'): 0.04}
-2018-12-10 16:32:43,685 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:43,690 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:43,690 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.97025039442919, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.97025039442919}
-2018-12-10 16:32:43,690 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:43,814 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:43,815 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.97025039442919, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.97025039442919, ('Base2', 'Tr_second'): 50.43322318291685, ('Base2', 'mdot'): 0.03940027763671875, ('Base2', 'Tindoor'): 21.97647019921697}
-2018-12-10 16:32:43,815 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 50.43322318291685
-2018-12-10 16:32:43,819 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.03940027763671875
-2018-12-10 16:32:43,822 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:43,827 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:43,827 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.97025039442919, ('Base0', 'MDOTsupply'): 0.04, ('Base1', 'TS'): 43.97025039442919, ('Base2', 'Tr_second'): 50.43322318291685, ('Base2', 'mdot'): 0.03940027763671875, ('Base2', 'Tindoor'): 21.97647019921697, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:43,828 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 50.43322318291685
-2018-12-10 16:32:43,832 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.03940027763671875
-2018-12-10 16:32:43,835 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:43,838 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:43,839 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
-2018-12-10 16:32:43,839 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
-2018-12-10 16:32:43,861 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tsupply
-2018-12-10 16:32:43,861 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE MDOTsupply
-2018-12-10 16:32:43,866 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tsupply': 54.7490592006817, 'MDOTsupply': 0.03940027763671876}
-2018-12-10 16:32:43,866 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
-2018-12-10 16:32:43,869 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:43,869 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 54.7490592006817, ('Base0', 'MDOTsupply'): 0.03940027763671876, ('Base1', 'TS'): 43.97025039442919, ('Base2', 'Tr_second'): 50.43322318291685, ('Base2', 'mdot'): 0.03940027763671875, ('Base2', 'Tindoor'): 21.97647019921697, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:43,869 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 50.43322318291685
-2018-12-10 16:32:43,873 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.03940027763671875
-2018-12-10 16:32:43,878 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:43,880 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:43,885 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:43,886 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 54.7490592006817, ('Base0', 'MDOTsupply'): 0.03940027763671876, ('Base1', 'TS'): 54.74905920068169, ('Base2', 'Tr_second'): 50.43322318291685, ('Base2', 'mdot'): 0.03940027763671875, ('Base2', 'Tindoor'): 21.97647019921697, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:43,886 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 50.43322318291685
-2018-12-10 16:32:43,889 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.03940027763671875
-2018-12-10 16:32:43,893 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:43,896 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:43,913 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:43,913 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 54.7490592006817, ('Base0', 'MDOTsupply'): 0.03940027763671876, ('Base1', 'TS'): 54.74905920068169, ('Base2', 'Tr_second'): 49.47725988400089, ('Base2', 'mdot'): 0.04193908115234375, ('Base2', 'Tindoor'): 21.98423931752695, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:43,913 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 49.47725988400089
-2018-12-10 16:32:43,917 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.04193908115234375
-2018-12-10 16:32:43,920 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:43,922 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:43,928 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:43,928 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 54.7490592006817, ('Base0', 'MDOTsupply'): 0.03940027763671876, ('Base1', 'TS'): 54.74905920068169, ('Base2', 'Tr_second'): 49.47725988400089, ('Base2', 'mdot'): 0.04193908115234375, ('Base2', 'Tindoor'): 21.98423931752695, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:43,928 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 49.47725988400089
-2018-12-10 16:32:43,932 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.04193908115234375
-2018-12-10 16:32:43,936 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:43,938 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:43,939 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
-2018-12-10 16:32:43,940 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
-2018-12-10 16:32:43,961 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tsupply
-2018-12-10 16:32:43,961 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE MDOTsupply
-2018-12-10 16:32:43,966 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tsupply': 52.326065329516084, 'MDOTsupply': 0.04193908115234376}
-2018-12-10 16:32:43,966 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
-2018-12-10 16:32:43,969 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:43,969 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.326065329516084, ('Base0', 'MDOTsupply'): 0.04193908115234376, ('Base1', 'TS'): 54.74905920068169, ('Base2', 'Tr_second'): 49.47725988400089, ('Base2', 'mdot'): 0.04193908115234375, ('Base2', 'Tindoor'): 21.98423931752695, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:43,969 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 49.47725988400089
-2018-12-10 16:32:43,974 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.04193908115234375
-2018-12-10 16:32:43,978 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:43,980 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:43,986 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:43,986 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.326065329516084, ('Base0', 'MDOTsupply'): 0.04193908115234376, ('Base1', 'TS'): 52.32606532951609, ('Base2', 'Tr_second'): 49.47725988400089, ('Base2', 'mdot'): 0.04193908115234375, ('Base2', 'Tindoor'): 21.98423931752695, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:43,987 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 49.47725988400089
-2018-12-10 16:32:43,990 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.04193908115234375
-2018-12-10 16:32:43,993 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:43,996 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,018 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,018 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.326065329516084, ('Base0', 'MDOTsupply'): 0.04193908115234376, ('Base1', 'TS'): 52.32606532951609, ('Base2', 'Tr_second'): 48.25862457716344, ('Base2', 'mdot'): 0.0411090876953125, ('Base2', 'Tindoor'): 21.98170579823758, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,019 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 48.25862457716344
-2018-12-10 16:32:44,023 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0411090876953125
-2018-12-10 16:32:44,027 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,030 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,037 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,037 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 52.326065329516084, ('Base0', 'MDOTsupply'): 0.04193908115234376, ('Base1', 'TS'): 52.32606532951609, ('Base2', 'Tr_second'): 48.25862457716344, ('Base2', 'mdot'): 0.0411090876953125, ('Base2', 'Tindoor'): 21.98170579823758, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,037 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 48.25862457716344
-2018-12-10 16:32:44,041 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0411090876953125
-2018-12-10 16:32:44,045 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,047 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,049 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
-2018-12-10 16:32:44,049 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
-2018-12-10 16:32:44,064 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tsupply
-2018-12-10 16:32:44,064 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE MDOTsupply
-2018-12-10 16:32:44,069 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tsupply': 51.56240111868891, 'MDOTsupply': 0.0411090876953125}
-2018-12-10 16:32:44,069 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
-2018-12-10 16:32:44,073 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,073 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 51.56240111868891, ('Base0', 'MDOTsupply'): 0.0411090876953125, ('Base1', 'TS'): 52.32606532951609, ('Base2', 'Tr_second'): 48.25862457716344, ('Base2', 'mdot'): 0.0411090876953125, ('Base2', 'Tindoor'): 21.98170579823758, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,074 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 48.25862457716344
-2018-12-10 16:32:44,078 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0411090876953125
-2018-12-10 16:32:44,081 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,085 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,089 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,089 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 51.56240111868891, ('Base0', 'MDOTsupply'): 0.0411090876953125, ('Base1', 'TS'): 51.5624011186889, ('Base2', 'Tr_second'): 48.25862457716344, ('Base2', 'mdot'): 0.0411090876953125, ('Base2', 'Tindoor'): 21.98170579823758, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,090 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 48.25862457716344
-2018-12-10 16:32:44,094 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0411090876953125
-2018-12-10 16:32:44,098 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,101 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,121 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,121 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 51.56240111868891, ('Base0', 'MDOTsupply'): 0.0411090876953125, ('Base1', 'TS'): 51.5624011186889, ('Base2', 'Tr_second'): 47.42391692691879, ('Base2', 'mdot'): 0.03940027763671874, ('Base2', 'Tindoor'): 21.9767054003707, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,121 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 47.42391692691879
-2018-12-10 16:32:44,127 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.03940027763671874
-2018-12-10 16:32:44,130 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,141 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,151 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,152 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 51.56240111868891, ('Base0', 'MDOTsupply'): 0.0411090876953125, ('Base1', 'TS'): 51.5624011186889, ('Base2', 'Tr_second'): 47.42391692691879, ('Base2', 'mdot'): 0.03940027763671874, ('Base2', 'Tindoor'): 21.9767054003707, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,152 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 47.42391692691879
-2018-12-10 16:32:44,157 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.03940027763671874
-2018-12-10 16:32:44,161 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,167 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,168 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
-2018-12-10 16:32:44,169 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
-2018-12-10 16:32:44,188 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tsupply
-2018-12-10 16:32:44,188 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE MDOTsupply
-2018-12-10 16:32:44,194 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tsupply': 51.74119140302912, 'MDOTsupply': 0.03940027763671874}
-2018-12-10 16:32:44,194 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
-2018-12-10 16:32:44,197 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,197 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 51.74119140302912, ('Base0', 'MDOTsupply'): 0.03940027763671874, ('Base1', 'TS'): 51.5624011186889, ('Base2', 'Tr_second'): 47.42391692691879, ('Base2', 'mdot'): 0.03940027763671874, ('Base2', 'Tindoor'): 21.9767054003707, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,197 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 47.42391692691879
-2018-12-10 16:32:44,202 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.03940027763671874
-2018-12-10 16:32:44,205 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,207 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,212 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,213 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 51.74119140302912, ('Base0', 'MDOTsupply'): 0.03940027763671874, ('Base1', 'TS'): 51.74119140302911, ('Base2', 'Tr_second'): 47.42391692691879, ('Base2', 'mdot'): 0.03940027763671874, ('Base2', 'Tindoor'): 21.9767054003707, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,213 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 47.42391692691879
-2018-12-10 16:32:44,216 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.03940027763671874
-2018-12-10 16:32:44,220 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,223 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,242 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,243 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 51.74119140302912, ('Base0', 'MDOTsupply'): 0.03940027763671874, ('Base1', 'TS'): 51.74119140302911, ('Base2', 'Tr_second'): 46.76324043045685, ('Base2', 'mdot'): 0.03940027763671874, ('Base2', 'Tindoor'): 21.9776588713447, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,243 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 46.76324043045685
-2018-12-10 16:32:44,248 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.03940027763671874
-2018-12-10 16:32:44,250 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,253 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,256 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,257 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 51.74119140302912, ('Base0', 'MDOTsupply'): 0.03940027763671874, ('Base1', 'TS'): 51.74119140302911, ('Base2', 'Tr_second'): 46.76324043045685, ('Base2', 'mdot'): 0.03940027763671874, ('Base2', 'Tindoor'): 21.9776588713447, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,257 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 46.76324043045685
-2018-12-10 16:32:44,262 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.03940027763671874
-2018-12-10 16:32:44,266 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,269 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,270 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
-2018-12-10 16:32:44,271 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
-2018-12-10 16:32:44,288 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tsupply
-2018-12-10 16:32:44,288 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE MDOTsupply
-2018-12-10 16:32:44,293 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tsupply': 51.08052819226438, 'MDOTsupply': 0.03940027763671874}
-2018-12-10 16:32:44,293 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
-2018-12-10 16:32:44,295 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,295 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 51.08052819226438, ('Base0', 'MDOTsupply'): 0.03940027763671874, ('Base1', 'TS'): 51.74119140302911, ('Base2', 'Tr_second'): 46.76324043045685, ('Base2', 'mdot'): 0.03940027763671874, ('Base2', 'Tindoor'): 21.9776588713447, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,296 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 46.76324043045685
-2018-12-10 16:32:44,300 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.03940027763671874
-2018-12-10 16:32:44,303 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,305 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,311 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,311 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 51.08052819226438, ('Base0', 'MDOTsupply'): 0.03940027763671874, ('Base1', 'TS'): 51.08052819226438, ('Base2', 'Tr_second'): 46.76324043045685, ('Base2', 'mdot'): 0.03940027763671874, ('Base2', 'Tindoor'): 21.9776588713447, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,311 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 46.76324043045685
-2018-12-10 16:32:44,315 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.03940027763671874
-2018-12-10 16:32:44,319 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,321 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,339 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,340 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 51.08052819226438, ('Base0', 'MDOTsupply'): 0.03940027763671874, ('Base1', 'TS'): 51.08052819226438, ('Base2', 'Tr_second'): 46.17684574397528, ('Base2', 'mdot'): 0.0395467470703125, ('Base2', 'Tindoor'): 21.97867065604604, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,340 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 46.17684574397528
-2018-12-10 16:32:44,344 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0395467470703125
-2018-12-10 16:32:44,348 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,350 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,354 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,354 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 51.08052819226438, ('Base0', 'MDOTsupply'): 0.03940027763671874, ('Base1', 'TS'): 51.08052819226438, ('Base2', 'Tr_second'): 46.17684574397528, ('Base2', 'mdot'): 0.0395467470703125, ('Base2', 'Tindoor'): 21.97867065604604, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,355 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 46.17684574397528
-2018-12-10 16:32:44,359 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0395467470703125
-2018-12-10 16:32:44,362 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,364 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,365 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
-2018-12-10 16:32:44,366 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
-2018-12-10 16:32:44,385 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tsupply
-2018-12-10 16:32:44,385 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE MDOTsupply
-2018-12-10 16:32:44,389 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tsupply': 50.40425978515009, 'MDOTsupply': 0.0395467470703125}
-2018-12-10 16:32:44,390 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
-2018-12-10 16:32:44,391 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,392 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 50.40425978515009, ('Base0', 'MDOTsupply'): 0.0395467470703125, ('Base1', 'TS'): 51.08052819226438, ('Base2', 'Tr_second'): 46.17684574397528, ('Base2', 'mdot'): 0.0395467470703125, ('Base2', 'Tindoor'): 21.97867065604604, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,393 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 46.17684574397528
-2018-12-10 16:32:44,396 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0395467470703125
-2018-12-10 16:32:44,399 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,402 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,405 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,406 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 50.40425978515009, ('Base0', 'MDOTsupply'): 0.0395467470703125, ('Base1', 'TS'): 50.40425978515009, ('Base2', 'Tr_second'): 46.17684574397528, ('Base2', 'mdot'): 0.0395467470703125, ('Base2', 'Tindoor'): 21.97867065604604, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,406 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 46.17684574397528
-2018-12-10 16:32:44,410 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0395467470703125
-2018-12-10 16:32:44,417 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,420 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,439 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,439 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 50.40425978515009, ('Base0', 'MDOTsupply'): 0.0395467470703125, ('Base1', 'TS'): 50.40425978515009, ('Base2', 'Tr_second'): 45.68682276636548, ('Base2', 'mdot'): 0.0401326248046875, ('Base2', 'Tindoor'): 21.98063940648842, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,439 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 45.68682276636548
-2018-12-10 16:32:44,444 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0401326248046875
-2018-12-10 16:32:44,447 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,450 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,453 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,453 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 50.40425978515009, ('Base0', 'MDOTsupply'): 0.0395467470703125, ('Base1', 'TS'): 50.40425978515009, ('Base2', 'Tr_second'): 45.68682276636548, ('Base2', 'mdot'): 0.0401326248046875, ('Base2', 'Tindoor'): 21.98063940648842, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,454 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 45.68682276636548
-2018-12-10 16:32:44,457 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0401326248046875
-2018-12-10 16:32:44,461 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,464 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,465 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
-2018-12-10 16:32:44,465 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
-2018-12-10 16:32:44,484 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tsupply
-2018-12-10 16:32:44,484 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE MDOTsupply
-2018-12-10 16:32:44,489 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tsupply': 49.56067586953186, 'MDOTsupply': 0.0401326248046875}
-2018-12-10 16:32:44,489 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
-2018-12-10 16:32:44,490 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,491 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 49.56067586953186, ('Base0', 'MDOTsupply'): 0.0401326248046875, ('Base1', 'TS'): 50.40425978515009, ('Base2', 'Tr_second'): 45.68682276636548, ('Base2', 'mdot'): 0.0401326248046875, ('Base2', 'Tindoor'): 21.98063940648842, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,491 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 45.68682276636548
-2018-12-10 16:32:44,496 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0401326248046875
-2018-12-10 16:32:44,499 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,502 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,505 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,506 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 49.56067586953186, ('Base0', 'MDOTsupply'): 0.0401326248046875, ('Base1', 'TS'): 49.56067586953186, ('Base2', 'Tr_second'): 45.68682276636548, ('Base2', 'mdot'): 0.0401326248046875, ('Base2', 'Tindoor'): 21.98063940648842, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,506 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 45.68682276636548
-2018-12-10 16:32:44,511 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0401326248046875
-2018-12-10 16:32:44,514 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,517 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,537 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,538 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 49.56067586953186, ('Base0', 'MDOTsupply'): 0.0401326248046875, ('Base1', 'TS'): 49.56067586953186, ('Base2', 'Tr_second'): 45.26470736609961, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 22.24716084390791, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,538 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 45.26470736609961
-2018-12-10 16:32:44,543 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:44,546 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,549 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,553 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,553 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 49.56067586953186, ('Base0', 'MDOTsupply'): 0.0401326248046875, ('Base1', 'TS'): 49.56067586953186, ('Base2', 'Tr_second'): 45.26470736609961, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 22.24716084390791, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,553 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 45.26470736609961
-2018-12-10 16:32:44,557 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:44,561 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,564 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,566 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
-2018-12-10 16:32:44,566 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
-2018-12-10 16:32:44,583 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tsupply
-2018-12-10 16:32:44,583 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE MDOTsupply
-2018-12-10 16:32:44,587 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tsupply': 44.43241184029816, 'MDOTsupply': 0.0499949}
-2018-12-10 16:32:44,588 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
-2018-12-10 16:32:44,590 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,591 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 44.43241184029816, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 49.56067586953186, ('Base2', 'Tr_second'): 45.26470736609961, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 22.24716084390791, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,591 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 45.26470736609961
-2018-12-10 16:32:44,596 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:44,598 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,600 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,605 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,605 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 44.43241184029816, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 44.43241184029816, ('Base2', 'Tr_second'): 45.26470736609961, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 22.24716084390791, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,605 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 45.26470736609961
-2018-12-10 16:32:44,609 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:44,612 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,614 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,634 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,634 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 44.43241184029816, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 44.43241184029816, ('Base2', 'Tr_second'): 44.87172654508456, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 22.20630053701322, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,634 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 44.87172654508456
-2018-12-10 16:32:44,638 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:44,641 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,643 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,647 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,647 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 44.43241184029816, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 44.43241184029816, ('Base2', 'Tr_second'): 44.87172654508456, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 22.20630053701322, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,648 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 44.87172654508456
-2018-12-10 16:32:44,651 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:44,655 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,657 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,658 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
-2018-12-10 16:32:44,658 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
-2018-12-10 16:32:44,675 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tsupply
-2018-12-10 16:32:44,675 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE MDOTsupply
-2018-12-10 16:32:44,680 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tsupply': 44.03638584814661, 'MDOTsupply': 0.0499949}
-2018-12-10 16:32:44,680 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
-2018-12-10 16:32:44,682 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,682 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 44.03638584814661, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 44.43241184029816, ('Base2', 'Tr_second'): 44.87172654508456, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 22.20630053701322, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,683 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 44.87172654508456
-2018-12-10 16:32:44,687 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:44,689 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,692 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,696 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,696 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 44.03638584814661, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 44.0363858481466, ('Base2', 'Tr_second'): 44.87172654508456, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 22.20630053701322, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,697 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 44.87172654508456
-2018-12-10 16:32:44,700 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:44,703 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,705 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,723 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,723 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 44.03638584814661, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 44.0363858481466, ('Base2', 'Tr_second'): 44.21672740737941, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 21.93128266227487, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,724 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 44.21672740737941
-2018-12-10 16:32:44,728 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:44,731 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,734 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,737 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,737 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 44.03638584814661, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 44.0363858481466, ('Base2', 'Tr_second'): 44.21672740737941, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 21.93128266227487, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,737 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 44.21672740737941
-2018-12-10 16:32:44,742 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:44,745 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,748 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,749 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
-2018-12-10 16:32:44,749 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
-2018-12-10 16:32:44,762 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tsupply
-2018-12-10 16:32:44,762 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE MDOTsupply
-2018-12-10 16:32:44,766 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tsupply': 43.380662296094364, 'MDOTsupply': 0.0499949}
-2018-12-10 16:32:44,766 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
-2018-12-10 16:32:44,768 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,768 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.380662296094364, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 44.0363858481466, ('Base2', 'Tr_second'): 44.21672740737941, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 21.93128266227487, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,768 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 44.21672740737941
-2018-12-10 16:32:44,773 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:44,776 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,779 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,783 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,783 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.380662296094364, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 43.380662296094364, ('Base2', 'Tr_second'): 44.21672740737941, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 21.93128266227487, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,783 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 44.21672740737941
-2018-12-10 16:32:44,787 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:44,790 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,793 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,807 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,807 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.380662296094364, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 43.380662296094364, ('Base2', 'Tr_second'): 43.14580167136027, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 21.75857109358085, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,808 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 43.14580167136027
-2018-12-10 16:32:44,811 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:44,815 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,817 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,821 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,821 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 43.380662296094364, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 43.380662296094364, ('Base2', 'Tr_second'): 43.14580167136027, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 21.75857109358085, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,821 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 43.14580167136027
-2018-12-10 16:32:44,824 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:44,828 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,830 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,832 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
-2018-12-10 16:32:44,832 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
-2018-12-10 16:32:44,844 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tsupply
-2018-12-10 16:32:44,844 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE MDOTsupply
-2018-12-10 16:32:44,848 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tsupply': 42.310240882281256, 'MDOTsupply': 0.0499949}
-2018-12-10 16:32:44,849 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
-2018-12-10 16:32:44,850 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,851 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 42.310240882281256, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 43.380662296094364, ('Base2', 'Tr_second'): 43.14580167136027, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 21.75857109358085, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,851 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 43.14580167136027
-2018-12-10 16:32:44,855 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:44,857 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,860 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,864 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,864 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 42.310240882281256, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 42.310240882281256, ('Base2', 'Tr_second'): 43.14580167136027, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 21.75857109358085, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,864 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 43.14580167136027
-2018-12-10 16:32:44,867 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:44,870 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,873 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,889 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,890 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 42.310240882281256, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 42.310240882281256, ('Base2', 'Tr_second'): 41.92639509753469, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 21.6865549896795, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,890 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 41.92639509753469
-2018-12-10 16:32:44,895 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:44,898 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,900 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,903 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,904 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 42.310240882281256, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 42.310240882281256, ('Base2', 'Tr_second'): 41.92639509753469, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 21.6865549896795, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,904 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 41.92639509753469
-2018-12-10 16:32:44,907 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:44,911 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,914 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,915 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
-2018-12-10 16:32:44,915 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
-2018-12-10 16:32:44,929 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tsupply
-2018-12-10 16:32:44,929 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE MDOTsupply
-2018-12-10 16:32:44,934 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tsupply': 41.091947703439104, 'MDOTsupply': 0.0499949}
-2018-12-10 16:32:44,934 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
-2018-12-10 16:32:44,936 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,936 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 41.091947703439104, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 42.310240882281256, ('Base2', 'Tr_second'): 41.92639509753469, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 21.6865549896795, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,936 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 41.92639509753469
-2018-12-10 16:32:44,941 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:44,946 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,948 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,951 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,952 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 41.091947703439104, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 41.0919477034391, ('Base2', 'Tr_second'): 41.92639509753469, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 21.6865549896795, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,952 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 41.92639509753469
-2018-12-10 16:32:44,955 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:44,958 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,961 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,979 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,979 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 41.091947703439104, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 41.0919477034391, ('Base2', 'Tr_second'): 40.79990126847313, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 21.60064920497578, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,979 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 40.79990126847313
-2018-12-10 16:32:44,985 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:44,988 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:44,990 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:44,995 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:44,996 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 41.091947703439104, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 41.0919477034391, ('Base2', 'Tr_second'): 40.79990126847313, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 21.60064920497578, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:44,996 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 40.79990126847313
-2018-12-10 16:32:45,000 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:45,004 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,006 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,008 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
-2018-12-10 16:32:45,008 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
-2018-12-10 16:32:45,023 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tsupply
-2018-12-10 16:32:45,023 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE MDOTsupply
-2018-12-10 16:32:45,029 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tsupply': 39.96540008439322, 'MDOTsupply': 0.0499949}
-2018-12-10 16:32:45,029 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
-2018-12-10 16:32:45,031 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,031 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.96540008439322, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 41.0919477034391, ('Base2', 'Tr_second'): 40.79990126847313, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 21.60064920497578, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,031 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 40.79990126847313
-2018-12-10 16:32:45,035 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:45,038 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,041 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,045 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,045 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.96540008439322, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 39.96540008439322, ('Base2', 'Tr_second'): 40.79990126847313, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 21.60064920497578, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,046 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 40.79990126847313
-2018-12-10 16:32:45,052 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:45,055 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,058 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,077 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,078 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.96540008439322, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 39.96540008439322, ('Base2', 'Tr_second'): 39.76836623447287, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 21.41512547108449, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,078 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 39.76836623447287
-2018-12-10 16:32:45,082 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:45,085 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,087 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,093 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,094 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.96540008439322, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 39.96540008439322, ('Base2', 'Tr_second'): 39.76836623447287, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 21.41512547108449, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,094 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 39.76836623447287
-2018-12-10 16:32:45,097 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:45,100 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,103 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,104 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
-2018-12-10 16:32:45,105 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
-2018-12-10 16:32:45,116 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tsupply
-2018-12-10 16:32:45,116 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE MDOTsupply
-2018-12-10 16:32:45,121 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tsupply': 39.172047235028074, 'MDOTsupply': 0.0499949}
-2018-12-10 16:32:45,121 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
-2018-12-10 16:32:45,124 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,124 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.172047235028074, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 39.96540008439322, ('Base2', 'Tr_second'): 39.76836623447287, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 21.41512547108449, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,125 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 39.76836623447287
-2018-12-10 16:32:45,129 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:45,133 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,136 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,140 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,140 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.172047235028074, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 39.172047235028074, ('Base2', 'Tr_second'): 39.76836623447287, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 21.41512547108449, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,140 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 39.76836623447287
-2018-12-10 16:32:45,145 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:45,148 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,151 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,171 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,172 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.172047235028074, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 39.172047235028074, ('Base2', 'Tr_second'): 38.80028194343168, ('Base2', 'mdot'): 0.04999489999999999, ('Base2', 'Tindoor'): 20.69310728062474, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,172 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 38.80028194343168
-2018-12-10 16:32:45,177 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.04999489999999999
-2018-12-10 16:32:45,181 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,185 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,191 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,191 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.172047235028074, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 39.172047235028074, ('Base2', 'Tr_second'): 38.80028194343168, ('Base2', 'mdot'): 0.04999489999999999, ('Base2', 'Tindoor'): 20.69310728062474, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,192 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 38.80028194343168
-2018-12-10 16:32:45,198 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.04999489999999999
-2018-12-10 16:32:45,201 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,204 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,206 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
-2018-12-10 16:32:45,206 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
-2018-12-10 16:32:45,215 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tsupply
-2018-12-10 16:32:45,215 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE MDOTsupply
-2018-12-10 16:32:45,219 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tsupply': 39.16586689451842, 'MDOTsupply': 0.049994899999999995}
-2018-12-10 16:32:45,219 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
-2018-12-10 16:32:45,221 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,221 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.16586689451842, ('Base0', 'MDOTsupply'): 0.049994899999999995, ('Base1', 'TS'): 39.172047235028074, ('Base2', 'Tr_second'): 38.80028194343168, ('Base2', 'mdot'): 0.04999489999999999, ('Base2', 'Tindoor'): 20.69310728062474, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,222 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 38.80028194343168
-2018-12-10 16:32:45,226 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.04999489999999999
-2018-12-10 16:32:45,229 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,231 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,235 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,236 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.16586689451842, ('Base0', 'MDOTsupply'): 0.049994899999999995, ('Base1', 'TS'): 39.16586689451842, ('Base2', 'Tr_second'): 38.80028194343168, ('Base2', 'mdot'): 0.04999489999999999, ('Base2', 'Tindoor'): 20.69310728062474, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,236 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 38.80028194343168
-2018-12-10 16:32:45,240 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.04999489999999999
-2018-12-10 16:32:45,243 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,246 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,262 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,263 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.16586689451842, ('Base0', 'MDOTsupply'): 0.049994899999999995, ('Base1', 'TS'): 39.16586689451842, ('Base2', 'Tr_second'): 37.76909934515012, ('Base2', 'mdot'): 0.04999489999999999, ('Base2', 'Tindoor'): 19.96174670331001, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,263 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 37.76909934515012
-2018-12-10 16:32:45,267 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.04999489999999999
-2018-12-10 16:32:45,269 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,272 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,275 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,276 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.16586689451842, ('Base0', 'MDOTsupply'): 0.049994899999999995, ('Base1', 'TS'): 39.16586689451842, ('Base2', 'Tr_second'): 37.76909934515012, ('Base2', 'mdot'): 0.04999489999999999, ('Base2', 'Tindoor'): 19.96174670331001, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,276 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 37.76909934515012
-2018-12-10 16:32:45,281 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.04999489999999999
-2018-12-10 16:32:45,284 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,286 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,288 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
-2018-12-10 16:32:45,288 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
-2018-12-10 16:32:45,299 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tsupply
-2018-12-10 16:32:45,299 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE MDOTsupply
-2018-12-10 16:32:45,303 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tsupply': 39.16687456776308, 'MDOTsupply': 0.049994899999999995}
-2018-12-10 16:32:45,304 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
-2018-12-10 16:32:45,305 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,306 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.16687456776308, ('Base0', 'MDOTsupply'): 0.049994899999999995, ('Base1', 'TS'): 39.16586689451842, ('Base2', 'Tr_second'): 37.76909934515012, ('Base2', 'mdot'): 0.04999489999999999, ('Base2', 'Tindoor'): 19.96174670331001, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,306 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 37.76909934515012
-2018-12-10 16:32:45,310 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.04999489999999999
-2018-12-10 16:32:45,313 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,315 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,318 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,319 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.16687456776308, ('Base0', 'MDOTsupply'): 0.049994899999999995, ('Base1', 'TS'): 39.16687456776308, ('Base2', 'Tr_second'): 37.76909934515012, ('Base2', 'mdot'): 0.04999489999999999, ('Base2', 'Tindoor'): 19.96174670331001, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,319 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 37.76909934515012
-2018-12-10 16:32:45,322 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.04999489999999999
-2018-12-10 16:32:45,325 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,328 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,344 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,344 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.16687456776308, ('Base0', 'MDOTsupply'): 0.049994899999999995, ('Base1', 'TS'): 39.16687456776308, ('Base2', 'Tr_second'): 36.82197140595235, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 19.72184524216323, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,345 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 36.82197140595235
-2018-12-10 16:32:45,348 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:45,351 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,354 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,357 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,357 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.16687456776308, ('Base0', 'MDOTsupply'): 0.049994899999999995, ('Base1', 'TS'): 39.16687456776308, ('Base2', 'Tr_second'): 36.82197140595235, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 19.72184524216323, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,357 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 36.82197140595235
-2018-12-10 16:32:45,360 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:45,364 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,367 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,368 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
-2018-12-10 16:32:45,368 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
-2018-12-10 16:32:45,377 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tsupply
-2018-12-10 16:32:45,377 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE MDOTsupply
-2018-12-10 16:32:45,381 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tsupply': 39.16671027171641, 'MDOTsupply': 0.0499949}
-2018-12-10 16:32:45,381 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
-2018-12-10 16:32:45,383 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,383 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.16671027171641, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 39.16687456776308, ('Base2', 'Tr_second'): 36.82197140595235, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 19.72184524216323, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,384 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 36.82197140595235
-2018-12-10 16:32:45,387 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:45,389 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,392 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,396 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,397 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.16671027171641, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 39.16671027171641, ('Base2', 'Tr_second'): 36.82197140595235, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 19.72184524216323, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,397 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 36.82197140595235
-2018-12-10 16:32:45,401 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:45,404 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,406 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,421 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,421 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.16671027171641, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 39.16671027171641, ('Base2', 'Tr_second'): 36.08117195181455, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 19.43020181074829, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,422 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 36.08117195181455
-2018-12-10 16:32:45,425 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:45,428 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,431 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,434 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,435 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.16671027171641, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 39.16671027171641, ('Base2', 'Tr_second'): 36.08117195181455, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 19.43020181074829, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,435 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 36.08117195181455
-2018-12-10 16:32:45,438 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:45,441 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,444 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,445 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
-2018-12-10 16:32:45,445 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
-2018-12-10 16:32:45,453 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tsupply
-2018-12-10 16:32:45,453 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE MDOTsupply
-2018-12-10 16:32:45,457 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tsupply': 39.166737059372906, 'MDOTsupply': 0.0499949}
-2018-12-10 16:32:45,458 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
-2018-12-10 16:32:45,460 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,460 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.166737059372906, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 39.16671027171641, ('Base2', 'Tr_second'): 36.08117195181455, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 19.43020181074829, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,461 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 36.08117195181455
-2018-12-10 16:32:45,464 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:45,467 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,469 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,473 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,473 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.166737059372906, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 39.166737059372906, ('Base2', 'Tr_second'): 36.08117195181455, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 19.43020181074829, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,473 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 36.08117195181455
-2018-12-10 16:32:45,479 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:45,482 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,484 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,503 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,503 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.166737059372906, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 39.166737059372906, ('Base2', 'Tr_second'): 35.55653847209693, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 19.21026007136727, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,503 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 35.55653847209693
-2018-12-10 16:32:45,507 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:45,511 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,513 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,517 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,517 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.166737059372906, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 39.166737059372906, ('Base2', 'Tr_second'): 35.55653847209693, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 19.21026007136727, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,517 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 35.55653847209693
-2018-12-10 16:32:45,521 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:45,524 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,528 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,529 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
-2018-12-10 16:32:45,529 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
-2018-12-10 16:32:45,540 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tsupply
-2018-12-10 16:32:45,540 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE MDOTsupply
-2018-12-10 16:32:45,545 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tsupply': 39.166732691769774, 'MDOTsupply': 0.0499949}
-2018-12-10 16:32:45,545 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
-2018-12-10 16:32:45,547 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,547 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.166732691769774, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 39.166737059372906, ('Base2', 'Tr_second'): 35.55653847209693, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 19.21026007136727, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,548 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 35.55653847209693
-2018-12-10 16:32:45,551 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:45,554 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,556 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,560 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,561 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.166732691769774, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 39.166732691769774, ('Base2', 'Tr_second'): 35.55653847209693, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 19.21026007136727, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,561 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 35.55653847209693
-2018-12-10 16:32:45,564 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:45,568 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,571 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,588 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,589 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.166732691769774, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 39.166732691769774, ('Base2', 'Tr_second'): 35.18936541705024, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 19.09972130066374, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,589 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 35.18936541705024
-2018-12-10 16:32:45,592 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:45,596 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,598 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,602 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,602 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.166732691769774, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 39.166732691769774, ('Base2', 'Tr_second'): 35.18936541705024, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 19.09972130066374, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,602 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 35.18936541705024
-2018-12-10 16:32:45,607 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:45,610 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,612 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,614 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
-2018-12-10 16:32:45,614 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
-2018-12-10 16:32:45,623 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tsupply
-2018-12-10 16:32:45,623 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE MDOTsupply
-2018-12-10 16:32:45,628 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tsupply': 39.16673340389062, 'MDOTsupply': 0.0499949}
-2018-12-10 16:32:45,628 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
-2018-12-10 16:32:45,630 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,630 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.16673340389062, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 39.166732691769774, ('Base2', 'Tr_second'): 35.18936541705024, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 19.09972130066374, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,631 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 35.18936541705024
-2018-12-10 16:32:45,634 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:45,636 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,638 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,641 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,642 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.16673340389062, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 39.16673340389062, ('Base2', 'Tr_second'): 35.18936541705024, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 19.09972130066374, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,642 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 35.18936541705024
-2018-12-10 16:32:45,645 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:45,647 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,650 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,666 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,666 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.16673340389062, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 39.16673340389062, ('Base2', 'Tr_second'): 34.9387949009473, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 19.04288388515082, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,666 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 34.9387949009473
-2018-12-10 16:32:45,671 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:45,674 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,676 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,680 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,680 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.16673340389062, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 39.16673340389062, ('Base2', 'Tr_second'): 34.9387949009473, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 19.04288388515082, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,680 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 34.9387949009473
-2018-12-10 16:32:45,685 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:45,687 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,690 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,691 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
-2018-12-10 16:32:45,691 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
-2018-12-10 16:32:45,701 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tsupply
-2018-12-10 16:32:45,701 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE MDOTsupply
-2018-12-10 16:32:45,705 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tsupply': 39.16673328779014, 'MDOTsupply': 0.0499949}
-2018-12-10 16:32:45,706 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
-2018-12-10 16:32:45,707 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,707 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.16673328779014, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 39.16673340389062, ('Base2', 'Tr_second'): 34.9387949009473, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 19.04288388515082, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,708 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 34.9387949009473
-2018-12-10 16:32:45,712 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:45,715 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,718 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,721 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,722 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.16673328779014, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 39.16673328779014, ('Base2', 'Tr_second'): 34.9387949009473, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 19.04288388515082, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,722 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 34.9387949009473
-2018-12-10 16:32:45,725 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:45,728 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,731 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,747 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,747 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.16673328779014, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 39.16673328779014, ('Base2', 'Tr_second'): 34.77505914092665, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 19.00961426080933, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,748 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 34.77505914092665
-2018-12-10 16:32:45,753 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:45,755 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,757 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,761 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,762 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.16673328779014, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 39.16673328779014, ('Base2', 'Tr_second'): 34.77505914092665, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 19.00961426080933, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,762 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 34.77505914092665
-2018-12-10 16:32:45,766 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:45,769 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,772 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,774 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
-2018-12-10 16:32:45,774 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
-2018-12-10 16:32:45,785 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tsupply
-2018-12-10 16:32:45,785 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE MDOTsupply
-2018-12-10 16:32:45,789 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tsupply': 39.166733306698504, 'MDOTsupply': 0.0499949}
-2018-12-10 16:32:45,789 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
-2018-12-10 16:32:45,791 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,792 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.166733306698504, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 39.16673328779014, ('Base2', 'Tr_second'): 34.77505914092665, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 19.00961426080933, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,792 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 34.77505914092665
-2018-12-10 16:32:45,797 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:45,799 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,802 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,805 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,805 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.166733306698504, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 39.166733306698504, ('Base2', 'Tr_second'): 34.77505914092665, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 19.00961426080933, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,805 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 34.77505914092665
-2018-12-10 16:32:45,808 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:45,811 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,814 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,830 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,830 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.166733306698504, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 39.166733306698504, ('Base2', 'Tr_second'): 34.67087058562411, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 18.98405699099971, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,830 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 34.67087058562411
-2018-12-10 16:32:45,835 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:45,838 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,840 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,845 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,845 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.166733306698504, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 39.166733306698504, ('Base2', 'Tr_second'): 34.67087058562411, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 18.98405699099971, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,845 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 34.67087058562411
-2018-12-10 16:32:45,849 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:45,853 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,856 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,857 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
-2018-12-10 16:32:45,857 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
-2018-12-10 16:32:45,867 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tsupply
-2018-12-10 16:32:45,867 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE MDOTsupply
-2018-12-10 16:32:45,871 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tsupply': 39.166733303621456, 'MDOTsupply': 0.0499949}
-2018-12-10 16:32:45,872 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
-2018-12-10 16:32:45,873 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,874 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.166733303621456, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 39.166733306698504, ('Base2', 'Tr_second'): 34.67087058562411, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 18.98405699099971, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,874 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 34.67087058562411
-2018-12-10 16:32:45,879 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:45,882 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,884 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,887 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,888 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.166733303621456, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 39.166733303621456, ('Base2', 'Tr_second'): 34.67087058562411, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 18.98405699099971, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,888 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 34.67087058562411
-2018-12-10 16:32:45,894 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:45,896 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,899 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,917 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
-2018-12-10 16:32:45,917 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tsupply'): 39.166733303621456, ('Base0', 'MDOTsupply'): 0.0499949, ('Base1', 'TS'): 39.166733303621456, ('Base2', 'Tr_second'): 34.60530462192479, ('Base2', 'mdot'): 0.0499949, ('Base2', 'Tindoor'): 18.95635435372257, ('Base3', 'COGwflag'): 1}
-2018-12-10 16:32:45,917 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Treturn to 34.60530462192479
-2018-12-10 16:32:45,920 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdot_return to 0.0499949
-2018-12-10 16:32:45,923 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COGw_Flag to 1
-2018-12-10 16:32:45,926 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
-2018-12-10 16:32:45,930 :: DEBUG :: ZEROBNL -> node.py :: exit :: EXIT
+2018-12-12 08:40:48,026 :: DEBUG :: ZEROBNL -> node.py :: __init__ :: LOAD CONFIG NODE
+2018-12-12 08:40:48,027 :: DEBUG :: ZEROBNL -> node.py :: __init__ :: CONNECT REDIS
+2018-12-12 08:40:48,031 :: DEBUG :: ZEROBNL -> node.py :: __init__ :: CREATE SUB/SEND
+2018-12-12 08:40:48,031 :: DEBUG :: ZEROBNL -> node.py :: __init__ :: CONNECT TO SUB/SEND
+2018-12-12 08:40:48,031 :: DEBUG :: ZEROBNL -> node.py :: __init__ :: SUBSCRIBED TO GRP/ALL
+2018-12-12 08:40:48,031 :: DEBUG :: ZEROBNL -> node.py :: __init__ :: INIT DONE
+2018-12-12 08:40:48,031 :: DEBUG :: ZEROBNL -> node.py :: run :: INIT VALUES DONE
+2018-12-12 08:41:14,388 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:14,388 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {}
+2018-12-12 08:41:14,388 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:14,391 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-12 08:41:14,391 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-12 08:41:14,391 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:14,397 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:14,398 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:14,398 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:14,398 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tth': 20, 'demandFlag': 0}
+2018-12-12 08:41:14,398 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-12 08:41:14,399 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:14,399 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0}
+2018-12-12 08:41:14,399 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:14,417 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:14,417 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1}
+2018-12-12 08:41:14,417 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:14,553 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:14,553 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.019934353138878525}
+2018-12-12 08:41:14,553 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.019934353138878525
+2018-12-12 08:41:14,553 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:14,554 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:14,649 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:14,649 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.019934353138878525, ('Base3', 'QDH'): 1154.79917707783, ('Base3', 'Tindoor'): 20.34543329029867}
+2018-12-12 08:41:14,649 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.019934353138878525
+2018-12-12 08:41:14,649 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:14,650 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.34543329029867
+2018-12-12 08:41:14,650 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:14,652 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:14,660 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-12 08:41:14,660 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-12 08:41:14,660 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:14,661 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:14,663 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:14,663 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:14,663 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tth': 20, 'demandFlag': 0}
+2018-12-12 08:41:14,664 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-12 08:41:14,666 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:14,666 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.019934353138878525, ('Base3', 'QDH'): 1154.79917707783, ('Base3', 'Tindoor'): 20.34543329029867}
+2018-12-12 08:41:14,667 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.019934353138878525
+2018-12-12 08:41:14,667 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:14,668 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.34543329029867
+2018-12-12 08:41:14,668 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:14,671 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:14,676 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:14,677 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.019934353138878525, ('Base3', 'QDH'): 1154.79917707783, ('Base3', 'Tindoor'): 20.34543329029867}
+2018-12-12 08:41:14,677 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.019934353138878525
+2018-12-12 08:41:14,678 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:14,679 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.34543329029867
+2018-12-12 08:41:14,679 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:14,681 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:14,710 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:14,710 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.011514931968428064, ('Base3', 'QDH'): 1154.79917707783, ('Base3', 'Tindoor'): 20.34543329029867}
+2018-12-12 08:41:14,711 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.011514931968428064
+2018-12-12 08:41:14,711 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:14,712 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.34543329029867
+2018-12-12 08:41:14,712 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:14,713 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:14,734 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:14,735 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.011514931968428064, ('Base3', 'QDH'): 1070.470864860057, ('Base3', 'Tindoor'): 20.32074302313774}
+2018-12-12 08:41:14,735 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.011514931968428064
+2018-12-12 08:41:14,735 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:14,736 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.32074302313774
+2018-12-12 08:41:14,737 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:14,738 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:14,745 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-12 08:41:14,746 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-12 08:41:14,746 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:14,747 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:14,747 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:14,747 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:14,747 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tth': 20, 'demandFlag': 0}
+2018-12-12 08:41:14,748 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-12 08:41:14,748 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:14,748 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.011514931968428064, ('Base3', 'QDH'): 1070.470864860057, ('Base3', 'Tindoor'): 20.32074302313774}
+2018-12-12 08:41:14,748 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.011514931968428064
+2018-12-12 08:41:14,749 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:14,749 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.32074302313774
+2018-12-12 08:41:14,749 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:14,749 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:14,762 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:14,762 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.011514931968428064, ('Base3', 'QDH'): 1070.470864860057, ('Base3', 'Tindoor'): 20.32074302313774}
+2018-12-12 08:41:14,763 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.011514931968428064
+2018-12-12 08:41:14,763 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:14,765 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.32074302313774
+2018-12-12 08:41:14,766 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:14,767 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:14,790 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:14,790 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.010674177528293648, ('Base3', 'QDH'): 1070.470864860057, ('Base3', 'Tindoor'): 20.32074302313774}
+2018-12-12 08:41:14,790 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.010674177528293648
+2018-12-12 08:41:14,791 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:14,791 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.32074302313774
+2018-12-12 08:41:14,791 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:14,792 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:14,812 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:14,813 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.010674177528293648, ('Base3', 'QDH'): 1007.785084687353, ('Base3', 'Tindoor'): 20.30479569112124}
+2018-12-12 08:41:14,813 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.010674177528293648
+2018-12-12 08:41:14,813 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:14,814 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.30479569112124
+2018-12-12 08:41:14,814 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:14,815 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:14,824 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-12 08:41:14,824 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-12 08:41:14,824 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:14,825 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:14,829 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:14,829 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:14,829 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tth': 20, 'demandFlag': 0}
+2018-12-12 08:41:14,829 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-12 08:41:14,830 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:14,831 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.010674177528293648, ('Base3', 'QDH'): 1007.785084687353, ('Base3', 'Tindoor'): 20.30479569112124}
+2018-12-12 08:41:14,831 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.010674177528293648
+2018-12-12 08:41:14,831 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:14,831 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.30479569112124
+2018-12-12 08:41:14,832 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:14,832 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:14,851 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:14,851 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.010674177528293648, ('Base3', 'QDH'): 1007.785084687353, ('Base3', 'Tindoor'): 20.30479569112124}
+2018-12-12 08:41:14,851 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.010674177528293648
+2018-12-12 08:41:14,851 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:14,852 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.30479569112124
+2018-12-12 08:41:14,852 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:14,857 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:14,885 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:14,885 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.010050337040409127, ('Base3', 'QDH'): 1007.785084687353, ('Base3', 'Tindoor'): 20.30479569112124}
+2018-12-12 08:41:14,885 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.010050337040409127
+2018-12-12 08:41:14,885 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:14,886 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.30479569112124
+2018-12-12 08:41:14,886 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:14,887 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:14,907 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:14,908 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.010050337040409127, ('Base3', 'QDH'): 965.5934212042657, ('Base3', 'Tindoor'): 20.29524035226195}
+2018-12-12 08:41:14,908 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.010050337040409127
+2018-12-12 08:41:14,908 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:14,908 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.29524035226195
+2018-12-12 08:41:14,909 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:14,910 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:14,917 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-12 08:41:14,918 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-12 08:41:14,918 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:14,918 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:14,919 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:14,919 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:14,919 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tth': 20, 'demandFlag': 0}
+2018-12-12 08:41:14,919 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-12 08:41:14,921 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:14,921 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.010050337040409127, ('Base3', 'QDH'): 965.5934212042657, ('Base3', 'Tindoor'): 20.29524035226195}
+2018-12-12 08:41:14,921 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.010050337040409127
+2018-12-12 08:41:14,921 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:14,923 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.29524035226195
+2018-12-12 08:41:14,923 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:14,924 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:14,934 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:14,934 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.010050337040409127, ('Base3', 'QDH'): 965.5934212042657, ('Base3', 'Tindoor'): 20.29524035226195}
+2018-12-12 08:41:14,934 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.010050337040409127
+2018-12-12 08:41:14,934 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:14,935 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.29524035226195
+2018-12-12 08:41:14,935 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:14,936 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:14,965 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:14,965 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.00962921432202158, ('Base3', 'QDH'): 965.5934212042657, ('Base3', 'Tindoor'): 20.29524035226195}
+2018-12-12 08:41:14,966 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.00962921432202158
+2018-12-12 08:41:14,966 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:14,967 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.29524035226195
+2018-12-12 08:41:14,967 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:14,967 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:14,994 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:14,997 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.00962921432202158, ('Base3', 'QDH'): 937.5456487243838, ('Base3', 'Tindoor'): 20.28569481747127}
+2018-12-12 08:41:14,997 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.00962921432202158
+2018-12-12 08:41:14,998 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:14,998 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.28569481747127
+2018-12-12 08:41:14,999 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,000 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,003 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-12 08:41:15,003 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-12 08:41:15,003 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:15,004 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:15,005 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:15,005 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:15,005 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tth': 20, 'demandFlag': 0}
+2018-12-12 08:41:15,005 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-12 08:41:15,005 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,006 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.00962921432202158, ('Base3', 'QDH'): 937.5456487243838, ('Base3', 'Tindoor'): 20.28569481747127}
+2018-12-12 08:41:15,006 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.00962921432202158
+2018-12-12 08:41:15,006 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,007 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.28569481747127
+2018-12-12 08:41:15,007 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,009 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,024 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,025 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.00962921432202158, ('Base3', 'QDH'): 937.5456487243838, ('Base3', 'Tindoor'): 20.28569481747127}
+2018-12-12 08:41:15,025 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.00962921432202158
+2018-12-12 08:41:15,025 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,026 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.28569481747127
+2018-12-12 08:41:15,026 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,027 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,050 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,051 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.009349593245410383, ('Base3', 'QDH'): 937.5456487243838, ('Base3', 'Tindoor'): 20.28569481747127}
+2018-12-12 08:41:15,051 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.009349593245410383
+2018-12-12 08:41:15,051 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,052 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.28569481747127
+2018-12-12 08:41:15,052 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,054 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,073 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,074 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.009349593245410383, ('Base3', 'QDH'): 919.4685000054737, ('Base3', 'Tindoor'): 20.28074472581056}
+2018-12-12 08:41:15,074 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.009349593245410383
+2018-12-12 08:41:15,074 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,076 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.28074472581056
+2018-12-12 08:41:15,076 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,078 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,085 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-12 08:41:15,085 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-12 08:41:15,085 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:15,086 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:15,086 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:15,086 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:15,086 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tth': 20, 'demandFlag': 0}
+2018-12-12 08:41:15,087 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-12 08:41:15,089 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,091 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.009349593245410383, ('Base3', 'QDH'): 919.4685000054737, ('Base3', 'Tindoor'): 20.28074472581056}
+2018-12-12 08:41:15,092 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.009349593245410383
+2018-12-12 08:41:15,092 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,093 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.28074472581056
+2018-12-12 08:41:15,093 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,094 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,100 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,101 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.009349593245410383, ('Base3', 'QDH'): 919.4685000054737, ('Base3', 'Tindoor'): 20.28074472581056}
+2018-12-12 08:41:15,101 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.009349593245410383
+2018-12-12 08:41:15,101 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,102 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.28074472581056
+2018-12-12 08:41:15,102 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,103 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,126 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,127 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.009169304036428915, ('Base3', 'QDH'): 919.4685000054737, ('Base3', 'Tindoor'): 20.28074472581056}
+2018-12-12 08:41:15,127 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.009169304036428915
+2018-12-12 08:41:15,127 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,128 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.28074472581056
+2018-12-12 08:41:15,128 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,129 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,163 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,164 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.009169304036428915, ('Base3', 'QDH'): 913.5652882865211, ('Base3', 'Tindoor'): 20.2767514141321}
+2018-12-12 08:41:15,164 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.009169304036428915
+2018-12-12 08:41:15,164 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,165 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.2767514141321
+2018-12-12 08:41:15,165 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,167 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,174 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-12 08:41:15,174 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-12 08:41:15,174 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:15,175 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:15,175 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:15,175 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:15,175 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tth': 20, 'demandFlag': 0}
+2018-12-12 08:41:15,176 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-12 08:41:15,176 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,177 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.009169304036428915, ('Base3', 'QDH'): 913.5652882865211, ('Base3', 'Tindoor'): 20.2767514141321}
+2018-12-12 08:41:15,177 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.009169304036428915
+2018-12-12 08:41:15,177 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,178 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.2767514141321
+2018-12-12 08:41:15,178 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,178 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,190 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,190 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.009169304036428915, ('Base3', 'QDH'): 913.5652882865211, ('Base3', 'Tindoor'): 20.2767514141321}
+2018-12-12 08:41:15,190 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.009169304036428915
+2018-12-12 08:41:15,190 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,194 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.2767514141321
+2018-12-12 08:41:15,194 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,196 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,218 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,219 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.009110438066535706, ('Base3', 'QDH'): 913.5652882865211, ('Base3', 'Tindoor'): 20.2767514141321}
+2018-12-12 08:41:15,219 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.009110438066535706
+2018-12-12 08:41:15,219 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,220 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.2767514141321
+2018-12-12 08:41:15,220 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,221 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,240 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,241 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.009110438066535706, ('Base3', 'QDH'): 953.785361081958, ('Base3', 'Tindoor'): 20.28785051729228}
+2018-12-12 08:41:15,241 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.009110438066535706
+2018-12-12 08:41:15,241 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,242 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.28785051729228
+2018-12-12 08:41:15,243 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,244 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,249 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-12 08:41:15,249 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-12 08:41:15,249 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:15,250 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:15,250 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:15,250 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:15,250 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tth': 20, 'demandFlag': 0}
+2018-12-12 08:41:15,250 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-12 08:41:15,252 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,252 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.009110438066535706, ('Base3', 'QDH'): 953.785361081958, ('Base3', 'Tindoor'): 20.28785051729228}
+2018-12-12 08:41:15,252 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.009110438066535706
+2018-12-12 08:41:15,252 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,254 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.28785051729228
+2018-12-12 08:41:15,254 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,255 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,264 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,264 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.009110438066535706, ('Base3', 'QDH'): 953.785361081958, ('Base3', 'Tindoor'): 20.28785051729228}
+2018-12-12 08:41:15,264 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.009110438066535706
+2018-12-12 08:41:15,264 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,267 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.28785051729228
+2018-12-12 08:41:15,268 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,269 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,289 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,289 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.009511528070253175, ('Base3', 'QDH'): 953.785361081958, ('Base3', 'Tindoor'): 20.28785051729228}
+2018-12-12 08:41:15,289 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.009511528070253175
+2018-12-12 08:41:15,289 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,290 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.28785051729228
+2018-12-12 08:41:15,290 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,291 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,311 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,312 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.009511528070253175, ('Base3', 'QDH'): 1001.530066000505, ('Base3', 'Tindoor'): 20.30018012540348}
+2018-12-12 08:41:15,312 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.009511528070253175
+2018-12-12 08:41:15,312 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,312 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.30018012540348
+2018-12-12 08:41:15,313 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,313 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,320 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-12 08:41:15,321 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-12 08:41:15,321 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:15,321 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:15,322 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:15,322 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:15,322 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tth': 20, 'demandFlag': 0}
+2018-12-12 08:41:15,322 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-12 08:41:15,323 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,323 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.009511528070253175, ('Base3', 'QDH'): 1001.530066000505, ('Base3', 'Tindoor'): 20.30018012540348}
+2018-12-12 08:41:15,323 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.009511528070253175
+2018-12-12 08:41:15,323 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,324 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.30018012540348
+2018-12-12 08:41:15,324 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,325 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,340 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,340 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.009511528070253175, ('Base3', 'QDH'): 1001.530066000505, ('Base3', 'Tindoor'): 20.30018012540348}
+2018-12-12 08:41:15,340 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.009511528070253175
+2018-12-12 08:41:15,340 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,341 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.30018012540348
+2018-12-12 08:41:15,341 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,342 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,372 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,373 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.009987657435234845, ('Base3', 'QDH'): 1001.530066000505, ('Base3', 'Tindoor'): 20.30018012540348}
+2018-12-12 08:41:15,373 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.009987657435234845
+2018-12-12 08:41:15,373 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,374 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.30018012540348
+2018-12-12 08:41:15,374 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,376 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,394 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,395 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.009987657435234845, ('Base3', 'QDH'): 1020.7046825706, ('Base3', 'Tindoor'): 20.3065454079714}
+2018-12-12 08:41:15,395 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.009987657435234845
+2018-12-12 08:41:15,395 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,397 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.3065454079714
+2018-12-12 08:41:15,397 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,398 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,404 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-12 08:41:15,405 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-12 08:41:15,405 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:15,405 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:15,406 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:15,406 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:15,406 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tth': 20, 'demandFlag': 0}
+2018-12-12 08:41:15,406 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-12 08:41:15,413 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,414 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.009987657435234845, ('Base3', 'QDH'): 1020.7046825706, ('Base3', 'Tindoor'): 20.3065454079714}
+2018-12-12 08:41:15,414 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.009987657435234845
+2018-12-12 08:41:15,414 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,415 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.3065454079714
+2018-12-12 08:41:15,415 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,416 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,420 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,420 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.009987657435234845, ('Base3', 'QDH'): 1020.7046825706, ('Base3', 'Tindoor'): 20.3065454079714}
+2018-12-12 08:41:15,420 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.009987657435234845
+2018-12-12 08:41:15,420 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,421 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.3065454079714
+2018-12-12 08:41:15,421 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,425 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,447 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,447 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.010178874339604477, ('Base3', 'QDH'): 1020.7046825706, ('Base3', 'Tindoor'): 20.3065454079714}
+2018-12-12 08:41:15,448 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.010178874339604477
+2018-12-12 08:41:15,448 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,448 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.3065454079714
+2018-12-12 08:41:15,449 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,450 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,466 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,467 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.010178874339604477, ('Base3', 'QDH'): 929.4140537781735, ('Base3', 'Tindoor'): 20.28267714709914}
+2018-12-12 08:41:15,467 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.010178874339604477
+2018-12-12 08:41:15,467 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,467 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.28267714709914
+2018-12-12 08:41:15,468 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,469 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,475 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-12 08:41:15,475 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-12 08:41:15,475 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:15,476 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:15,477 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:15,477 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:15,477 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tth': 20, 'demandFlag': 0}
+2018-12-12 08:41:15,477 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-12 08:41:15,479 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,479 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.010178874339604477, ('Base3', 'QDH'): 929.4140537781735, ('Base3', 'Tindoor'): 20.28267714709914}
+2018-12-12 08:41:15,479 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.010178874339604477
+2018-12-12 08:41:15,479 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,481 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.28267714709914
+2018-12-12 08:41:15,482 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,483 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,489 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,492 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.010178874339604477, ('Base3', 'QDH'): 929.4140537781735, ('Base3', 'Tindoor'): 20.28267714709914}
+2018-12-12 08:41:15,492 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.010178874339604477
+2018-12-12 08:41:15,492 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,494 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.28267714709914
+2018-12-12 08:41:15,494 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,496 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,517 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,517 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.009268487769529736, ('Base3', 'QDH'): 929.4140537781735, ('Base3', 'Tindoor'): 20.28267714709914}
+2018-12-12 08:41:15,517 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.009268487769529736
+2018-12-12 08:41:15,517 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,518 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.28267714709914
+2018-12-12 08:41:15,518 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,519 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,539 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,540 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.009268487769529736, ('Base3', 'QDH'): 864.67735499046, ('Base3', 'Tindoor'): 20.25910423374785}
+2018-12-12 08:41:15,540 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.009268487769529736
+2018-12-12 08:41:15,540 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,541 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.25910423374785
+2018-12-12 08:41:15,541 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,542 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,552 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-12 08:41:15,552 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-12 08:41:15,552 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:15,553 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:15,554 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:15,555 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:15,556 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tth': 20, 'demandFlag': 0}
+2018-12-12 08:41:15,556 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-12 08:41:15,560 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,561 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.009268487769529736, ('Base3', 'QDH'): 864.67735499046, ('Base3', 'Tindoor'): 20.25910423374785}
+2018-12-12 08:41:15,561 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.009268487769529736
+2018-12-12 08:41:15,561 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,562 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.25910423374785
+2018-12-12 08:41:15,562 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,563 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,578 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,579 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.009268487769529736, ('Base3', 'QDH'): 864.67735499046, ('Base3', 'Tindoor'): 20.25910423374785}
+2018-12-12 08:41:15,581 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.009268487769529736
+2018-12-12 08:41:15,581 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,582 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.25910423374785
+2018-12-12 08:41:15,582 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,583 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,630 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,631 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.00862290757941992, ('Base3', 'QDH'): 864.67735499046, ('Base3', 'Tindoor'): 20.25910423374785}
+2018-12-12 08:41:15,631 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.00862290757941992
+2018-12-12 08:41:15,631 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,632 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.25910423374785
+2018-12-12 08:41:15,632 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,633 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,656 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,656 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.00862290757941992, ('Base3', 'QDH'): 834.3374413190234, ('Base3', 'Tindoor'): 20.2534338979532}
+2018-12-12 08:41:15,656 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.00862290757941992
+2018-12-12 08:41:15,656 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,657 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.2534338979532
+2018-12-12 08:41:15,658 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,659 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,666 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-12 08:41:15,666 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-12 08:41:15,666 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:15,666 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:15,667 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:15,667 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:15,667 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tth': 20, 'demandFlag': 0}
+2018-12-12 08:41:15,667 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-12 08:41:15,673 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,674 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.00862290757941992, ('Base3', 'QDH'): 834.3374413190234, ('Base3', 'Tindoor'): 20.2534338979532}
+2018-12-12 08:41:15,674 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.00862290757941992
+2018-12-12 08:41:15,674 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,675 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.2534338979532
+2018-12-12 08:41:15,675 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,676 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,684 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,684 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.00862290757941992, ('Base3', 'QDH'): 834.3374413190234, ('Base3', 'Tindoor'): 20.2534338979532}
+2018-12-12 08:41:15,684 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.00862290757941992
+2018-12-12 08:41:15,684 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,685 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.2534338979532
+2018-12-12 08:41:15,685 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,686 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,719 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,719 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.008320345855141546, ('Base3', 'QDH'): 834.3374413190234, ('Base3', 'Tindoor'): 20.2534338979532}
+2018-12-12 08:41:15,719 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.008320345855141546
+2018-12-12 08:41:15,720 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,723 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.2534338979532
+2018-12-12 08:41:15,723 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,725 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,745 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,745 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.008320345855141546, ('Base3', 'QDH'): 841.2967749389782, ('Base3', 'Tindoor'): 20.25396382973608}
+2018-12-12 08:41:15,745 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.008320345855141546
+2018-12-12 08:41:15,745 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,746 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.25396382973608
+2018-12-12 08:41:15,746 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,747 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,754 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-12 08:41:15,754 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-12 08:41:15,754 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:15,755 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:15,755 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:15,755 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:15,756 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tth': 20, 'demandFlag': 0}
+2018-12-12 08:41:15,756 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-12 08:41:15,757 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,758 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.008320345855141546, ('Base3', 'QDH'): 841.2967749389782, ('Base3', 'Tindoor'): 20.25396382973608}
+2018-12-12 08:41:15,759 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.008320345855141546
+2018-12-12 08:41:15,759 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,762 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.25396382973608
+2018-12-12 08:41:15,762 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,764 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,768 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,768 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.008320345855141546, ('Base3', 'QDH'): 841.2967749389782, ('Base3', 'Tindoor'): 20.25396382973608}
+2018-12-12 08:41:15,768 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.008320345855141546
+2018-12-12 08:41:15,768 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,769 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.25396382973608
+2018-12-12 08:41:15,769 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,770 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,797 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,797 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.008389747106671262, ('Base3', 'QDH'): 841.2967749389782, ('Base3', 'Tindoor'): 20.25396382973608}
+2018-12-12 08:41:15,798 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.008389747106671262
+2018-12-12 08:41:15,798 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,798 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.25396382973608
+2018-12-12 08:41:15,798 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,799 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,818 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,818 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.008389747106671262, ('Base3', 'QDH'): 1039.836157448557, ('Base3', 'Tindoor'): 20.29644265282545}
+2018-12-12 08:41:15,818 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.008389747106671262
+2018-12-12 08:41:15,818 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,818 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.29644265282545
+2018-12-12 08:41:15,819 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,820 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,830 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-12 08:41:15,830 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-12 08:41:15,830 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:15,830 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:15,831 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:15,831 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:15,831 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tth': 20, 'demandFlag': 0}
+2018-12-12 08:41:15,831 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-12 08:41:15,832 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,832 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.008389747106671262, ('Base3', 'QDH'): 1039.836157448557, ('Base3', 'Tindoor'): 20.29644265282545}
+2018-12-12 08:41:15,832 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.008389747106671262
+2018-12-12 08:41:15,832 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,833 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.29644265282545
+2018-12-12 08:41:15,833 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,834 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,846 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,851 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.008389747106671262, ('Base3', 'QDH'): 1039.836157448557, ('Base3', 'Tindoor'): 20.29644265282545}
+2018-12-12 08:41:15,851 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.008389747106671262
+2018-12-12 08:41:15,851 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,854 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.29644265282545
+2018-12-12 08:41:15,854 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,856 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,874 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,875 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.010369661043810628, ('Base3', 'QDH'): 1039.836157448557, ('Base3', 'Tindoor'): 20.29644265282545}
+2018-12-12 08:41:15,875 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.010369661043810628
+2018-12-12 08:41:15,875 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,876 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.29644265282545
+2018-12-12 08:41:15,876 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,877 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,897 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,898 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.010369661043810628, ('Base3', 'QDH'): 1177.260391042223, ('Base3', 'Tindoor'): 20.34471943044725}
+2018-12-12 08:41:15,898 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.010369661043810628
+2018-12-12 08:41:15,898 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,899 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.34471943044725
+2018-12-12 08:41:15,899 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,900 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,907 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-12 08:41:15,907 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-12 08:41:15,907 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:15,908 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:15,908 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:15,908 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:15,909 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tth': 20, 'demandFlag': 0}
+2018-12-12 08:41:15,909 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-12 08:41:15,910 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,911 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.010369661043810628, ('Base3', 'QDH'): 1177.260391042223, ('Base3', 'Tindoor'): 20.34471943044725}
+2018-12-12 08:41:15,911 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.010369661043810628
+2018-12-12 08:41:15,912 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,914 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.34471943044725
+2018-12-12 08:41:15,914 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,916 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,921 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,921 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.010369661043810628, ('Base3', 'QDH'): 1177.260391042223, ('Base3', 'Tindoor'): 20.34471943044725}
+2018-12-12 08:41:15,921 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.010369661043810628
+2018-12-12 08:41:15,921 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,922 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.34471943044725
+2018-12-12 08:41:15,922 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,923 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,951 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,952 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.01174011033177156, ('Base3', 'QDH'): 1177.260391042223, ('Base3', 'Tindoor'): 20.34471943044725}
+2018-12-12 08:41:15,952 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.01174011033177156
+2018-12-12 08:41:15,953 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,954 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.34471943044725
+2018-12-12 08:41:15,954 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,955 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,973 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,974 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.01174011033177156, ('Base3', 'QDH'): 1226.097943163851, ('Base3', 'Tindoor'): 20.36346548458718}
+2018-12-12 08:41:15,974 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.01174011033177156
+2018-12-12 08:41:15,974 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,975 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.36346548458718
+2018-12-12 08:41:15,976 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,976 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:15,985 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-12 08:41:15,985 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-12 08:41:15,986 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:15,986 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:15,987 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:15,987 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:15,987 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tth': 20, 'demandFlag': 0}
+2018-12-12 08:41:15,987 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-12 08:41:15,991 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:15,992 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.01174011033177156, ('Base3', 'QDH'): 1226.097943163851, ('Base3', 'Tindoor'): 20.36346548458718}
+2018-12-12 08:41:15,992 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.01174011033177156
+2018-12-12 08:41:15,993 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:15,993 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.36346548458718
+2018-12-12 08:41:15,994 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:15,995 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:16,001 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:16,001 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.01174011033177156, ('Base3', 'QDH'): 1226.097943163851, ('Base3', 'Tindoor'): 20.36346548458718}
+2018-12-12 08:41:16,002 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.01174011033177156
+2018-12-12 08:41:16,002 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:16,007 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.36346548458718
+2018-12-12 08:41:16,007 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:16,009 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:16,031 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:16,031 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.012227137887112015, ('Base3', 'QDH'): 1226.097943163851, ('Base3', 'Tindoor'): 20.36346548458718}
+2018-12-12 08:41:16,031 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.012227137887112015
+2018-12-12 08:41:16,031 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:16,032 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.36346548458718
+2018-12-12 08:41:16,033 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:16,034 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:16,050 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:16,050 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.012227137887112015, ('Base3', 'QDH'): 1249.043278028008, ('Base3', 'Tindoor'): 20.36590295320037}
+2018-12-12 08:41:16,050 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.012227137887112015
+2018-12-12 08:41:16,050 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:16,051 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.36590295320037
+2018-12-12 08:41:16,051 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:16,052 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:16,060 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-12 08:41:16,060 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-12 08:41:16,060 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:16,061 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:16,061 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:16,061 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:16,061 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tth': 20, 'demandFlag': 0}
+2018-12-12 08:41:16,061 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-12 08:41:16,062 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:16,063 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.012227137887112015, ('Base3', 'QDH'): 1249.043278028008, ('Base3', 'Tindoor'): 20.36590295320037}
+2018-12-12 08:41:16,063 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.012227137887112015
+2018-12-12 08:41:16,063 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:16,063 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.36590295320037
+2018-12-12 08:41:16,063 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:16,064 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:16,084 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:16,085 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.012227137887112015, ('Base3', 'QDH'): 1249.043278028008, ('Base3', 'Tindoor'): 20.36590295320037}
+2018-12-12 08:41:16,085 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.012227137887112015
+2018-12-12 08:41:16,085 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:16,086 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.36590295320037
+2018-12-12 08:41:16,086 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:16,087 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:16,112 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:16,112 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.012455957921279433, ('Base3', 'QDH'): 1249.043278028008, ('Base3', 'Tindoor'): 20.36590295320037}
+2018-12-12 08:41:16,112 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.012455957921279433
+2018-12-12 08:41:16,112 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:16,113 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.36590295320037
+2018-12-12 08:41:16,113 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:16,114 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:16,132 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:16,132 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.012455957921279433, ('Base3', 'QDH'): 1266.247811892271, ('Base3', 'Tindoor'): 20.37607275805511}
+2018-12-12 08:41:16,133 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.012455957921279433
+2018-12-12 08:41:16,133 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:16,134 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.37607275805511
+2018-12-12 08:41:16,134 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:16,135 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:16,140 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-12 08:41:16,141 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-12 08:41:16,141 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:16,141 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:16,142 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:16,142 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:16,142 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tth': 20, 'demandFlag': 0}
+2018-12-12 08:41:16,142 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-12 08:41:16,143 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:16,148 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.012455957921279433, ('Base3', 'QDH'): 1266.247811892271, ('Base3', 'Tindoor'): 20.37607275805511}
+2018-12-12 08:41:16,148 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.012455957921279433
+2018-12-12 08:41:16,148 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:16,150 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.37607275805511
+2018-12-12 08:41:16,150 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:16,151 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:16,155 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:16,156 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.012455957921279433, ('Base3', 'QDH'): 1266.247811892271, ('Base3', 'Tindoor'): 20.37607275805511}
+2018-12-12 08:41:16,156 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.012455957921279433
+2018-12-12 08:41:16,156 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:16,157 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.37607275805511
+2018-12-12 08:41:16,157 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:16,158 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:16,182 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:16,182 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.012627528397367678, ('Base3', 'QDH'): 1266.247811892271, ('Base3', 'Tindoor'): 20.37607275805511}
+2018-12-12 08:41:16,182 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.012627528397367678
+2018-12-12 08:41:16,183 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:16,183 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.37607275805511
+2018-12-12 08:41:16,184 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:16,184 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:16,201 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:16,201 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.012627528397367678, ('Base3', 'QDH'): 1265.57579963824, ('Base3', 'Tindoor'): 20.37535480024352}
+2018-12-12 08:41:16,201 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.012627528397367678
+2018-12-12 08:41:16,201 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:16,202 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.37535480024352
+2018-12-12 08:41:16,203 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:16,203 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:16,211 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-12 08:41:16,211 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-12 08:41:16,211 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:16,212 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:16,212 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:16,212 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:16,212 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tth': 20, 'demandFlag': 0}
+2018-12-12 08:41:16,212 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-12 08:41:16,213 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:16,213 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.012627528397367678, ('Base3', 'QDH'): 1265.57579963824, ('Base3', 'Tindoor'): 20.37535480024352}
+2018-12-12 08:41:16,213 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.012627528397367678
+2018-12-12 08:41:16,214 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:16,214 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.37535480024352
+2018-12-12 08:41:16,214 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:16,215 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:16,224 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:16,225 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.012627528397367678, ('Base3', 'QDH'): 1265.57579963824, ('Base3', 'Tindoor'): 20.37535480024352}
+2018-12-12 08:41:16,225 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.012627528397367678
+2018-12-12 08:41:16,225 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:16,226 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.37535480024352
+2018-12-12 08:41:16,227 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:16,228 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:16,250 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:16,251 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.012620826823040875, ('Base3', 'QDH'): 1265.57579963824, ('Base3', 'Tindoor'): 20.37535480024352}
+2018-12-12 08:41:16,251 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.012620826823040875
+2018-12-12 08:41:16,251 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:16,252 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.37535480024352
+2018-12-12 08:41:16,253 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:16,254 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:16,270 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:16,270 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.012620826823040875, ('Base3', 'QDH'): 1264.071790436385, ('Base3', 'Tindoor'): 20.37427822756668}
+2018-12-12 08:41:16,270 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.012620826823040875
+2018-12-12 08:41:16,270 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:16,271 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.37427822756668
+2018-12-12 08:41:16,272 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:16,273 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:16,278 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-12 08:41:16,278 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-12 08:41:16,278 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:16,279 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:16,279 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:16,280 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:16,280 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tth': 20, 'demandFlag': 0}
+2018-12-12 08:41:16,280 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-12 08:41:16,281 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:16,282 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.012620826823040875, ('Base3', 'QDH'): 1264.071790436385, ('Base3', 'Tindoor'): 20.37427822756668}
+2018-12-12 08:41:16,283 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.012620826823040875
+2018-12-12 08:41:16,283 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:16,287 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.37427822756668
+2018-12-12 08:41:16,288 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:16,289 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:16,292 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:16,293 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.012620826823040875, ('Base3', 'QDH'): 1264.071790436385, ('Base3', 'Tindoor'): 20.37427822756668}
+2018-12-12 08:41:16,293 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.012620826823040875
+2018-12-12 08:41:16,293 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:16,295 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.37427822756668
+2018-12-12 08:41:16,295 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:16,296 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:16,321 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:16,322 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.012605828243203712, ('Base3', 'QDH'): 1264.071790436385, ('Base3', 'Tindoor'): 20.37427822756668}
+2018-12-12 08:41:16,322 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.012605828243203712
+2018-12-12 08:41:16,322 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:16,322 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.37427822756668
+2018-12-12 08:41:16,323 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:16,324 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:16,342 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:16,342 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.012605828243203712, ('Base3', 'QDH'): 1261.512151531688, ('Base3', 'Tindoor'): 20.3754098164394}
+2018-12-12 08:41:16,342 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.012605828243203712
+2018-12-12 08:41:16,342 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:16,343 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.3754098164394
+2018-12-12 08:41:16,343 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:16,344 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:16,352 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-12 08:41:16,352 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-12 08:41:16,352 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:16,353 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:16,354 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:16,354 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:16,354 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tth': 20, 'demandFlag': 0}
+2018-12-12 08:41:16,354 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-12 08:41:16,359 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:16,359 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.012605828243203712, ('Base3', 'QDH'): 1261.512151531688, ('Base3', 'Tindoor'): 20.3754098164394}
+2018-12-12 08:41:16,359 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.012605828243203712
+2018-12-12 08:41:16,359 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:16,363 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.3754098164394
+2018-12-12 08:41:16,363 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:16,364 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:16,367 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:16,368 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.012605828243203712, ('Base3', 'QDH'): 1261.512151531688, ('Base3', 'Tindoor'): 20.3754098164394}
+2018-12-12 08:41:16,368 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.012605828243203712
+2018-12-12 08:41:16,369 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:16,369 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.3754098164394
+2018-12-12 08:41:16,370 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:16,370 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:16,402 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:16,403 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.012580302502786243, ('Base3', 'QDH'): 1261.512151531688, ('Base3', 'Tindoor'): 20.3754098164394}
+2018-12-12 08:41:16,403 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.012580302502786243
+2018-12-12 08:41:16,403 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:16,404 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.3754098164394
+2018-12-12 08:41:16,404 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:16,405 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:16,425 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:16,425 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.012580302502786243, ('Base3', 'QDH'): 1261.757558918539, ('Base3', 'Tindoor'): 20.37671977713849}
+2018-12-12 08:41:16,425 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.012580302502786243
+2018-12-12 08:41:16,425 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:16,426 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.37671977713849
+2018-12-12 08:41:16,427 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:16,427 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:16,435 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-12 08:41:16,435 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-12 08:41:16,436 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:16,436 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:16,437 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tth
+2018-12-12 08:41:16,437 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE demandFlag
+2018-12-12 08:41:16,437 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'Tth': 20, 'demandFlag': 0}
+2018-12-12 08:41:16,437 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-12 08:41:16,439 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:16,441 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.012580302502786243, ('Base3', 'QDH'): 1261.757558918539, ('Base3', 'Tindoor'): 20.37671977713849}
+2018-12-12 08:41:16,441 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.012580302502786243
+2018-12-12 08:41:16,441 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:16,445 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.37671977713849
+2018-12-12 08:41:16,445 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:16,447 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:16,451 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:16,452 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.012580302502786243, ('Base3', 'QDH'): 1261.757558918539, ('Base3', 'Tindoor'): 20.37671977713849}
+2018-12-12 08:41:16,452 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.012580302502786243
+2018-12-12 08:41:16,452 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:16,453 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.37671977713849
+2018-12-12 08:41:16,453 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:16,454 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:16,480 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-12 08:41:16,481 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base0', 'Tth'): 20, ('Base0', 'demandFlag'): 0, ('Base1', 'COGwflag'): 1, ('Base2', 'Tsupply'): 60.0, ('Base2', 'MDOTsupply'): 0.012582749803158409, ('Base3', 'QDH'): 1261.757558918539, ('Base3', 'Tindoor'): 20.37671977713849}
+2018-12-12 08:41:16,481 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE mdotTOT to 0.012582749803158409
+2018-12-12 08:41:16,481 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE mdotTOT
+2018-12-12 08:41:16,482 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE Tindoor to 20.37671977713849
+2018-12-12 08:41:16,484 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE Tindoor
+2018-12-12 08:41:16,488 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-12 08:41:16,501 :: DEBUG :: ZEROBNL -> node.py :: exit :: EXIT

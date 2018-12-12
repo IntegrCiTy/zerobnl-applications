@@ -1,4 +1,4 @@
-Program Version,EnergyPlus, Version 8.9.0-40101eaafd, YMD=2018.12.10 15:43
+Program Version,EnergyPlus, Version 8.9.0-40101eaafd, YMD=2018.12.11 12:40
 ! This file shows details about the branches, nodes, and other
 ! elements of the flow connections.
 ! This file is intended for use in "debugging" potential problems
@@ -158,7 +158,7 @@ Program Version,EnergyPlus, Version 8.9.0-40101eaafd, YMD=2018.12.10 15:43
 ! <#Non-Parent Node Connections>,<Number of Non-Parent Node Connections>
  #Non-Parent Node Connections,23
 ! <Non-Parent Node Connection>,<Node Name>,<Node ObjectType>,<Node ObjectName>,<Node ConnectionType>,<Node FluidStream>
- Non-Parent Node Connection,SUPPLY OUTLET PIPE OUTLET NODE,SETPOINTMANAGER:SCHEDULED,MAIN LOOP SETPOINT,Setpoint,1
+ Non-Parent Node Connection,SUPPLY OUTLET PIPE OUTLET NODE,SETPOINTMANAGER:SCHEDULED:DUALSETPOINT,DUALPLANT,Setpoint,1
  Non-Parent Node Connection,SUPPLY OUTLET PIPE INLET NODE,PIPE:ADIABATIC,SUPPLY OUTLET PIPE,Inlet,1
  Non-Parent Node Connection,SUPPLY OUTLET PIPE OUTLET NODE,PIPE:ADIABATIC,SUPPLY OUTLET PIPE,Outlet,1
  Non-Parent Node Connection,DEMAND INLET PIPE INLET NODE,PIPE:ADIABATIC,DEMAND INLET PIPE,Inlet,1
