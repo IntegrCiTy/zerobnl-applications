@@ -10,8 +10,10 @@ class CDem(Node):
         super().__init__() # Keep this line, it triggers the parent class __init__ method.
 
         # This is where you define the attribute of your model, this one is pretty basic.
-        self.CDEM_TR = 40.
+        self.CDEM_TR = 30.
         self.CDEM_mdotR = 0.04	
+        self.Ts_second = 55. 
+        self.CDEM_cmf = 1.
 
     def set_attribute(self, attr, value):
         """This method is called to set an attribute of the model to a given value, you need to adapt it to your model."""
@@ -27,10 +29,11 @@ class CDem(Node):
         """This method is called to make a step, you need to adapt it to your model."""
         super().step(value)  # Keep this line, it triggers the parent class method.
         
-        self.CDEM_TR = 40.
-		self.CDEM_mdotR = 0.04		
+        self.CDEM_TR = self.Ts_second - 30.
+        self.CDEM_mdotR = 0.04		
+        self.CDEM_cmf = 1.
 
 
 if __name__ == "__main__":
-    node = MyNode()
+    node = CDem()
     node.run()

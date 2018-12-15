@@ -5,7 +5,7 @@ from zerobnl.kernel import Node
 import numpy as np
 
 
-class ctrl(Node): 
+class Mixer(Node): 
     def __init__(self):
         super().__init__() # Keep this line, it triggers the parent class __init__ method.
 
@@ -32,5 +32,5 @@ class ctrl(Node):
 		     
 		
 if __name__ == "__main__":
-    node = MyNode()
+    node = Mixer()
     node.run()

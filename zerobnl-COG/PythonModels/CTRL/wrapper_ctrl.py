@@ -5,19 +5,22 @@ from zerobnl.kernel import Node
 import numpy as np
 
 
-class ctrl(Node): 
+class Ctrl(Node): 
     def __init__(self):
         super().__init__() # Keep this line, it triggers the parent class __init__ method.
 
         # This is where you define the attribute of your model, this one is pretty basic.
         self.PRflag = -1
 
-		self.priority = np.empty([1])
+        self.priority = np.empty([1])
 		
-		self.COGflag = -1
-		self.CAPBflag = -1
+        self.COGwflag = -1
 		
-		self.demandOK = 1
+        self.CAPBflag = -1
+		
+        self.demandOK = 1
+		
+        self.COG_plant = {'Name':'COGplant','Flag': self.COGwflag}
 
     def set_attribute(self, attr, value):
         """This method is called to set an attribute of the model to a given value, you need to adapt it to your model."""
@@ -35,28 +38,30 @@ class ctrl(Node):
         
         if self.PRflag < 0: # set: 1; not set: -1
 
-			self.priority = np.empty([1])
-			COG_plant = {'Name':'COGplant','Flag': self.COGflag}
+            self.priority = np.empty([1])
+			
 			# You are going to have a function here or maybe a separated model?
 			# The priority will be set based on operational costs of the different options.
 			# There will be more than one vector based on the time of the day, thus depending on
 			# weather conditions , level of the demand and costs.
-			self.priority = [COG_plant]
-			self.PRflag = 1
+            self.priority = [self.COG_plant]
+            self.PRflag = 1
 			
-			print('Priority is set')
+            print('Priority is set')
 			
-			for plant in self.priority:
+            for plant in self.priority:
 			
-				plant['Flag'] = 1 	
+                plant['Flag'] = 1 	
+                if plant['Name'] == "COGplant":
+                   self.COGwflag = plant['Flag']
 			
-            print('Plants are activated')
+                print('Plants are activated')
 			
-		if self.demandOK < 0: # satisfied: 1; not satisfied: -1 OBS!! This is based on the indoor temperature		
+            if self.demandOK < 0: # satisfied: 1; not satisfied: -1 OBS!! This is based on the indoor temperature		
 		
-            self.PRflag = -1
+                self.PRflag = -1
 			
-            print('The capacity over the building is over')
+                print('The capacity over the building is over')
 			
 		    ##
 			#Check if your can use the CAPB: if demand is -1 then you need the HOB to intervene
@@ -82,5 +87,5 @@ class ctrl(Node):
 		     
 		
 if __name__ == "__main__":
-    node = MyNode()
+    node = Ctrl()
     node.run()
