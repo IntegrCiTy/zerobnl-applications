@@ -1,0 +1,78 @@
+import json
+
+from zerobnl.kernel import Node
+
+import numpy as np
+
+
+class Lctrl(Node): 
+    def __init__(self):
+        super().__init__() # Keep this line, it triggers the parent class __init__ method.
+
+        # This is where you define the attribute of your model, this one is pretty basic.
+        #Inputs (set)		
+        self.TindoorIN = 20.
+        self.mdotTOT = 507.        
+        self.TES_socIN = 1
+        #Outputs (get)
+        self.demandFlag = 0 
+        self.Tth = 20.
+        self.TsetP = 75. # Fake for the moment. There should be a function that calcuates it based on weather.
+        #Internal variables
+        self.TS_bl = 75.
+        self.mdot_bl = 507.
+        self.TindoorMIN = 19.
+        self.TindoorMAX = 22.
+               
+
+    def set_attribute(self, attr, value):
+        """This method is called to set an attribute of the model to a given value, you need to adapt it to your model."""
+        super().set_attribute(attr, value)  # Keep this line, it triggers the parent class method.
+        setattr(self, attr, value)
+
+    def get_attribute(self, attr):
+        """This method is called to get the value of an attribute, you need to adapt it to your model."""
+        super().get_attribute(attr)  # Keep this line, it triggers the parent class method.
+        return getattr(self, attr)
+
+    def step(self, value):
+        """This method is called to make a step, you need to adapt it to your model."""
+        super().step(value)  # Keep this line, it triggers the parent class method.
+        
+        self.TsetP = 75. #self.TsetP = f(self.Toutdoor)
+        self.demandFlag = 0
+		
+        if  self.TsetP > self.TS_bl: # Request for a Tsupply higher than the BL
+            if self.TindoorIN >= self.TindoorMIN: # First check the possibility to use the capacity in the buildings
+               self.Tth = self.Tth -1 
+               self.demandFlag = 1 #--> Tth
+            else:
+               self.demandFlag = -2 #--> HOBS
+				
+        if  self.mdotTOT > self.mdot_bl:  # Request for a Mdot higher than the BL
+            if self.TindoorIN >= self.TindoorMIN: # First check the possibility to use the capacity in the buildings
+               self.Tth = self.Tth -1 
+               self.demandFlag = 1 #--> Tth
+            elif self.TES_socIN > 0:
+               self.demandFlag = -1 #--> TES discharge
+            else:
+               self.demandFlag = -2 #--> HOBS
+			   
+        else:
+            self.Tth = 22. # Since there is surplus, fill in the capacity in the buildings
+            if self.TES_socIN < 0:
+               self.demandFlag = -3 #--> TES charge
+            else:
+               print("Heat is being wasted")
+				
+		
+		#self.Tindoor --> self.Tth
+		#demandFlag = 1 --> Tth
+		#demandFlag = 0 --> bl
+		#demandFlag = -1 --> TES
+		#demandFlag = -2 --> HOBS
+		
+		
+if __name__ == "__main__":
+    node = Lctrl()
+    node.run()

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This is file 'modelDescription.xml' for input 'Residential_DH.idf'. -->
+<fmiModelDescription  fmiVersion="1.0"
+  modelName="Residential_DH.idf"
+  modelIdentifier="Residential_DH"
+  guid="f919fa420d94fbbfe71e0170d22a22d2"
+  description="Automatically generated from EnergyPlus input file Residential_DH.idf"
+  generationTool="idf-to-fmu-export-prep-win.exe"
+  generationDateAndTime="2018-12-14T09:29:11Z"
+  variableNamingConvention="flat"
+  numberOfContinuousStates="0"
+  numberOfEventIndicators="0">
+  <!-- Note guid is an md5 checksum of the IDF file. -->
+  <!-- Exposed model variables. -->
+  <ModelVariables>
+    <!-- Note valueReferences are (1, 2, 3...) for causality="input" (to E+). -->
+    <!-- Note valueReferences are (100001, 100002, 100003...) for "output" (from E+). -->
+    <!-- Note the order of valueReferences should match the order of elements in file 'variables.cfg'. -->
+    <ScalarVariable  name="Tthermostat"  valueReference="1"
+      variability="continuous"  causality="input"
+      description="IDF line 20">
+      <Real  start="20"/>
+    </ScalarVariable>
+    <ScalarVariable  name="QDH"  valueReference="100001"
+      variability="continuous"  causality="output"
+      description="IDF line 10">
+      <Real/>
+    </ScalarVariable>
+    <ScalarVariable  name="Tindoor"  valueReference="100002"
+      variability="continuous"  causality="output"
+      description="IDF line 15">
+      <Real/>
+    </ScalarVariable>
+  </ModelVariables>
+  <!-- Implementation details for co-simulation. -->
+  <Implementation>
+    <!-- EnergyPlus provided as tool (as opposed to source code or DLL). -->
+    <CoSimulation_Tool>
+      <Capabilities
+        canHandleVariableCommunicationStepSize="false"
+        canHandleEvents="false"
+        canRejectSteps="false"
+        canInterpolateInputs="false"
+        maxOutputDerivativeOrder="0"
+        canRunAsynchronuously="false"
+        canSignalEvents="false"
+        canBeInstantiatedOnlyOncePerProcess="false"
+        canNotUseMemoryManagementFunctions="true"/>
+      <Model
+        entryPoint="fmu://resources/Residential_DH.idf"
+        manualStart="false"
+        type="text/plain">
+        <File  file="fmu://resources/variables.cfg"/>
+        <File  file="fmu://resources/SWE_Stockholm.Arlanda.024600_IWEC.epw"/>
+      </Model>
+    </CoSimulation_Tool>
+  </Implementation>
+</fmiModelDescription>

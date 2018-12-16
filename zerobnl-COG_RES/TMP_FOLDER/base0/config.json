@@ -1,1 +1,0 @@
-{"NAME": "Base0", "GROUP": "GRP0", "LOCAL": false, "INPUT_MAP": "{('Base2', 'MDOTsupply'): 'mdotTOT', ('Base3', 'Tindoor'): 'Tindoor'}", "OUTPUTS": ["Tth", "demandFlag"], "INIT_VALUES": {}, "PARAMETERS": {}, "START": "2000-01-01 00:00:00", "TIME_UNIT": "seconds"}

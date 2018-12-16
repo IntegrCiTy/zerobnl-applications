@@ -1,1 +1,0 @@
-{"NAME": "Base2", "GROUP": "GRP2", "LOCAL": true, "INPUT_MAP": "{('Base1', 'COGwflag'): 'COGw_Flag', ('Base3', 'QDH'): 'QDH'}", "OUTPUTS": ["Tsupply", "MDOTsupply"], "INIT_VALUES": {"QDH": 2000, "COGw_Flag": 1}, "PARAMETERS": {}, "START": "2000-01-01 00:00:00", "TIME_UNIT": "seconds"}

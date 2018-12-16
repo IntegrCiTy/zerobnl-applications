@@ -1,6 +1,0 @@
-xlrd
-pandas
-scipy
-pvlib
-iapws
-pywinauto

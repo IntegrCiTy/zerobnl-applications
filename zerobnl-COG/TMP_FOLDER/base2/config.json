@@ -1,1 +1,0 @@
-{"NAME": "Base2", "GROUP": "GRP2", "LOCAL": false, "INPUT_MAP": "{('Base1', 'TS'): 'Ts_second'}", "OUTPUTS": ["CDEM_TR", "CDEM_mdotR", "CDEM_cmf"], "INIT_VALUES": {}, "PARAMETERS": {}, "START": "2000-01-01 00:00:00", "TIME_UNIT": "seconds"}

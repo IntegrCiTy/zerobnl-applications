@@ -1,0 +1,970 @@
+2018-12-14 10:50:12,178 :: DEBUG :: ZEROBNL -> node.py :: __init__ :: LOAD CONFIG NODE
+2018-12-14 10:50:12,179 :: DEBUG :: ZEROBNL -> node.py :: __init__ :: CONNECT REDIS
+2018-12-14 10:50:12,211 :: DEBUG :: ZEROBNL -> node.py :: __init__ :: CREATE SUB/SEND
+2018-12-14 10:50:12,212 :: DEBUG :: ZEROBNL -> node.py :: __init__ :: CONNECT TO SUB/SEND
+2018-12-14 10:50:12,212 :: DEBUG :: ZEROBNL -> node.py :: __init__ :: SUBSCRIBED TO GRP/ALL
+2018-12-14 10:50:12,212 :: DEBUG :: ZEROBNL -> node.py :: __init__ :: INIT DONE
+2018-12-14 10:50:15,799 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 2000
+2018-12-14 10:50:15,799 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:15,802 :: DEBUG :: ZEROBNL -> node.py :: run :: INIT VALUES DONE
+2018-12-14 10:50:15,806 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:15,806 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {}
+2018-12-14 10:50:15,806 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:15,830 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:15,830 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 0.0, ('Base3', 'Tindoor'): 17.48736065060123}
+2018-12-14 10:50:15,830 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 0.0
+2018-12-14 10:50:15,830 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_QDH
+2018-12-14 10:50:15,837 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:15,839 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-14 10:50:15,840 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-14 10:50:15,954 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_Tout
+2018-12-14 10:50:15,954 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtot
+2018-12-14 10:50:15,954 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtoTES
+2018-12-14 10:50:15,954 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:15,954 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TTESin
+2018-12-14 10:50:15,958 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtot
+2018-12-14 10:50:15,965 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:15,971 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'COG_Tout': 75.0, 'COG_MDOTtot': 0.0, 'COG_MDOTtoTES': 507.0000000000001, 'COG_MDOTfromTES': 0.0, 'COG_TTESin': 75.0}
+2018-12-14 10:50:15,972 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-14 10:50:15,982 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:15,983 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 0.0, ('Base3', 'Tindoor'): 17.48736065060123, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 0.0, ('Base2', 'COG_MDOTtoTES'): 507.0000000000001, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0}
+2018-12-14 10:50:15,983 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 0.0
+2018-12-14 10:50:15,983 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_QDH
+2018-12-14 10:50:15,986 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:15,994 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:15,994 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 0.0, ('Base3', 'Tindoor'): 17.48736065060123, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 0.0, ('Base2', 'COG_MDOTtoTES'): 507.0000000000001, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0}
+2018-12-14 10:50:15,995 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 0.0
+2018-12-14 10:50:15,995 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_QDH
+2018-12-14 10:50:15,999 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:16,007 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:16,008 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 0.0, ('Base3', 'Tindoor'): 17.48736065060123, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 0.0, ('Base2', 'COG_MDOTtoTES'): 507.0000000000001, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0}
+2018-12-14 10:50:16,008 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 0.0
+2018-12-14 10:50:16,009 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_QDH
+2018-12-14 10:50:16,013 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:16,023 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:16,024 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 0.0, ('Base3', 'Tindoor'): 17.48736065060123, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 0.0, ('Base2', 'COG_MDOTtoTES'): 507.0000000000001, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0}
+2018-12-14 10:50:16,024 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 0.0
+2018-12-14 10:50:16,024 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_QDH
+2018-12-14 10:50:16,032 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:16,045 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:16,046 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 0.0, ('Base3', 'Tindoor'): 17.48736065060123, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 0.0, ('Base2', 'COG_MDOTtoTES'): 507.0000000000001, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:16,046 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 0.0
+2018-12-14 10:50:16,047 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_QDH
+2018-12-14 10:50:16,052 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:16,056 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:16,080 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:16,080 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1311.815531358259, ('Base3', 'Tindoor'): 21.5809061484884, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 0.0, ('Base2', 'COG_MDOTtoTES'): 507.0000000000001, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:16,081 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1311.815531358259
+2018-12-14 10:50:16,086 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:16,090 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:16,095 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-14 10:50:16,096 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-14 10:50:16,113 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_Tout
+2018-12-14 10:50:16,113 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtot
+2018-12-14 10:50:16,113 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtoTES
+2018-12-14 10:50:16,114 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:16,114 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TTESin
+2018-12-14 10:50:16,126 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:16,133 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'COG_Tout': 75.0, 'COG_MDOTtot': 165.79661030174287, 'COG_MDOTtoTES': 341.2033896982573, 'COG_MDOTfromTES': 0.0, 'COG_TTESin': 75.0}
+2018-12-14 10:50:16,134 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-14 10:50:16,137 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:16,138 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1311.815531358259, ('Base3', 'Tindoor'): 21.5809061484884, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 165.79661030174287, ('Base2', 'COG_MDOTtoTES'): 341.2033896982573, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:16,138 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1311.815531358259
+2018-12-14 10:50:16,147 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:16,152 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:16,158 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:16,159 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1311.815531358259, ('Base3', 'Tindoor'): 21.5809061484884, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 165.79661030174287, ('Base2', 'COG_MDOTtoTES'): 341.2033896982573, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:16,159 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1311.815531358259
+2018-12-14 10:50:16,166 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:16,170 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:16,179 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:16,179 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1311.815531358259, ('Base3', 'Tindoor'): 21.5809061484884, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 165.79661030174287, ('Base2', 'COG_MDOTtoTES'): 341.2033896982573, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:16,180 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1311.815531358259
+2018-12-14 10:50:16,184 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:16,189 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:16,197 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:16,197 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1311.815531358259, ('Base3', 'Tindoor'): 21.5809061484884, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 165.79661030174287, ('Base2', 'COG_MDOTtoTES'): 341.2033896982573, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:16,198 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1311.815531358259
+2018-12-14 10:50:16,203 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:16,207 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:16,221 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:16,221 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1311.815531358259, ('Base3', 'Tindoor'): 21.5809061484884, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 165.79661030174287, ('Base2', 'COG_MDOTtoTES'): 341.2033896982573, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:16,221 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1311.815531358259
+2018-12-14 10:50:16,229 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:16,232 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:16,256 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:16,256 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1783.331898921964, ('Base3', 'Tindoor'): 21.93547167932932, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 165.79661030174287, ('Base2', 'COG_MDOTtoTES'): 341.2033896982573, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:16,257 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1783.331898921964
+2018-12-14 10:50:16,264 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:16,267 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:16,275 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-14 10:50:16,275 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-14 10:50:16,288 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_Tout
+2018-12-14 10:50:16,288 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtot
+2018-12-14 10:50:16,288 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtoTES
+2018-12-14 10:50:16,288 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:16,288 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TTESin
+2018-12-14 10:50:16,298 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:16,304 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'COG_Tout': 75.0, 'COG_MDOTtot': 225.39263249143758, 'COG_MDOTtoTES': 281.60736750856256, 'COG_MDOTfromTES': 0.0, 'COG_TTESin': 75.0}
+2018-12-14 10:50:16,304 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-14 10:50:16,309 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:16,310 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1783.331898921964, ('Base3', 'Tindoor'): 21.93547167932932, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 225.39263249143758, ('Base2', 'COG_MDOTtoTES'): 281.60736750856256, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:16,310 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1783.331898921964
+2018-12-14 10:50:16,322 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:16,325 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:16,333 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:16,334 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1783.331898921964, ('Base3', 'Tindoor'): 21.93547167932932, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 225.39263249143758, ('Base2', 'COG_MDOTtoTES'): 281.60736750856256, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:16,334 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1783.331898921964
+2018-12-14 10:50:16,341 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:16,347 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:16,355 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:16,356 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1783.331898921964, ('Base3', 'Tindoor'): 21.93547167932932, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 225.39263249143758, ('Base2', 'COG_MDOTtoTES'): 281.60736750856256, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:16,356 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1783.331898921964
+2018-12-14 10:50:16,365 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:16,369 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:16,382 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:16,384 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1783.331898921964, ('Base3', 'Tindoor'): 21.93547167932932, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 225.39263249143758, ('Base2', 'COG_MDOTtoTES'): 281.60736750856256, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:16,384 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1783.331898921964
+2018-12-14 10:50:16,389 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:16,393 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:16,409 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:16,409 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1783.331898921964, ('Base3', 'Tindoor'): 21.93547167932932, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 225.39263249143758, ('Base2', 'COG_MDOTtoTES'): 281.60736750856256, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:16,410 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1783.331898921964
+2018-12-14 10:50:16,420 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:16,424 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:16,447 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:16,447 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1451.03722864277, ('Base3', 'Tindoor'): 21.96012553114365, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 225.39263249143758, ('Base2', 'COG_MDOTtoTES'): 281.60736750856256, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:16,447 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1451.03722864277
+2018-12-14 10:50:16,453 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:16,457 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:16,465 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-14 10:50:16,465 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-14 10:50:16,478 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_Tout
+2018-12-14 10:50:16,478 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtot
+2018-12-14 10:50:16,478 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtoTES
+2018-12-14 10:50:16,479 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:16,479 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TTESin
+2018-12-14 10:50:16,488 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:16,494 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'COG_Tout': 75.0, 'COG_MDOTtot': 183.41684670190853, 'COG_MDOTtoTES': 323.58315329809153, 'COG_MDOTfromTES': 0.0, 'COG_TTESin': 75.0}
+2018-12-14 10:50:16,495 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-14 10:50:16,499 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:16,500 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1451.03722864277, ('Base3', 'Tindoor'): 21.96012553114365, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 183.41684670190853, ('Base2', 'COG_MDOTtoTES'): 323.58315329809153, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:16,500 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1451.03722864277
+2018-12-14 10:50:16,506 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:16,512 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:16,521 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:16,522 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1451.03722864277, ('Base3', 'Tindoor'): 21.96012553114365, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 183.41684670190853, ('Base2', 'COG_MDOTtoTES'): 323.58315329809153, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:16,522 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1451.03722864277
+2018-12-14 10:50:16,528 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:16,532 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:16,542 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:16,542 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1451.03722864277, ('Base3', 'Tindoor'): 21.96012553114365, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 183.41684670190853, ('Base2', 'COG_MDOTtoTES'): 323.58315329809153, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:16,543 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1451.03722864277
+2018-12-14 10:50:16,554 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:16,558 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:16,567 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:16,568 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1451.03722864277, ('Base3', 'Tindoor'): 21.96012553114365, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 183.41684670190853, ('Base2', 'COG_MDOTtoTES'): 323.58315329809153, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:16,568 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1451.03722864277
+2018-12-14 10:50:16,577 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:16,580 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:16,587 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:16,588 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1451.03722864277, ('Base3', 'Tindoor'): 21.96012553114365, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 183.41684670190853, ('Base2', 'COG_MDOTtoTES'): 323.58315329809153, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:16,588 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1451.03722864277
+2018-12-14 10:50:16,596 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:16,601 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:16,617 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:16,617 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1256.892333861316, ('Base3', 'Tindoor'): 21.97021712521968, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 183.41684670190853, ('Base2', 'COG_MDOTtoTES'): 323.58315329809153, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:16,618 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1256.892333861316
+2018-12-14 10:50:16,622 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:16,629 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:16,635 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-14 10:50:16,635 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-14 10:50:16,649 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_Tout
+2018-12-14 10:50:16,649 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtot
+2018-12-14 10:50:16,649 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtoTES
+2018-12-14 10:50:16,649 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:16,649 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TTESin
+2018-12-14 10:50:16,657 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:16,663 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'COG_Tout': 75.0, 'COG_MDOTtot': 158.87025781546268, 'COG_MDOTtoTES': 348.12974218453746, 'COG_MDOTfromTES': 0.0, 'COG_TTESin': 75.0}
+2018-12-14 10:50:16,664 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-14 10:50:16,666 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:16,667 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1256.892333861316, ('Base3', 'Tindoor'): 21.97021712521968, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 158.87025781546268, ('Base2', 'COG_MDOTtoTES'): 348.12974218453746, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:16,668 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1256.892333861316
+2018-12-14 10:50:16,672 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:16,676 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:16,689 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:16,690 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1256.892333861316, ('Base3', 'Tindoor'): 21.97021712521968, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 158.87025781546268, ('Base2', 'COG_MDOTtoTES'): 348.12974218453746, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:16,690 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1256.892333861316
+2018-12-14 10:50:16,697 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:16,701 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:16,711 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:16,712 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1256.892333861316, ('Base3', 'Tindoor'): 21.97021712521968, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 158.87025781546268, ('Base2', 'COG_MDOTtoTES'): 348.12974218453746, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:16,712 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1256.892333861316
+2018-12-14 10:50:16,718 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:16,722 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:16,734 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:16,735 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1256.892333861316, ('Base3', 'Tindoor'): 21.97021712521968, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 158.87025781546268, ('Base2', 'COG_MDOTtoTES'): 348.12974218453746, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:16,735 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1256.892333861316
+2018-12-14 10:50:16,740 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:16,746 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:16,758 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:16,759 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1256.892333861316, ('Base3', 'Tindoor'): 21.97021712521968, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 158.87025781546268, ('Base2', 'COG_MDOTtoTES'): 348.12974218453746, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:16,759 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1256.892333861316
+2018-12-14 10:50:16,765 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:16,768 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:16,788 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:16,789 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1228.929777971904, ('Base3', 'Tindoor'): 21.97274967821372, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 158.87025781546268, ('Base2', 'COG_MDOTtoTES'): 348.12974218453746, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:16,789 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1228.929777971904
+2018-12-14 10:50:16,797 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:16,802 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:16,809 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-14 10:50:16,809 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-14 10:50:16,824 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_Tout
+2018-12-14 10:50:16,824 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtot
+2018-12-14 10:50:16,824 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtoTES
+2018-12-14 10:50:16,824 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:16,824 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TTESin
+2018-12-14 10:50:16,834 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:16,840 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'COG_Tout': 75.0, 'COG_MDOTtot': 155.33714914013493, 'COG_MDOTtoTES': 351.6628508598652, 'COG_MDOTfromTES': 0.0, 'COG_TTESin': 75.0}
+2018-12-14 10:50:16,840 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-14 10:50:16,845 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:16,845 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1228.929777971904, ('Base3', 'Tindoor'): 21.97274967821372, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 155.33714914013493, ('Base2', 'COG_MDOTtoTES'): 351.6628508598652, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:16,845 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1228.929777971904
+2018-12-14 10:50:16,852 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:16,856 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:16,865 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:16,865 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1228.929777971904, ('Base3', 'Tindoor'): 21.97274967821372, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 155.33714914013493, ('Base2', 'COG_MDOTtoTES'): 351.6628508598652, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:16,866 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1228.929777971904
+2018-12-14 10:50:16,870 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:16,875 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:16,884 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:16,885 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1228.929777971904, ('Base3', 'Tindoor'): 21.97274967821372, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 155.33714914013493, ('Base2', 'COG_MDOTtoTES'): 351.6628508598652, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:16,885 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1228.929777971904
+2018-12-14 10:50:16,889 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:16,892 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:16,903 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:16,904 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1228.929777971904, ('Base3', 'Tindoor'): 21.97274967821372, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 155.33714914013493, ('Base2', 'COG_MDOTtoTES'): 351.6628508598652, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:16,904 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1228.929777971904
+2018-12-14 10:50:16,910 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:16,919 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:16,930 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:16,931 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1228.929777971904, ('Base3', 'Tindoor'): 21.97274967821372, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 155.33714914013493, ('Base2', 'COG_MDOTtoTES'): 351.6628508598652, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:16,931 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1228.929777971904
+2018-12-14 10:50:16,939 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:16,944 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:16,962 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:16,963 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1222.425380519443, ('Base3', 'Tindoor'): 21.97340166442822, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 155.33714914013493, ('Base2', 'COG_MDOTtoTES'): 351.6628508598652, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:16,963 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1222.425380519443
+2018-12-14 10:50:16,969 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:16,973 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:16,979 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-14 10:50:16,979 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-14 10:50:16,992 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_Tout
+2018-12-14 10:50:16,992 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtot
+2018-12-14 10:50:16,992 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtoTES
+2018-12-14 10:50:16,992 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:16,992 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TTESin
+2018-12-14 10:50:17,000 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:17,005 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'COG_Tout': 75.0, 'COG_MDOTtot': 154.51471468875826, 'COG_MDOTtoTES': 352.48528531124185, 'COG_MDOTfromTES': 0.0, 'COG_TTESin': 75.0}
+2018-12-14 10:50:17,006 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-14 10:50:17,008 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:17,009 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1222.425380519443, ('Base3', 'Tindoor'): 21.97340166442822, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 154.51471468875826, ('Base2', 'COG_MDOTtoTES'): 352.48528531124185, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:17,009 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1222.425380519443
+2018-12-14 10:50:17,016 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:17,019 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:17,031 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:17,032 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1222.425380519443, ('Base3', 'Tindoor'): 21.97340166442822, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 154.51471468875826, ('Base2', 'COG_MDOTtoTES'): 352.48528531124185, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:17,032 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1222.425380519443
+2018-12-14 10:50:17,039 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:17,045 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:17,050 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:17,051 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1222.425380519443, ('Base3', 'Tindoor'): 21.97340166442822, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 154.51471468875826, ('Base2', 'COG_MDOTtoTES'): 352.48528531124185, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:17,051 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1222.425380519443
+2018-12-14 10:50:17,057 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:17,061 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:17,074 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:17,075 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1222.425380519443, ('Base3', 'Tindoor'): 21.97340166442822, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 154.51471468875826, ('Base2', 'COG_MDOTtoTES'): 352.48528531124185, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:17,075 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1222.425380519443
+2018-12-14 10:50:17,082 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:17,085 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:17,099 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:17,100 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1222.425380519443, ('Base3', 'Tindoor'): 21.97340166442822, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 154.51471468875826, ('Base2', 'COG_MDOTtoTES'): 352.48528531124185, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:17,101 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1222.425380519443
+2018-12-14 10:50:17,112 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:17,115 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:17,133 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:17,133 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1258.056824619724, ('Base3', 'Tindoor'): 21.97250153518096, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 154.51471468875826, ('Base2', 'COG_MDOTtoTES'): 352.48528531124185, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:17,133 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1258.056824619724
+2018-12-14 10:50:17,138 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:17,142 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:17,151 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-14 10:50:17,151 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-14 10:50:17,165 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_Tout
+2018-12-14 10:50:17,165 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtot
+2018-12-14 10:50:17,165 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtoTES
+2018-12-14 10:50:17,165 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:17,165 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TTESin
+2018-12-14 10:50:17,174 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:17,180 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'COG_Tout': 75.0, 'COG_MDOTtot': 159.01858926890293, 'COG_MDOTtoTES': 347.98141073109724, 'COG_MDOTfromTES': 0.0, 'COG_TTESin': 75.0}
+2018-12-14 10:50:17,180 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-14 10:50:17,183 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:17,185 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1258.056824619724, ('Base3', 'Tindoor'): 21.97250153518096, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 159.01858926890293, ('Base2', 'COG_MDOTtoTES'): 347.98141073109724, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:17,185 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1258.056824619724
+2018-12-14 10:50:17,192 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:17,197 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:17,206 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:17,206 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1258.056824619724, ('Base3', 'Tindoor'): 21.97250153518096, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 159.01858926890293, ('Base2', 'COG_MDOTtoTES'): 347.98141073109724, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:17,207 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1258.056824619724
+2018-12-14 10:50:17,214 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:17,218 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:17,227 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:17,228 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1258.056824619724, ('Base3', 'Tindoor'): 21.97250153518096, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 159.01858926890293, ('Base2', 'COG_MDOTtoTES'): 347.98141073109724, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:17,228 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1258.056824619724
+2018-12-14 10:50:17,233 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:17,237 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:17,255 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:17,255 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1258.056824619724, ('Base3', 'Tindoor'): 21.97250153518096, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 159.01858926890293, ('Base2', 'COG_MDOTtoTES'): 347.98141073109724, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:17,256 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1258.056824619724
+2018-12-14 10:50:17,261 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:17,265 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:17,276 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:17,277 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1258.056824619724, ('Base3', 'Tindoor'): 21.97250153518096, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 159.01858926890293, ('Base2', 'COG_MDOTtoTES'): 347.98141073109724, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:17,277 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1258.056824619724
+2018-12-14 10:50:17,284 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:17,288 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:17,308 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:17,308 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1302.404736625385, ('Base3', 'Tindoor'): 21.97204766891196, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 159.01858926890293, ('Base2', 'COG_MDOTtoTES'): 347.98141073109724, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:17,310 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1302.404736625385
+2018-12-14 10:50:17,316 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:17,319 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:17,325 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-14 10:50:17,326 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-14 10:50:17,339 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_Tout
+2018-12-14 10:50:17,339 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtot
+2018-12-14 10:50:17,339 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtoTES
+2018-12-14 10:50:17,339 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:17,339 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TTESin
+2018-12-14 10:50:17,348 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:17,353 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'COG_Tout': 75.0, 'COG_MDOTtot': 164.6241616923006, 'COG_MDOTtoTES': 342.3758383076995, 'COG_MDOTfromTES': 0.0, 'COG_TTESin': 75.0}
+2018-12-14 10:50:17,354 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-14 10:50:17,356 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:17,357 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1302.404736625385, ('Base3', 'Tindoor'): 21.97204766891196, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 164.6241616923006, ('Base2', 'COG_MDOTtoTES'): 342.3758383076995, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:17,357 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1302.404736625385
+2018-12-14 10:50:17,364 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:17,367 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:17,379 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:17,380 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1302.404736625385, ('Base3', 'Tindoor'): 21.97204766891196, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 164.6241616923006, ('Base2', 'COG_MDOTtoTES'): 342.3758383076995, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:17,380 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1302.404736625385
+2018-12-14 10:50:17,390 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:17,397 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:17,404 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:17,405 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1302.404736625385, ('Base3', 'Tindoor'): 21.97204766891196, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 164.6241616923006, ('Base2', 'COG_MDOTtoTES'): 342.3758383076995, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:17,405 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1302.404736625385
+2018-12-14 10:50:17,418 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:17,424 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:17,432 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:17,432 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1302.404736625385, ('Base3', 'Tindoor'): 21.97204766891196, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 164.6241616923006, ('Base2', 'COG_MDOTtoTES'): 342.3758383076995, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:17,432 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1302.404736625385
+2018-12-14 10:50:17,441 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:17,447 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:17,456 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:17,457 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1302.404736625385, ('Base3', 'Tindoor'): 21.97204766891196, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 164.6241616923006, ('Base2', 'COG_MDOTtoTES'): 342.3758383076995, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:17,457 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1302.404736625385
+2018-12-14 10:50:17,463 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:17,466 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:17,484 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:17,485 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1316.824085946221, ('Base3', 'Tindoor'): 21.97077189012475, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 164.6241616923006, ('Base2', 'COG_MDOTtoTES'): 342.3758383076995, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:17,485 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1316.824085946221
+2018-12-14 10:50:17,492 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:17,497 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:17,502 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-14 10:50:17,502 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-14 10:50:17,515 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_Tout
+2018-12-14 10:50:17,515 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtot
+2018-12-14 10:50:17,515 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtoTES
+2018-12-14 10:50:17,515 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:17,515 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TTESin
+2018-12-14 10:50:17,525 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:17,531 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'COG_Tout': 75.0, 'COG_MDOTtot': 166.44677174263356, 'COG_MDOTtoTES': 340.5532282573666, 'COG_MDOTfromTES': 0.0, 'COG_TTESin': 75.0}
+2018-12-14 10:50:17,531 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-14 10:50:17,537 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:17,538 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1316.824085946221, ('Base3', 'Tindoor'): 21.97077189012475, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 166.44677174263356, ('Base2', 'COG_MDOTtoTES'): 340.5532282573666, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:17,538 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1316.824085946221
+2018-12-14 10:50:17,543 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:17,547 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:17,554 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:17,554 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1316.824085946221, ('Base3', 'Tindoor'): 21.97077189012475, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 166.44677174263356, ('Base2', 'COG_MDOTtoTES'): 340.5532282573666, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:17,555 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1316.824085946221
+2018-12-14 10:50:17,561 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:17,565 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:17,577 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:17,577 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1316.824085946221, ('Base3', 'Tindoor'): 21.97077189012475, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 166.44677174263356, ('Base2', 'COG_MDOTtoTES'): 340.5532282573666, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:17,577 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1316.824085946221
+2018-12-14 10:50:17,584 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:17,589 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:17,598 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:17,599 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1316.824085946221, ('Base3', 'Tindoor'): 21.97077189012475, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 166.44677174263356, ('Base2', 'COG_MDOTtoTES'): 340.5532282573666, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:17,599 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1316.824085946221
+2018-12-14 10:50:17,612 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:17,615 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:17,622 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:17,622 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1316.824085946221, ('Base3', 'Tindoor'): 21.97077189012475, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 166.44677174263356, ('Base2', 'COG_MDOTtoTES'): 340.5532282573666, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:17,623 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1316.824085946221
+2018-12-14 10:50:17,628 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:17,631 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:17,654 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:17,655 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1231.747501946732, ('Base3', 'Tindoor'): 21.97345533190586, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 166.44677174263356, ('Base2', 'COG_MDOTtoTES'): 340.5532282573666, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:17,655 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1231.747501946732
+2018-12-14 10:50:17,661 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:17,665 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:17,669 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-14 10:50:17,670 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-14 10:50:17,684 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_Tout
+2018-12-14 10:50:17,684 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtot
+2018-12-14 10:50:17,684 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtoTES
+2018-12-14 10:50:17,684 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:17,684 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TTESin
+2018-12-14 10:50:17,693 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:17,700 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'COG_Tout': 75.0, 'COG_MDOTtot': 155.69307778359627, 'COG_MDOTtoTES': 351.3069222164039, 'COG_MDOTfromTES': 0.0, 'COG_TTESin': 75.0}
+2018-12-14 10:50:17,700 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-14 10:50:17,706 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:17,707 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1231.747501946732, ('Base3', 'Tindoor'): 21.97345533190586, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 155.69307778359627, ('Base2', 'COG_MDOTtoTES'): 351.3069222164039, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:17,707 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1231.747501946732
+2018-12-14 10:50:17,713 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:17,719 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:17,728 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:17,728 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1231.747501946732, ('Base3', 'Tindoor'): 21.97345533190586, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 155.69307778359627, ('Base2', 'COG_MDOTtoTES'): 351.3069222164039, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:17,729 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1231.747501946732
+2018-12-14 10:50:17,734 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:17,738 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:17,745 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:17,746 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1231.747501946732, ('Base3', 'Tindoor'): 21.97345533190586, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 155.69307778359627, ('Base2', 'COG_MDOTtoTES'): 351.3069222164039, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:17,746 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1231.747501946732
+2018-12-14 10:50:17,750 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:17,755 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:17,766 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:17,766 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1231.747501946732, ('Base3', 'Tindoor'): 21.97345533190586, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 155.69307778359627, ('Base2', 'COG_MDOTtoTES'): 351.3069222164039, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:17,766 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1231.747501946732
+2018-12-14 10:50:17,771 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:17,775 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:17,788 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:17,788 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1231.747501946732, ('Base3', 'Tindoor'): 21.97345533190586, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 155.69307778359627, ('Base2', 'COG_MDOTtoTES'): 351.3069222164039, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:17,789 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1231.747501946732
+2018-12-14 10:50:17,798 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:17,801 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:17,824 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:17,825 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1173.148087285546, ('Base3', 'Tindoor'): 21.97495710628294, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 155.69307778359627, ('Base2', 'COG_MDOTtoTES'): 351.3069222164039, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:17,825 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1173.148087285546
+2018-12-14 10:50:17,834 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:17,838 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:17,845 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-14 10:50:17,845 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-14 10:50:17,857 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_Tout
+2018-12-14 10:50:17,857 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtot
+2018-12-14 10:50:17,857 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtoTES
+2018-12-14 10:50:17,857 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:17,858 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TTESin
+2018-12-14 10:50:17,867 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:17,874 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'COG_Tout': 75.0, 'COG_MDOTtot': 148.28610262316863, 'COG_MDOTtoTES': 358.71389737683154, 'COG_MDOTfromTES': 0.0, 'COG_TTESin': 75.0}
+2018-12-14 10:50:17,874 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-14 10:50:17,878 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:17,879 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1173.148087285546, ('Base3', 'Tindoor'): 21.97495710628294, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 148.28610262316863, ('Base2', 'COG_MDOTtoTES'): 358.71389737683154, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:17,879 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1173.148087285546
+2018-12-14 10:50:17,885 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:17,889 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:17,899 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:17,900 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1173.148087285546, ('Base3', 'Tindoor'): 21.97495710628294, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 148.28610262316863, ('Base2', 'COG_MDOTtoTES'): 358.71389737683154, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:17,900 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1173.148087285546
+2018-12-14 10:50:17,905 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:17,916 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:17,924 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:17,924 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1173.148087285546, ('Base3', 'Tindoor'): 21.97495710628294, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 148.28610262316863, ('Base2', 'COG_MDOTtoTES'): 358.71389737683154, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:17,924 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1173.148087285546
+2018-12-14 10:50:17,931 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:17,935 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:17,949 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:17,950 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1173.148087285546, ('Base3', 'Tindoor'): 21.97495710628294, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 148.28610262316863, ('Base2', 'COG_MDOTtoTES'): 358.71389737683154, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:17,950 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1173.148087285546
+2018-12-14 10:50:17,956 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:17,962 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:17,975 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:17,976 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1173.148087285546, ('Base3', 'Tindoor'): 21.97495710628294, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 148.28610262316863, ('Base2', 'COG_MDOTtoTES'): 358.71389737683154, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:17,976 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1173.148087285546
+2018-12-14 10:50:17,983 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:17,988 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:18,012 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:18,013 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1142.869764479938, ('Base3', 'Tindoor'): 21.97653909268443, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 148.28610262316863, ('Base2', 'COG_MDOTtoTES'): 358.71389737683154, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:18,013 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1142.869764479938
+2018-12-14 10:50:18,019 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:18,023 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:18,032 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-14 10:50:18,033 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-14 10:50:18,046 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_Tout
+2018-12-14 10:50:18,046 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtot
+2018-12-14 10:50:18,046 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtoTES
+2018-12-14 10:50:18,046 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:18,046 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TTESin
+2018-12-14 10:50:18,055 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:18,061 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'COG_Tout': 75.0, 'COG_MDOTtot': 144.45891785115768, 'COG_MDOTtoTES': 362.54108214884246, 'COG_MDOTfromTES': 0.0, 'COG_TTESin': 75.0}
+2018-12-14 10:50:18,061 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-14 10:50:18,065 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:18,065 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1142.869764479938, ('Base3', 'Tindoor'): 21.97653909268443, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 144.45891785115768, ('Base2', 'COG_MDOTtoTES'): 362.54108214884246, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:18,065 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1142.869764479938
+2018-12-14 10:50:18,071 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:18,074 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:18,087 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:18,088 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1142.869764479938, ('Base3', 'Tindoor'): 21.97653909268443, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 144.45891785115768, ('Base2', 'COG_MDOTtoTES'): 362.54108214884246, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:18,088 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1142.869764479938
+2018-12-14 10:50:18,095 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:18,098 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:18,109 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:18,110 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1142.869764479938, ('Base3', 'Tindoor'): 21.97653909268443, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 144.45891785115768, ('Base2', 'COG_MDOTtoTES'): 362.54108214884246, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:18,111 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1142.869764479938
+2018-12-14 10:50:18,121 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:18,124 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:18,136 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:18,137 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1142.869764479938, ('Base3', 'Tindoor'): 21.97653909268443, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 144.45891785115768, ('Base2', 'COG_MDOTtoTES'): 362.54108214884246, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:18,137 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1142.869764479938
+2018-12-14 10:50:18,143 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:18,148 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:18,157 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:18,157 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1142.869764479938, ('Base3', 'Tindoor'): 21.97653909268443, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 144.45891785115768, ('Base2', 'COG_MDOTtoTES'): 362.54108214884246, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:18,158 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1142.869764479938
+2018-12-14 10:50:18,164 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:18,167 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:18,193 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:18,194 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1150.675280850722, ('Base3', 'Tindoor'): 21.97608939053392, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 144.45891785115768, ('Base2', 'COG_MDOTtoTES'): 362.54108214884246, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:18,194 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1150.675280850722
+2018-12-14 10:50:18,199 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:18,202 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:18,212 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-14 10:50:18,212 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-14 10:50:18,228 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_Tout
+2018-12-14 10:50:18,228 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtot
+2018-12-14 10:50:18,228 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtoTES
+2018-12-14 10:50:18,228 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:18,228 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TTESin
+2018-12-14 10:50:18,236 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:18,242 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'COG_Tout': 75.0, 'COG_MDOTtot': 145.44553634892938, 'COG_MDOTtoTES': 361.55446365107076, 'COG_MDOTfromTES': 0.0, 'COG_TTESin': 75.0}
+2018-12-14 10:50:18,242 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-14 10:50:18,246 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:18,246 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1150.675280850722, ('Base3', 'Tindoor'): 21.97608939053392, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 145.44553634892938, ('Base2', 'COG_MDOTtoTES'): 361.55446365107076, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:18,246 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1150.675280850722
+2018-12-14 10:50:18,252 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:18,255 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:18,267 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:18,268 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1150.675280850722, ('Base3', 'Tindoor'): 21.97608939053392, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 145.44553634892938, ('Base2', 'COG_MDOTtoTES'): 361.55446365107076, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:18,268 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1150.675280850722
+2018-12-14 10:50:18,273 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:18,276 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:18,287 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:18,288 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1150.675280850722, ('Base3', 'Tindoor'): 21.97608939053392, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 145.44553634892938, ('Base2', 'COG_MDOTtoTES'): 361.55446365107076, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:18,288 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1150.675280850722
+2018-12-14 10:50:18,293 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:18,302 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:18,314 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:18,315 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1150.675280850722, ('Base3', 'Tindoor'): 21.97608939053392, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 145.44553634892938, ('Base2', 'COG_MDOTtoTES'): 361.55446365107076, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:18,315 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1150.675280850722
+2018-12-14 10:50:18,322 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:18,329 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:18,339 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:18,341 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1150.675280850722, ('Base3', 'Tindoor'): 21.97608939053392, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 145.44553634892938, ('Base2', 'COG_MDOTtoTES'): 361.55446365107076, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:18,341 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1150.675280850722
+2018-12-14 10:50:18,347 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:18,350 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:18,373 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:18,374 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1342.534609659394, ('Base3', 'Tindoor'): 21.97116084957528, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 145.44553634892938, ('Base2', 'COG_MDOTtoTES'): 361.55446365107076, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:18,374 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1342.534609659394
+2018-12-14 10:50:18,381 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:18,384 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:18,390 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-14 10:50:18,390 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-14 10:50:18,411 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_Tout
+2018-12-14 10:50:18,411 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtot
+2018-12-14 10:50:18,411 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtoTES
+2018-12-14 10:50:18,411 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:18,411 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TTESin
+2018-12-14 10:50:18,422 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:18,428 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'COG_Tout': 75.0, 'COG_MDOTtot': 169.69658566417144, 'COG_MDOTtoTES': 337.3034143358287, 'COG_MDOTfromTES': 0.0, 'COG_TTESin': 75.0}
+2018-12-14 10:50:18,428 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-14 10:50:18,430 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:18,431 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1342.534609659394, ('Base3', 'Tindoor'): 21.97116084957528, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 169.69658566417144, ('Base2', 'COG_MDOTtoTES'): 337.3034143358287, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:18,431 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1342.534609659394
+2018-12-14 10:50:18,438 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:18,440 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:18,451 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:18,452 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1342.534609659394, ('Base3', 'Tindoor'): 21.97116084957528, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 169.69658566417144, ('Base2', 'COG_MDOTtoTES'): 337.3034143358287, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:18,453 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1342.534609659394
+2018-12-14 10:50:18,458 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:18,471 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:18,478 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:18,479 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1342.534609659394, ('Base3', 'Tindoor'): 21.97116084957528, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 169.69658566417144, ('Base2', 'COG_MDOTtoTES'): 337.3034143358287, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:18,479 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1342.534609659394
+2018-12-14 10:50:18,484 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:18,491 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:18,512 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:18,513 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1342.534609659394, ('Base3', 'Tindoor'): 21.97116084957528, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 169.69658566417144, ('Base2', 'COG_MDOTtoTES'): 337.3034143358287, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:18,513 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1342.534609659394
+2018-12-14 10:50:18,521 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:18,524 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:18,538 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:18,539 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1342.534609659394, ('Base3', 'Tindoor'): 21.97116084957528, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 169.69658566417144, ('Base2', 'COG_MDOTtoTES'): 337.3034143358287, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:18,539 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1342.534609659394
+2018-12-14 10:50:18,545 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:18,551 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:18,571 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:18,572 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1459.340460794546, ('Base3', 'Tindoor'): 21.9690716696714, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 169.69658566417144, ('Base2', 'COG_MDOTtoTES'): 337.3034143358287, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:18,572 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1459.340460794546
+2018-12-14 10:50:18,579 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:18,583 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:18,592 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-14 10:50:18,593 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-14 10:50:18,609 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_Tout
+2018-12-14 10:50:18,609 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtot
+2018-12-14 10:50:18,610 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtoTES
+2018-12-14 10:50:18,610 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:18,610 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TTESin
+2018-12-14 10:50:18,620 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:18,627 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'COG_Tout': 75.0, 'COG_MDOTtot': 184.46086360581768, 'COG_MDOTtoTES': 322.53913639418244, 'COG_MDOTfromTES': 0.0, 'COG_TTESin': 75.0}
+2018-12-14 10:50:18,627 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-14 10:50:18,630 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:18,631 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1459.340460794546, ('Base3', 'Tindoor'): 21.9690716696714, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 184.46086360581768, ('Base2', 'COG_MDOTtoTES'): 322.53913639418244, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:18,631 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1459.340460794546
+2018-12-14 10:50:18,637 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:18,641 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:18,652 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:18,653 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1459.340460794546, ('Base3', 'Tindoor'): 21.9690716696714, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 184.46086360581768, ('Base2', 'COG_MDOTtoTES'): 322.53913639418244, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:18,653 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1459.340460794546
+2018-12-14 10:50:18,658 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:18,663 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:18,671 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:18,671 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1459.340460794546, ('Base3', 'Tindoor'): 21.9690716696714, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 184.46086360581768, ('Base2', 'COG_MDOTtoTES'): 322.53913639418244, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:18,671 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1459.340460794546
+2018-12-14 10:50:18,678 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:18,681 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:18,694 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:18,695 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1459.340460794546, ('Base3', 'Tindoor'): 21.9690716696714, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 184.46086360581768, ('Base2', 'COG_MDOTtoTES'): 322.53913639418244, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:18,695 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1459.340460794546
+2018-12-14 10:50:18,702 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:18,706 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:18,717 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:18,717 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1459.340460794546, ('Base3', 'Tindoor'): 21.9690716696714, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 184.46086360581768, ('Base2', 'COG_MDOTtoTES'): 322.53913639418244, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:18,717 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1459.340460794546
+2018-12-14 10:50:18,723 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:18,728 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:18,745 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:18,746 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1503.485656193205, ('Base3', 'Tindoor'): 21.96711695629843, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 184.46086360581768, ('Base2', 'COG_MDOTtoTES'): 322.53913639418244, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:18,746 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1503.485656193205
+2018-12-14 10:50:18,753 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:18,758 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:18,768 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-14 10:50:18,768 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-14 10:50:18,789 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_Tout
+2018-12-14 10:50:18,789 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtot
+2018-12-14 10:50:18,789 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtoTES
+2018-12-14 10:50:18,790 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:18,790 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TTESin
+2018-12-14 10:50:18,801 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:18,807 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'COG_Tout': 75.0, 'COG_MDOTtot': 190.04082324240744, 'COG_MDOTtoTES': 316.9591767575927, 'COG_MDOTfromTES': 0.0, 'COG_TTESin': 75.0}
+2018-12-14 10:50:18,807 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-14 10:50:18,809 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:18,809 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1503.485656193205, ('Base3', 'Tindoor'): 21.96711695629843, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 190.04082324240744, ('Base2', 'COG_MDOTtoTES'): 316.9591767575927, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:18,810 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1503.485656193205
+2018-12-14 10:50:18,815 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:18,819 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:18,833 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:18,833 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1503.485656193205, ('Base3', 'Tindoor'): 21.96711695629843, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 190.04082324240744, ('Base2', 'COG_MDOTtoTES'): 316.9591767575927, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:18,834 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1503.485656193205
+2018-12-14 10:50:18,838 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:18,845 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:18,854 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:18,855 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1503.485656193205, ('Base3', 'Tindoor'): 21.96711695629843, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 190.04082324240744, ('Base2', 'COG_MDOTtoTES'): 316.9591767575927, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:18,855 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1503.485656193205
+2018-12-14 10:50:18,863 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:18,867 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:18,879 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:18,880 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1503.485656193205, ('Base3', 'Tindoor'): 21.96711695629843, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 190.04082324240744, ('Base2', 'COG_MDOTtoTES'): 316.9591767575927, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:18,880 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1503.485656193205
+2018-12-14 10:50:18,886 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:18,890 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:18,902 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:18,903 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1503.485656193205, ('Base3', 'Tindoor'): 21.96711695629843, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 190.04082324240744, ('Base2', 'COG_MDOTtoTES'): 316.9591767575927, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:18,903 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1503.485656193205
+2018-12-14 10:50:18,911 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:18,917 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:18,941 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:18,942 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1521.235655138087, ('Base3', 'Tindoor'): 21.96586152700616, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 190.04082324240744, ('Base2', 'COG_MDOTtoTES'): 316.9591767575927, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:18,942 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1521.235655138087
+2018-12-14 10:50:18,949 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:18,955 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:18,963 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-14 10:50:18,963 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-14 10:50:18,979 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_Tout
+2018-12-14 10:50:18,980 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtot
+2018-12-14 10:50:18,980 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtoTES
+2018-12-14 10:50:18,980 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:18,980 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TTESin
+2018-12-14 10:50:18,988 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:18,995 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'COG_Tout': 75.0, 'COG_MDOTtot': 192.28442589886143, 'COG_MDOTtoTES': 314.7155741011387, 'COG_MDOTfromTES': 0.0, 'COG_TTESin': 75.0}
+2018-12-14 10:50:18,995 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-14 10:50:19,000 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:19,001 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1521.235655138087, ('Base3', 'Tindoor'): 21.96586152700616, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 192.28442589886143, ('Base2', 'COG_MDOTtoTES'): 314.7155741011387, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:19,001 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1521.235655138087
+2018-12-14 10:50:19,006 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:19,012 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:19,021 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:19,022 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1521.235655138087, ('Base3', 'Tindoor'): 21.96586152700616, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 192.28442589886143, ('Base2', 'COG_MDOTtoTES'): 314.7155741011387, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:19,022 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1521.235655138087
+2018-12-14 10:50:19,029 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:19,035 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:19,042 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:19,043 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1521.235655138087, ('Base3', 'Tindoor'): 21.96586152700616, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 192.28442589886143, ('Base2', 'COG_MDOTtoTES'): 314.7155741011387, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:19,043 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1521.235655138087
+2018-12-14 10:50:19,059 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:19,065 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:19,074 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:19,075 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1521.235655138087, ('Base3', 'Tindoor'): 21.96586152700616, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 192.28442589886143, ('Base2', 'COG_MDOTtoTES'): 314.7155741011387, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:19,075 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1521.235655138087
+2018-12-14 10:50:19,079 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:19,083 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:19,099 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:19,100 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1521.235655138087, ('Base3', 'Tindoor'): 21.96586152700616, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 192.28442589886143, ('Base2', 'COG_MDOTtoTES'): 314.7155741011387, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:19,100 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1521.235655138087
+2018-12-14 10:50:19,108 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:19,113 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:19,137 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:19,137 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1536.827059787516, ('Base3', 'Tindoor'): 21.97077958576982, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 192.28442589886143, ('Base2', 'COG_MDOTtoTES'): 314.7155741011387, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:19,138 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1536.827059787516
+2018-12-14 10:50:19,144 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:19,148 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:19,157 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-14 10:50:19,157 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-14 10:50:19,175 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_Tout
+2018-12-14 10:50:19,175 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtot
+2018-12-14 10:50:19,175 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtoTES
+2018-12-14 10:50:19,176 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:19,176 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TTESin
+2018-12-14 10:50:19,185 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:19,191 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'COG_Tout': 75.0, 'COG_MDOTtot': 194.25518189698377, 'COG_MDOTtoTES': 312.7448181030163, 'COG_MDOTfromTES': 0.0, 'COG_TTESin': 75.0}
+2018-12-14 10:50:19,191 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-14 10:50:19,194 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:19,194 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1536.827059787516, ('Base3', 'Tindoor'): 21.97077958576982, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 194.25518189698377, ('Base2', 'COG_MDOTtoTES'): 312.7448181030163, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:19,194 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1536.827059787516
+2018-12-14 10:50:19,199 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:19,202 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:19,217 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:19,217 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1536.827059787516, ('Base3', 'Tindoor'): 21.97077958576982, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 194.25518189698377, ('Base2', 'COG_MDOTtoTES'): 312.7448181030163, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:19,217 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1536.827059787516
+2018-12-14 10:50:19,223 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:19,230 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:19,237 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:19,237 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1536.827059787516, ('Base3', 'Tindoor'): 21.97077958576982, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 194.25518189698377, ('Base2', 'COG_MDOTtoTES'): 312.7448181030163, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:19,238 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1536.827059787516
+2018-12-14 10:50:19,241 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:19,246 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:19,258 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:19,259 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1536.827059787516, ('Base3', 'Tindoor'): 21.97077958576982, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 194.25518189698377, ('Base2', 'COG_MDOTtoTES'): 312.7448181030163, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:19,259 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1536.827059787516
+2018-12-14 10:50:19,264 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:19,273 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:19,282 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:19,283 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1536.827059787516, ('Base3', 'Tindoor'): 21.97077958576982, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 194.25518189698377, ('Base2', 'COG_MDOTtoTES'): 312.7448181030163, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:19,283 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1536.827059787516
+2018-12-14 10:50:19,289 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:19,293 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:19,314 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:19,315 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1541.032711489195, ('Base3', 'Tindoor'): 21.97187983932248, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 194.25518189698377, ('Base2', 'COG_MDOTtoTES'): 312.7448181030163, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:19,315 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1541.032711489195
+2018-12-14 10:50:19,320 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:19,324 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:19,331 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-14 10:50:19,331 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-14 10:50:19,346 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_Tout
+2018-12-14 10:50:19,346 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtot
+2018-12-14 10:50:19,346 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtoTES
+2018-12-14 10:50:19,346 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:19,347 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TTESin
+2018-12-14 10:50:19,355 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:19,363 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'COG_Tout': 75.0, 'COG_MDOTtot': 194.78677693303976, 'COG_MDOTtoTES': 312.2132230669604, 'COG_MDOTfromTES': 0.0, 'COG_TTESin': 75.0}
+2018-12-14 10:50:19,363 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-14 10:50:19,365 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:19,366 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1541.032711489195, ('Base3', 'Tindoor'): 21.97187983932248, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 194.78677693303976, ('Base2', 'COG_MDOTtoTES'): 312.2132230669604, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:19,366 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1541.032711489195
+2018-12-14 10:50:19,372 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:19,376 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:19,389 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:19,389 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1541.032711489195, ('Base3', 'Tindoor'): 21.97187983932248, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 194.78677693303976, ('Base2', 'COG_MDOTtoTES'): 312.2132230669604, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:19,390 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1541.032711489195
+2018-12-14 10:50:19,397 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:19,401 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:19,408 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:19,409 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1541.032711489195, ('Base3', 'Tindoor'): 21.97187983932248, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 194.78677693303976, ('Base2', 'COG_MDOTtoTES'): 312.2132230669604, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:19,409 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1541.032711489195
+2018-12-14 10:50:19,417 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:19,420 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:19,434 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:19,435 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1541.032711489195, ('Base3', 'Tindoor'): 21.97187983932248, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 194.78677693303976, ('Base2', 'COG_MDOTtoTES'): 312.2132230669604, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:19,435 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1541.032711489195
+2018-12-14 10:50:19,441 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:19,448 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:19,460 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:19,460 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1541.032711489195, ('Base3', 'Tindoor'): 21.97187983932248, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 194.78677693303976, ('Base2', 'COG_MDOTtoTES'): 312.2132230669604, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:19,461 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1541.032711489195
+2018-12-14 10:50:19,467 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:19,471 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:19,494 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:19,495 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1537.800732080508, ('Base3', 'Tindoor'): 21.97260270743857, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 194.78677693303976, ('Base2', 'COG_MDOTtoTES'): 312.2132230669604, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:19,495 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1537.800732080508
+2018-12-14 10:50:19,499 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:19,503 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:19,517 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-14 10:50:19,517 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-14 10:50:19,535 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_Tout
+2018-12-14 10:50:19,535 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtot
+2018-12-14 10:50:19,535 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtoTES
+2018-12-14 10:50:19,535 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:19,535 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TTESin
+2018-12-14 10:50:19,548 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:19,554 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'COG_Tout': 75.0, 'COG_MDOTtot': 194.3782542277407, 'COG_MDOTtoTES': 312.62174577225943, 'COG_MDOTfromTES': 0.0, 'COG_TTESin': 75.0}
+2018-12-14 10:50:19,555 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-14 10:50:19,557 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:19,558 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1537.800732080508, ('Base3', 'Tindoor'): 21.97260270743857, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 194.3782542277407, ('Base2', 'COG_MDOTtoTES'): 312.62174577225943, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:19,559 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1537.800732080508
+2018-12-14 10:50:19,564 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:19,567 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:19,584 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:19,585 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1537.800732080508, ('Base3', 'Tindoor'): 21.97260270743857, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 194.3782542277407, ('Base2', 'COG_MDOTtoTES'): 312.62174577225943, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:19,585 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1537.800732080508
+2018-12-14 10:50:19,589 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:19,595 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:19,604 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:19,605 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1537.800732080508, ('Base3', 'Tindoor'): 21.97260270743857, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 194.3782542277407, ('Base2', 'COG_MDOTtoTES'): 312.62174577225943, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:19,605 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1537.800732080508
+2018-12-14 10:50:19,612 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:19,615 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:19,630 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:19,631 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1537.800732080508, ('Base3', 'Tindoor'): 21.97260270743857, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 194.3782542277407, ('Base2', 'COG_MDOTtoTES'): 312.62174577225943, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:19,631 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1537.800732080508
+2018-12-14 10:50:19,635 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:19,639 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:19,654 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:19,654 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1537.800732080508, ('Base3', 'Tindoor'): 21.97260270743857, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 194.3782542277407, ('Base2', 'COG_MDOTtoTES'): 312.62174577225943, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:19,655 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1537.800732080508
+2018-12-14 10:50:19,662 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:19,666 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:19,688 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:19,689 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1534.522425543231, ('Base3', 'Tindoor'): 21.97383917266454, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 194.3782542277407, ('Base2', 'COG_MDOTtoTES'): 312.62174577225943, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:19,689 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1534.522425543231
+2018-12-14 10:50:19,696 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:19,701 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:19,709 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-14 10:50:19,709 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-14 10:50:19,725 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_Tout
+2018-12-14 10:50:19,725 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtot
+2018-12-14 10:50:19,725 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtoTES
+2018-12-14 10:50:19,725 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:19,725 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TTESin
+2018-12-14 10:50:19,734 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:19,740 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'COG_Tout': 75.0, 'COG_MDOTtot': 193.9638757662577, 'COG_MDOTtoTES': 313.0361242337424, 'COG_MDOTfromTES': 0.0, 'COG_TTESin': 75.0}
+2018-12-14 10:50:19,740 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-14 10:50:19,750 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:19,750 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1534.522425543231, ('Base3', 'Tindoor'): 21.97383917266454, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 193.9638757662577, ('Base2', 'COG_MDOTtoTES'): 313.0361242337424, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:19,751 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1534.522425543231
+2018-12-14 10:50:19,756 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:19,760 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:19,766 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:19,767 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1534.522425543231, ('Base3', 'Tindoor'): 21.97383917266454, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 193.9638757662577, ('Base2', 'COG_MDOTtoTES'): 313.0361242337424, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:19,768 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1534.522425543231
+2018-12-14 10:50:19,772 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:19,776 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:19,786 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:19,787 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1534.522425543231, ('Base3', 'Tindoor'): 21.97383917266454, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 193.9638757662577, ('Base2', 'COG_MDOTtoTES'): 313.0361242337424, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:19,787 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1534.522425543231
+2018-12-14 10:50:19,792 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:19,796 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:19,810 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:19,811 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1534.522425543231, ('Base3', 'Tindoor'): 21.97383917266454, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 193.9638757662577, ('Base2', 'COG_MDOTtoTES'): 313.0361242337424, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:19,811 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1534.522425543231
+2018-12-14 10:50:19,815 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:19,818 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:19,833 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:19,834 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1534.522425543231, ('Base3', 'Tindoor'): 21.97383917266454, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 193.9638757662577, ('Base2', 'COG_MDOTtoTES'): 313.0361242337424, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:19,834 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1534.522425543231
+2018-12-14 10:50:19,838 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:19,843 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:19,864 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:19,865 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1536.210115691466, ('Base3', 'Tindoor'): 21.97218261539107, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 193.9638757662577, ('Base2', 'COG_MDOTtoTES'): 313.0361242337424, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:19,865 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1536.210115691466
+2018-12-14 10:50:19,869 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:19,873 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:19,886 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-14 10:50:19,887 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-14 10:50:19,902 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_Tout
+2018-12-14 10:50:19,902 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtot
+2018-12-14 10:50:19,902 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtoTES
+2018-12-14 10:50:19,902 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:19,902 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TTESin
+2018-12-14 10:50:19,912 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:19,920 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'COG_Tout': 75.0, 'COG_MDOTtot': 194.17720006631257, 'COG_MDOTtoTES': 312.8227999336875, 'COG_MDOTfromTES': 0.0, 'COG_TTESin': 75.0}
+2018-12-14 10:50:19,921 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-14 10:50:19,926 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:19,927 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1536.210115691466, ('Base3', 'Tindoor'): 21.97218261539107, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 194.17720006631257, ('Base2', 'COG_MDOTtoTES'): 312.8227999336875, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:19,927 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1536.210115691466
+2018-12-14 10:50:19,933 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:19,939 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:19,947 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:19,948 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1536.210115691466, ('Base3', 'Tindoor'): 21.97218261539107, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 194.17720006631257, ('Base2', 'COG_MDOTtoTES'): 312.8227999336875, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:19,948 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1536.210115691466
+2018-12-14 10:50:19,954 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:19,958 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:19,967 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:19,967 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1536.210115691466, ('Base3', 'Tindoor'): 21.97218261539107, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 194.17720006631257, ('Base2', 'COG_MDOTtoTES'): 312.8227999336875, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:19,968 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1536.210115691466
+2018-12-14 10:50:19,974 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:19,980 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:19,987 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:19,988 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1536.210115691466, ('Base3', 'Tindoor'): 21.97218261539107, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 194.17720006631257, ('Base2', 'COG_MDOTtoTES'): 312.8227999336875, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:19,988 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1536.210115691466
+2018-12-14 10:50:19,996 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:19,999 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:20,013 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:20,013 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1536.210115691466, ('Base3', 'Tindoor'): 21.97218261539107, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 194.17720006631257, ('Base2', 'COG_MDOTtoTES'): 312.8227999336875, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:20,014 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1536.210115691466
+2018-12-14 10:50:20,021 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:20,025 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:20,046 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:20,046 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1541.946227536266, ('Base3', 'Tindoor'): 21.97373531905741, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 194.17720006631257, ('Base2', 'COG_MDOTtoTES'): 312.8227999336875, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:20,048 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1541.946227536266
+2018-12-14 10:50:20,055 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:20,058 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:20,065 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP
+2018-12-14 10:50:20,065 :: DEBUG :: ZEROBNL -> node.py :: step :: NEW TIME
+2018-12-14 10:50:20,084 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_Tout
+2018-12-14 10:50:20,084 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtot
+2018-12-14 10:50:20,084 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTtoTES
+2018-12-14 10:50:20,085 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:20,085 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_TTESin
+2018-12-14 10:50:20,096 :: DEBUG :: ZEROBNL -> node.py :: get_attribute :: GET ATTRIBUTE COG_MDOTfromTES
+2018-12-14 10:50:20,103 :: DEBUG :: ZEROBNL -> node.py :: run :: STATE {'COG_Tout': 75.0, 'COG_MDOTtot': 194.90224550496566, 'COG_MDOTtoTES': 312.09775449503445, 'COG_MDOTfromTES': 0.0, 'COG_TTESin': 75.0}
+2018-12-14 10:50:20,103 :: DEBUG :: ZEROBNL -> node.py :: run :: STEP DONE
+2018-12-14 10:50:20,105 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:20,106 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1541.946227536266, ('Base3', 'Tindoor'): 21.97373531905741, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 194.90224550496566, ('Base2', 'COG_MDOTtoTES'): 312.09775449503445, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:20,106 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1541.946227536266
+2018-12-14 10:50:20,112 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:20,115 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:20,127 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:20,128 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1541.946227536266, ('Base3', 'Tindoor'): 21.97373531905741, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 194.90224550496566, ('Base2', 'COG_MDOTtoTES'): 312.09775449503445, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:20,128 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1541.946227536266
+2018-12-14 10:50:20,139 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:20,142 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:20,149 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:20,150 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1541.946227536266, ('Base3', 'Tindoor'): 21.97373531905741, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 194.90224550496566, ('Base2', 'COG_MDOTtoTES'): 312.09775449503445, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:20,150 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1541.946227536266
+2018-12-14 10:50:20,157 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:20,161 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:20,174 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE
+2018-12-14 10:50:20,175 :: DEBUG :: ZEROBNL -> node.py :: _update_inputs :: INPUTS {('Base3', 'QDH'): 1541.946227536266, ('Base3', 'Tindoor'): 21.97373531905741, ('Base2', 'COG_Tout'): 75.0, ('Base2', 'COG_MDOTtot'): 194.90224550496566, ('Base2', 'COG_MDOTtoTES'): 312.09775449503445, ('Base2', 'COG_MDOTfromTES'): 0.0, ('Base2', 'COG_TTESin'): 75.0, ('Base5', 'TES_ToutD'): 75.0, ('Base5', 'TES_socOUT'): 1, ('Base5', 'TES_MDOToutD'): 507.0, ('Base0', 'Tth'): 22.0, ('Base0', 'demandFlag'): 0, ('Base0', 'TsetP'): 75.0, ('Base1', 'COG_FlagOUT'): 1, ('Base1', 'HOB_FlagOUT'): -1, ('Base1', 'TES_FlagOUT'): 0}
+2018-12-14 10:50:20,175 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_QDH to 1541.946227536266
+2018-12-14 10:50:20,181 :: DEBUG :: ZEROBNL -> node.py :: set_attribute :: SET ATTRIBUTE COG_FlagIN to 1
+2018-12-14 10:50:20,184 :: DEBUG :: ZEROBNL -> node.py :: run :: UPDATE DONE
+2018-12-14 10:50:20,198 :: DEBUG :: ZEROBNL -> node.py :: exit :: EXIT

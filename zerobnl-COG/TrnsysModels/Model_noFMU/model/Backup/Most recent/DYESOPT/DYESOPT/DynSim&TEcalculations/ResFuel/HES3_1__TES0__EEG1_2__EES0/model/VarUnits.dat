@@ -1,3 +1,0 @@
-This file should contain the TYPE numbers of all user-written components that require additional variable descriptors after the initial values.  The Type numbers should be listed one per line with the critical parameter number and the value of the critical parameter following the type number on the same line.
-580  11  1  !Tess Library Model: Type580.f90  Require variable units if Parameter 11 of this model is set to 1
-535  2   1  !Tess Library Model: Type535.f90  Require variable units if Parameter 2 of this model is set to 1
