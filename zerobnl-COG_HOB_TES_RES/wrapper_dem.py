@@ -26,10 +26,10 @@ class MyNode(Node):
 		print( 'successfully loaded the FMU' )
 
 		## FMU instantiation		
-		start_time = 0.
-		stop_time = 3600. * 24.  # 24 hours
+		start_time = 3600. * 24.*26
+		stop_time = 3600. * 24.*27  # 24 hours
 		self.step_size = 3600.# 1/6 hour
-		self.tempo=self.step_size
+		self.tempo= start_time# self.step_size
 		instance_name = "eplus_fmu_test"
 		visible = False
 		interactive = False
@@ -66,17 +66,13 @@ class MyNode(Node):
 	def step(self, value):		
 		"""This method is called to make a step, you need to adapt it to your model."""
 		super().step(value)  # Keep this line, it triggers the parent class method.
-		
-		#self.y = np.random.choice([-1, 0, 1])
-		#self.b = self.a + self.y * self.c
-		#self.save_attribute("y")		
+
+		self.tempo = self.tempo+value		
 		new_step=True		
 		print('Time',self.tempo)
 		print('Step',value)
 		status = self.fmu.doStep(self.tempo-value, value, new_step)        
-		assert status == fmipp.fmiOK  
-		self.tempo=self.tempo+value
-
+		assert status == fmipp.fmiOK  		
 
 if __name__ == "__main__":
     node = MyNode()

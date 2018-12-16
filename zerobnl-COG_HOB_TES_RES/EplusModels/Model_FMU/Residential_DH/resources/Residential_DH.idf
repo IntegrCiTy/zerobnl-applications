@@ -9,13 +9,8 @@ ExternalInterface,
 
 ExternalInterface:FunctionalMockupUnitExport:From:Variable,
     DISTRICT HEATING 1,      !- Output:Variable Index Key Name
-    District Heating Mass Flow Rate,  !- Output:Variable Name
-    mdot;                    !- FMU Variable Name
-
-ExternalInterface:FunctionalMockupUnitExport:From:Variable,
-    DISTRICT HEATING 1,      !- Output:Variable Index Key Name
-    District Heating Inlet Temperature,  !- Output:Variable Name
-    Tr_second;               !- FMU Variable Name
+    District Heating Rate,   !- Output:Variable Name
+    QDH;                     !- FMU Variable Name
 
 ExternalInterface:FunctionalMockupUnitExport:From:Variable,
     ZONE ONE,                !- Output:Variable Index Key Name
@@ -23,14 +18,14 @@ ExternalInterface:FunctionalMockupUnitExport:From:Variable,
     Tindoor;                 !- FMU Variable Name
 
 ExternalInterface:FunctionalMockupUnitExport:To:Schedule,
-    SupplyTempFMU,           !- Schedule Name
+    ThermoTempFMU,           !- Schedule Name
     Any Number,              !- Schedule Type Limits Names
-    Ts_second,               !- FMU Variable Name
-    60;                      !- Initial Value
+    Tthermostat,             !- FMU Variable Name
+    20;                      !- Initial Value
 
 ThermostatSetpoint:SingleHeating,
     Office Thermostat Dual SP Control,  !- Name
-    ALWAYS 20;               !- Setpoint Temperature Schedule Name
+    ThermoTempFMU;           !- Setpoint Temperature Schedule Name
 
 Output:Variable,*,Baseboard Total Heating Rate ,Hourly;
 Output:Variable,*,Baseboard Hot Water Mass Flow Rate,Hourly;
@@ -264,7 +259,7 @@ Schedule:Compact,
 SetpointManager:Scheduled,
     Main Loop SetPoint,      !- Name
     Temperature,             !- Control Variable
-    SupplyTempFMU,           !- Schedule Name
+    Main Loop Temp Sch,      !- Schedule Name
     Main Loop SetPoint Node; !- Setpoint Node or NodeList Name
 
 Schedule:Compact,
@@ -272,7 +267,7 @@ Schedule:Compact,
     Any Number,              !- Schedule Type Limits Name
     Through: 12/31,          !- Field 1
     For: AllDays,            !- Field 2
-    Until: 24:00, 55;        !- Field 4
+    Until: 24:00, 60;        !- Field 4
 
 NodeList,
     Main Loop SetPoint Node, !- Name
@@ -288,9 +283,9 @@ Output:Variable,*,Baseboard Water Outlet Temperature,Hourly;
 RunPeriod,
     Annual sim 1,            !- Name
     1,                       !- Begin Month
-    1,                       !- Begin Day of Month
+    27,                      !- Begin Day of Month
     1,                       !- End Month
-    1,                       !- End Day of Month
+    27,                      !- End Day of Month
     ,                        !- Day of Week for Start Day
     Yes,                     !- Use Weather File Holidays and Special Days
     Yes,                     !- Use Weather File Daylight Saving Period
@@ -667,7 +662,7 @@ Schedule:Compact,
     Any Number,              !- Schedule Type Limits Name
     Through: 12/31,          !- Field 1
     For: AllDays,            !- Field 2
-    Until: 24:00, 19;        !- Field 4
+    Until: 24:00, 22;        !- Field 4
 
 Schedule:Compact,
     ALWAYS 24,               !- Name

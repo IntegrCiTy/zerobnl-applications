@@ -14,8 +14,8 @@ fmu = fmipp.FMUCoSimulationV1( uri_to_extracted_fmu, model_name, logging_on, tim
 
 print( 'successfully loaded the FMU' )
 
-start_time = 0.
-stop_time = 3600.*24. # 24 hours
+start_time = 3600.*24.*26
+stop_time = 3600.*24.*27 # 24 hours
 
 instance_name = "eplus_fmu_test"
 visible = False
@@ -31,7 +31,7 @@ assert status == fmipp.fmiOK
 
 print( 'successfully initialized the FMU' )
 
-time = 0.
+time = 3600.*24.*26
 step_size = 3600 # 1 hour
 
 print( 'start simulation loop' )
@@ -45,22 +45,10 @@ while ( ( time + step_size ) - stop_time < time_diff_resolution ):
 	# # Advance time.
 	time += step_size
 
-	fmu.setRealValue( 'Ts_second', 50 )
-	assert fmu.getLastStatus() == fmipp.fmiOK 
-
-	temp_return = fmu.getRealValue( 'Tr_second' )
+	temp_indoor = fmu.getRealValue( 'Tindoor' )
 	assert fmu.getLastStatus() == fmipp.fmiOK
 	
-	temp_return2 = fmu.getRealValue( 'Tr_second' )
-	assert fmu.getLastStatus() == fmipp.fmiOK
 
-	#temp_indoor = fmu.getRealValue( 'Tindoor' )
-	#assert fmu.getLastStatus() == fmipp.fmiOK
-	
-	massflow = fmu.getRealValue( 'mdot' )
-	assert fmu.getLastStatus() == fmipp.fmiOK	
 
-	print( 'time = {}, Tr_secondary = {}'.format( time, temp_return ) )
-	print( 'time = {}, Tr_secondary = {}'.format( time, temp_return2 ) )
-	#print( 'time = {}, Tindoor = {}'.format( time, temp_indoor ) )
-	print( 'time = {}, massflow = {}'.format( time, massflow ) )
+
+	print( 'time = {}, Tindoor = {}'.format( time, temp_indoor ) )

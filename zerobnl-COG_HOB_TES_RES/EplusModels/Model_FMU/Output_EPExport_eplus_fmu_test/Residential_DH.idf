@@ -2,24 +2,20 @@ ExternalInterface,
 FunctionalMockupUnitExport;
 ExternalInterface:FunctionalMockupUnitExport:From:Variable,
 DISTRICT HEATING 1,
-District Heating Mass Flow Rate,
-mdot;
-ExternalInterface:FunctionalMockupUnitExport:From:Variable,
-DISTRICT HEATING 1,
-District Heating Inlet Temperature,
-Tr_second;
+District Heating Rate,
+QDH;
 ExternalInterface:FunctionalMockupUnitExport:From:Variable,
 ZONE ONE,
 Zone Air Temperature,
 Tindoor;
 ExternalInterface:FunctionalMockupUnitExport:To:Schedule,
-SupplyTempFMU,
+ThermoTempFMU,
 Any Number,
-Ts_second,
-60;
+Tthermostat,
+20;
 ThermostatSetpoint:SingleHeating,
 Office Thermostat Dual SP Control,
-ALWAYS 20;
+ThermoTempFMU;
 Output:Variable,
 *,
 Baseboard Total Heating Rate ,
@@ -232,7 +228,7 @@ Until: 24:00,
 SetpointManager:Scheduled,
 Main Loop SetPoint,
 Temperature,
-SupplyTempFMU,
+Main Loop Temp Sch,
 Main Loop SetPoint Node;
 Schedule:Compact,
 Main Loop Temp Sch,
@@ -240,7 +236,7 @@ Any Number,
 Through: 12/31,
 For: AllDays,
 Until: 24:00,
-55;
+60;
 NodeList,
 Main Loop SetPoint Node,
 Supply Outlet Pipe Outlet Node;
@@ -271,9 +267,9 @@ Hourly;
 RUNPERIOD, 
 Annual sim 1,
 1,
+28,
 1,
-1,
-1,
+27,
  ,
 Yes,
 Yes,
@@ -705,7 +701,7 @@ Any Number,
 Through: 12/31,
 For: AllDays,
 Until: 24:00,
-19;
+22;
 Schedule:Compact,
 ALWAYS 24,
 Any Number,
