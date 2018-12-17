@@ -1,0 +1,1 @@
+{"NAME": "Base0", "GROUP": "GRP4", "LOCAL": false, "INPUT_MAP": "{('Base2', 'COG_MDOTtot'): 'mdotTOT', ('Base3', 'Tindoor'): 'TindoorIN', ('Base5', 'TES_socOUT'): 'TES_socIN'}", "OUTPUTS": ["Tth", "demandFlag", "TsetP"], "INIT_VALUES": {}, "PARAMETERS": {}, "START": "2000-01-01 00:00:00", "TIME_UNIT": "seconds"}
