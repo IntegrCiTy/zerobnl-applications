@@ -1,6 +1,0 @@
-`sim = CoSim()` (edited) 
-
-
-`sim.start = "2000-01-27 00:00:00"`
-
-it comes from `Node`: `self.real_time` -> real time value (can can set the starting point with `CoSim.set_start_time(start)`) and `self.simu_time` -> relative simulation time, it just add the steps (edited) 

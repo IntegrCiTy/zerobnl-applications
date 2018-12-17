@@ -1,4 +1,4 @@
-Program Version,EnergyPlus, Version 8.9.0-40101eaafd, YMD=2018.12.16 20:54,
+Program Version,EnergyPlus, Version 8.9.0-40101eaafd, YMD=2018.12.17 16:00,
 Var Type (reported time step),Var Report Type,Variable Name [Units]
 Zone,Meter,EnergyTransfer:Facility [J]
 Zone,Meter,EnergyTransfer:Building [J]

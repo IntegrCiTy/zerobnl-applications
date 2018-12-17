@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fmiModelDescription fmiVersion="1.0" modelName="COGplant" modelIdentifier="COGplant" description="TRNSYS FMI CS export" generationTool="FMI++ TRNSYS Export Utility" generationDateAndTime="2018-12-16T19:32:30" variableNamingConvention="flat" numberOfContinuousStates="0" numberOfEventIndicators="0" author="adm.arnaudo" guid="{f25892cf-0160-11e9-bc96-705a0f8897e1}">
+<fmiModelDescription fmiVersion="1.0" modelName="COGplant" modelIdentifier="COGplant" description="TRNSYS FMI CS export" generationTool="FMI++ TRNSYS Export Utility" generationDateAndTime="2018-12-17T10:28:58" variableNamingConvention="flat" numberOfContinuousStates="0" numberOfEventIndicators="0" author="adm.arnaudo" guid="{2e2b06d1-01de-11e9-a179-705a0f8897e1}">
 	<ModelVariables>
 		<ScalarVariable name="COG_QDH" valueReference="1" variability="continuous" causality="input">
 			<Real/>
