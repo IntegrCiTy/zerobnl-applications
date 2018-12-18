@@ -35,10 +35,18 @@ class Ctrl(Node):
     def step(self, value):
         """This method is called to make a step, you need to adapt it to your model."""
         super().step(value)  # Keep this line, it triggers the parent class method.
+
+
+        if self.demandOK < 0: # satisfied: 1; not satisfied: -1 OBS!! This is based on the indoor temperature		
+		
+            self.PRflag = -1
+			
+            print('The capacity in the building is over')	
+
         
         if self.PRflag < 0: # set: 1; not set: -1
 
-            self.priority = np.empty([2])
+            self.priority = np.empty([3])
 			
 			# You are going to have a function here or maybe a separated model?
 			# The priority will be set based on operational costs of the different options.
@@ -69,11 +77,7 @@ class Ctrl(Node):
 			
                 print('Plants are activated')
 			
-            if self.demandOK < 0: # satisfied: 1; not satisfied: -1 OBS!! This is based on the indoor temperature		
 		
-               self.PRflag = -1
-			
-               print('The capacity in the building is over')			
 		
 if __name__ == "__main__":
     node = Ctrl()

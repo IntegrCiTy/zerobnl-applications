@@ -2,7 +2,7 @@
 *************************.
 Writing to socket at time = 8.640000e+04
 Assembling buffer.
-Write to socket with fd = 460
+Write to socket with fd = 444
 Buffer        = 2 0 2 0 0 8.640000000000000e+04 1.342526151046761e+03 1.898798293537707e+01 
 
 Wrote 77 characters to socket.

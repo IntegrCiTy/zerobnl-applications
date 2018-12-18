@@ -7,6 +7,7 @@ RUN git clone --single-branch -b $BRANCH https://github.com/IntegrCiTy/zerobnl.g
 
 RUN cd zerobnl && pip install --no-cache-dir -r requirements.txt
 RUN cd zerobnl && python setup.py install
+RUN pip install pyepw
 
 WORKDIR /code
 

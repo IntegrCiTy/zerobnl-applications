@@ -45,24 +45,24 @@ class Lctrl(Node):
         self.demandFlag = 0
 		
         if  self.TsetP > self.TS_bl: # Request for a Tsupply higher than the BL
-            if self.TindoorIN > self.TindoorMIN: # First check the possibility to use the capacity in the buildings
+            if self.TindoorIN >= self.TindoorMIN and self.Tth >= self.TindoorMIN: # First check the possibility to use the capacity in the buildings
                self.Tth = max(self.Tth -1,18.) 
                self.demandFlag = 1 #--> Tth
             else:
-               self.demandFlag = -2 #--> HOBS
+               self.demandFlag = -2 #--> HOBS # !! Un paio di volte arriva qui perché la Tindoor scende a 17.9
 				
         if  self.mdotTOT > self.mdot_bl:  # Request for a Mdot higher than the BL
-            if self.TindoorIN > self.TindoorMIN: # First check the possibility to use the capacity in the buildings
+            if self.TindoorIN >= self.TindoorMIN and self.Tth >= self.TindoorMIN: # First check the possibility to use the capacity in the buildings
                self.Tth = max(self.Tth -1,18.) 
-               self.demandFlag = 1 #--> Tth
-            elif self.TES_socIN > 0:
+               self.demandFlag = 1 #--> Tth # !! si ferma qui ma non si sa se sia sufficiente e sovrascrive il -2 di prima
+            elif self.TES_socIN > -1:
                self.demandFlag = -1 #--> TES discharge
             else:
                self.demandFlag = -2 #--> HOBS
 			   
         else:
             self.Tth = min(self.Tth + 1, 22.) # Since there is surplus, fill in the capacity in the buildings
-            if self.TES_socIN < 0:
+            if self.TES_socIN < 1:
                self.demandFlag = -3 #--> TES charge
             else:
                print("Heat is being wasted")
