@@ -14,6 +14,7 @@ class Lctrl(Node):
         self.TindoorIN = 20.
         self.mdotTOT = 507.        
         self.TES_socIN = 1
+        self.ToutdoorP = 0.
         #Outputs (get)
         self.demandFlag = 0 
         self.Tth = 20.
@@ -23,7 +24,7 @@ class Lctrl(Node):
         self.mdot_bl = 507.
         self.TindoorMIN = 19.
         self.TindoorMAX = 22.
-               
+        self.TsetMatrix = np.loadtxt("TS_set.txt", comments='#', delimiter='\t', converters=None, skiprows=2, usecols=(0,1), unpack=False, ndmin=0)   
 
     def set_attribute(self, attr, value):
         """This method is called to set an attribute of the model to a given value, you need to adapt it to your model."""
@@ -38,8 +39,9 @@ class Lctrl(Node):
     def step(self, value):
         """This method is called to make a step, you need to adapt it to your model."""
         super().step(value)  # Keep this line, it triggers the parent class method.
-        
-        self.TsetP = 75. #self.TsetP = f(self.Toutdoor)
+                
+        self.TsetP = np.interp(self.ToutdoorP,self.TsetMatrix[:,0],self.TsetMatrix[:,1])
+	
         self.demandFlag = 0
 		
         if  self.TsetP > self.TS_bl: # Request for a Tsupply higher than the BL
@@ -52,7 +54,7 @@ class Lctrl(Node):
         if  self.mdotTOT > self.mdot_bl:  # Request for a Mdot higher than the BL
             if self.TindoorIN > self.TindoorMIN: # First check the possibility to use the capacity in the buildings
                self.Tth = max(self.Tth -1,18.) 
-               self.demandFlag = -1 #--> Tth
+               self.demandFlag = 1 #--> Tth
             elif self.TES_socIN > 0:
                self.demandFlag = -1 #--> TES discharge
             else:

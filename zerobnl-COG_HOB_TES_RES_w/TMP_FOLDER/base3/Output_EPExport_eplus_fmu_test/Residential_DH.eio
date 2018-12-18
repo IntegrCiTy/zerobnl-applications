@@ -1,4 +1,4 @@
-Program Version,EnergyPlus, Version 8.9.0-40101eaafd, YMD=2018.12.17 16:00
+Program Version,EnergyPlus, Version 8.9.0-40101eaafd, YMD=2018.12.18 09:30
 ! <Version>, Version ID
  Version, 8.9
 ! <Timesteps per Hour>, #TimeSteps, Minutes per TimeStep {minutes}
@@ -139,7 +139,7 @@ Environment,ANNUAL SIM 1,WeatherFileRunPeriod,01/27,01/27,Friday,1,UseWeatherFil
 Environment:Daylight Saving,No,
 Environment:WarmupDays,  6
 ! <Warmup Convergence Information>,Zone Name,Environment Type/Name,Average Warmup Temperature Difference {deltaC},Std Dev Warmup Temperature Difference {deltaC},Max Temperature Pass/Fail Convergence,Min Temperature Pass/Fail Convergence,Average Warmup Load Difference {W},Std Dev Warmup Load Difference {W},Heating Load Pass/Fail Convergence,Cooling Load Pass/Fail Convergence
- Warmup Convergence Information,ZONE ONE,RunPeriod: ANNUAL SIM 1,0.8103749791,1.2077660890,Pass,Pass,0.1707188175,0.2328577467,Pass,Pass
+ Warmup Convergence Information,ZONE ONE,RunPeriod: ANNUAL SIM 1,0.8114966450,1.2395604476,Pass,Pass,0.1823084129,0.2483786518,Pass,Pass
 ! <Program Control Information:Threads/Parallel Sims>, Threading Supported,Maximum Number of Threads, Env Set Threads (OMP_NUM_THREADS), EP Env Set Threads (EP_OMP_NUM_THREADS), IDF Set Threads, Number of Threads Used (Interior Radiant Exchange), Number Nominal Surfaces, Number Parallel Sims
 Program Control:Threads/Parallel Sims, No,1, N/A, N/A, N/A, N/A, N/A, N/A
 End of Data

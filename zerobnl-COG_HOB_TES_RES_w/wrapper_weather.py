@@ -5,16 +5,17 @@ from zerobnl.kernel import Node
 import numpy as np
 from pyepw.epw import EPW
 
+
 class Weather(Node): 
     def __init__(self):
         super().__init__() # Keep this line, it triggers the parent class __init__ method.
 
         # This is where you define the attribute of your model, this one is pretty basic.
         epw = EPW()
-        self.epw.read(r"SWE_Stockholm.Arlanda.024600_IWEC.epw")
-		self.VdryBulb = np.empty([8760])
+        epw.read(r"SWE_Stockholm.Arlanda.024600_IWEC.epw")
+        self.VdryBulb = np.empty([8760])
         jj=0
-        for wd in self.epw.weatherdata:
+        for wd in epw.weatherdata:
             self.VdryBulb[jj] = wd.dry_bulb_temperature
             jj=jj+1
 		
@@ -36,7 +37,7 @@ class Weather(Node):
         super().step(value)  # Keep this line, it triggers the parent class method.
         
         self.TdryBulb = self.VdryBulb[self.ii]
-        self.ii+1			     
+        self.ii=self.ii+1			     
 		
 if __name__ == "__main__":
     node = Weather()

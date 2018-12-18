@@ -1,1 +1,1 @@
-{"NAME": "Base1", "GROUP": "GRP5", "LOCAL": false, "INPUT_MAP": "{('Base0', 'demandFlag'): 'demandOK'}", "OUTPUTS": ["COG_FlagOUT", "HOB_FlagOUT", "TES_FlagOUT"], "INIT_VALUES": {}, "PARAMETERS": {}, "START": "2000-01-01 00:00:00", "TIME_UNIT": "seconds"}
+{"NAME": "Base1", "GROUP": "GRP6", "LOCAL": false, "INPUT_MAP": "{('Base0', 'demandFlag'): 'demandOK'}", "OUTPUTS": ["COG_FlagOUT", "HOB_FlagOUT", "TES_FlagOUT"], "INIT_VALUES": {}, "PARAMETERS": {}, "START": "2000-01-01 00:00:00", "TIME_UNIT": "seconds"}
