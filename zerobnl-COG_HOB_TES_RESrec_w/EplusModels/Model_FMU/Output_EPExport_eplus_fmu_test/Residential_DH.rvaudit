@@ -1,0 +1,16 @@
+ ReadVarsESO
+ processing:.Residential_DH.rvi
+ input file:Residential_DH.eso
+ output file:Residential_DH.csv
+ getting all vars from:Residential_DH.eso
+  number variables requested for output=          11
+ ReadVars Run Time=00hr 00min  0.89sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:.Residential_DH.mvi
+ input file:Residential_DH.mtr
+ output file:Residential_DHMeter.csv
+ getting all vars from:Residential_DH.mtr
+  number variables requested for output=           1
+ ReadVars Run Time=00hr 00min  0.33sec
+ ReadVarsESO program completed successfully.
