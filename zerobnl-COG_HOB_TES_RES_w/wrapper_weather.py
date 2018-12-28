@@ -20,7 +20,7 @@ class Weather(Node):
             jj=jj+1
 		
         self.TdryBulb = 0.		
-        self.ii = 24 * 27		
+        self.ii = 24 * 26		
 		
     def set_attribute(self, attr, value):
         """This method is called to set an attribute of the model to a given value, you need to adapt it to your model."""

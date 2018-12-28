@@ -3,7 +3,19 @@ Shadowing Combinations
 ..In the following, only the first 10 reference surfaces will be shown.
 ..But all surfaces are used in the calculations.
 ==================================
-Surface=SURFACE NORTH is used as Receiving Surface in calculations and is convex.
+Surface=ZONE SURFACE NORTH is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=6
+...Surface=ZONE SURFACE EAST
+...Surface=EAST WINDOW
+...Surface=ZONE SURFACE SOUTH
+...Surface=ZONE SURFACE WEST
+...Surface=ZONE SURFACE FLOOR
+...Surface=ZONE SURFACE ROOF
+Number of receiving sub surfaces=1
+....Surface=NORTH WINDOW
+==================================
+Surface=NORTH WINDOW is not used as Receiving Surface in calculations.
 Number of general casting surfaces=0
 Number of back surfaces=0
 Number of receiving sub surfaces=0
@@ -11,10 +23,10 @@ Number of receiving sub surfaces=0
 Surface=ZONE SURFACE EAST is used as Receiving Surface in calculations and is convex.
 Number of general casting surfaces=0
 Number of back surfaces=6
-...Surface=SURFACE NORTH
+...Surface=ZONE SURFACE NORTH
+...Surface=NORTH WINDOW
 ...Surface=ZONE SURFACE SOUTH
 ...Surface=ZONE SURFACE WEST
-...Surface=WEST WINDOW
 ...Surface=ZONE SURFACE FLOOR
 ...Surface=ZONE SURFACE ROOF
 Number of receiving sub surfaces=1
@@ -25,24 +37,12 @@ Number of general casting surfaces=0
 Number of back surfaces=0
 Number of receiving sub surfaces=0
 ==================================
-Surface=ZONE SURFACE SOUTH is used as Receiving Surface in calculations and is convex.
+Surface=ZONE SURFACE SOUTH is not used as Receiving Surface in calculations.
 Number of general casting surfaces=0
 Number of back surfaces=0
 Number of receiving sub surfaces=0
 ==================================
-Surface=ZONE SURFACE WEST is used as Receiving Surface in calculations and is convex.
-Number of general casting surfaces=0
-Number of back surfaces=6
-...Surface=SURFACE NORTH
-...Surface=ZONE SURFACE EAST
-...Surface=EAST WINDOW
-...Surface=ZONE SURFACE SOUTH
-...Surface=ZONE SURFACE FLOOR
-...Surface=ZONE SURFACE ROOF
-Number of receiving sub surfaces=1
-....Surface=WEST WINDOW
-==================================
-Surface=WEST WINDOW is not used as Receiving Surface in calculations.
+Surface=ZONE SURFACE WEST is not used as Receiving Surface in calculations.
 Number of general casting surfaces=0
 Number of back surfaces=0
 Number of receiving sub surfaces=0
@@ -53,6 +53,11 @@ Number of back surfaces=0
 Number of receiving sub surfaces=0
 ==================================
 Surface=ZONE SURFACE ROOF is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=INDOOR WALLS is not used as Receiving Surface in calculations.
 Number of general casting surfaces=0
 Number of back surfaces=0
 Number of receiving sub surfaces=0

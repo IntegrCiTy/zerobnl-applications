@@ -1,4 +1,4 @@
-Program Version,EnergyPlus, Version 8.9.0-40101eaafd, YMD=2018.12.14 10:41
+Program Version,EnergyPlus, Version 8.9.0-40101eaafd, YMD=2018.12.28 10:19
 ! This file shows details about the branches, nodes, and other
 ! elements of the flow connections.
 ! This file is intended for use in "debugging" potential problems
@@ -8,7 +8,7 @@ Program Version,EnergyPlus, Version 8.9.0-40101eaafd, YMD=2018.12.14 10:41
 ! schematic diagram of the HVAC system.
 ! ===============================================================
 ! #Nodes,<Number of Unique Nodes>
- #Nodes,14
+ #Nodes,20
 ! <Node>,<NodeNumber>,<Node Name>,<Node Fluid Type>,<# Times Node Referenced After Definition>
  Node,1,SUPPLY OUTLET PIPE OUTLET NODE,Water,5
  Node,2,PUMP INLET NODE,Water,2
@@ -23,13 +23,19 @@ Program Version,EnergyPlus, Version 8.9.0-40101eaafd, YMD=2018.12.14 10:41
  Node,11,DEMAND OUTLET PIPE INLET NODE,Water,1
  Node,12,DEMAND OUTLET PIPE OUTLET NODE,Water,2
  Node,13,ZONE ONE ZONE AIR NODE,Air,0
- Node,14,ZONE ONE RETURN OUTLET,Air,0
+ Node,14,ZONE ONESUPPLY AIR INLET,Air,2
+ Node,15,ZONE ONE EXHAUST AIR OUTLET,Air,2
+ Node,16,ZONE ONE RETURN OUTLET,Air,0
+ Node,17,ERV SUPPLY AIR INLET,Air,2
+ Node,18,ERV EXHAUST FROM FAN,Air,2
+ Node,19,ERV SUPPLY TO FAN,Air,1
+ Node,20,ERV EXHAUST AIR OUTLET,Air,1
 ! ===============================================================
 ! Suspicious nodes have 0 references.  It is normal for some nodes, however.
 ! Listing nodes with 0 references (culled from previous list):
 ! <Suspicious Node>,<NodeNumber>,<Node Name>,<Node Fluid Type>,<# Times Node Referenced After Definition>
  Suspicious Node,13,ZONE ONE ZONE AIR NODE,Air,0
- Suspicious Node,14,ZONE ONE RETURN OUTLET,Air,0
+ Suspicious Node,16,ZONE ONE RETURN OUTLET,Air,0
 ! ===============================================================
 ! <#Branch Lists>,<Number of Branch Lists>
  #Branch Lists,2
@@ -61,10 +67,13 @@ Program Version,EnergyPlus, Version 8.9.0-40101eaafd, YMD=2018.12.14 10:41
 ! <Return Air Path Component Nodes>,<Node Count>,<Component Type>,<Component Name>,<Inlet Node Name>,<Outlet Node Name>,<AirLoopHVAC Name>
 ! ===============================================================
 ! #Outdoor Air Nodes,<Number of Outdoor Air Nodes>
- #Outdoor Air Nodes,0
+ #Outdoor Air Nodes,2
+! <Outdoor Air Node>,<NodeNumber>,<Node Name>
+ Outdoor Air Node,17,ERV SUPPLY AIR INLET
+ Outdoor Air Node,18,ERV EXHAUST FROM FAN
 ! ===============================================================
 ! <#Component Sets>,<Number of Component Sets>
- #Component Sets,6
+ #Component Sets,9
 ! <Component Set>,<Component Set Count>,<Parent Object Type>,<Parent Object Name>,<Component Type>,<Component Name>,<Inlet Node ID>,<Outlet Node ID>,<Description>
  Component Set,1,BRANCH,PUMP BRANCH,PUMP:VARIABLESPEED,PUMP 1,PUMP INLET NODE,PUMP OUTLET NODE,Water Nodes
  Component Set,2,BRANCH,DH BRANCH,DISTRICTHEATING,DISTRICT HEATING 1,DH INLET NODE,DH OUTLET NODE,Hot Water Nodes
@@ -72,6 +81,9 @@ Program Version,EnergyPlus, Version 8.9.0-40101eaafd, YMD=2018.12.14 10:41
  Component Set,4,BRANCH,DEMAND INLET PIPE BRANCH,PIPE:ADIABATIC,DEMAND INLET PIPE,DEMAND INLET PIPE INLET NODE,DEMAND INLET PIPE OUTLET NODE,Pipe Nodes
  Component Set,5,BRANCH,RADIATOR BRANCH,ZONEHVAC:BASEBOARD:RADIANTCONVECTIVE:WATER,RADIATOR,RADIATOR INLET NODE,RADIATOR OUTLET NODE,Hot Water Nodes
  Component Set,6,BRANCH,DEMAND OUTLET PIPE BRANCH,PIPE:ADIABATIC,DEMAND OUTLET PIPE,DEMAND OUTLET PIPE INLET NODE,DEMAND OUTLET PIPE OUTLET NODE,Pipe Nodes
+ Component Set,7,ZONEHVAC:ENERGYRECOVERYVENTILATOR,ERV_1,HEATEXCHANGER:AIRTOAIR:SENSIBLEANDLATENT,ERV_1_HX,ERV SUPPLY AIR INLET,ERV SUPPLY TO FAN,Process Air Nodes
+ Component Set,8,ZONEHVAC:ENERGYRECOVERYVENTILATOR,ERV_1,FAN:ONOFF,ERV_1_FANSUPPLY,ERV SUPPLY TO FAN,ZONE ONESUPPLY AIR INLET,Air Nodes
+ Component Set,9,ZONEHVAC:ENERGYRECOVERYVENTILATOR,ERV_1,FAN:ONOFF,ERV_1_FANEXHAUST,ERV EXHAUST FROM FAN,ERV EXHAUST AIR OUTLET,Air Nodes
 ! ===============================================================
 ! <# Plant Loops>,<Number of Plant Loops>
  #Plant Loops,1
@@ -112,15 +124,18 @@ Program Version,EnergyPlus, Version 8.9.0-40101eaafd, YMD=2018.12.14 10:41
 ! <Controlled Zone>,<Controlled Zone Name>,<Equip List Name>,<Control List Name>,<Zone Node Name>,<# Inlet Nodes>,<# Exhaust Nodes>,<# Return Nodes>
 ! <Controlled Zone Inlet>,<Inlet Node Count>,<Controlled Zone Name>,<Supply Air Inlet Node Name>,<SD Sys:Cooling/Heating [DD:Cooling] Inlet Node Name>,<DD Sys:Heating Inlet Node Name>
 ! <Controlled Zone Exhaust>,<Exhaust Node Count>,<Controlled Zone Name>,<Exhaust Air Node Name>
- Controlled Zone,ZONE ONE,ZONE ONE EQUIPMENT,,ZONE ONE ZONE AIR NODE,0,0,1
+ Controlled Zone,ZONE ONE,ZONE ONE EQUIPMENT,,ZONE ONE ZONE AIR NODE,1,1,1
+   Controlled Zone Inlet,1,ZONE ONE,ZONE ONESUPPLY AIR INLET,Undefined,N/A
+   Controlled Zone Exhaust,1,ZONE ONE,ZONE ONE EXHAUST AIR OUTLET
    Controlled Zone Return,1,ZONE ONE,ZONE ONE RETURN OUTLET
 ! ===============================================================
 ! <#Zone Equipment Lists>,<Number of Zone Equipment Lists>
  #Zone Equipment Lists,1
 ! <Zone Equipment List>,<Zone Equipment List Count>,<Zone Equipment List Name>,<Zone Name>,<Number of Components>
 ! <Zone Equipment Component>,<Component Count>,<Component Type>,<Component Name>,<Zone Name>,<Heating Priority>,<Cooling Priority>
- Zone Equipment List,1,ZONE ONE EQUIPMENT,ZONE ONE,1
-   Zone Equipment Component,1,ZONEHVAC:BASEBOARD:RADIANTCONVECTIVE:WATER,RADIATOR,ZONE ONE,1,1
+ Zone Equipment List,1,ZONE ONE EQUIPMENT,ZONE ONE,2
+   Zone Equipment Component,1,ZONEHVAC:ENERGYRECOVERYVENTILATOR,ERV_1,ZONE ONE,1,1
+   Zone Equipment Component,2,ZONEHVAC:BASEBOARD:RADIANTCONVECTIVE:WATER,RADIATOR,ZONE ONE,2,2
 ! ===============================================================
 ! <#AirLoopHVACs>,<Number of AirLoopHVACs>
  #AirLoopHVACs,0
@@ -135,7 +150,7 @@ Program Version,EnergyPlus, Version 8.9.0-40101eaafd, YMD=2018.12.14 10:41
 ! <AirLoopHVAC Connector Nodes>,<Connector Node Count>,<Connector Type>,<Connector Name>,<Inlet Node>,<Outlet Node>,<Loop Name>,<Loop Type>
 ! ===============================================================
 ! <#Parent Node Connections>,<Number of Parent Node Connections>
- #Parent Node Connections,17
+ #Parent Node Connections,21
 ! <Parent Node Connection>,<Node Name>,<Node ObjectType>,<Node ObjectName>,<Node ConnectionType>,<Node FluidStream>
  Parent Node Connection,PUMP INLET NODE,BRANCH,PUMP BRANCH,Inlet,1
  Parent Node Connection,PUMP OUTLET NODE,BRANCH,PUMP BRANCH,Outlet,1
@@ -154,10 +169,20 @@ Program Version,EnergyPlus, Version 8.9.0-40101eaafd, YMD=2018.12.14 10:41
  Parent Node Connection,DEMAND INLET PIPE INLET NODE,PLANTLOOP,MAIN LOOP,Inlet,1
  Parent Node Connection,DEMAND OUTLET PIPE OUTLET NODE,PLANTLOOP,MAIN LOOP,Outlet,1
  Parent Node Connection,SUPPLY OUTLET PIPE OUTLET NODE,PLANTLOOP,MAIN LOOP,Sensor,1
+ Parent Node Connection,ERV SUPPLY AIR INLET,ZONEHVAC:ENERGYRECOVERYVENTILATOR,ERV_1,Inlet,1
+ Parent Node Connection,ZONE ONESUPPLY AIR INLET,ZONEHVAC:ENERGYRECOVERYVENTILATOR,ERV_1,Outlet,1
+ Parent Node Connection,ZONE ONE EXHAUST AIR OUTLET,ZONEHVAC:ENERGYRECOVERYVENTILATOR,ERV_1,Inlet,2
+ Parent Node Connection,ERV EXHAUST AIR OUTLET,ZONEHVAC:ENERGYRECOVERYVENTILATOR,ERV_1,ReliefAir,2
 ! ===============================================================
 ! <#Non-Parent Node Connections>,<Number of Non-Parent Node Connections>
- #Non-Parent Node Connections,23
+ #Non-Parent Node Connections,35
 ! <Non-Parent Node Connection>,<Node Name>,<Node ObjectType>,<Node ObjectName>,<Node ConnectionType>,<Node FluidStream>
+ Non-Parent Node Connection,ZONE ONE ZONE AIR NODE,ZONEHVAC:EQUIPMENTCONNECTIONS,ZONE ONE,ZoneNode,1
+ Non-Parent Node Connection,ZONE ONESUPPLY AIR INLET,ZONEHVAC:EQUIPMENTCONNECTIONS,ZONE ONE,ZoneInlet,1
+ Non-Parent Node Connection,ZONE ONE EXHAUST AIR OUTLET,ZONEHVAC:EQUIPMENTCONNECTIONS,ZONE ONE,ZoneExhaust,1
+ Non-Parent Node Connection,ZONE ONE RETURN OUTLET,ZONEHVAC:EQUIPMENTCONNECTIONS,ZONE ONE,ZoneReturn,1
+ Non-Parent Node Connection,ERV SUPPLY AIR INLET,OUTDOORAIR:NODELIST,OutdoorAir:NodeList,OutdoorAir,1
+ Non-Parent Node Connection,ERV EXHAUST FROM FAN,OUTDOORAIR:NODELIST,OutdoorAir:NodeList,OutdoorAir,2
  Non-Parent Node Connection,SUPPLY OUTLET PIPE OUTLET NODE,SETPOINTMANAGER:SCHEDULED:DUALSETPOINT,DUALPLANT,Setpoint,1
  Non-Parent Node Connection,SUPPLY OUTLET PIPE INLET NODE,PIPE:ADIABATIC,SUPPLY OUTLET PIPE,Inlet,1
  Non-Parent Node Connection,SUPPLY OUTLET PIPE OUTLET NODE,PIPE:ADIABATIC,SUPPLY OUTLET PIPE,Outlet,1
@@ -173,8 +198,14 @@ Program Version,EnergyPlus, Version 8.9.0-40101eaafd, YMD=2018.12.14 10:41
  Non-Parent Node Connection,DH INLET NODE,CONNECTOR:SPLITTER,SUPPLY SPLITTER,Outlet,1
  Non-Parent Node Connection,SUPPLY OUTLET PIPE INLET NODE,CONNECTOR:MIXER,SUPPLY MIXER,Outlet,1
  Non-Parent Node Connection,DH OUTLET NODE,CONNECTOR:MIXER,SUPPLY MIXER,Inlet,1
- Non-Parent Node Connection,ZONE ONE ZONE AIR NODE,ZONEHVAC:EQUIPMENTCONNECTIONS,ZONE ONE,ZoneNode,1
- Non-Parent Node Connection,ZONE ONE RETURN OUTLET,ZONEHVAC:EQUIPMENTCONNECTIONS,ZONE ONE,ZoneReturn,1
+ Non-Parent Node Connection,ERV SUPPLY AIR INLET,HEATEXCHANGER:AIRTOAIR:SENSIBLEANDLATENT,ERV_1_HX,Inlet,1
+ Non-Parent Node Connection,ERV SUPPLY TO FAN,HEATEXCHANGER:AIRTOAIR:SENSIBLEANDLATENT,ERV_1_HX,Outlet,1
+ Non-Parent Node Connection,ZONE ONE EXHAUST AIR OUTLET,HEATEXCHANGER:AIRTOAIR:SENSIBLEANDLATENT,ERV_1_HX,Inlet,2
+ Non-Parent Node Connection,ERV EXHAUST FROM FAN,HEATEXCHANGER:AIRTOAIR:SENSIBLEANDLATENT,ERV_1_HX,Outlet,2
+ Non-Parent Node Connection,ERV SUPPLY TO FAN,FAN:ONOFF,ERV_1_FANSUPPLY,Inlet,1
+ Non-Parent Node Connection,ZONE ONESUPPLY AIR INLET,FAN:ONOFF,ERV_1_FANSUPPLY,Outlet,1
+ Non-Parent Node Connection,ERV EXHAUST FROM FAN,FAN:ONOFF,ERV_1_FANEXHAUST,Inlet,1
+ Non-Parent Node Connection,ERV EXHAUST AIR OUTLET,FAN:ONOFF,ERV_1_FANEXHAUST,Outlet,1
  Non-Parent Node Connection,RADIATOR INLET NODE,ZONEHVAC:BASEBOARD:RADIANTCONVECTIVE:WATER,RADIATOR,Inlet,1
  Non-Parent Node Connection,RADIATOR OUTLET NODE,ZONEHVAC:BASEBOARD:RADIANTCONVECTIVE:WATER,RADIATOR,Outlet,1
  Non-Parent Node Connection,DH INLET NODE,DISTRICTHEATING,DISTRICT HEATING 1,Inlet,1

@@ -17,6 +17,7 @@ class Lctrl(Node):
         self.ToutdoorP = 0.
         #Outputs (get)
         self.demandFlag = 0 
+        self.demandFlag_mdot = 0
         self.Tth = 20.
         self.TsetP = 75. # Fake for the moment. There should be a function that calcuates it based on weather.
         #Internal variables
@@ -40,11 +41,11 @@ class Lctrl(Node):
         """This method is called to make a step, you need to adapt it to your model."""
         super().step(value)  # Keep this line, it triggers the parent class method.
                 
-        self.TsetP = np.interp(self.ToutdoorP,self.TsetMatrix[:,0],self.TsetMatrix[:,1])
+        self.TsetP = np.interp(self.ToutdoorP,self.TsetMatrix[:,0],self.TsetMatrix[:,1]) # Supply set point based on outdoor temperature
 	
         self.demandFlag = 0
 		
-        if  self.TsetP > self.TS_bl: # Request for a Tsupply higher than the BL
+        if  self.TsetP > self.TS_bl: # Request for a Tsupply higher than the BL (75 Cdeg)
             if self.TindoorIN >= self.TindoorMIN and self.Tth >= self.TindoorMIN: # First check the possibility to use the capacity in the buildings
                self.Tth = max(self.Tth -1,18.) 
                self.demandFlag = 1 #--> Tth
@@ -54,16 +55,16 @@ class Lctrl(Node):
         if  self.mdotTOT > self.mdot_bl:  # Request for a Mdot higher than the BL
             if self.TindoorIN >= self.TindoorMIN and self.Tth >= self.TindoorMIN: # First check the possibility to use the capacity in the buildings
                self.Tth = max(self.Tth -1,18.) 
-               self.demandFlag = 1 #--> Tth # !! si ferma qui ma non si sa se sia sufficiente e sovrascrive il -2 di prima
+               self.demandFlag_mdot = 1 #--> Tth # !! si ferma qui ma non si sa se sia sufficiente e sovrascrive il -2 di prima
             elif self.TES_socIN > -1:
-               self.demandFlag = -1 #--> TES discharge
+               self.demandFlag_mdot = -1 #--> TES discharge
             else:
-               self.demandFlag = -2 #--> HOBS
+               self.demandFlag_mdot = -2 #--> HOBS
 			   
         else:
             self.Tth = min(self.Tth + 1, 22.) # Since there is surplus, fill in the capacity in the buildings
             if self.TES_socIN < 1:
-               self.demandFlag = -3 #--> TES charge
+               self.demandFlag_mdot = -3 #--> TES charge
             else:
                print("Heat is being wasted")
 				

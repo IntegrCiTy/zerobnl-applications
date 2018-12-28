@@ -11,6 +11,7 @@ class Ctrl(Node):
 
         #Inputs (set)
         self.demandOK = 1
+        self.demandOK_mdot = 1
         #Outputs
         self.COG_FlagOUT = -1	
         self.TES_FlagOUT = -1		
@@ -37,11 +38,16 @@ class Ctrl(Node):
         super().step(value)  # Keep this line, it triggers the parent class method.
 
 
-        if self.demandOK < 0: # satisfied: 1; not satisfied: -1 OBS!! This is based on the indoor temperature		
+        if self.demandOK < 0 or self.demandOK_mdot < 0: # satisfied: 1; not satisfied: -1 OBS!! This is based on the indoor temperature		
 		
             self.PRflag = -1
 			
             print('The capacity in the building is over')	
+			
+        else:
+		
+            self.TES_FlagOUT = 0  
+            self.HOB_FlagOUT = -1          
 
         
         if self.PRflag < 0: # set: 1; not set: -1
@@ -63,14 +69,15 @@ class Ctrl(Node):
                 if plant['Name'] == "COGplant":
                    self.COG_FlagOUT = plant['Flag']
 				   
-                if plant['Name'] == "TESplant" and self.demandOK == -1:
-                   self.TES_FlagOUT = plant['Flag']
-                elif plant['Name'] == "TESplant" and self.demandOK == -3:
-                   self.TES_FlagOUT = -1
-                else:
-                   self.TES_FlagOUT = 0
+                if plant['Name'] == "TESplant":
+                    if self.demandOK_mdot == -1 :
+                       self.TES_FlagOUT = plant['Flag'] # Discharge
+                    elif self.demandOK_mdot == -3:
+                       self.TES_FlagOUT = -1 # Charge
+                    else:
+                       self.TES_FlagOUT = 0 # Nothing happens
 				
-                if plant['Name'] == "HOBplant" and self.demandOK == -2:
+                if plant['Name'] == "HOBplant" and (self.demandOK == -2 or self.demandOK_mdot == -2):
                    self.HOB_FlagOUT = plant['Flag']
                 else:
                    self.HOB_FlagOUT = -1
