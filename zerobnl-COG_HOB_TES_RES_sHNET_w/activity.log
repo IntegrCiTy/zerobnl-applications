@@ -1,0 +1,8 @@
+2018-12-29 14:27:48,922 :: DEBUG :: ZEROBNL -> deploy.py :: run :: CREATE NODES
+2018-12-29 14:27:49,778 :: DEBUG :: ZEROBNL -> deploy.py :: run :: CREATE ORCH
+2018-12-29 14:27:51,210 :: DEBUG :: ZEROBNL -> deploy.py :: run :: LAUNCH NETWORK+REDIS
+2018-12-29 14:27:51,223 :: DEBUG :: ZEROBNL -> deploy.py :: run :: DUMP YAML
+2018-12-29 14:27:51,224 :: WARNING :: ZEROBNL -> deploy.py :: run :: Local node to run in [TMP_FOLDER\base2] > python wrapper.py
+2018-12-29 14:27:51,233 :: WARNING :: ZEROBNL -> deploy.py :: run :: Local node to run in [TMP_FOLDER\base3] > python wrapper.py
+2018-12-29 14:27:51,234 :: WARNING :: ZEROBNL -> deploy.py :: run :: Local node to run in [TMP_FOLDER\base8] > python wrapper.py
+2018-12-29 14:27:51,235 :: INFO :: ZEROBNL -> deploy.py :: run :: Waiting for local nodes to run...

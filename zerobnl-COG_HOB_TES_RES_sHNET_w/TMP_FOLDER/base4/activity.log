@@ -1,0 +1,7 @@
+2018-12-29 13:28:04,089 :: DEBUG :: ZEROBNL -> node.py :: __init__ :: LOAD CONFIG NODE
+2018-12-29 13:28:04,091 :: DEBUG :: ZEROBNL -> node.py :: __init__ :: CONNECT REDIS
+2018-12-29 13:28:04,091 :: DEBUG :: ZEROBNL -> node.py :: __init__ :: CREATE SUB/SEND
+2018-12-29 13:28:04,091 :: DEBUG :: ZEROBNL -> node.py :: __init__ :: CONNECT TO SUB/SEND
+2018-12-29 13:28:04,092 :: DEBUG :: ZEROBNL -> node.py :: __init__ :: SUBSCRIBED TO GRP/ALL
+2018-12-29 13:28:04,092 :: DEBUG :: ZEROBNL -> node.py :: __init__ :: INIT DONE
+2018-12-29 13:28:04,092 :: DEBUG :: ZEROBNL -> node.py :: run :: INIT VALUES DONE

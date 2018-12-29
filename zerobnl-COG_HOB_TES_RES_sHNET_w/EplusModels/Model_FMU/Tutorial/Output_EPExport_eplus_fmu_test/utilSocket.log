@@ -1,0 +1,13 @@
+*** BCVTB client log file.
+*************************.
+Writing to socket at time = 0.000000e+00
+Assembling buffer.
+Write to socket with fd = 452
+Buffer        = 2 0 2 0 0 0.000000000000000e+00 1.445740121025526e+03 2.042715564069057e+01 
+
+Wrote 77 characters to socket.
+Reading from socket.
+In readbufferfromsocket: Read 5 chars, maximum is 21622.
+Error while disassembling the header of the buffer.
+Disassembled buffer.
+Finished exchanging data with socket: simTimRea=0.000000e+00, flag=1.

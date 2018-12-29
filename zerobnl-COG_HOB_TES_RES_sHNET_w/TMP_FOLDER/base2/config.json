@@ -1,0 +1,1 @@
+{"NAME": "Base2", "GROUP": "GRP2", "LOCAL": true, "INPUT_MAP": "{('Base1', 'COG_FlagOUT'): 'COG_FlagIN', ('Base7', 'HNET_QDH'): 'COG_QDH'}", "OUTPUTS": ["COG_Tout", "COG_MDOTtot", "COG_MDOTtoTES", "COG_MDOTfromTES", "COG_TTESin"], "INIT_VALUES": {"COG_QDH": 2000, "COG_FlagIN": 1}, "PARAMETERS": {}, "START": "2000-01-01 00:00:00", "TIME_UNIT": "seconds"}
