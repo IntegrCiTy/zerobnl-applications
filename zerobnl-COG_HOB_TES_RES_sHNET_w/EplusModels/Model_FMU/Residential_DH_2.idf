@@ -62,7 +62,7 @@ Material,
 Material,
     Insolering,              !- Name
     Smooth,                  !- Roughness
-    0.17,                    !- Thickness {m}
+    0.34,                    !- Thickness {m}
     0.04,                    !- Conductivity {W/m-K}
     30,                      !- Density {kg/m3}
     120;                     !- Specific Heat {J/kg-K}

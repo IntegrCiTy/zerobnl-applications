@@ -30,7 +30,16 @@ class sHnet(Node):
         """This method is called to make a step, you need to adapt it to your model."""
         super().step(value)  # Keep this line, it triggers the parent class method.
         
-        self.HNET_QDH = (self.HNET_QDH_1 + self.HNET_QDH_2)/ 1000. * 35490./2	
+        a= self.HNET_QDH_1 - 0.2 * self.HNET_QDH_1
+        b= self.HNET_QDH_1
+        self.HNET_QDH_1r = (b - a) * np.random.random_sample() + a
+
+        c= self.HNET_QDH_2 - 0.2 * self.HNET_QDH_1
+        d= self.HNET_QDH_2
+        self.HNET_QDH_2r = (d - c) * np.random.random_sample() + c		
+		
+		
+        self.HNET_QDH = (self.HNET_QDH_1 + self.HNET_QDH_2+self.HNET_QDH_1r + self.HNET_QDH_2r)/ 1000. * 35490./4	
 		
 if __name__ == "__main__":
     node = sHnet()

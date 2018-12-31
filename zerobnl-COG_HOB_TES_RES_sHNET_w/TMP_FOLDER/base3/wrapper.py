@@ -18,7 +18,7 @@ class MyNode(Node):
 		# FMU loading
 		work_dir = os.path.split(os.path.abspath(__file__))[0]  # define working directory
 		#self.ModelName = 'Residential_DH'  # define FMU model name
-		self.modelName = 'Residential_DH_'+str(modelNumber)
+		self.modelName = 'Residential_DH_1'
 		path_to_fmu = os.path.join(work_dir, self.modelName + '.fmu')  # path to FMU		
 		uri_to_extracted_fmu = fmipp.extractFMU(path_to_fmu, work_dir)  # extract FMU		
 		logging_on = False
@@ -76,5 +76,5 @@ class MyNode(Node):
 		assert status == fmipp.fmiOK  		
 
 if __name__ == "__main__":
-    node = MyNode(modelNumber)
+    node = MyNode()
     node.run()

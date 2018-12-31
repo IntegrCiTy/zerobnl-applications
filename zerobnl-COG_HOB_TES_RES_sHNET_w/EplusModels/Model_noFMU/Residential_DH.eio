@@ -1,4 +1,4 @@
-Program Version,EnergyPlus, Version 8.9.0-40101eaafd, YMD=2018.12.28 10:19
+Program Version,EnergyPlus, Version 8.9.0-40101eaafd, YMD=2018.12.30 11:37
 ! <Version>, Version ID
  Version, 8.9
 ! <Timesteps per Hour>, #TimeSteps, Minutes per TimeStep {minutes}
@@ -81,17 +81,17 @@ Surface Heat Transfer Algorithm, CTF - ConductionTransferFunction,200,0.10,1000.
  CTF,   2,       5.8464990    ,       1.0747600    ,       5.8464990    ,     -0.52100608E-01
  CTF,   1,      -30.385579    ,       2.4556045    ,      -30.385579    ,      0.58508310    
  CTF,   0,       28.644626    ,      0.39321258    ,       28.644626    
- Construction CTF,SKG YTTERVAGG,   2,   3,   6,   1.000,     0.2106    ,   0.900,   0.900,   0.700,   0.700,Rough
+ Construction CTF,SKG YTTERVAGG,   2,   3,   6,   1.000,     0.1111    ,   0.900,   0.900,   0.700,   0.700,Rough
  Material CTF Summary,LATTKLINKERBETONG,  0.0600,         0.140,    500.000,      500.000,  0.4286    
- Material CTF Summary,INSOLERING,  0.1700,         0.040,     30.000,      120.000,   4.250    
+ Material CTF Summary,INSOLERING,  0.3400,         0.040,     30.000,      120.000,   8.500    
  Material CTF Summary,BETONG,  0.1200,         1.700,   2000.000,      920.000,  0.7059E-01
- CTF,   6,      0.35579931E-12,      0.47417108E-13,      0.63979124E-12,     -0.22396026E-15
- CTF,   5,     -0.40458315E-07,      0.48693312E-08,     -0.14293271E-06,      0.16853635E-11
- CTF,   4,      0.10143968E-02,      0.24408222E-04,      0.33367882E-02,     -0.10597929E-06
- CTF,   3,     -0.10945682    ,      0.35541924E-02,      -1.3174325    ,      0.16156621E-02
- CTF,   2,       2.0660939    ,      0.32982350E-01,       14.260430    ,     -0.14584333    
- CTF,   1,      -5.1674155    ,      0.30307635E-01,      -44.313423    ,      0.81980079    
- CTF,   0,       3.2780766    ,      0.14439121E-02,       31.435401    
+ CTF,   6,      0.13692189E-08,      0.85173814E-10,      0.43506338E-08,     -0.53025958E-13
+ CTF,   5,     -0.35965274E-04,      0.55717264E-06,     -0.12004397E-03,      0.34058174E-08
+ CTF,   4,      0.51508573E-02,      0.17623735E-03,      0.51741448E-01,     -0.58486629E-04
+ CTF,   3,     -0.20293352    ,      0.50781792E-02,      -1.9827267    ,      0.71380967E-02
+ CTF,   2,       2.3536255    ,      0.19004044E-01,       16.846527    ,     -0.19088049    
+ CTF,   1,      -5.3999676    ,      0.89382394E-02,      -46.317472    ,      0.88348037    
+ CTF,   0,       3.2775328    ,      0.17480451E-03,       31.435422    
  Construction CTF,SKG GOLV,   3,   1,   5,   1.000,      6.800    ,   0.900,   0.900,   0.700,   0.700,VeryRough
  Material CTF Summary,BETONG GOLV,  0.2500,         1.700,   2000.000,      920.000,  0.1471    
  CTF,   5,     -0.10384773E-04,      0.65204532E-06,     -0.10384773E-04,      0.61524763E-07
@@ -165,9 +165,9 @@ Zone Volume Capacitance Multiplier,   1.000 ,   1.000,   1.000,   1.000
 ! <Shading Surface>,Surface Name,Surface Class,Base Surface,Heat Transfer Algorithm,Transmittance Schedule,Min Schedule Value,Max Schedule Value,Solar Diffusing,Area (Net) {m2},Area (Gross) {m2},Area (Sunlit Calc) {m2},Azimuth {deg},Tilt {deg},~Width {m},~Height {m},Reveal {m},ExtBoundCondition,ExtConvCoeffCalc,IntConvCoeffCalc,SunExposure,WindExposure,ViewFactorToGround,ViewFactorToSky,ViewFactorToGround-IR,ViewFactorToSky-IR,#Sides
 ! <Frame/Divider Surface>,Surface Name,Surface Class,Base Surface,Heat Transfer Algorithm,Construction,Nominal U (w/o film coefs) {W/m2-K},Nominal U (with film coefs) {W/m2-K},Solar Diffusing,Area (Net) {m2},Area (Gross) {m2},Area (Sunlit Calc) {m2},Azimuth {deg},Tilt {deg},~Width {m},~Height {m},Reveal {m}
 Zone Surfaces,ZONE ONE,9
-HeatTransfer Surface,ZONE SURFACE NORTH,Wall,,CTF - ConductionTransferFunction,SKG YTTERVAGG,0.211,0.204,,15.60,21.60,15.60,0.00,90.00,8.00,2.70,0.00,ExternalEnvironment,ASHRAETARP,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+HeatTransfer Surface,ZONE SURFACE NORTH,Wall,,CTF - ConductionTransferFunction,SKG YTTERVAGG,0.111,0.109,,15.60,21.60,15.60,0.00,90.00,8.00,2.70,0.00,ExternalEnvironment,ASHRAETARP,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
 HeatTransfer Surface,NORTH WINDOW,Window,ZONE SURFACE NORTH,Window5 Detailed Fenestration,DOUBLE PANE WINDOW,N/A,3.610,No,6.00,6.00,6.00,0.00,90.00,3.00,2.00,0.00,ExternalEnvironment,ASHRAETARP,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
-HeatTransfer Surface,ZONE SURFACE EAST,Wall,,CTF - ConductionTransferFunction,SKG YTTERVAGG,0.211,0.204,,10.20,16.20,10.20,90.00,90.00,6.00,2.70,0.00,ExternalEnvironment,ASHRAETARP,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+HeatTransfer Surface,ZONE SURFACE EAST,Wall,,CTF - ConductionTransferFunction,SKG YTTERVAGG,0.111,0.109,,10.20,16.20,10.20,90.00,90.00,6.00,2.70,0.00,ExternalEnvironment,ASHRAETARP,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
 HeatTransfer Surface,EAST WINDOW,Window,ZONE SURFACE EAST,Window5 Detailed Fenestration,DOUBLE PANE WINDOW,N/A,3.610,No,6.00,6.00,6.00,90.00,90.00,3.00,2.00,0.00,ExternalEnvironment,ASHRAETARP,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
 HeatTransfer Surface,ZONE SURFACE SOUTH,Wall,,CTF - ConductionTransferFunction,SKG INTRA APT WALLS,8.500,3.741,,21.60,21.60,21.60,180.00,90.00,8.00,2.70,0.00,ZONE SURFACE SOUTH,Other/Same Surface Int Conv,ASHRAETARP,NoSun,NoWind,0.50,0.50,0.50,0.50,4
 HeatTransfer Surface,ZONE SURFACE WEST,Wall,,CTF - ConductionTransferFunction,SKG INTRA APT WALLS,8.500,3.741,,16.20,16.20,16.20,270.00,90.00,6.00,2.70,0.00,ZONE SURFACE WEST,Other/Same Surface Int Conv,ASHRAETARP,NoSun,NoWind,0.50,0.50,0.50,0.50,4
@@ -182,7 +182,7 @@ Environment,ANNUAL SIM 1,WeatherFileRunPeriod,01/27,01/27,Friday,1,UseWeatherFil
 Environment:Daylight Saving,No,
 Environment:WarmupDays,  9
 ! <Warmup Convergence Information>,Zone Name,Environment Type/Name,Average Warmup Temperature Difference {deltaC},Std Dev Warmup Temperature Difference {deltaC},Max Temperature Pass/Fail Convergence,Min Temperature Pass/Fail Convergence,Average Warmup Load Difference {W},Std Dev Warmup Load Difference {W},Heating Load Pass/Fail Convergence,Cooling Load Pass/Fail Convergence
- Warmup Convergence Information,ZONE ONE,RunPeriod: ANNUAL SIM 1,0.6580819976,0.9191968713,Pass,Pass,9.4077250822E-002,0.2531885219,Pass,Pass
+ Warmup Convergence Information,ZONE ONE,RunPeriod: ANNUAL SIM 1,0.6301549412,0.8634575699,Pass,Pass,9.6639969898E-002,0.2553865245,Pass,Pass
 ! <Program Control Information:Threads/Parallel Sims>, Threading Supported,Maximum Number of Threads, Env Set Threads (OMP_NUM_THREADS), EP Env Set Threads (EP_OMP_NUM_THREADS), IDF Set Threads, Number of Threads Used (Interior Radiant Exchange), Number Nominal Surfaces, Number Parallel Sims
 Program Control:Threads/Parallel Sims, No,1, N/A, N/A, N/A, N/A, N/A, N/A
 End of Data

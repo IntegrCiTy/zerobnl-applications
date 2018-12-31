@@ -11,14 +11,16 @@ class Lctrl(Node):
 
         # This is where you define the attribute of your model, this one is pretty basic.
         #Inputs (set)		
-        self.TindoorIN = 20.
+        self.TindoorIN_0 = 20.
+        self.TindoorIN_1 = 20.
         self.mdotTOT = 507.        
         self.TES_socIN = 1
         self.ToutdoorP = 0.
         #Outputs (get)
         self.demandFlag = 0 
         self.demandFlag_mdot = 0
-        self.Tth = 20.
+        self.Tth_0 = 20.
+        self.Tth_1 = 20.		
         self.TsetP = 75. # Fake for the moment. There should be a function that calcuates it based on weather.
         #Internal variables
         self.TS_bl = 75.
@@ -42,39 +44,49 @@ class Lctrl(Node):
         super().step(value)  # Keep this line, it triggers the parent class method.
                 
         self.TsetP = np.interp(self.ToutdoorP,self.TsetMatrix[:,0],self.TsetMatrix[:,1]) # Supply set point based on outdoor temperature
-	
-        self.demandFlag = 0
+	    
+        TindoorVector = [self.TindoorIN_0,self.TindoorIN_1]
+        TthVector = [self.Tth_0,self.Tth_1]
 		
-        if  self.TsetP > self.TS_bl: # Request for a Tsupply higher than the BL (75 Cdeg)
-            if self.TindoorIN >= self.TindoorMIN and self.Tth >= self.TindoorMIN: # First check the possibility to use the capacity in the buildings
-               self.Tth = max(self.Tth -1,18.) 
-               self.demandFlag = 1 #--> Tth
-            else:
-               self.demandFlag = -2 #--> HOBS # !! Un paio di volte arriva qui perché la Tindoor scende a 17.9
+        d={}
+		
+        ii=0
+		
+        for Tindoor in TindoorVector:
+		
+            self.demandFlag = 0            
+            Tth = TthVector[ii]			
+		
+            if  self.TsetP > self.TS_bl: # Request for a Tsupply higher than the BL (75 Cdeg)
+                if Tindoor >= self.TindoorMIN and Tth >= self.TindoorMIN: # First check the possibility to use the capacity in the buildings
+                   Tth = max(Tth -1,18.) 
+                   self.demandFlag = 1 #--> Tth
+                else:
+                   self.demandFlag = -2 #--> HOBS # !! Un paio di volte arriva qui perché la Tindoor scende a 17.9
 				
-        if  self.mdotTOT > self.mdot_bl:  # Request for a Mdot higher than the BL
-            if self.TindoorIN >= self.TindoorMIN and self.Tth >= self.TindoorMIN: # First check the possibility to use the capacity in the buildings
-               self.Tth = max(self.Tth -1,18.) 
-               self.demandFlag_mdot = 1 #--> Tth # !! si ferma qui ma non si sa se sia sufficiente e sovrascrive il -2 di prima
-            elif self.TES_socIN > -1:
-               self.demandFlag_mdot = -1 #--> TES discharge
-            else:
-               self.demandFlag_mdot = -2 #--> HOBS
+            if  self.mdotTOT > self.mdot_bl:  # Request for a Mdot higher than the BL
+                if Tindoor >= self.TindoorMIN and Tth >= self.TindoorMIN: # First check the possibility to use the capacity in the buildings
+                   Tth = max(Tth -1,18.) 
+                   self.demandFlag_mdot = 1 #--> Tth # !! si ferma qui ma non si sa se sia sufficiente e sovrascrive il -2 di prima
+                elif self.TES_socIN > -1:
+                   self.demandFlag_mdot = -1 #--> TES discharge
+                else:
+                   self.demandFlag_mdot = -2 #--> HOBS
 			   
-        else:
-            self.Tth = min(self.Tth + 1, 22.) # Since there is surplus, fill in the capacity in the buildings
-            if self.TES_socIN < 1:
-               self.demandFlag_mdot = -3 #--> TES charge
             else:
-               print("Heat is being wasted")
-				
-		
-		#self.Tindoor --> self.Tth
-		#demandFlag = 1 --> Tth
-		#demandFlag = 0 --> bl
-		#demandFlag = -1 --> TES
-		#demandFlag = -2 --> HOBS
-		
+                Tth = min(Tth + 1, 22.) # Since there is surplus, fill in the capacity in the buildings
+                if self.TES_socIN < 1:
+                   self.demandFlag_mdot = -3 #--> TES charge
+                else:
+                   print("Heat is being wasted")
+            
+            #d["self.Tth{0}".format(ii)]=Tth	
+            if ii == 0:
+               self.Tth_0 = Tth 
+            elif ii == 1:
+               self.Tth_1 = Tth
+			   
+            ii = ii+1
 		
 if __name__ == "__main__":
     node = Lctrl()

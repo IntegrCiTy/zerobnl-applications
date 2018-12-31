@@ -1,0 +1,977 @@
+!-Generator IDFEditor 1.50
+!-Option OriginalOrderTop UseSpecialFormat
+
+!-NOTE: All comments with '!-' are ignored by the IDFEditor and are generated automatically.
+!-      Use '!' comments if they need to be retained when using the IDFEditor.
+
+Schedule:Compact,
+    On/Off Schedule,         !- Name
+    On/Off,                  !- Schedule Type Limits Name
+    Through: 12/31,          !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 5:00, 0,          !- Field 4
+    Until: 20.:00, 1,        !- Field 6
+    Until: 24:00, 0;         !- Field 8
+
+ExternalInterface,
+    FunctionalMockupUnitExport;  !- Name of External Interface
+
+ExternalInterface:FunctionalMockupUnitExport:From:Variable,
+    DISTRICT HEATING 1,      !- Output:Variable Index Key Name
+    District Heating Rate,   !- Output:Variable Name
+    QDH;                     !- FMU Variable Name
+
+ExternalInterface:FunctionalMockupUnitExport:From:Variable,
+    ZONE ONE,                !- Output:Variable Index Key Name
+    Zone Air Temperature,    !- Output:Variable Name
+    Tindoor;                 !- FMU Variable Name
+
+ExternalInterface:FunctionalMockupUnitExport:To:Schedule,
+    ThermoTempFMU,           !- Schedule Name
+    Any Number,              !- Schedule Type Limits Names
+    Tthermostat,             !- FMU Variable Name
+    20;                      !- Initial Value
+
+Schedule:Compact,
+    Off System,              !- Name
+    On/Off,                  !- Schedule Type Limits Name
+    Through: 12/31,          !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 24:00, 0;         !- Field 4
+
+Material,
+    Betong intra lgh,        !- Name
+    Smooth,                  !- Roughness
+    0.2,                     !- Thickness {m}
+    1.7,                     !- Conductivity {W/m-K}
+    2000,                    !- Density {kg/m3}
+    920;                     !- Specific Heat {J/kg-K}
+
+Construction,
+    SKG intra apt walls,     !- Name
+    Betong intra lgh;        !- Outside Layer
+
+Material,
+    Betong,                  !- Name
+    VeryRough,               !- Roughness
+    0.12,                    !- Thickness {m}
+    1.7,                     !- Conductivity {W/m-K}
+    2000,                    !- Density {kg/m3}
+    920;                     !- Specific Heat {J/kg-K}
+
+Material,
+    Insolering,              !- Name
+    Smooth,                  !- Roughness
+    0.34,                    !- Thickness {m}
+    0.04,                    !- Conductivity {W/m-K}
+    30,                      !- Density {kg/m3}
+    120;                     !- Specific Heat {J/kg-K}
+
+Material,
+    Lattklinkerbetong,       !- Name
+    Rough,                   !- Roughness
+    0.06,                    !- Thickness {m}
+    0.14,                    !- Conductivity {W/m-K}
+    500,                     !- Density {kg/m3}
+    500;                     !- Specific Heat {J/kg-K}
+
+Construction,
+    SKG yttervagg,           !- Name
+    Lattklinkerbetong,       !- Outside Layer
+    Insolering,              !- Layer 2
+    Betong;                  !- Layer 3
+
+Construction,
+    SKG golv,                !- Name
+    Betong Golv;             !- Outside Layer
+
+Material,
+    Betong Golv,             !- Name
+    VeryRough,               !- Roughness
+    0.25,                    !- Thickness {m}
+    1.7,                     !- Conductivity {W/m-K}
+    2000,                    !- Density {kg/m3}
+    920;                     !- Specific Heat {J/kg-K}
+
+Construction,
+    SKG tak,                 !- Name
+    Betong Golv,             !- Outside Layer
+    Isolering tak;           !- Layer 2
+
+Material,
+    Isolering tak,           !- Name
+    Smooth,                  !- Roughness
+    0.4,                     !- Thickness {m}
+    0.04,                    !- Conductivity {W/m-K}
+    30,                      !- Density {kg/m3}
+    120;                     !- Specific Heat {J/kg-K}
+
+InternalMass,
+    Indoor walls,            !- Name
+    SKG intra rooms walls,   !- Construction Name
+    ZONE ONE,                !- Zone Name
+    32;                      !- Surface Area {m2}
+
+Material,
+    Wool,                    !- Name
+    Rough,                   !- Roughness
+    0.07,                    !- Thickness {m}
+    0.029,                   !- Conductivity {W/m-K}
+    30,                      !- Density {kg/m3}
+    1300;                    !- Specific Heat {J/kg-K}
+
+Material,
+    Plaster,                 !- Name
+    Smooth,                  !- Roughness
+    0.013,                   !- Thickness {m}
+    0.25,                    !- Conductivity {W/m-K}
+    53,                      !- Density {kg/m3}
+    720;                     !- Specific Heat {J/kg-K}
+
+Construction,
+    SKG intra rooms walls,   !- Name
+    Plaster,                 !- Outside Layer
+    Wool,                    !- Layer 2
+    Plaster;                 !- Layer 3
+
+Schedule:Compact,
+    Multifamily OneZone Occupancy,  !- Name
+    Fraction,                !- Schedule Type Limits Name
+    Through: 12/31,          !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 07:00, 0.67,      !- Field 4
+    Until: 08:00, 0.49,      !- Field 6
+    Until: 17:00, 0.21,      !- Field 8
+    Until: 24:00, 0.67;      !- Field 10
+
+People,
+    Family,                  !- Name
+    ZONE ONE,                !- Zone or ZoneList Name
+    Multifamily OneZone Occupancy,  !- Number of People Schedule Name
+    People,                  !- Number of People Calculation Method
+    4,                       !- Number of People
+    ,                        !- People per Zone Floor Area {person/m2}
+    ,                        !- Zone Floor Area per Person {m2/person}
+    0.3,                     !- Fraction Radiant
+    0.1,                     !- Sensible Heat Fraction
+    Multifamily activity level,  !- Activity Level Schedule Name
+    0.0000000382,            !- Carbon Dioxide Generation Rate {m3/s-W}
+    No,                      !- Enable ASHRAE 55 Comfort Warnings
+    ZoneAveraged,            !- Mean Radiant Temperature Calculation Type
+    ,                        !- Surface Name/Angle Factor List Name
+    ,                        !- Work Efficiency Schedule Name
+    ClothingInsulationSchedule;  !- Clothing Insulation Calculation Method
+
+HotWaterEquipment,
+    DHW,                     !- Name
+    ZONE ONE,                !- Zone or ZoneList Name
+    Multifamily SWH,         !- Schedule Name
+    EquipmentLevel,          !- Design Level Calculation Method
+    200,                     !- Design Level {W}
+    ,                        !- Power per Zone Floor Area {W/m2}
+    ,                        !- Power per Person {W/person}
+    ,                        !- Fraction Latent
+    ,                        !- Fraction Radiant
+    ,                        !- Fraction Lost
+    General;                 !- End-Use Subcategory
+
+Schedule:Compact,
+    Multifamily SWH,         !- Name
+    Fraction,                !- Schedule Type Limits Name
+    Through: 12/31,          !- Field 1
+    For: Weekdays SummerDesignDay,  !- Field 2
+    Until: 06:00, 0.06,      !- Field 4
+    Until: 07:00, 0.28,      !- Field 6
+    Until: 08:00, 0.49,      !- Field 8
+    Until: 09:00, 0.42,      !- Field 10
+    Until: 10:00, 0.32,      !- Field 12
+    Until: 11:00, 0.27,      !- Field 14
+    Until: 12:00, 0.33,      !- Field 16
+    Until: 13:00, 0.41,      !- Field 18
+    Until: 14:00, 0.35,      !- Field 20
+    Until: 15:00, 0.34,      !- Field 22
+    Until: 16:00, 0.29,      !- Field 24
+    Until: 17:00, 0.32,      !- Field 26
+    Until: 18:00, 0.5,       !- Field 28
+    Until: 19:00, 0.49,      !- Field 30
+    Until: 20:00, 0.4,       !- Field 32
+    Until: 21:00, 0.36,      !- Field 34
+    Until: 22:00, 0.45,      !- Field 36
+    Until: 23:00, 0.3,       !- Field 38
+    Until: 24:00, 0.08,      !- Field 40
+    For: Saturday WinterDesignDay,  !- Field 41
+    Until: 06:00, 0.06,      !- Field 43
+    Until: 07:00, 0.15,      !- Field 45
+    Until: 08:00, 0.32,      !- Field 47
+    Until: 09:00, 0.43,      !- Field 49
+    Until: 10:00, 0.39,      !- Field 51
+    Until: 11:00, 0.34,      !- Field 53
+    Until: 12:00, 0.36,      !- Field 55
+    Until: 13:00, 0.45,      !- Field 57
+    Until: 15:00, 0.39,      !- Field 59
+    Until: 16:00, 0.33,      !- Field 61
+    Until: 17:00, 0.35,      !- Field 63
+    Until: 19:00, 0.48,      !- Field 65
+    Until: 20:00, 0.44,      !- Field 67
+    Until: 22:00, 0.31,      !- Field 69
+    Until: 23:00, 0.28,      !- Field 71
+    Until: 24:00, 0.1,       !- Field 73
+    For: Sunday Holidays AllOtherDays,  !- Field 74
+    Until: 06:00, 0.06,      !- Field 76
+    Until: 07:00, 0.09,      !- Field 78
+    Until: 08:00, 0.25,      !- Field 80
+    Until: 09:00, 0.37,      !- Field 82
+    Until: 10:00, 0.35,      !- Field 84
+    Until: 11:00, 0.32,      !- Field 86
+    Until: 12:00, 0.35,      !- Field 88
+    Until: 13:00, 0.42,      !- Field 90
+    Until: 14:00, 0.37,      !- Field 92
+    Until: 15:00, 0.36,      !- Field 94
+    Until: 16:00, 0.31,      !- Field 96
+    Until: 17:00, 0.32,      !- Field 98
+    Until: 18:00, 0.45,      !- Field 100
+    Until: 19:00, 0.42,      !- Field 102
+    Until: 20:00, 0.35,      !- Field 104
+    Until: 21:00, 0.3,       !- Field 106
+    Until: 22:00, 0.34,      !- Field 108
+    Until: 23:00, 0.26,      !- Field 110
+    Until: 24:00, 0.12;      !- Field 112
+
+Schedule:Compact,
+    Multifamily activity level,  !- Name
+    Any Number,              !- Schedule Type Limits Name
+    Through: 12/31,          !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 7:00, 200,        !- Field 4
+    Until: 8:00, 150,        !- Field 6
+    Until: 17:00, 80,        !- Field 8
+    Until: 24:00, 200;       !- Field 10
+
+Schedule:Compact,
+    Multifamily OneZone Equipment,  !- Name
+    Fraction,                !- Schedule Type Limits Name
+    Through: 12/31,          !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 06:00, 0.22,      !- Field 4
+    Until: 07:00, 0.36,      !- Field 6
+    Until: 08:00, 0.76,      !- Field 8
+    Until: 09:00, 0.34,      !- Field 10
+    Until: 11:00, 0.36,      !- Field 12
+    Until: 13:00, 0.64,      !- Field 14
+    Until: 17:00, 0.36,      !- Field 16
+    Until: 18:00, 0.87,      !- Field 18
+    Until: 19:00, 0.97,      !- Field 20
+    Until: 22:00, 0.43,      !- Field 22
+    Until: 24:00, 0.31;      !- Field 24
+
+Schedule:Compact,
+    Multifamily OneZone Lighting,  !- Name
+    Fraction,                !- Schedule Type Limits Name
+    Through: 12/31,          !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 06:00, 0.0,       !- Field 4
+    Until: 07:00, 0.95,      !- Field 6
+    Until: 08:00, 0.85,      !- Field 8
+    Until: 19:00, 0.0,       !- Field 10
+    Until: 24:00, 0.9;       !- Field 12
+
+Lights,
+    Familiy Lights,          !- Name
+    ZONE ONE,                !- Zone or ZoneList Name
+    Multifamily OneZone Lighting,  !- Schedule Name
+    LightingLevel,           !- Design Level Calculation Method
+    100,                     !- Lighting Level {W}
+    ,                        !- Watts per Zone Floor Area {W/m2}
+    ,                        !- Watts per Person {W/person}
+    ,                        !- Return Air Fraction
+    ,                        !- Fraction Radiant
+    ,                        !- Fraction Visible
+    1,                       !- Fraction Replaceable
+    General,                 !- End-Use Subcategory
+    No;                      !- Return Air Fraction Calculated from Plenum Temperature
+
+ElectricEquipment,
+    Family equipment,        !- Name
+    ZONE ONE,                !- Zone or ZoneList Name
+    Multifamily OneZone Equipment,  !- Schedule Name
+    EquipmentLevel,          !- Design Level Calculation Method
+    100,                     !- Design Level {W}
+    ,                        !- Watts per Zone Floor Area {W/m2}
+    ,                        !- Watts per Person {W/person}
+    ,                        !- Fraction Latent
+    ,                        !- Fraction Radiant
+    ,                        !- Fraction Lost
+    General;                 !- End-Use Subcategory
+
+ZoneVentilation:DesignFlowRate,
+    Family ventilation,      !- Name
+    ZONE ONE,                !- Zone or ZoneList Name
+    Daytime Ventilation,     !- Schedule Name
+    Flow/Zone,               !- Design Flow Rate Calculation Method
+    0.02,                    !- Design Flow Rate {m3/s}
+    ,                        !- Flow Rate per Zone Floor Area {m3/s-m2}
+    ,                        !- Flow Rate per Person {m3/s-person}
+    ,                        !- Air Changes per Hour {1/hr}
+    Natural,                 !- Ventilation Type
+    ,                        !- Fan Pressure Rise {Pa}
+    1,                       !- Fan Total Efficiency
+    1,                       !- Constant Term Coefficient
+    ,                        !- Temperature Term Coefficient
+    ,                        !- Velocity Term Coefficient
+    ,                        !- Velocity Squared Term Coefficient
+    -100,                    !- Minimum Indoor Temperature {C}
+    ,                        !- Minimum Indoor Temperature Schedule Name
+    100,                     !- Maximum Indoor Temperature {C}
+    ,                        !- Maximum Indoor Temperature Schedule Name
+    -100,                    !- Delta Temperature {deltaC}
+    ,                        !- Delta Temperature Schedule Name
+    -100,                    !- Minimum Outdoor Temperature {C}
+    ,                        !- Minimum Outdoor Temperature Schedule Name
+    100,                     !- Maximum Outdoor Temperature {C}
+    ,                        !- Maximum Outdoor Temperature Schedule Name
+    40;                      !- Maximum Wind Speed {m/s}
+
+Schedule:Compact,
+    Daytime Ventilation,     !- Name
+    Fraction,                !- Schedule Type Limits Name
+    Through: 12/31,          !- Field 1
+    For: Weekdays SummerDesignDay,  !- Field 2
+    Until: 08:00, 0.0,       !- Field 4
+    Until: 18:00, 1.0,       !- Field 6
+    Until: 24:00, 0.0,       !- Field 8
+    For: Weekends WinterDesignDay,  !- Field 9
+    Until: 10:00, 0.0,       !- Field 11
+    Until: 16:00, 1.0,       !- Field 13
+    Until: 24:00, 0.0,       !- Field 15
+    For: Holidays AllOtherDays,  !- Field 16
+    Until: 24:00, 0.0;       !- Field 18
+
+Schedule:Compact,
+    ALWAYS 24,               !- Name
+    Any Number,              !- Schedule Type Limits Name
+    Through: 12/31,          !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 24:00, 24;        !- Field 4
+
+Output:Variable,*,Zone Air Temperature,Hourly;
+Output:Variable,*,Fan Electric Power ,Hourly;
+Output:Variable,*,Fan Air Mass Flow Rate ,Hourly;
+
+ZoneHVAC:EnergyRecoveryVentilator,
+    ERV_1,                   !- Name
+    Off System,              !- Availability Schedule Name
+    ERV_1_HX,                !- Heat Exchanger Name
+    0.04,                    !- Supply Air Flow Rate {m3/s}
+    0.03,                    !- Exhaust Air Flow Rate {m3/s}
+    ERV_1_FanSupply,         !- Supply Air Fan Name
+    ERV_1_FanExhaust;        !- Exhaust Air Fan Name
+
+HeatExchanger:AirToAir:SensibleAndLatent,
+    ERV_1_HX,                !- Name
+    ,                        !- Availability Schedule Name
+    0.04,                    !- Nominal Supply Air Flow Rate {m3/s}
+    0.9,                     !- Sensible Effectiveness at 100% Heating Air Flow {dimensionless}
+    0.9,                     !- Latent Effectiveness at 100% Heating Air Flow {dimensionless}
+    0.9,                     !- Sensible Effectiveness at 75% Heating Air Flow {dimensionless}
+    0.9,                     !- Latent Effectiveness at 75% Heating Air Flow {dimensionless}
+    0.9,                     !- Sensible Effectiveness at 100% Cooling Air Flow {dimensionless}
+    0.9,                     !- Latent Effectiveness at 100% Cooling Air Flow {dimensionless}
+    0.9,                     !- Sensible Effectiveness at 75% Cooling Air Flow {dimensionless}
+    0.9,                     !- Latent Effectiveness at 75% Cooling Air Flow {dimensionless}
+    ERV Supply Air Inlet,    !- Supply Air Inlet Node Name
+    ERV Supply To Fan,       !- Supply Air Outlet Node Name
+    ZONE ONE Exhaust Air Outlet,  !- Exhaust Air Inlet Node Name
+    ERV Exhaust From Fan,    !- Exhaust Air Outlet Node Name
+    10000,                   !- Nominal Electric Power {W}
+    No,                      !- Supply Air Outlet Temperature Control
+    Plate,                   !- Heat Exchanger Type
+    None,                    !- Frost Control Type
+    1.7,                     !- Threshold Temperature {C}
+    0.083,                   !- Initial Defrost Time Fraction {dimensionless}
+    0.012,                   !- Rate of Defrost Time Fraction Increase {1/K}
+    Yes;                     !- Economizer Lockout
+
+Fan:OnOff,
+    ERV_1_FanSupply,         !- Name
+    ,                        !- Availability Schedule Name
+    0.6,                     !- Fan Total Efficiency
+    100,                     !- Pressure Rise {Pa}
+    1,                       !- Maximum Flow Rate {m3/s}
+    0.8,                     !- Motor Efficiency
+    1,                       !- Motor In Airstream Fraction
+    ERV Supply To Fan,       !- Air Inlet Node Name
+    ZONE ONESupply Air Inlet,!- Air Outlet Node Name
+    ,                        !- Fan Power Ratio Function of Speed Ratio Curve Name
+    ,                        !- Fan Efficiency Ratio Function of Speed Ratio Curve Name
+    General;                 !- End-Use Subcategory
+
+Fan:OnOff,
+    ERV_1_FanExhaust,        !- Name
+    ,                        !- Availability Schedule Name
+    0.6,                     !- Fan Total Efficiency
+    100,                     !- Pressure Rise {Pa}
+    1,                       !- Maximum Flow Rate {m3/s}
+    0.8,                     !- Motor Efficiency
+    1,                       !- Motor In Airstream Fraction
+    ERV Exhaust From Fan,    !- Air Inlet Node Name
+    ERV Exhaust Air Outlet,  !- Air Outlet Node Name
+    ,                        !- Fan Power Ratio Function of Speed Ratio Curve Name
+    ,                        !- Fan Efficiency Ratio Function of Speed Ratio Curve Name
+    General;                 !- End-Use Subcategory
+
+OutdoorAir:NodeList,
+    ERV Supply Air Inlet,    !- Node or NodeList Name 1
+    ERV Exhaust From Fan;    !- Node or NodeList Name 2
+
+Output:Variable,*,Heat Exchanger Total Heating Rate ,Hourly;
+
+ThermostatSetpoint:DualSetpoint,
+    Dual,                    !- Name
+    ThermoTempFMU,           !- Heating Setpoint Temperature Schedule Name
+    ALWAYS 24;               !- Cooling Setpoint Temperature Schedule Name
+
+SetpointManager:Scheduled:DualSetpoint,
+    DualPlant,               !- Name
+    Temperature,             !- Control Variable
+    Main Loop Temp Sch,      !- High Setpoint Schedule Name
+    Main Loop Temp Sch,      !- Low Setpoint Schedule Name
+    Main Loop SetPoint Node; !- Setpoint Node or NodeList Name
+
+Output:Variable,*,Baseboard Total Heating Rate ,Hourly;
+Output:Variable,*,Baseboard Hot Water Mass Flow Rate,Hourly;
+
+ZoneHVAC:Baseboard:RadiantConvective:Water,
+    Radiator,                !- Name
+    On/Off Schedule,         !- Availability Schedule Name
+    Radiator Inlet Node,     !- Inlet Node Name
+    Radiator Outlet Node,    !- Outlet Node Name
+    50,                      !- Rated Average Water Temperature {C}
+    0.044,                   !- Rated Water Mass Flow Rate {kg/s}
+    HeatingDesignCapacity,   !- Heating Design Capacity Method
+    1835,                    !- Heating Design Capacity {W}
+    ,                        !- Heating Design Capacity Per Floor Area {W/m2}
+    1,                       !- Fraction of Autosized Heating Design Capacity
+    0.00005,                 !- Maximum Water Flow Rate {m3/s}
+    0.001,                   !- Convergence Tolerance
+    0.4,                     !- Fraction Radiant
+    ,                        !- Fraction of Radiant Energy Incident on People
+    ZONE SURFACE NORTH,      !- Surface 1 Name
+    0.25,                    !- Fraction of Radiant Energy to Surface 1
+    ZONE SURFACE EAST,       !- Surface 2 Name
+    0.25,                    !- Fraction of Radiant Energy to Surface 2
+    ZONE SURFACE WEST,       !- Surface 3 Name
+    0.25,                    !- Fraction of Radiant Energy to Surface 3
+    ZONE SURFACE SOUTH,      !- Surface 4 Name
+    0.25;                    !- Fraction of Radiant Energy to Surface 4
+
+Branch,
+    Pump Branch,             !- Name
+    ,                        !- Pressure Drop Curve Name
+    Pump:VariableSpeed,      !- Component 1 Object Type
+    Pump 1,                  !- Component 1 Name
+    Pump Inlet Node,         !- Component 1 Inlet Node Name
+    Pump Outlet Node;        !- Component 1 Outlet Node Name
+
+Pump:VariableSpeed,
+    Pump 1,                  !- Name
+    Pump Inlet Node,         !- Inlet Node Name
+    Pump Outlet Node,        !- Outlet Node Name
+    0.005,                   !- Design Maximum Flow Rate {m3/s}
+    179352,                  !- Design Pump Head {Pa}
+    1500,                    !- Design Power Consumption {W}
+    0.9,                     !- Motor Efficiency
+    ,                        !- Fraction of Motor Inefficiencies to Fluid Stream
+    ,                        !- Coefficient 1 of the Part Load Performance Curve
+    1,                       !- Coefficient 2 of the Part Load Performance Curve
+    ,                        !- Coefficient 3 of the Part Load Performance Curve
+    ,                        !- Coefficient 4 of the Part Load Performance Curve
+    0.00003,                 !- Design Minimum Flow Rate {m3/s}
+    Continuous,              !- Pump Control Type
+    ,                        !- Pump Flow Rate Schedule Name
+    ,                        !- Pump Curve Name
+    ,                        !- Impeller Diameter {m}
+    ,                        !- VFD Control Type
+    ,                        !- Pump rpm Schedule Name
+    ,                        !- Minimum Pressure Schedule {Pa}
+    ,                        !- Maximum Pressure Schedule {Pa}
+    ,                        !- Minimum RPM Schedule {Rotations Per Minute}
+    ,                        !- Maximum RPM Schedule {Rotations Per Minute}
+    ,                        !- Zone Name
+    ,                        !- Skin Loss Radiative Fraction
+    PowerPerFlowPerPressure, !- Design Power Sizing Method
+    348701.1,                !- Design Electric Power per Unit Flow Rate {W/(m3/s)}
+    1.282051282;             !- Design Shaft Power per Unit Flow Rate per Unit Head {W/((m3/s)-Pa)}
+
+Branch,
+    DH Branch,               !- Name
+    ,                        !- Pressure Drop Curve Name
+    DistrictHeating,         !- Component 1 Object Type
+    District Heating 1,      !- Component 1 Name
+    DH Inlet Node,           !- Component 1 Inlet Node Name
+    DH Outlet Node;          !- Component 1 Outlet Node Name
+
+DistrictHeating,
+    District Heating 1,      !- Name
+    DH Inlet Node,           !- Hot Water Inlet Node Name
+    DH Outlet Node,          !- Hot Water Outlet Node Name
+    2000;                    !- Nominal Capacity {W}
+
+Branch,
+    Supply Outlet Pipe Branch,  !- Name
+    ,                        !- Pressure Drop Curve Name
+    Pipe:Adiabatic,          !- Component 1 Object Type
+    Supply Outlet Pipe,      !- Component 1 Name
+    Supply Outlet Pipe Inlet Node,  !- Component 1 Inlet Node Name
+    Supply Outlet Pipe Outlet Node;  !- Component 1 Outlet Node Name
+
+Pipe:Adiabatic,
+    Supply Outlet Pipe,      !- Name
+    Supply Outlet Pipe Inlet Node,  !- Inlet Node Name
+    Supply Outlet Pipe Outlet Node;  !- Outlet Node Name
+
+Pipe:Adiabatic,
+    Demand Inlet Pipe,       !- Name
+    Demand Inlet Pipe Inlet Node,  !- Inlet Node Name
+    Demand Inlet Pipe Outlet Node;  !- Outlet Node Name
+
+Pipe:Adiabatic,
+    Demand Outlet Pipe,      !- Name
+    Demand Outlet Pipe Inlet Node,  !- Inlet Node Name
+    Demand Outlet Pipe Outlet Node;  !- Outlet Node Name
+
+Branch,
+    Demand Inlet Pipe Branch,!- Name
+    ,                        !- Pressure Drop Curve Name
+    Pipe:Adiabatic,          !- Component 1 Object Type
+    Demand Inlet Pipe,       !- Component 1 Name
+    Demand Inlet Pipe Inlet Node,  !- Component 1 Inlet Node Name
+    Demand Inlet Pipe Outlet Node;  !- Component 1 Outlet Node Name
+
+Branch,
+    Radiator Branch,         !- Name
+    ,                        !- Pressure Drop Curve Name
+    ZoneHVAC:Baseboard:RadiantConvective:Water,  !- Component 1 Object Type
+    Radiator,                !- Component 1 Name
+    Radiator Inlet Node,     !- Component 1 Inlet Node Name
+    Radiator Outlet Node;    !- Component 1 Outlet Node Name
+
+Branch,
+    Demand Outlet Pipe Branch,  !- Name
+    ,                        !- Pressure Drop Curve Name
+    Pipe:Adiabatic,          !- Component 1 Object Type
+    Demand Outlet Pipe,      !- Component 1 Name
+    Demand Outlet Pipe Inlet Node,  !- Component 1 Inlet Node Name
+    Demand Outlet Pipe Outlet Node;  !- Component 1 Outlet Node Name
+
+BranchList,
+    Supply Branches,         !- Name
+    Pump Branch,             !- Branch 1 Name
+    DH Branch,               !- Branch 2 Name
+    Supply Outlet Pipe Branch;  !- Branch 3 Name
+
+BranchList,
+    Demand Branches,         !- Name
+    Demand Inlet Pipe Branch,!- Branch 1 Name
+    Radiator Branch,         !- Branch 2 Name
+    Demand Outlet Pipe Branch;  !- Branch 3 Name
+
+Connector:Splitter,
+    Supply Splitter,         !- Name
+    Pump Branch,             !- Inlet Branch Name
+    DH Branch;               !- Outlet Branch 1 Name
+
+Connector:Splitter,
+    Demand Splitter,         !- Name
+    Demand Inlet Pipe Branch,!- Inlet Branch Name
+    Radiator Branch;         !- Outlet Branch 1 Name
+
+Connector:Mixer,
+    Supply Mixer,            !- Name
+    Supply Outlet Pipe Branch,  !- Outlet Branch Name
+    DH Branch;               !- Inlet Branch 1 Name
+
+Connector:Mixer,
+    Demand Mixer,            !- Name
+    Demand Outlet Pipe Branch,  !- Outlet Branch Name
+    Radiator Branch;         !- Inlet Branch 1 Name
+
+ConnectorList,
+    Supply Connectors,       !- Name
+    Connector:Splitter,      !- Connector 1 Object Type
+    Supply Splitter,         !- Connector 1 Name
+    Connector:Mixer,         !- Connector 2 Object Type
+    Supply Mixer;            !- Connector 2 Name
+
+ConnectorList,
+    Demand Connectors,       !- Name
+    Connector:Splitter,      !- Connector 1 Object Type
+    Demand Splitter,         !- Connector 1 Name
+    Connector:Mixer,         !- Connector 2 Object Type
+    Demand Mixer;            !- Connector 2 Name
+
+PlantLoop,
+    Main Loop,               !- Name
+    Water,                   !- Fluid Type
+    ,                        !- User Defined Fluid Type
+    Main Loop Operation,     !- Plant Equipment Operation Scheme Name
+    Supply Outlet Pipe Outlet Node,  !- Loop Temperature Setpoint Node Name
+    100,                     !- Maximum Loop Temperature {C}
+    3,                       !- Minimum Loop Temperature {C}
+    0.005,                   !- Maximum Loop Flow Rate {m3/s}
+    0,                       !- Minimum Loop Flow Rate {m3/s}
+    autocalculate,           !- Plant Loop Volume {m3}
+    Pump Inlet Node,         !- Plant Side Inlet Node Name
+    Supply Outlet Pipe Outlet Node,  !- Plant Side Outlet Node Name
+    Supply Branches,         !- Plant Side Branch List Name
+    Supply Connectors,       !- Plant Side Connector List Name
+    Demand Inlet Pipe Inlet Node,  !- Demand Side Inlet Node Name
+    Demand Outlet Pipe Outlet Node,  !- Demand Side Outlet Node Name
+    Demand Branches,         !- Demand Side Branch List Name
+    Demand Connectors,       !- Demand Side Connector List Name
+    SequentialLoad,          !- Load Distribution Scheme
+    ,                        !- Availability Manager List Name
+    SingleSetpoint,          !- Plant Loop Demand Calculation Scheme
+    None,                    !- Common Pipe Simulation
+    None,                    !- Pressure Simulation Type
+    2;                       !- Loop Circulation Time {minutes}
+
+PlantEquipmentList,
+    Heating Plant,           !- Name
+    DistrictHeating,         !- Equipment 1 Object Type
+    District Heating 1;      !- Equipment 1 Name
+
+PlantEquipmentOperation:HeatingLoad,
+    Purchaise Only,          !- Name
+    0,                       !- Load Range 1 Lower Limit {W}
+    1000000000,              !- Load Range 1 Upper Limit {W}
+    Heating Plant;           !- Range 1 Equipment List Name
+
+PlantEquipmentOperationSchemes,
+    Main Loop Operation,     !- Name
+    PlantEquipmentOperation:HeatingLoad,  !- Control Scheme 1 Object Type
+    Purchaise Only,          !- Control Scheme 1 Name
+    On/Off Schedule;         !- Control Scheme 1 Schedule Name
+
+ScheduleTypeLimits,
+    On/Off,                  !- Name
+    0,                       !- Lower Limit Value
+    1,                       !- Upper Limit Value
+    Discrete,                !- Numeric Type
+    Dimensionless;           !- Unit Type
+
+Schedule:Compact,
+    Main Loop Temp Sch,      !- Name
+    Any Number,              !- Schedule Type Limits Name
+    Through: 12/31,          !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 24:00, 60;        !- Field 4
+
+NodeList,
+    Main Loop SetPoint Node, !- Name
+    Supply Outlet Pipe Outlet Node;  !- Node 1 Name
+
+Output:Variable,*,District Heating Inlet Temperature,Hourly;
+Output:Variable,*,District Heating Outlet Temperature,Hourly;
+Output:Variable,*,District Heating Mass Flow Rate,Hourly;
+Output:Variable,*,District Heating Rate,Hourly;
+Output:Variable,*,Baseboard Water Inlet Temperature,Hourly;
+Output:Variable,*,Baseboard Water Outlet Temperature,Hourly;
+
+RunPeriod,
+    Annual sim 1,            !- Name
+    1,                       !- Begin Month
+    27,                      !- Begin Day of Month
+    1,                       !- End Month
+    27,                      !- End Day of Month
+    ,                        !- Day of Week for Start Day
+    Yes,                     !- Use Weather File Holidays and Special Days
+    Yes,                     !- Use Weather File Daylight Saving Period
+    No,                      !- Apply Weekend Holiday Rule
+    Yes,                     !- Use Weather File Rain Indicators
+    Yes,                     !- Use Weather File Snow Indicators
+    1,                       !- Number of Times Runperiod to be Repeated
+    Yes;                     !- Increment Day of Week on repeat
+
+Output:Table:SummaryReports,
+    AnnualBuildingUtilityPerformanceSummary,  !- Report 1 Name
+    InputVerificationandResultsSummary,  !- Report 2 Name
+    ClimaticDataSummary,     !- Report 3 Name
+    EnvelopeSummary;         !- Report 4 Name
+
+OutputControl:Table:Style,
+    HTML,                    !- Column Separator
+    None;                    !- Unit Conversion
+
+ScheduleTypeLimits,
+    Fraction,                !- Name
+    0.0,                     !- Lower Limit Value
+    1.0,                     !- Upper Limit Value
+    Continuous;              !- Numeric Type
+
+WindowMaterial:Glazing,
+    CLEAR 6MM,               !- Name
+    SpectralAverage,         !- Optical Data Type
+    ,                        !- Window Glass Spectral Data Set Name
+    0.006,                   !- Thickness {m}
+    0.775,                   !- Solar Transmittance at Normal Incidence
+    0.071,                   !- Front Side Solar Reflectance at Normal Incidence
+    0.071,                   !- Back Side Solar Reflectance at Normal Incidence
+    0.881,                   !- Visible Transmittance at Normal Incidence
+    0.080,                   !- Front Side Visible Reflectance at Normal Incidence
+    0.080,                   !- Back Side Visible Reflectance at Normal Incidence
+    0.0,                     !- Infrared Transmittance at Normal Incidence
+    0.84,                    !- Front Side Infrared Hemispherical Emissivity
+    0.84,                    !- Back Side Infrared Hemispherical Emissivity
+    0.9;                     !- Conductivity {W/m-K}
+
+WindowMaterial:Gas,
+    AIR 3MM,                 !- Name
+    Air,                     !- Gas Type
+    0.0032;                  !- Thickness {m}
+
+Construction,
+    DOUBLE PANE WINDOW,      !- Name
+    CLEAR 6MM,               !- Outside Layer
+    AIR 3MM,                 !- Layer 2
+    CLEAR 6MM;               !- Layer 3
+
+FenestrationSurface:Detailed,
+    EAST WINDOW,             !- Name
+    Window,                  !- Surface Type
+    DOUBLE PANE WINDOW,      !- Construction Name
+    ZONE SURFACE EAST,       !- Building Surface Name
+    ,                        !- Outside Boundary Condition Object
+    autocalculate,           !- View Factor to Ground
+    ,                        !- Shading Control Name
+    ,                        !- Frame and Divider Name
+    1,                       !- Multiplier
+    4,                       !- Number of Vertices
+    8, 1.5, 2.35,                       !- X,Y,Z  1 {m}
+    8, 1.5, 0.35,                       !- X,Y,Z  2 {m}
+    8, 4.5, 0.35,                       !- X,Y,Z  3 {m}
+    8, 4.5, 2.35;                       !- X,Y,Z  4 {m}
+
+FenestrationSurface:Detailed,
+    NORTH WINDOW,            !- Name
+    Window,                  !- Surface Type
+    DOUBLE PANE WINDOW,      !- Construction Name
+    ZONE SURFACE NORTH,      !- Building Surface Name
+    ,                        !- Outside Boundary Condition Object
+    autocalculate,           !- View Factor to Ground
+    ,                        !- Shading Control Name
+    ,                        !- Frame and Divider Name
+    1,                       !- Multiplier
+    4,                       !- Number of Vertices
+    4.5, 6, 2.35,                       !- X,Y,Z  1 {m}
+    4.5, 6, 0.35,                       !- X,Y,Z  2 {m}
+    1.5, 6, 0.35,                       !- X,Y,Z  3 {m}
+    1.5, 6, 2.35;                       !- X,Y,Z  4 {m}
+
+Output:Surfaces:List,Details;
+! Introduction to EnergyPlus - Exercise 1A
+!
+! Building: Fictional 1 zone building with lightweight walls and 2 windows.
+!           8m x 6m x 2.7m high, long side facing N and S
+!           20C heating, 24C cooling
+! Internal: None.
+! System:   Purchased Air.
+! Plant:    None.
+! Environment:  Chicago, IL, USA, Summer and Winter design days
+!
+!
+Version,8.9;
+
+Building,
+    Residential_DH,          !- Name
+    0.0,                     !- North Axis {deg}
+    Urban,                   !- Terrain
+    0.04,                    !- Loads Convergence Tolerance Value
+    0.001,                   !- Temperature Convergence Tolerance Value {deltaC}
+    FullInteriorAndExterior, !- Solar Distribution
+    ,                        !- Maximum Number of Warmup Days
+    6;                       !- Minimum Number of Warmup Days
+
+Timestep,1;
+SurfaceConvectionAlgorithm:Inside,TARP;
+SurfaceConvectionAlgorithm:Outside,TARP;
+HeatBalanceAlgorithm,ConductionTransferFunction;
+
+ShadowCalculation,
+    AverageOverDaysInFrequency,  !- Calculation Method
+    20;                      !- Calculation Frequency
+
+SimulationControl,
+    No,                      !- Do Zone Sizing Calculation
+    No,                      !- Do System Sizing Calculation
+    No,                      !- Do Plant Sizing Calculation
+    No,                      !- Run Simulation for Sizing Periods
+    Yes;                     !- Run Simulation for Weather File Run Periods
+
+Site:Location,
+    Stockholm (Arlanda),     !- Name
+    0,                       !- Latitude {deg}
+    0,                       !- Longitude {deg}
+    0,                       !- Time Zone {hr}
+    0;                       !- Elevation {m}
+
+Site:GroundTemperature:BuildingSurface,18.3,18.2,18.3,18.4,20.1,22.0,22.3,22.5,22.5,20.7,18.9,18.5;
+
+Zone,
+    ZONE ONE,                !- Name
+    0,                       !- Direction of Relative North {deg}
+    0, 0, 0,                            !- X,Y,Z  {m}
+    1,                       !- Type
+    1,                       !- Multiplier
+    2.7000,                  !- Ceiling Height {m}
+    129.6;                   !- Volume {m3}
+
+GlobalGeometryRules,
+    UpperLeftCorner,         !- Starting Vertex Position
+    Counterclockwise,        !- Vertex Entry Direction
+    WorldCoordinateSystem;   !- Coordinate System
+
+BuildingSurface:Detailed,
+    ZONE SURFACE NORTH,      !- Name
+    Wall,                    !- Surface Type
+    SKG yttervagg,           !- Construction Name
+    ZONE ONE,                !- Zone Name
+    Outdoors,                !- Outside Boundary Condition
+    ,                        !- Outside Boundary Condition Object
+    SunExposed,              !- Sun Exposure
+    WindExposed,             !- Wind Exposure
+    0.50,                    !- View Factor to Ground
+    4,                       !- Number of Vertices
+    8.00, 6.00, 2.70,                   !- X,Y,Z  1 {m}
+    8.00, 6.00, 0,                      !- X,Y,Z  2 {m}
+    0, 6.00, 0,                         !- X,Y,Z  3 {m}
+    0, 6.00, 2.70;                      !- X,Y,Z  4 {m}
+
+BuildingSurface:Detailed,
+    ZONE SURFACE EAST,       !- Name
+    Wall,                    !- Surface Type
+    SKG yttervagg,           !- Construction Name
+    ZONE ONE,                !- Zone Name
+    Outdoors,                !- Outside Boundary Condition
+    ,                        !- Outside Boundary Condition Object
+    SunExposed,              !- Sun Exposure
+    WindExposed,             !- Wind Exposure
+    0.50,                    !- View Factor to Ground
+    4,                       !- Number of Vertices
+    8.00, 0, 2.70,                      !- X,Y,Z  1 {m}
+    8.00, 0, 0,                         !- X,Y,Z  2 {m}
+    8.00, 6.00, 0,                      !- X,Y,Z  3 {m}
+    8.00, 6.00, 2.70;                   !- X,Y,Z  4 {m}
+
+BuildingSurface:Detailed,
+    ZONE SURFACE SOUTH,      !- Name
+    Wall,                    !- Surface Type
+    SKG intra apt walls,     !- Construction Name
+    ZONE ONE,                !- Zone Name
+    Adiabatic,               !- Outside Boundary Condition
+    ,                        !- Outside Boundary Condition Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    0.50,                    !- View Factor to Ground
+    4,                       !- Number of Vertices
+    0, 0, 2.70,                         !- X,Y,Z  1 {m}
+    0, 0, 0,                            !- X,Y,Z  2 {m}
+    8.00, 0, 0,                         !- X,Y,Z  3 {m}
+    8.00, 0, 2.70;                      !- X,Y,Z  4 {m}
+
+BuildingSurface:Detailed,
+    ZONE SURFACE WEST,       !- Name
+    Wall,                    !- Surface Type
+    SKG intra apt walls,     !- Construction Name
+    ZONE ONE,                !- Zone Name
+    Adiabatic,               !- Outside Boundary Condition
+    ,                        !- Outside Boundary Condition Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    0.50,                    !- View Factor to Ground
+    4,                       !- Number of Vertices
+    0, 6.00, 2.70,                      !- X,Y,Z  1 {m}
+    0, 6.00, 0,                         !- X,Y,Z  2 {m}
+    0, 0, 0,                            !- X,Y,Z  3 {m}
+    0, 0, 2.70;                         !- X,Y,Z  4 {m}
+
+BuildingSurface:Detailed,
+    ZONE SURFACE FLOOR,      !- Name
+    Floor,                   !- Surface Type
+    SKG golv,                !- Construction Name
+    ZONE ONE,                !- Zone Name
+    Ground,                  !- Outside Boundary Condition
+    ,                        !- Outside Boundary Condition Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    0,                       !- View Factor to Ground
+    4,                       !- Number of Vertices
+    0, 0, 0,                            !- X,Y,Z  1 {m}
+    0, 6.00, 0,                         !- X,Y,Z  2 {m}
+    8.00, 6.00, 0,                      !- X,Y,Z  3 {m}
+    8.00, 0, 0;                         !- X,Y,Z  4 {m}
+
+BuildingSurface:Detailed,
+    ZONE SURFACE ROOF,       !- Name
+    Roof,                    !- Surface Type
+    SKG tak,                 !- Construction Name
+    ZONE ONE,                !- Zone Name
+    Outdoors,                !- Outside Boundary Condition
+    ,                        !- Outside Boundary Condition Object
+    SunExposed,              !- Sun Exposure
+    WindExposed,             !- Wind Exposure
+    0,                       !- View Factor to Ground
+    4,                       !- Number of Vertices
+    0, 6.00, 2.70,                      !- X,Y,Z  1 {m}
+    0, 0, 2.70,                         !- X,Y,Z  2 {m}
+    8.00, 0, 2.70,                      !- X,Y,Z  3 {m}
+    8.00, 6.00, 2.70;                   !- X,Y,Z  4 {m}
+
+ScheduleTypeLimits,
+    Any Number;              !- Name
+
+Schedule:Compact,
+    ALWAYS 4,                !- Name
+    Any Number,              !- Schedule Type Limits Name
+    Through: 12/31,          !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 24:00, 4;         !- Field 4
+
+Schedule:Compact,
+    ALWAYS 20,               !- Name
+    Any Number,              !- Schedule Type Limits Name
+    Through: 12/31,          !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 24:00, 20;        !- Field 4
+
+ZoneHVAC:EquipmentConnections,
+    ZONE ONE,                !- Zone Name
+    ZONE ONE Equipment,      !- Zone Conditioning Equipment List Name
+    ZONE ONESupply Air Inlet,!- Zone Air Inlet Node or NodeList Name
+    ZONE ONE Exhaust Air Outlet,  !- Zone Air Exhaust Node or NodeList Name
+    ZONE ONE Zone Air Node,  !- Zone Air Node Name
+    ZONE ONE Return Outlet;  !- Zone Return Air Node or NodeList Name
+
+ZoneHVAC:EquipmentList,
+    ZONE ONE Equipment,      !- Name
+    SequentialLoad,          !- Load Distribution Scheme
+    ZoneHVAC:EnergyRecoveryVentilator,  !- Zone Equipment 1 Object Type
+    ERV_1,                   !- Zone Equipment 1 Name
+    1,                       !- Zone Equipment 1 Cooling Sequence
+    1,                       !- Zone Equipment 1 Heating or No-Load Sequence
+    ZoneHVAC:Baseboard:RadiantConvective:Water,  !- Zone Equipment 2 Object Type
+    Radiator,                !- Zone Equipment 2 Name
+    2,                       !- Zone Equipment 2 Cooling Sequence
+    2;                       !- Zone Equipment 2 Heating or No-Load Sequence
+
+ZoneControl:Thermostat,
+    ZONE ONE Thermostat,     !- Name
+    ZONE ONE,                !- Zone or ZoneList Name
+    ALWAYS 4,                !- Control Type Schedule Name
+    ThermostatSetpoint:DualSetpoint,  !- Control 1 Object Type
+    Dual;                    !- Control 1 Name
+
+Output:Variable,*,Site Outdoor Air Drybulb Temperature,Hourly;
+Output:Meter,DistrictHeating:Facility,Hourly;
+Output:Surfaces:Drawing,DXF;
+Output:Constructions,Constructions;
+Output:VariableDictionary,Regular;

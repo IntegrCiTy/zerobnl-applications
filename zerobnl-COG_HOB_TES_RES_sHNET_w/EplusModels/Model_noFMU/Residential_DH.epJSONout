@@ -670,7 +670,7 @@
             "idf_order": 5,
             "roughness": "Smooth",
             "specific_heat": 120,
-            "thickness": 0.17
+            "thickness": 0.34
         },
         "Isolering tak": {
             "conductivity": 0.04,

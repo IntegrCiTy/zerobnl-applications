@@ -197,3 +197,116 @@ Step 9/9 : ENTRYPOINT ["python"]
  ---> ed1925be2551
 Successfully built ed1925be2551
 Successfully tagged tmp_folder_base0:latest
+Attaching to orch, base4, base1, base6, base5, base0, base7
+base1    | The capacity in the building is over
+base1    | Priority is set
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | The capacity in the building is over
+base1    | Priority is set
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | The capacity in the building is over
+base1    | Priority is set
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | The capacity in the building is over
+base1    | Priority is set
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | The capacity in the building is over
+base1    | Priority is set
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | The capacity in the building is over
+base1    | Priority is set
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | The capacity in the building is over
+base1    | Priority is set
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | The capacity in the building is over
+base1    | Priority is set
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | The capacity in the building is over
+base1    | Priority is set
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | The capacity in the building is over
+base1    | Priority is set
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | The capacity in the building is over
+base1    | Priority is set
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | The capacity in the building is over
+base1    | Priority is set
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | The capacity in the building is over
+base1    | Priority is set
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | The capacity in the building is over
+base1    | Priority is set
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | The capacity in the building is over
+base1    | Priority is set
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | The capacity in the building is over
+base1    | Priority is set
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | The capacity in the building is over
+base1    | Priority is set
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | The capacity in the building is over
+base1    | Priority is set
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | The capacity in the building is over
+base1    | Priority is set
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | The capacity in the building is over
+base1    | Priority is set
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | The capacity in the building is over
+base1    | Priority is set
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | The capacity in the building is over
+base1    | Priority is set
+base1    | Plants are activated
+base1    | Plants are activated
+base1    | Plants are activated
+base5 exited with code 0
+Aborting on container exit...

@@ -1,0 +1,1 @@
+{"NAME": "Base3_1", "GROUP": "GRP0", "LOCAL": true, "INPUT_MAP": "{('Base0', 'Tth_1'): 'Tthermostat'}", "OUTPUTS": ["QDH", "Tindoor"], "INIT_VALUES": {}, "PARAMETERS": {}, "START": "2000-01-01 00:00:00", "TIME_UNIT": "seconds"}
