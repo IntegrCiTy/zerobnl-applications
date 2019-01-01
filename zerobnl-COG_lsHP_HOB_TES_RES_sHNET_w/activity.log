@@ -1,0 +1,34 @@
+2019-01-01 11:43:05,321 :: DEBUG :: ZEROBNL -> deploy.py :: run :: CREATE NODES
+2019-01-01 11:43:06,453 :: DEBUG :: ZEROBNL -> deploy.py :: run :: CREATE ORCH
+2019-01-01 11:43:07,811 :: DEBUG :: ZEROBNL -> deploy.py :: run :: LAUNCH NETWORK+REDIS
+2019-01-01 11:43:07,833 :: DEBUG :: ZEROBNL -> deploy.py :: run :: DUMP YAML
+2019-01-01 11:43:07,835 :: WARNING :: ZEROBNL -> deploy.py :: run :: Local node to run in [TMP_FOLDER\base2] > python wrapper.py
+2019-01-01 11:43:07,837 :: WARNING :: ZEROBNL -> deploy.py :: run :: Local node to run in [TMP_FOLDER\base3] > python wrapper.py
+2019-01-01 11:43:07,838 :: WARNING :: ZEROBNL -> deploy.py :: run :: Local node to run in [TMP_FOLDER\base3_1] > python wrapper.py
+2019-01-01 11:43:07,839 :: INFO :: ZEROBNL -> deploy.py :: run :: Waiting for local nodes to run...
+2019-01-01 11:44:17,540 :: INFO :: ZEROBNL -> deploy.py :: run :: Simulation finished in 1 min and 10 sec
+2019-01-01 11:44:17,541 :: DEBUG :: ZEROBNL -> deploy.py :: run :: FINISHED PROCESS
+2019-01-01 11:44:17,611 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base0 - Tth_0
+2019-01-01 11:44:17,612 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base0 - demandFlag
+2019-01-01 11:44:17,613 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base0 - Tth_1
+2019-01-01 11:44:17,614 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base0 - TsetP
+2019-01-01 11:44:17,615 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base0 - demandFlag_mdot
+2019-01-01 11:44:17,690 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base1 - TES_FlagOUT
+2019-01-01 11:44:17,691 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base1 - HOB_FlagOUT
+2019-01-01 11:44:17,692 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base1 - COG_FlagOUT
+2019-01-01 11:44:17,740 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base2 - COG_MDOTtoLOAD
+2019-01-01 11:44:17,741 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base2 - COG_MDOTfromTES
+2019-01-01 11:44:17,742 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base2 - COG_soo
+2019-01-01 11:44:17,743 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base2 - COG_Tout
+2019-01-01 11:44:17,744 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base2 - COG_MDOTtot
+2019-01-01 11:44:17,745 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base2 - COG_TTESin
+2019-01-01 11:44:17,746 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base2 - COG_MDOTtoTES
+2019-01-01 11:44:17,822 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base3 - Tindoor
+2019-01-01 11:44:17,824 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base3 - QDH
+2019-01-01 11:44:17,825 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base3_1 - QDH
+2019-01-01 11:44:17,826 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base3_1 - Tindoor
+2019-01-01 11:44:17,885 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base5 - TES_ToutD
+2019-01-01 11:44:17,886 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base5 - TES_socOUT
+2019-01-01 11:44:17,887 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base5 - TES_soo
+2019-01-01 11:44:17,888 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base5 - TES_MDOToutD
+2019-01-01 11:44:17,942 :: INFO :: ZEROBNL -> results.py :: get_results_by_pattern :: Matching results: Base6 - TdryBulb

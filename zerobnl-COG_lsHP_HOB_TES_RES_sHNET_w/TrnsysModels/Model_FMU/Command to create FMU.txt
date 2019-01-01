@@ -1,0 +1,20 @@
+From the command prompt, go to the directory where the original TRNSYS file is located and then type:
+(the virtual environment is C:\Users\arnaudo\Envs\trnsysFMU\Scripts)
+
+python.exe C:\Source_codes\trnsys-fmu-v0.7\trnsys_fmu_create.py -v -m COGplant -d COGplant.dck caseData.txt
+
+OBS!! I am still working with trnsys-fmu-v0.7
+	For trnsys-fmu-1.0 I should start the installation from scratch (included the TRNSYS components)
+
+______________________________________________________________________________________
+OLD notes
+
+mkvirtualenv TRNSYStest
+
+python.exe C:\Users\arnaudo\Envs\trnsysFMU\trnsys-fmu-v0.7\trnsys_fmu_create.py -v -m HES3_2__TES1_1__EEG0__EES0 -d HES3_2__TES1_1__EEG0__EES0.dck Effekt_SKG_2016.txt MassFlowRate_SKG_2016.txt Weather_Stockholm2016.txt
+
+
+TO UPGRADE TO THE MOST RECENT FMU MAKER VERSION
+https://sourceforge.net/projects/trnsys-fmu/
+
+python.exe C:\Development\trnsys-fmu-1.0\trnsys_fmu_create.py -v -m HES3_2__TES1_1__EEG0__EES0 -d HES3_2__TES1_1__EEG0__EES0.dck Effekt_SKG_2016.txt MassFlowRate_SKG_2016.txt Weather_Stockholm2016.txt

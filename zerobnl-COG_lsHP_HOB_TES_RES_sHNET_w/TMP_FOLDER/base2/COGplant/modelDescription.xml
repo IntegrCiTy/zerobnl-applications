@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fmiModelDescription fmiVersion="1.0" modelName="COGplant" modelIdentifier="COGplant" description="TRNSYS FMI CS export" generationTool="FMI++ TRNSYS Export Utility" generationDateAndTime="2019-01-01T11:13:41" variableNamingConvention="flat" numberOfContinuousStates="0" numberOfEventIndicators="0" author="adm.arnaudo" guid="{e9a0e5cf-0dad-11e9-9fff-a434d9d125c3}">
+	<ModelVariables>
+		<ScalarVariable name="COG_QDH" valueReference="1" variability="continuous" causality="input">
+			<Real/>
+		</ScalarVariable>
+		<ScalarVariable name="COG_FlagIN" valueReference="2" variability="continuous" causality="input">
+			<Real/>
+		</ScalarVariable>
+		<ScalarVariable name="COG_Tout" valueReference="1001" variability="continuous" causality="output">
+			<Real/>
+		</ScalarVariable>
+		<ScalarVariable name="COG_MDOTtot" valueReference="1002" variability="continuous" causality="output">
+			<Real/>
+		</ScalarVariable>
+		<ScalarVariable name="COG_MDOTtoTES" valueReference="1003" variability="continuous" causality="output">
+			<Real/>
+		</ScalarVariable>
+		<ScalarVariable name="COG_MDOTfromTES" valueReference="1004" variability="continuous" causality="output">
+			<Real/>
+		</ScalarVariable>
+		<ScalarVariable name="COG_TTESin" valueReference="1005" variability="continuous" causality="output">
+			<Real/>
+		</ScalarVariable>
+		<ScalarVariable name="COG_MDOTtoLOAD" valueReference="1006" variability="continuous" causality="output">
+			<Real/>
+		</ScalarVariable>
+		<ScalarVariable name="COG_soo" valueReference="1007" variability="continuous" causality="output">
+			<Real/>
+		</ScalarVariable>
+	</ModelVariables>
+	<Implementation>
+		<CoSimulation_Tool>
+			<Capabilities canHandleVariableCommunicationStepSize="false" canHandleEvents="true" canRejectSteps="false" canInterpolateInputs="false" maxOutputDerivativeOrder="0" canRunAsynchronuously="false" canSignalEvents="false" canBeInstantiatedOnlyOncePerProcess="false" canNotUseMemoryManagementFunctions="true"/>
+			<Model entryPoint="fmu://COGplant.dck" manualStart="false" type="application/x-trnexe">
+				<File file="fmu://caseData.txt"/>
+			</Model>
+		</CoSimulation_Tool>
+	</Implementation>
+	<VendorAnnotations>
+		<trnexe preArguments="" postArguments="" executableURI="file:///C:/Trnsys17/exe/trnexe.exe"/>
+	</VendorAnnotations>
+</fmiModelDescription>

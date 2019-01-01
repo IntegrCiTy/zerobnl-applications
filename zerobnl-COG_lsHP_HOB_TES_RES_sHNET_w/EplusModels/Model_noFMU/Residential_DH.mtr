@@ -1,0 +1,60 @@
+Program Version,EnergyPlus, Version 8.9.0-40101eaafd, YMD=2018.12.30 11:37
+1,5,Environment Title[],Latitude[deg],Longitude[deg],Time Zone[],Elevation[m]
+2,8,Day of Simulation[],Month[],Day of Month[],DST Indicator[1=yes 0=no],Hour[],StartMinute[],EndMinute[],DayType
+3,5,Cumulative Day of Simulation[],Month[],Day of Month[],DST Indicator[1=yes 0=no],DayType  ! When Daily Meters Requested
+4,2,Cumulative Days of Simulation[],Month[]  ! When Monthly Meters Requested
+5,1,Cumulative Days of Simulation[] ! When Run Period Meters Requested
+6,1,Calendar Year of Simulation[] ! When Annual Meters Requested
+120,1,DistrictHeating:Facility [J] !Hourly
+End of Data Dictionary
+1,ANNUAL SIM 1,  59.65,  17.95,   1.00,  61.00
+2,1, 1,27, 0, 1, 0.00,60.00,Friday
+120,43200.0
+2,1, 1,27, 0, 2, 0.00,60.00,Friday
+120,43200.0
+2,1, 1,27, 0, 3, 0.00,60.00,Friday
+120,43200.0
+2,1, 1,27, 0, 4, 0.00,60.00,Friday
+120,43200.0
+2,1, 1,27, 0, 5, 0.00,60.00,Friday
+120,43200.0
+2,1, 1,27, 0, 6, 0.00,60.00,Friday
+120,5431509.289234512
+2,1, 1,27, 0, 7, 0.00,60.00,Friday
+120,5828618.58407806
+2,1, 1,27, 0, 8, 0.00,60.00,Friday
+120,5293831.111889856
+2,1, 1,27, 0, 9, 0.00,60.00,Friday
+120,7502400.0
+2,1, 1,27, 0,10, 0.00,60.00,Friday
+120,7430400.0
+2,1, 1,27, 0,11, 0.00,60.00,Friday
+120,7394400.0
+2,1, 1,27, 0,12, 0.00,60.00,Friday
+120,7437600.0
+2,1, 1,27, 0,13, 0.00,60.00,Friday
+120,7495200.0
+2,1, 1,27, 0,14, 0.00,60.00,Friday
+120,7452000.0
+2,1, 1,27, 0,15, 0.00,60.00,Friday
+120,7444800.0
+2,1, 1,27, 0,16, 0.00,60.00,Friday
+120,7408800.0
+2,1, 1,27, 0,17, 0.00,60.00,Friday
+120,7430400.0
+2,1, 1,27, 0,18, 0.00,60.00,Friday
+120,7560000.0
+2,1, 1,27, 0,19, 0.00,60.00,Friday
+120,4842426.327435852
+2,1, 1,27, 0,20, 0.00,60.00,Friday
+120,4781658.470118489
+2,1, 1,27, 0,21, 0.00,60.00,Friday
+120,259200.0
+2,1, 1,27, 0,22, 0.00,60.00,Friday
+120,324000.0
+2,1, 1,27, 0,23, 0.00,60.00,Friday
+120,216000.0
+2,1, 1,27, 0,24, 0.00,60.00,Friday
+120,57600.0
+End of Data
+ Number of Records Written=          24

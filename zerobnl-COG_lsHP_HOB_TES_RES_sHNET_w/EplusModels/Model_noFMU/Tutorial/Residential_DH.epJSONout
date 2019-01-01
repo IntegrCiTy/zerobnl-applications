@@ -1,0 +1,1355 @@
+{
+    "Branch": {
+        "DH Branch": {
+            "components": [
+                {
+                    "component_inlet_node_name": "DH Inlet Node",
+                    "component_name": "District Heating 1",
+                    "component_object_type": "DistrictHeating",
+                    "component_outlet_node_name": "DH Outlet Node"
+                }
+            ],
+            "idf_max_extensible_fields": 4,
+            "idf_max_fields": 6,
+            "idf_order": 9
+        },
+        "Demand Inlet Pipe Branch": {
+            "components": [
+                {
+                    "component_inlet_node_name": "Demand Inlet Pipe Inlet Node",
+                    "component_name": "Demand Inlet Pipe",
+                    "component_object_type": "Pipe:Adiabatic",
+                    "component_outlet_node_name": "Demand Inlet Pipe Outlet Node"
+                }
+            ],
+            "idf_max_extensible_fields": 4,
+            "idf_max_fields": 6,
+            "idf_order": 15
+        },
+        "Demand Outlet Pipe Branch": {
+            "components": [
+                {
+                    "component_inlet_node_name": "Demand Outlet Pipe Inlet Node",
+                    "component_name": "Demand Outlet Pipe",
+                    "component_object_type": "Pipe:Adiabatic",
+                    "component_outlet_node_name": "Demand Outlet Pipe Outlet Node"
+                }
+            ],
+            "idf_max_extensible_fields": 4,
+            "idf_max_fields": 6,
+            "idf_order": 17
+        },
+        "Pump Branch": {
+            "components": [
+                {
+                    "component_inlet_node_name": "Pump Inlet Node",
+                    "component_name": "Pump 1",
+                    "component_object_type": "Pump:VariableSpeed",
+                    "component_outlet_node_name": "Pump Outlet Node"
+                }
+            ],
+            "idf_max_extensible_fields": 4,
+            "idf_max_fields": 6,
+            "idf_order": 7
+        },
+        "Radiator Branch": {
+            "components": [
+                {
+                    "component_inlet_node_name": "Radiator Inlet Node",
+                    "component_name": "Radiator",
+                    "component_object_type": "ZoneHVAC:Baseboard:RadiantConvective:Water",
+                    "component_outlet_node_name": "Radiator Outlet Node"
+                }
+            ],
+            "idf_max_extensible_fields": 4,
+            "idf_max_fields": 6,
+            "idf_order": 16
+        },
+        "Supply Outlet Pipe Branch": {
+            "components": [
+                {
+                    "component_inlet_node_name": "Supply Outlet Pipe Inlet Node",
+                    "component_name": "Supply Outlet Pipe",
+                    "component_object_type": "Pipe:Adiabatic",
+                    "component_outlet_node_name": "Supply Outlet Pipe Outlet Node"
+                }
+            ],
+            "idf_max_extensible_fields": 4,
+            "idf_max_fields": 6,
+            "idf_order": 11
+        }
+    },
+    "BranchList": {
+        "Demand Branches": {
+            "branches": [
+                {
+                    "branch_name": "Demand Inlet Pipe Branch"
+                },
+                {
+                    "branch_name": "Radiator Branch"
+                },
+                {
+                    "branch_name": "Demand Outlet Pipe Branch"
+                }
+            ],
+            "idf_max_extensible_fields": 3,
+            "idf_max_fields": 4,
+            "idf_order": 19
+        },
+        "Supply Branches": {
+            "branches": [
+                {
+                    "branch_name": "Pump Branch"
+                },
+                {
+                    "branch_name": "DH Branch"
+                },
+                {
+                    "branch_name": "Supply Outlet Pipe Branch"
+                }
+            ],
+            "idf_max_extensible_fields": 3,
+            "idf_max_fields": 4,
+            "idf_order": 18
+        }
+    },
+    "Building": {
+        "Residential_DH": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 8,
+            "idf_order": 53,
+            "loads_convergence_tolerance_value": 0.04,
+            "minimum_number_of_warmup_days": 6,
+            "north_axis": 0.0,
+            "solar_distribution": "FullInteriorAndExterior",
+            "temperature_convergence_tolerance_value": 0.001,
+            "terrain": "Urban"
+        }
+    },
+    "BuildingSurface:Detailed": {
+        "SURFACE NORTH": {
+            "construction_name": "LTWALL",
+            "idf_max_extensible_fields": 12,
+            "idf_max_fields": 22,
+            "idf_order": 74,
+            "number_of_vertices": 4,
+            "outside_boundary_condition": "Outdoors",
+            "sun_exposure": "SunExposed",
+            "surface_type": "Wall",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 8.0,
+                    "vertex_y_coordinate": 6.0,
+                    "vertex_z_coordinate": 2.7
+                },
+                {
+                    "vertex_x_coordinate": 8.0,
+                    "vertex_y_coordinate": 6.0,
+                    "vertex_z_coordinate": 0
+                },
+                {
+                    "vertex_x_coordinate": 0,
+                    "vertex_y_coordinate": 6.0,
+                    "vertex_z_coordinate": 0
+                },
+                {
+                    "vertex_x_coordinate": 0,
+                    "vertex_y_coordinate": 6.0,
+                    "vertex_z_coordinate": 2.7
+                }
+            ],
+            "view_factor_to_ground": 0.5,
+            "wind_exposure": "WindExposed",
+            "zone_name": "ZONE ONE"
+        },
+        "ZONE SURFACE EAST": {
+            "construction_name": "LTWALL",
+            "idf_max_extensible_fields": 12,
+            "idf_max_fields": 22,
+            "idf_order": 75,
+            "number_of_vertices": 4,
+            "outside_boundary_condition": "Outdoors",
+            "sun_exposure": "SunExposed",
+            "surface_type": "Wall",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 8.0,
+                    "vertex_y_coordinate": 0,
+                    "vertex_z_coordinate": 2.7
+                },
+                {
+                    "vertex_x_coordinate": 8.0,
+                    "vertex_y_coordinate": 0,
+                    "vertex_z_coordinate": 0
+                },
+                {
+                    "vertex_x_coordinate": 8.0,
+                    "vertex_y_coordinate": 6.0,
+                    "vertex_z_coordinate": 0
+                },
+                {
+                    "vertex_x_coordinate": 8.0,
+                    "vertex_y_coordinate": 6.0,
+                    "vertex_z_coordinate": 2.7
+                }
+            ],
+            "view_factor_to_ground": 0.5,
+            "wind_exposure": "WindExposed",
+            "zone_name": "ZONE ONE"
+        },
+        "ZONE SURFACE FLOOR": {
+            "construction_name": "LTFLOOR",
+            "idf_max_extensible_fields": 12,
+            "idf_max_fields": 22,
+            "idf_order": 78,
+            "number_of_vertices": 4,
+            "outside_boundary_condition": "Ground",
+            "sun_exposure": "NoSun",
+            "surface_type": "Floor",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 0,
+                    "vertex_y_coordinate": 0,
+                    "vertex_z_coordinate": 0
+                },
+                {
+                    "vertex_x_coordinate": 0,
+                    "vertex_y_coordinate": 6.0,
+                    "vertex_z_coordinate": 0
+                },
+                {
+                    "vertex_x_coordinate": 8.0,
+                    "vertex_y_coordinate": 6.0,
+                    "vertex_z_coordinate": 0
+                },
+                {
+                    "vertex_x_coordinate": 8.0,
+                    "vertex_y_coordinate": 0,
+                    "vertex_z_coordinate": 0
+                }
+            ],
+            "view_factor_to_ground": 0,
+            "wind_exposure": "NoWind",
+            "zone_name": "ZONE ONE"
+        },
+        "ZONE SURFACE ROOF": {
+            "construction_name": "LTROOF",
+            "idf_max_extensible_fields": 12,
+            "idf_max_fields": 22,
+            "idf_order": 79,
+            "number_of_vertices": 4,
+            "outside_boundary_condition": "Outdoors",
+            "sun_exposure": "SunExposed",
+            "surface_type": "Roof",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 0,
+                    "vertex_y_coordinate": 6.0,
+                    "vertex_z_coordinate": 2.7
+                },
+                {
+                    "vertex_x_coordinate": 0,
+                    "vertex_y_coordinate": 0,
+                    "vertex_z_coordinate": 2.7
+                },
+                {
+                    "vertex_x_coordinate": 8.0,
+                    "vertex_y_coordinate": 0,
+                    "vertex_z_coordinate": 2.7
+                },
+                {
+                    "vertex_x_coordinate": 8.0,
+                    "vertex_y_coordinate": 6.0,
+                    "vertex_z_coordinate": 2.7
+                }
+            ],
+            "view_factor_to_ground": 0,
+            "wind_exposure": "WindExposed",
+            "zone_name": "ZONE ONE"
+        },
+        "ZONE SURFACE SOUTH": {
+            "construction_name": "LTWALL",
+            "idf_max_extensible_fields": 12,
+            "idf_max_fields": 22,
+            "idf_order": 76,
+            "number_of_vertices": 4,
+            "outside_boundary_condition": "Outdoors",
+            "sun_exposure": "SunExposed",
+            "surface_type": "Wall",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 0,
+                    "vertex_y_coordinate": 0,
+                    "vertex_z_coordinate": 2.7
+                },
+                {
+                    "vertex_x_coordinate": 0,
+                    "vertex_y_coordinate": 0,
+                    "vertex_z_coordinate": 0
+                },
+                {
+                    "vertex_x_coordinate": 8.0,
+                    "vertex_y_coordinate": 0,
+                    "vertex_z_coordinate": 0
+                },
+                {
+                    "vertex_x_coordinate": 8.0,
+                    "vertex_y_coordinate": 0,
+                    "vertex_z_coordinate": 2.7
+                }
+            ],
+            "view_factor_to_ground": 0.5,
+            "wind_exposure": "WindExposed",
+            "zone_name": "ZONE ONE"
+        },
+        "ZONE SURFACE WEST": {
+            "construction_name": "LTWALL",
+            "idf_max_extensible_fields": 12,
+            "idf_max_fields": 22,
+            "idf_order": 77,
+            "number_of_vertices": 4,
+            "outside_boundary_condition": "Outdoors",
+            "sun_exposure": "SunExposed",
+            "surface_type": "Wall",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 0,
+                    "vertex_y_coordinate": 6.0,
+                    "vertex_z_coordinate": 2.7
+                },
+                {
+                    "vertex_x_coordinate": 0,
+                    "vertex_y_coordinate": 6.0,
+                    "vertex_z_coordinate": 0
+                },
+                {
+                    "vertex_x_coordinate": 0,
+                    "vertex_y_coordinate": 0,
+                    "vertex_z_coordinate": 0
+                },
+                {
+                    "vertex_x_coordinate": 0,
+                    "vertex_y_coordinate": 0,
+                    "vertex_z_coordinate": 2.7
+                }
+            ],
+            "view_factor_to_ground": 0.5,
+            "wind_exposure": "WindExposed",
+            "zone_name": "ZONE ONE"
+        }
+    },
+    "Connector:Mixer": {
+        "Demand Mixer": {
+            "branches": [
+                {
+                    "inlet_branch_name": "Radiator Branch"
+                }
+            ],
+            "idf_max_extensible_fields": 1,
+            "idf_max_fields": 3,
+            "idf_order": 23,
+            "outlet_branch_name": "Demand Outlet Pipe Branch"
+        },
+        "Supply Mixer": {
+            "branches": [
+                {
+                    "inlet_branch_name": "DH Branch"
+                }
+            ],
+            "idf_max_extensible_fields": 1,
+            "idf_max_fields": 3,
+            "idf_order": 22,
+            "outlet_branch_name": "Supply Outlet Pipe Branch"
+        }
+    },
+    "Connector:Splitter": {
+        "Demand Splitter": {
+            "branches": [
+                {
+                    "outlet_branch_name": "Radiator Branch"
+                }
+            ],
+            "idf_max_extensible_fields": 1,
+            "idf_max_fields": 3,
+            "idf_order": 21,
+            "inlet_branch_name": "Demand Inlet Pipe Branch"
+        },
+        "Supply Splitter": {
+            "branches": [
+                {
+                    "outlet_branch_name": "DH Branch"
+                }
+            ],
+            "idf_max_extensible_fields": 1,
+            "idf_max_fields": 3,
+            "idf_order": 20,
+            "inlet_branch_name": "Pump Branch"
+        }
+    },
+    "ConnectorList": {
+        "Demand Connectors": {
+            "connector_1_name": "Demand Splitter",
+            "connector_1_object_type": "Connector:Splitter",
+            "connector_2_name": "Demand Mixer",
+            "connector_2_object_type": "Connector:Mixer",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 5,
+            "idf_order": 25
+        },
+        "Supply Connectors": {
+            "connector_1_name": "Supply Splitter",
+            "connector_1_object_type": "Connector:Splitter",
+            "connector_2_name": "Supply Mixer",
+            "connector_2_object_type": "Connector:Mixer",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 5,
+            "idf_order": 24
+        }
+    },
+    "Construction": {
+        "DOUBLE PANE WINDOW": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 4,
+            "idf_order": 48,
+            "layer_2": "AIR 3MM",
+            "layer_3": "CLEAR 6MM",
+            "outside_layer": "CLEAR 6MM"
+        },
+        "LTFLOOR": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 2,
+            "idf_order": 70,
+            "outside_layer": "HF-C5"
+        },
+        "LTROOF": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 4,
+            "idf_order": 71,
+            "layer_2": "FIBERGLASS QUILT-2",
+            "layer_3": "PLASTERBOARD-2",
+            "outside_layer": "ROOF DECK"
+        },
+        "LTWALL": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 4,
+            "idf_order": 69,
+            "layer_2": "FIBERGLASS QUILT-1",
+            "layer_3": "PLASTERBOARD-1",
+            "outside_layer": "WOOD SIDING-1"
+        }
+    },
+    "DistrictHeating": {
+        "District Heating 1": {
+            "hot_water_inlet_node_name": "DH Inlet Node",
+            "hot_water_outlet_node_name": "DH Outlet Node",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 4,
+            "idf_order": 10,
+            "nominal_capacity": 2000
+        }
+    },
+    "FenestrationSurface:Detailed": {
+        "EAST WINDOW": {
+            "building_surface_name": "ZONE SURFACE EAST",
+            "construction_name": "DOUBLE PANE WINDOW",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 22,
+            "idf_order": 49,
+            "multiplier": 1,
+            "number_of_vertices": 4,
+            "surface_type": "Window",
+            "vertex_1_x_coordinate": 8,
+            "vertex_1_y_coordinate": 1.5,
+            "vertex_1_z_coordinate": 2.35,
+            "vertex_2_x_coordinate": 8,
+            "vertex_2_y_coordinate": 1.5,
+            "vertex_2_z_coordinate": 0.35,
+            "vertex_3_x_coordinate": 8,
+            "vertex_3_y_coordinate": 4.5,
+            "vertex_3_z_coordinate": 0.35,
+            "vertex_4_x_coordinate": 8,
+            "vertex_4_y_coordinate": 4.5,
+            "vertex_4_z_coordinate": 2.35,
+            "view_factor_to_ground": "Autocalculate"
+        },
+        "WEST WINDOW": {
+            "building_surface_name": "ZONE SURFACE WEST",
+            "construction_name": "DOUBLE PANE WINDOW",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 22,
+            "idf_order": 50,
+            "multiplier": 1,
+            "number_of_vertices": 4,
+            "surface_type": "Window",
+            "vertex_1_x_coordinate": 0,
+            "vertex_1_y_coordinate": 4.5,
+            "vertex_1_z_coordinate": 2.35,
+            "vertex_2_x_coordinate": 0,
+            "vertex_2_y_coordinate": 4.5,
+            "vertex_2_z_coordinate": 0.35,
+            "vertex_3_x_coordinate": 0,
+            "vertex_3_y_coordinate": 1.5,
+            "vertex_3_z_coordinate": 0.35,
+            "vertex_4_x_coordinate": 0,
+            "vertex_4_y_coordinate": 1.5,
+            "vertex_4_z_coordinate": 2.35,
+            "view_factor_to_ground": "Autocalculate"
+        }
+    },
+    "GlobalGeometryRules": {
+        "GlobalGeometryRules 1": {
+            "coordinate_system": "WorldCoordinateSystem",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 73,
+            "starting_vertex_position": "UpperLeftCorner",
+            "vertex_entry_direction": "Counterclockwise"
+        }
+    },
+    "HeatBalanceAlgorithm": {
+        "HeatBalanceAlgorithm 1": {
+            "algorithm": "ConductionTransferFunction",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 1,
+            "idf_order": 57
+        }
+    },
+    "Material": {
+        "FIBERGLASS QUILT-1": {
+            "conductivity": 0.04,
+            "density": 12.0,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 9,
+            "idf_order": 63,
+            "roughness": "Rough",
+            "solar_absorptance": 0.6,
+            "specific_heat": 840.0,
+            "thermal_absorptance": 0.9,
+            "thickness": 0.066,
+            "visible_absorptance": 0.6
+        },
+        "FIBERGLASS QUILT-2": {
+            "conductivity": 0.04,
+            "density": 12.0,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 9,
+            "idf_order": 66,
+            "roughness": "Rough",
+            "solar_absorptance": 0.6,
+            "specific_heat": 840.0,
+            "thermal_absorptance": 0.9,
+            "thickness": 0.1118,
+            "visible_absorptance": 0.6
+        },
+        "HF-C5": {
+            "conductivity": 1.7296,
+            "density": 2243.0,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 9,
+            "idf_order": 68,
+            "roughness": "MediumRough",
+            "solar_absorptance": 0.65,
+            "specific_heat": 837.0,
+            "thermal_absorptance": 0.9,
+            "thickness": 0.1015,
+            "visible_absorptance": 0.65
+        },
+        "PLASTERBOARD-1": {
+            "conductivity": 0.6,
+            "density": 950.0,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 9,
+            "idf_order": 62,
+            "roughness": "MediumSmooth",
+            "solar_absorptance": 0.6,
+            "specific_heat": 840.0,
+            "thermal_absorptance": 0.9,
+            "thickness": 0.012,
+            "visible_absorptance": 0.6
+        },
+        "PLASTERBOARD-2": {
+            "conductivity": 0.16,
+            "density": 950.0,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 9,
+            "idf_order": 65,
+            "roughness": "Rough",
+            "solar_absorptance": 0.6,
+            "specific_heat": 840.0,
+            "thermal_absorptance": 0.9,
+            "thickness": 0.01,
+            "visible_absorptance": 0.6
+        },
+        "ROOF DECK": {
+            "conductivity": 0.14,
+            "density": 530.0,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 9,
+            "idf_order": 67,
+            "roughness": "Rough",
+            "solar_absorptance": 0.6,
+            "specific_heat": 900.0,
+            "thermal_absorptance": 0.9,
+            "thickness": 0.019,
+            "visible_absorptance": 0.6
+        },
+        "WOOD SIDING-1": {
+            "conductivity": 0.14,
+            "density": 530.0,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 9,
+            "idf_order": 64,
+            "roughness": "Rough",
+            "solar_absorptance": 0.6,
+            "specific_heat": 900.0,
+            "thermal_absorptance": 0.9,
+            "thickness": 0.009,
+            "visible_absorptance": 0.6
+        }
+    },
+    "NodeList": {
+        "Main Loop SetPoint Node": {
+            "idf_max_extensible_fields": 1,
+            "idf_max_fields": 2,
+            "idf_order": 33,
+            "nodes": [
+                {
+                    "node_name": "Supply Outlet Pipe Outlet Node"
+                }
+            ]
+        }
+    },
+    "Output:Constructions": {
+        "Output:Constructions 1": {
+            "details_type_1": "Constructions",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 1,
+            "idf_order": 90
+        }
+    },
+    "Output:Meter": {
+        "Output:Meter 1": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 2,
+            "idf_order": 88,
+            "key_name": "DistrictHeating:Facility",
+            "reporting_frequency": "Hourly"
+        }
+    },
+    "Output:Surfaces:Drawing": {
+        "Output:Surfaces:Drawing 1": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 1,
+            "idf_order": 89,
+            "report_type": "DXF"
+        }
+    },
+    "Output:Surfaces:List": {
+        "Output:Surfaces:List 1": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 1,
+            "idf_order": 51,
+            "report_type": "Details"
+        }
+    },
+    "Output:Table:SummaryReports": {
+        "Output:Table:SummaryReports 1": {
+            "idf_max_extensible_fields": 4,
+            "idf_max_fields": 4,
+            "idf_order": 41,
+            "reports": [
+                {
+                    "report_name": "AnnualBuildingUtilityPerformanceSummary"
+                },
+                {
+                    "report_name": "InputVerificationandResultsSummary"
+                },
+                {
+                    "report_name": "ClimaticDataSummary"
+                },
+                {
+                    "report_name": "EnvelopeSummary"
+                }
+            ]
+        }
+    },
+    "Output:Variable": {
+        "Output:Variable 1": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 1,
+            "key_value": "*",
+            "reporting_frequency": "Hourly",
+            "variable_name": "Zone Mean Air Temperature"
+        },
+        "Output:Variable 2": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 4,
+            "key_value": "*",
+            "reporting_frequency": "Hourly",
+            "variable_name": "Baseboard Total Heating Rate"
+        },
+        "Output:Variable 3": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 5,
+            "key_value": "*",
+            "reporting_frequency": "Hourly",
+            "variable_name": "Baseboard Hot Water Mass Flow Rate"
+        },
+        "Output:Variable 4": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 34,
+            "key_value": "*",
+            "reporting_frequency": "Hourly",
+            "variable_name": "District Heating Inlet Temperature"
+        },
+        "Output:Variable 5": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 35,
+            "key_value": "*",
+            "reporting_frequency": "Hourly",
+            "variable_name": "District Heating Outlet Temperature"
+        },
+        "Output:Variable 6": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 36,
+            "key_value": "*",
+            "reporting_frequency": "Hourly",
+            "variable_name": "District Heating Mass Flow Rate"
+        },
+        "Output:Variable 7": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 37,
+            "key_value": "*",
+            "reporting_frequency": "Hourly",
+            "variable_name": "District Heating Rate"
+        },
+        "Output:Variable 8": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 38,
+            "key_value": "*",
+            "reporting_frequency": "Hourly",
+            "variable_name": "Baseboard Water Inlet Temperature"
+        },
+        "Output:Variable 9": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 39,
+            "key_value": "*",
+            "reporting_frequency": "Hourly",
+            "variable_name": "Baseboard Water Outlet Temperature"
+        },
+        "Output:Variable 10": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 43,
+            "key_value": "*",
+            "reporting_frequency": "Hourly",
+            "variable_name": "Lights Electric Energy"
+        },
+        "Output:Variable 11": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 87,
+            "key_value": "*",
+            "reporting_frequency": "Hourly",
+            "variable_name": "Site Outdoor Air Drybulb Temperature"
+        }
+    },
+    "Output:VariableDictionary": {
+        "Output:VariableDictionary 1": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 1,
+            "idf_order": 91,
+            "key_field": "regular"
+        }
+    },
+    "OutputControl:Table:Style": {
+        "OutputControl:Table:Style 1": {
+            "column_separator": "HTML",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 2,
+            "idf_order": 42,
+            "unit_conversion": "None"
+        }
+    },
+    "Pipe:Adiabatic": {
+        "Demand Inlet Pipe": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 13,
+            "inlet_node_name": "Demand Inlet Pipe Inlet Node",
+            "outlet_node_name": "Demand Inlet Pipe Outlet Node"
+        },
+        "Demand Outlet Pipe": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 14,
+            "inlet_node_name": "Demand Outlet Pipe Inlet Node",
+            "outlet_node_name": "Demand Outlet Pipe Outlet Node"
+        },
+        "Supply Outlet Pipe": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 12,
+            "inlet_node_name": "Supply Outlet Pipe Inlet Node",
+            "outlet_node_name": "Supply Outlet Pipe Outlet Node"
+        }
+    },
+    "PlantEquipmentList": {
+        "Heating Plant": {
+            "equipment_1_name": "District Heating 1",
+            "equipment_1_object_type": "DistrictHeating",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 27
+        }
+    },
+    "PlantEquipmentOperation:HeatingLoad": {
+        "Purchaise Only": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 4,
+            "idf_order": 28,
+            "load_range_1_lower_limit": 0,
+            "load_range_1_upper_limit": 1000000000,
+            "range_1_equipment_list_name": "Heating Plant"
+        }
+    },
+    "PlantEquipmentOperationSchemes": {
+        "Main Loop Operation": {
+            "control_scheme_1_name": "Purchaise Only",
+            "control_scheme_1_object_type": "PlantEquipmentOperation:HeatingLoad",
+            "control_scheme_1_schedule_name": "On/Off Schedule",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 4,
+            "idf_order": 29
+        }
+    },
+    "PlantLoop": {
+        "Main Loop": {
+            "common_pipe_simulation": "None",
+            "demand_side_branch_list_name": "Demand Branches",
+            "demand_side_connector_list_name": "Demand Connectors",
+            "demand_side_inlet_node_name": "Demand Inlet Pipe Inlet Node",
+            "demand_side_outlet_node_name": "Demand Outlet Pipe Outlet Node",
+            "fluid_type": "Water",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 24,
+            "idf_order": 26,
+            "load_distribution_scheme": "SequentialLoad",
+            "loop_circulation_time": 2,
+            "loop_temperature_setpoint_node_name": "Supply Outlet Pipe Outlet Node",
+            "maximum_loop_flow_rate": 0.005,
+            "maximum_loop_temperature": 100,
+            "minimum_loop_flow_rate": 0,
+            "minimum_loop_temperature": 3,
+            "plant_equipment_operation_scheme_name": "Main Loop Operation",
+            "plant_loop_demand_calculation_scheme": "SingleSetpoint",
+            "plant_loop_volume": "Autocalculate",
+            "plant_side_branch_list_name": "Supply Branches",
+            "plant_side_connector_list_name": "Supply Connectors",
+            "plant_side_inlet_node_name": "Pump Inlet Node",
+            "plant_side_outlet_node_name": "Supply Outlet Pipe Outlet Node",
+            "pressure_simulation_type": "None"
+        }
+    },
+    "Pump:VariableSpeed": {
+        "Pump 1": {
+            "coefficient_2_of_the_part_load_performance_curve": 1,
+            "design_electric_power_per_unit_flow_rate": 348701.1,
+            "design_maximum_flow_rate": 0.005,
+            "design_minimum_flow_rate": 3e-05,
+            "design_power_consumption": 1500,
+            "design_power_sizing_method": "PowerPerFlowPerPressure",
+            "design_pump_head": 179352,
+            "design_shaft_power_per_unit_flow_rate_per_unit_head": 1.282051282,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 28,
+            "idf_order": 8,
+            "inlet_node_name": "Pump Inlet Node",
+            "motor_efficiency": 0.9,
+            "outlet_node_name": "Pump Outlet Node",
+            "pump_control_type": "Continuous"
+        }
+    },
+    "RunPeriod": {
+        "Annual sim 1": {
+            "apply_weekend_holiday_rule": "No",
+            "begin_day_of_month": 27,
+            "begin_month": 5,
+            "end_day_of_month": 27,
+            "end_month": 5,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 13,
+            "idf_order": 40,
+            "increment_day_of_week_on_repeat": "Yes",
+            "number_of_times_runperiod_to_be_repeated": 1,
+            "use_weather_file_daylight_saving_period": "Yes",
+            "use_weather_file_holidays_and_special_days": "Yes",
+            "use_weather_file_rain_indicators": "Yes",
+            "use_weather_file_snow_indicators": "Yes"
+        }
+    },
+    "Schedule:Compact": {
+        "ALWAYS 4": {
+            "data": [
+                {
+                    "field": "Through: 12/31"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 4
+                }
+            ],
+            "idf_max_extensible_fields": 4,
+            "idf_max_fields": 6,
+            "idf_order": 81,
+            "schedule_type_limits_name": "Any Number"
+        },
+        "ALWAYS 20": {
+            "data": [
+                {
+                    "field": "Through: 12/31"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 20
+                }
+            ],
+            "idf_max_extensible_fields": 4,
+            "idf_max_fields": 6,
+            "idf_order": 82,
+            "schedule_type_limits_name": "Any Number"
+        },
+        "ALWAYS 24": {
+            "data": [
+                {
+                    "field": "Through: 12/31"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 24
+                }
+            ],
+            "idf_max_extensible_fields": 4,
+            "idf_max_fields": 6,
+            "idf_order": 83,
+            "schedule_type_limits_name": "Any Number"
+        },
+        "Main Loop Temp Sch": {
+            "data": [
+                {
+                    "field": "Through: 12/31"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 60
+                }
+            ],
+            "idf_max_extensible_fields": 4,
+            "idf_max_fields": 6,
+            "idf_order": 32,
+            "schedule_type_limits_name": "Any Number"
+        },
+        "Office Lighting": {
+            "data": [
+                {
+                    "field": "Through: 12/31"
+                },
+                {
+                    "field": "For: Weekdays SummerDesignDay"
+                },
+                {
+                    "field": "Until: 05:00"
+                },
+                {
+                    "field": 0.05
+                },
+                {
+                    "field": "Until: 07:00"
+                },
+                {
+                    "field": 0.1
+                },
+                {
+                    "field": "Until: 08:00"
+                },
+                {
+                    "field": 0.3
+                },
+                {
+                    "field": "Until: 17:00"
+                },
+                {
+                    "field": 0.9
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 0.5
+                },
+                {
+                    "field": "Until: 20:00"
+                },
+                {
+                    "field": 0.3
+                },
+                {
+                    "field": "Until: 22:00"
+                },
+                {
+                    "field": 0.2
+                },
+                {
+                    "field": "Until: 23:00"
+                },
+                {
+                    "field": 0.1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0.05
+                },
+                {
+                    "field": "For: Saturday WinterDesignDay"
+                },
+                {
+                    "field": "Until: 06:00"
+                },
+                {
+                    "field": 0.05
+                },
+                {
+                    "field": "Until: 08:00"
+                },
+                {
+                    "field": 0.1
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 0.3
+                },
+                {
+                    "field": "Until: 17:00"
+                },
+                {
+                    "field": 0.15
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0.05
+                },
+                {
+                    "field": "For: Sunday Holidays AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0.05
+                }
+            ],
+            "idf_max_extensible_fields": 34,
+            "idf_max_fields": 36,
+            "idf_order": 44,
+            "schedule_type_limits_name": "Fraction"
+        },
+        "On/Off Schedule": {
+            "data": [
+                {
+                    "field": "Through: 12/31"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 1
+                }
+            ],
+            "idf_max_extensible_fields": 4,
+            "idf_max_fields": 6,
+            "idf_order": 31,
+            "schedule_type_limits_name": "On/Off"
+        }
+    },
+    "ScheduleTypeLimits": {
+        "Any Number": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 1,
+            "idf_order": 80
+        },
+        "Fraction": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 4,
+            "idf_order": 45,
+            "lower_limit_value": 0.0,
+            "numeric_type": "Continuous",
+            "upper_limit_value": 1.0
+        },
+        "On/Off": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 5,
+            "idf_order": 30,
+            "lower_limit_value": 0,
+            "numeric_type": "Discrete",
+            "unit_type": "Dimensionless",
+            "upper_limit_value": 1
+        }
+    },
+    "SetpointManager:Scheduled:DualSetpoint": {
+        "DualPlant": {
+            "control_variable": "Temperature",
+            "high_setpoint_schedule_name": "Main Loop Temp Sch",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 5,
+            "idf_order": 3,
+            "low_setpoint_schedule_name": "Main Loop Temp Sch",
+            "setpoint_node_or_nodelist_name": "Main Loop SetPoint Node"
+        }
+    },
+    "ShadowCalculation": {
+        "ShadowCalculation 1": {
+            "calculation_frequency": 20,
+            "calculation_method": "AverageOverDaysInFrequency",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 2,
+            "idf_order": 58
+        }
+    },
+    "SimulationControl": {
+        "SimulationControl 1": {
+            "do_plant_sizing_calculation": "No",
+            "do_system_sizing_calculation": "No",
+            "do_zone_sizing_calculation": "No",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 5,
+            "idf_order": 59,
+            "run_simulation_for_sizing_periods": "No",
+            "run_simulation_for_weather_file_run_periods": "Yes"
+        }
+    },
+    "Site:GroundTemperature:BuildingSurface": {
+        "Site:GroundTemperature:BuildingSurface 1": {
+            "april_ground_temperature": 18.4,
+            "august_ground_temperature": 22.5,
+            "december_ground_temperature": 18.5,
+            "february_ground_temperature": 18.2,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 12,
+            "idf_order": 61,
+            "january_ground_temperature": 18.3,
+            "july_ground_temperature": 22.3,
+            "june_ground_temperature": 22.0,
+            "march_ground_temperature": 18.3,
+            "may_ground_temperature": 20.1,
+            "november_ground_temperature": 18.9,
+            "october_ground_temperature": 20.7,
+            "september_ground_temperature": 22.5
+        }
+    },
+    "Site:Location": {
+        "Stockholm (Arlanda)": {
+            "elevation": 0,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 5,
+            "idf_order": 60,
+            "latitude": 0,
+            "longitude": 0,
+            "time_zone": 0
+        }
+    },
+    "SurfaceConvectionAlgorithm:Inside": {
+        "SurfaceConvectionAlgorithm:Inside 1": {
+            "algorithm": "TARP",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 1,
+            "idf_order": 55
+        }
+    },
+    "SurfaceConvectionAlgorithm:Outside": {
+        "SurfaceConvectionAlgorithm:Outside 1": {
+            "algorithm": "TARP",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 1,
+            "idf_order": 56
+        }
+    },
+    "ThermostatSetpoint:DualSetpoint": {
+        "Dual": {
+            "cooling_setpoint_temperature_schedule_name": "ALWAYS 24",
+            "heating_setpoint_temperature_schedule_name": "ALWAYS 20",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 2
+        }
+    },
+    "Timestep": {
+        "Timestep 1": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 1,
+            "idf_order": 54,
+            "number_of_timesteps_per_hour": 30
+        }
+    },
+    "Version": {
+        "Version 1": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 1,
+            "idf_order": 52,
+            "version_identifier": "8.9"
+        }
+    },
+    "WindowMaterial:Gas": {
+        "AIR 3MM": {
+            "gas_type": "Air",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 47,
+            "thickness": 0.0032
+        }
+    },
+    "WindowMaterial:Glazing": {
+        "CLEAR 6MM": {
+            "back_side_infrared_hemispherical_emissivity": 0.84,
+            "back_side_solar_reflectance_at_normal_incidence": 0.071,
+            "back_side_visible_reflectance_at_normal_incidence": 0.08,
+            "conductivity": 0.9,
+            "front_side_infrared_hemispherical_emissivity": 0.84,
+            "front_side_solar_reflectance_at_normal_incidence": 0.071,
+            "front_side_visible_reflectance_at_normal_incidence": 0.08,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 14,
+            "idf_order": 46,
+            "infrared_transmittance_at_normal_incidence": 0.0,
+            "optical_data_type": "SpectralAverage",
+            "solar_transmittance_at_normal_incidence": 0.775,
+            "thickness": 0.006,
+            "visible_transmittance_at_normal_incidence": 0.881
+        }
+    },
+    "Zone": {
+        "ZONE ONE": {
+            "ceiling_height": 2.7,
+            "direction_of_relative_north": 0,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 9,
+            "idf_order": 72,
+            "multiplier": 1,
+            "type": 1,
+            "volume": 129.6,
+            "x_origin": 0,
+            "y_origin": 0,
+            "z_origin": 0
+        }
+    },
+    "ZoneControl:Thermostat": {
+        "ZONE ONE Thermostat": {
+            "control_1_name": "Dual",
+            "control_1_object_type": "ThermostatSetpoint:DualSetpoint",
+            "control_type_schedule_name": "ALWAYS 4",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 5,
+            "idf_order": 86,
+            "zone_or_zonelist_name": "ZONE ONE"
+        }
+    },
+    "ZoneHVAC:Baseboard:RadiantConvective:Water": {
+        "Radiator": {
+            "convergence_tolerance": 0.001,
+            "fraction_of_autosized_heating_design_capacity": 1,
+            "fraction_radiant": 0.4,
+            "heating_design_capacity": 1835,
+            "heating_design_capacity_method": "HeatingDesignCapacity",
+            "idf_max_extensible_fields": 8,
+            "idf_max_fields": 22,
+            "idf_order": 6,
+            "inlet_node_name": "Radiator Inlet Node",
+            "maximum_water_flow_rate": 5e-05,
+            "outlet_node_name": "Radiator Outlet Node",
+            "rated_average_water_temperature": 50,
+            "rated_water_mass_flow_rate": 0.044,
+            "surface_fractions": [
+                {
+                    "fraction_of_radiant_energy_to_surface": 0.25,
+                    "surface_name": "SURFACE NORTH"
+                },
+                {
+                    "fraction_of_radiant_energy_to_surface": 0.25,
+                    "surface_name": "ZONE SURFACE EAST"
+                },
+                {
+                    "fraction_of_radiant_energy_to_surface": 0.25,
+                    "surface_name": "ZONE SURFACE WEST"
+                },
+                {
+                    "fraction_of_radiant_energy_to_surface": 0.25,
+                    "surface_name": "ZONE SURFACE SOUTH"
+                }
+            ]
+        }
+    },
+    "ZoneHVAC:EquipmentConnections": {
+        "ZoneHVAC:EquipmentConnections 1": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 6,
+            "idf_order": 84,
+            "zone_air_node_name": "ZONE ONE Zone Air Node",
+            "zone_conditioning_equipment_list_name": "ZONE ONE Equipment",
+            "zone_name": "ZONE ONE",
+            "zone_return_air_node_or_nodelist_name": "ZONE ONE Return Outlet"
+        }
+    },
+    "ZoneHVAC:EquipmentList": {
+        "ZONE ONE Equipment": {
+            "equipment": [
+                {
+                    "zone_equipment_cooling_sequence": 1,
+                    "zone_equipment_heating_or_no_load_sequence": 1,
+                    "zone_equipment_name": "Radiator",
+                    "zone_equipment_object_type": "ZoneHVAC:Baseboard:RadiantConvective:Water"
+                }
+            ],
+            "idf_max_extensible_fields": 4,
+            "idf_max_fields": 6,
+            "idf_order": 85,
+            "load_distribution_scheme": "SequentialLoad"
+        }
+    }
+}

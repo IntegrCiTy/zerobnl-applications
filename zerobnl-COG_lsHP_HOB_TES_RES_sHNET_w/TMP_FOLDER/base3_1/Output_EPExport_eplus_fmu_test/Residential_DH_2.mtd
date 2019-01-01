@@ -1,0 +1,298 @@
+
+ Meters for 8,FAMILIY LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZONE ONE [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ZONE ONE [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 81,FAMILY EQUIPMENT:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZONE ONE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ZONE ONE [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 118,DHW:Hot Water Equipment District Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:Building [J]
+  OnMeter=DistrictHeating:Zone:ZONE ONE [J]
+  OnMeter=InteriorEquipment:DistrictHeating [J]
+  OnMeter=InteriorEquipment:DistrictHeating:Zone:ZONE ONE [J]
+  OnMeter=General:InteriorEquipment:DistrictHeating [J]
+
+ Meters for 191,ZONE ONE:Zone Ventilation Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZONE ONE [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=Fans:Electricity:Zone:ZONE ONE [J]
+  OnMeter=Ventilation (simple):Fans:Electricity [J]
+
+ Meters for 228,ZONE ONE:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZONE ONE [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ZONE ONE [J]
+
+ Meters for 289,ZONE ONE:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZONE ONE [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ZONE ONE [J]
+
+ Meters for 316,ERV_1_HX:Heat Exchanger Total Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatRecoveryForHeating:EnergyTransfer [J]
+
+ Meters for 341,ERV_1_HX:Heat Exchanger Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatRecoveryForCooling:EnergyTransfer [J]
+
+ Meters for 354,ERV_1_HX:Heat Exchanger Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=HeatRecovery:Electricity [J]
+
+ Meters for 380,ERV_1_FANSUPPLY:Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 395,ERV_1_FANEXHAUST:Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 398,RADIATOR:Baseboard Total Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=Baseboard:EnergyTransfer [J]
+
+ Meters for 411,RADIATOR:Baseboard Hot Water Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=Baseboard:PlantLoopHeatingDemand [J]
+
+ Meters for 451,Whole Building:Facility Total Purchased Electric Energy [J]
+  OnMeter=ElectricityPurchased:Facility [J]
+  OnMeter=ElectricityPurchased:Plant [J]
+  OnMeter=Cogeneration:ElectricityPurchased [J]
+
+ Meters for 488,Whole Building:Facility Total Surplus Electric Energy [J]
+  OnMeter=ElectricitySurplusSold:Facility [J]
+  OnMeter=ElectricitySurplusSold:Plant [J]
+  OnMeter=Cogeneration:ElectricitySurplusSold [J]
+
+ Meters for 525,Whole Building:Facility Net Purchased Electric Energy [J]
+  OnMeter=ElectricityNet:Facility [J]
+  OnMeter=ElectricityNet:Plant [J]
+  OnMeter=Cogeneration:ElectricityNet [J]
+
+ Meters for 562,DISTRICT HEATING 1:District Heating Hot Water Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:Plant [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 591,PUMP 1:Pump Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Pumps:Electricity [J]
+
+ Meters for 616,Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 641,Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 642,Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ For Meter=Electricity:Facility [J], ResourceType=Electricity, contents are:
+  FAMILIY LIGHTS:Lights Electric Energy
+  FAMILY EQUIPMENT:Electric Equipment Electric Energy
+  ZONE ONE:Zone Ventilation Fan Electric Energy
+  ERV_1_HX:Heat Exchanger Electric Energy
+  ERV_1_FANSUPPLY:Fan Electric Energy
+  ERV_1_FANEXHAUST:Fan Electric Energy
+  PUMP 1:Pump Electric Energy
+
+ For Meter=Electricity:Building [J], ResourceType=Electricity, Group=Building, contents are:
+  FAMILIY LIGHTS:Lights Electric Energy
+  FAMILY EQUIPMENT:Electric Equipment Electric Energy
+  ZONE ONE:Zone Ventilation Fan Electric Energy
+
+ For Meter=Electricity:Zone:ZONE ONE [J], ResourceType=Electricity, Group=Zone, contents are:
+  FAMILIY LIGHTS:Lights Electric Energy
+  FAMILY EQUIPMENT:Electric Equipment Electric Energy
+  ZONE ONE:Zone Ventilation Fan Electric Energy
+
+ For Meter=InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  FAMILIY LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:ZONE ONE [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  FAMILIY LIGHTS:Lights Electric Energy
+
+ For Meter=General:InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  FAMILIY LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  FAMILY EQUIPMENT:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:ZONE ONE [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  FAMILY EQUIPMENT:Electric Equipment Electric Energy
+
+ For Meter=General:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  FAMILY EQUIPMENT:Electric Equipment Electric Energy
+
+ For Meter=DistrictHeating:Facility [J], ResourceType=DistrictHeating, contents are:
+  DHW:Hot Water Equipment District Heating Energy
+  DISTRICT HEATING 1:District Heating Hot Water Energy
+
+ For Meter=DistrictHeating:Building [J], ResourceType=DistrictHeating, Group=Building, contents are:
+  DHW:Hot Water Equipment District Heating Energy
+
+ For Meter=DistrictHeating:Zone:ZONE ONE [J], ResourceType=DistrictHeating, Group=Zone, contents are:
+  DHW:Hot Water Equipment District Heating Energy
+
+ For Meter=InteriorEquipment:DistrictHeating [J], ResourceType=DistrictHeating, EndUse=InteriorEquipment, contents are:
+  DHW:Hot Water Equipment District Heating Energy
+
+ For Meter=InteriorEquipment:DistrictHeating:Zone:ZONE ONE [J], ResourceType=DistrictHeating, EndUse=InteriorEquipment, Group=Zone, contents are:
+  DHW:Hot Water Equipment District Heating Energy
+
+ For Meter=General:InteriorEquipment:DistrictHeating [J], ResourceType=DistrictHeating, EndUse=InteriorEquipment, contents are:
+  DHW:Hot Water Equipment District Heating Energy
+
+ For Meter=Fans:Electricity [J], ResourceType=Electricity, EndUse=Fans, contents are:
+  ZONE ONE:Zone Ventilation Fan Electric Energy
+  ERV_1_FANSUPPLY:Fan Electric Energy
+  ERV_1_FANEXHAUST:Fan Electric Energy
+
+ For Meter=Fans:Electricity:Zone:ZONE ONE [J], ResourceType=Electricity, EndUse=Fans, Group=Zone, contents are:
+  ZONE ONE:Zone Ventilation Fan Electric Energy
+
+ For Meter=Ventilation (simple):Fans:Electricity [J], ResourceType=Electricity, EndUse=Fans, contents are:
+  ZONE ONE:Zone Ventilation Fan Electric Energy
+
+ For Meter=EnergyTransfer:Facility [J], ResourceType=EnergyTransfer, contents are:
+  ZONE ONE:Zone Air System Sensible Heating Energy
+  ZONE ONE:Zone Air System Sensible Cooling Energy
+  ERV_1_HX:Heat Exchanger Total Heating Energy
+  ERV_1_HX:Heat Exchanger Total Cooling Energy
+  RADIATOR:Baseboard Total Heating Energy
+
+ For Meter=EnergyTransfer:Building [J], ResourceType=EnergyTransfer, Group=Building, contents are:
+  ZONE ONE:Zone Air System Sensible Heating Energy
+  ZONE ONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ZONE ONE [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ZONE ONE:Zone Air System Sensible Heating Energy
+  ZONE ONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  ZONE ONE:Zone Air System Sensible Heating Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ZONE ONE [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ZONE ONE:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  ZONE ONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ZONE ONE [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ZONE ONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:HVAC [J], ResourceType=EnergyTransfer, Group=HVAC, contents are:
+  ERV_1_HX:Heat Exchanger Total Heating Energy
+  ERV_1_HX:Heat Exchanger Total Cooling Energy
+  RADIATOR:Baseboard Total Heating Energy
+
+ For Meter=HeatRecoveryForHeating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=HeatRecoveryForHeating, contents are:
+  ERV_1_HX:Heat Exchanger Total Heating Energy
+
+ For Meter=HeatRecoveryForCooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=HeatRecoveryForCooling, contents are:
+  ERV_1_HX:Heat Exchanger Total Cooling Energy
+
+ For Meter=Electricity:HVAC [J], ResourceType=Electricity, Group=HVAC, contents are:
+  ERV_1_HX:Heat Exchanger Electric Energy
+  ERV_1_FANSUPPLY:Fan Electric Energy
+  ERV_1_FANEXHAUST:Fan Electric Energy
+
+ For Meter=HeatRecovery:Electricity [J], ResourceType=Electricity, EndUse=HeatRecovery, contents are:
+  ERV_1_HX:Heat Exchanger Electric Energy
+
+ For Meter=General:Fans:Electricity [J], ResourceType=Electricity, EndUse=Fans, contents are:
+  ERV_1_FANSUPPLY:Fan Electric Energy
+  ERV_1_FANEXHAUST:Fan Electric Energy
+
+ For Meter=Baseboard:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Baseboard, contents are:
+  RADIATOR:Baseboard Total Heating Energy
+
+ For Meter=PlantLoopHeatingDemand:Facility [J], ResourceType=PlantLoopHeatingDemand, contents are:
+  RADIATOR:Baseboard Hot Water Energy
+
+ For Meter=PlantLoopHeatingDemand:HVAC [J], ResourceType=PlantLoopHeatingDemand, Group=HVAC, contents are:
+  RADIATOR:Baseboard Hot Water Energy
+
+ For Meter=Baseboard:PlantLoopHeatingDemand [J], ResourceType=PlantLoopHeatingDemand, EndUse=Baseboard, contents are:
+  RADIATOR:Baseboard Hot Water Energy
+
+ For Meter=ElectricityPurchased:Facility [J], ResourceType=ElectricityPurchased, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=ElectricityPurchased:Plant [J], ResourceType=ElectricityPurchased, Group=Plant, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=Cogeneration:ElectricityPurchased [J], ResourceType=ElectricityPurchased, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=ElectricitySurplusSold:Facility [J], ResourceType=ElectricitySurplusSold, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=ElectricitySurplusSold:Plant [J], ResourceType=ElectricitySurplusSold, Group=Plant, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=Cogeneration:ElectricitySurplusSold [J], ResourceType=ElectricitySurplusSold, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=ElectricityNet:Facility [J], ResourceType=ElectricityNet, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=ElectricityNet:Plant [J], ResourceType=ElectricityNet, Group=Plant, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=Cogeneration:ElectricityNet [J], ResourceType=ElectricityNet, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=DistrictHeating:Plant [J], ResourceType=DistrictHeating, Group=Plant, contents are:
+  DISTRICT HEATING 1:District Heating Hot Water Energy
+
+ For Meter=Heating:DistrictHeating [J], ResourceType=DistrictHeating, EndUse=Heating, contents are:
+  DISTRICT HEATING 1:District Heating Hot Water Energy
+
+ For Meter=Electricity:Plant [J], ResourceType=Electricity, Group=Plant, contents are:
+  PUMP 1:Pump Electric Energy
+
+ For Meter=Pumps:Electricity [J], ResourceType=Electricity, EndUse=Pumps, contents are:
+  PUMP 1:Pump Electric Energy
+
+ For Meter=Carbon Equivalent:Facility [kg], ResourceType=Carbon Equivalent, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass
+
+ For Meter=CarbonEquivalentEmissions:Carbon Equivalent [kg], ResourceType=Carbon Equivalent, EndUse=CarbonEquivalentEmissions, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass

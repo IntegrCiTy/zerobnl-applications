@@ -1,0 +1,1 @@
+{"NAME": "Base6", "GROUP": "GRP6", "LOCAL": false, "INPUT_MAP": "{}", "OUTPUTS": ["TdryBulb"], "INIT_VALUES": {}, "PARAMETERS": {}, "START": "2000-01-01 00:00:00", "TIME_UNIT": "seconds"}

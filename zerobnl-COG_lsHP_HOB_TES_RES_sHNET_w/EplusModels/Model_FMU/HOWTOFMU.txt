@@ -1,0 +1,3 @@
+C:\EnergyPlusToFMU\Scripts>python EnergyPlusToFMU.py -d -i C:\EnergyPlusV8-9-0\Energy+.idd -w C:\EnergyPlusV8-9-0\WeatherData\SWE_Stockholm.Arlanda.024600_IWEC.epw C:\GitHub_Projects\IntegrCiTy_Applications\zerobnl-COG_HOB_TES_RES_sHNET_w\EplusModels\Model_FMU\Residential_DH_1.idf
+
+With Python 27

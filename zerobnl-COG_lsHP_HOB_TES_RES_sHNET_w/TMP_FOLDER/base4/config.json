@@ -1,0 +1,1 @@
+{"NAME": "Base4", "GROUP": "GRP5", "LOCAL": false, "INPUT_MAP": "{('Base0', 'TsetP'): 'HOB_Tset', ('Base1', 'HOB_FlagOUT'): 'HOB_FlagIN', ('Base8', 'mdot'): 'HOB_mdotIN', ('Base8', 'Tout'): 'HOB_Tin'}", "OUTPUTS": [], "INIT_VALUES": {}, "PARAMETERS": {}, "START": "2000-01-01 00:00:00", "TIME_UNIT": "seconds"}
