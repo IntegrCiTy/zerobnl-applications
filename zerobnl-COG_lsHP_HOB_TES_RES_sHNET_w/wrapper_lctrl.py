@@ -86,7 +86,8 @@ class Lctrl(Node):
             elif ii == 1:
                self.Tth_1 = Tth
 			   
-            ii = ii+1
+            ii = ii+1				
+				
 		
 if __name__ == "__main__":
     node = Lctrl()

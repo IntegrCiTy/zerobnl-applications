@@ -1,1 +1,1 @@
-{"NAME": "Base7", "GROUP": "GRP1", "LOCAL": false, "INPUT_MAP": "{('Base3', 'QDH'): 'HNET_QDH_1', ('Base3_1', 'QDH'): 'HNET_QDH_2'}", "OUTPUTS": ["HNET_QDH"], "INIT_VALUES": {}, "PARAMETERS": {}, "START": "2000-01-01 00:00:00", "TIME_UNIT": "seconds"}
+{"NAME": "Base7", "GROUP": "GRP1", "LOCAL": false, "INPUT_MAP": "{('Base0', 'TsetP'): 'HNET_TsSET', ('Base3', 'QDH'): 'HNET_QDH_1', ('Base3_1', 'QDH'): 'HNET_QDH_2'}", "OUTPUTS": ["HNET_QDH", "HNET_MDOTtot"], "INIT_VALUES": {}, "PARAMETERS": {}, "START": "2000-01-01 00:00:00", "TIME_UNIT": "seconds"}

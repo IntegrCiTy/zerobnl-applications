@@ -1,4 +1,4 @@
-Program Version,EnergyPlus, Version 8.9.0-40101eaafd, YMD=2019.01.01 11:44,
+Program Version,EnergyPlus, Version 8.9.0-40101eaafd, YMD=2019.01.02 22:39,
    ** Warning ** Timestep: Requested number (1) is less than the suggested minimum of 4.
    **   ~~~   ** Please see entry for Timestep in Input/Output Reference for discussion of considerations.
    ** Warning ** Weather file location will be used rather than entered (IDF) Location object.
@@ -21,4 +21,4 @@ Program Version,EnergyPlus, Version 8.9.0-40101eaafd, YMD=2019.01.01 11:44,
    ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
    ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
    ************* EnergyPlus Sizing Error Summary. During Sizing: 0 Warning; 0 Severe Errors.
-   ************* EnergyPlus Completed Successfully-- 2 Warning; 0 Severe Errors; Elapsed Time=00hr 00min  9.60sec
+   ************* EnergyPlus Completed Successfully-- 2 Warning; 0 Severe Errors; Elapsed Time=00hr 00min  8.87sec

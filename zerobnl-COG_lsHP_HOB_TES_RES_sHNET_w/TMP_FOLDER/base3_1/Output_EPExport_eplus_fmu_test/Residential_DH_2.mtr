@@ -1,4 +1,4 @@
-Program Version,EnergyPlus, Version 8.9.0-40101eaafd, YMD=2019.01.01 11:44
+Program Version,EnergyPlus, Version 8.9.0-40101eaafd, YMD=2019.01.02 22:39
 1,5,Environment Title[],Latitude[deg],Longitude[deg],Time Zone[],Elevation[m]
 2,8,Day of Simulation[],Month[],Day of Month[],DST Indicator[1=yes 0=no],Hour[],StartMinute[],EndMinute[],DayType
 3,5,Cumulative Day of Simulation[],Month[],Day of Month[],DST Indicator[1=yes 0=no],DayType  ! When Daily Meters Requested
@@ -23,9 +23,9 @@ End of Data Dictionary
 2,1, 1,27, 0, 7, 0.00,60.00,Friday
 120,7401600.0
 2,1, 1,27, 0, 8, 0.00,60.00,Friday
-120,4747905.0272231469
+120,7518694.8172336299
 2,1, 1,27, 0, 9, 0.00,60.00,Friday
-120,6473828.571428573
+120,7430136.378073827
 2,1, 1,27, 0,10, 0.00,60.00,Friday
 120,7430400.0
 2,1, 1,27, 0,11, 0.00,60.00,Friday
@@ -37,17 +37,17 @@ End of Data Dictionary
 2,1, 1,27, 0,14, 0.00,60.00,Friday
 120,7452000.0
 2,1, 1,27, 0,15, 0.00,60.00,Friday
-120,6086354.200757317
+120,7444800.0
 2,1, 1,27, 0,16, 0.00,60.00,Friday
-120,6547016.634480468
+120,7408800.0
 2,1, 1,27, 0,17, 0.00,60.00,Friday
-120,6044162.38565323
+120,7430400.0
 2,1, 1,27, 0,18, 0.00,60.00,Friday
-120,5465307.346914554
+120,7560000.0
 2,1, 1,27, 0,19, 0.00,60.00,Friday
-120,2109578.7366501449
+120,5661410.012418006
 2,1, 1,27, 0,20, 0.00,60.00,Friday
-120,1631853.4555463915
+120,6992090.354252484
 2,1, 1,27, 0,21, 0.00,60.00,Friday
 120,259200.0
 2,1, 1,27, 0,22, 0.00,60.00,Friday

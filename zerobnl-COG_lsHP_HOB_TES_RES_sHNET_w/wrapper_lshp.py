@@ -20,6 +20,8 @@ class lsHp(Node):
         self.LSHP_MDOTtoTES = 0.
         self.LSHP_MDOTfromTES = 0.
         self.LSHP_TTESin = 75.
+        self.LSHP_MDOTtoLOAD = 0.
+        self.LSHP_soo = 75.		
 		
         #Internal variables
         self.LSHP_cp = 4.186     

@@ -12,14 +12,17 @@ class Ctrl(Node):
         #Inputs (set)
         self.demandOK = 1
         self.demandOK_mdot = 1
+        self.demandOK_price = 0
         #Outputs
-        self.COG_FlagOUT = -1	
+        self.COG_FlagOUT = -1
+        self.LSHP_FlagOUT = -1		
         self.TES_FlagOUT = -1		
         self.HOB_FlagOUT = -1		
         #Internal variables (get)
         self.PRflag = -1
         self.priority = np.empty([1])		
         self.COG_plant = {'Name':'COGplant','Flag': self.COG_FlagOUT}
+        self.LSHP_plant = {'Name':'LSHPplant','Flag': self.LSHP_FlagOUT}
         self.TES_plant = {'Name':'TESplant','Flag': self.TES_FlagOUT}
         self.HOB_plant = {'Name':'HOBplant','Flag': self.HOB_FlagOUT}
 
@@ -58,7 +61,7 @@ class Ctrl(Node):
 			# The priority will be set based on operational costs of the different options.
 			# There will be more than one vector based on the time of the day, thus depending on
 			# weather conditions , level of the demand and costs.
-            self.priority = [self.COG_plant,self.TES_plant,self.HOB_plant]
+            self.priority = [self.COG_plant,self.LSHP_plant,self.TES_plant,self.HOB_plant]
             self.PRflag = 1
 			
             print('Priority is set')
@@ -66,8 +69,12 @@ class Ctrl(Node):
             for plant in self.priority:
 			
                 plant['Flag'] = 1 	
-                if plant['Name'] == "COGplant":
+                if plant['Name'] == "COGplant" and self.demandOK_price == 1:
                    self.COG_FlagOUT = plant['Flag']
+                   self.LSHP_FlagOUT = 0.
+                elif plant['Name'] == "LSHPplant" and self.demandOK_price == 2:
+                   self.LSHP_FlagOUT = plant['Flag']
+                   self.COG_FlagOUT = 0.
 				   
                 if plant['Name'] == "TESplant":
                     if self.demandOK_mdot == -1 :
