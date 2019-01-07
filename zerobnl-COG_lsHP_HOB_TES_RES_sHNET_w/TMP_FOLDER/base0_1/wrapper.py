@@ -23,7 +23,9 @@ class Pctrl(Node):
         self.CostFigure2 = np.loadtxt(self.name2+'_cost.txt',skiprows=0)
         self.COG_EFFe = 0.37
 
-        #PelSpot = np.loadtxt('SpotMarketPrices_2016.txt',skiprows=3)	
+        self.PelSpot = np.loadtxt('ElPrices2016_Stockholm.txt',skiprows=3)	
+        self.ii=0
+        self.jj=0
 
     def set_attribute(self, attr, value):
         """This method is called to set an attribute of the model to a given value, you need to adapt it to your model."""
@@ -45,8 +47,10 @@ class Pctrl(Node):
         OPEXvariable2 = self.CostFigure2[2] #5.1 sek/MWh* efficiencycorrection for everyone (I mean below also)# From ElForsk [kr/MWh_fuel]
 		
         #Fuel cost
-        if self.CostFigure1[3] == -1: # Required double
-           Fuel1 = 0# Time series
+        if self.CostFigure2[3] == -1: # Required double
+           Fuel1 = self.CostFigure1[3] #Time series
+           Fuel2 = self.PelSpot[self.ii]# Time series
+           self.ii=self.ii+1
 		   
         else:
            Fuel1 = self.CostFigure1[3]# -130 From ElForsk [sek/MWh_fuel/y]
@@ -58,7 +62,9 @@ class Pctrl(Node):
 
         # Revenues
         if self.CostFigure1[4] == -1: # Required double
-           Rev1 = 0# Time series
+           Rev1 = self.PelSpot[self.jj]# Time series
+           self.jj=self.jj+1
+           Rev2 = self.CostFigure2[4] # 0
 		   
         else:
            Rev1 = self.CostFigure1[4] * self.COG_EFFe# 150 sek/MWhe -->sek/MWhp

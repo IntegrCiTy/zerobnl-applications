@@ -27,8 +27,8 @@ class MyNode(Node):
 		print( 'successfully loaded the FMU' )
 
 		## FMU instantiation		
-		start_time = 3600. * 24.*26
-		stop_time = 3600. * 24.*27  # 24 hours
+		start_time = 3600. * 24.*0.
+		stop_time = 3600. * 24.*31.  # 24 hours
 		self.step_size = 3600.# 1/6 hour
 		self.tempo= start_time# self.step_size
 		instance_name = "eplus_fmu_test"

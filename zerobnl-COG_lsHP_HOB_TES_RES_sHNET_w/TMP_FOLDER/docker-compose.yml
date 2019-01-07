@@ -39,6 +39,18 @@ services:
     - orch
     volumes:
     - .\base1:/code
+  base2_1:
+    build:
+      args:
+        BRANCH: simple_feature
+      context: base2_1
+      dockerfile: Dockerfile
+    command: wrapper.py
+    container_name: base2_1
+    depends_on:
+    - orch
+    volumes:
+    - .\base2_1:/code
   base4:
     build:
       args:
@@ -63,6 +75,18 @@ services:
     - orch
     volumes:
     - .\base5:/code
+  base5_1:
+    build:
+      args:
+        BRANCH: simple_feature
+      context: base5_1
+      dockerfile: Dockerfile
+    command: wrapper.py
+    container_name: base5_1
+    depends_on:
+    - orch
+    volumes:
+    - .\base5_1:/code
   base6:
     build:
       args:

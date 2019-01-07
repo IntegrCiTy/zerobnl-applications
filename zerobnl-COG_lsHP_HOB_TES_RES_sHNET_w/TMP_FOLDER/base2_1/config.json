@@ -1,0 +1,1 @@
+{"NAME": "Base2_1", "GROUP": "GRP2", "LOCAL": false, "INPUT_MAP": "{('Base1', 'LSHP_FlagOUT'): 'LSHP_FlagIN', ('Base7', 'HNET_QDH'): 'LSHP_QDH'}", "OUTPUTS": ["LSHP_ToutL", "LSHP_MDOTtoLOAD", "LSHP_soo", "LSHP_MDOTtoTES", "LSHP_MDOTfromTES", "LSHP_TTESin"], "INIT_VALUES": {}, "PARAMETERS": {}, "START": "2000-01-01 00:00:00", "TIME_UNIT": "seconds"}

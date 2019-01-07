@@ -61,8 +61,8 @@ class Pctrl(Node):
            Rev1 = 0# Time series
 		   
         else:
-           Rev1 = self.CostFigure[4] * self.COG_EFFe# 150 sek/MWhe -->sek/MWhp
-           Rev2 = self.CostFigure[4] # 0	
+           Rev1 = self.CostFigure1[4] * self.COG_EFFe# 150 sek/MWhe -->sek/MWhp
+           Rev2 = self.CostFigure2[4] # 0	
 
         # Substract
         opexV1 = OPEXtot1 - Rev1 # Eff correction needed
@@ -70,9 +70,9 @@ class Pctrl(Node):
 
 #Take the minimum
         if opexV1 < opexV2:
-           demandFlag_price = 1 # COG
+           self.demandFlag_price = 1 # COG
         else:
-           demandFlag_price = 2 # LSHP
+           self.demandFlag_price = 2 # LSHP
 		
 if __name__ == "__main__":
     node = Pctrl()

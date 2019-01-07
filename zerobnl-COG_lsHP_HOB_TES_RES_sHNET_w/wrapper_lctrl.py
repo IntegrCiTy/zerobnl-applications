@@ -14,7 +14,8 @@ class Lctrl(Node):
         self.TindoorIN_0 = 20.
         self.TindoorIN_1 = 20.
         self.mdotTOT = 507.        
-        self.TES_socIN = 1
+        self.TEScog_socIN = 1
+        self.TESlshp_socIN = 1
         self.ToutdoorP = 0.
         #Outputs (get)
         self.demandFlag = 0 
@@ -68,14 +69,14 @@ class Lctrl(Node):
                 if Tindoor >= self.TindoorMIN and Tth >= self.TindoorMIN: # First check the possibility to use the capacity in the buildings
                    Tth = max(Tth -1,18.) 
                    self.demandFlag_mdot = 1 #--> Tth # !! si ferma qui ma non si sa se sia sufficiente e sovrascrive il -2 di prima
-                elif self.TES_socIN > -1:
+                elif self.TEScog_socIN or self.TESlshp_socIN > -1:
                    self.demandFlag_mdot = -1 #--> TES discharge
                 else:
                    self.demandFlag_mdot = -2 #--> HOBS
 			   
             else:
                 Tth = min(Tth + 1, 22.) # Since there is surplus, fill in the capacity in the buildings
-                if self.TES_socIN < 1:
+                if self.TEScog_socIN or self.TESlshp_socIN < 1:
                    self.demandFlag_mdot = -3 #--> TES charge
                 else:
                    print("Heat is being wasted")

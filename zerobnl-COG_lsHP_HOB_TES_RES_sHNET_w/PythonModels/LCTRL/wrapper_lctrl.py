@@ -14,7 +14,8 @@ class Lctrl(Node):
         self.TindoorIN_0 = 20.
         self.TindoorIN_1 = 20.
         self.mdotTOT = 507.        
-        self.TES_socIN = 1
+        self.TEScog_socIN = 1
+        self.TESlshp_socIN = 1
         self.ToutdoorP = 0.
         #Outputs (get)
         self.demandFlag = 0 
@@ -86,7 +87,8 @@ class Lctrl(Node):
             elif ii == 1:
                self.Tth_1 = Tth
 			   
-            ii = ii+1
+            ii = ii+1				
+				
 		
 if __name__ == "__main__":
     node = Lctrl()

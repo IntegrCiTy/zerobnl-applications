@@ -12,9 +12,13 @@ class sHnet(Node):
         #Inputs (set)
         self.HNET_QDH_1 = 2000.
         self.HNET_QDH_2 = 2000.
+        self.HNET_TsSET = 75.
         #Outputs
         self.HNET_QDH = 2000. / 1000. * 35490.
+        self.HNET_MDOTtot = 507.
         #Internal variables (get)
+        self.cp = 4.186
+        self.HNET_Tr = 54.56
         
     def set_attribute(self, attr, value):
         """This method is called to set an attribute of the model to a given value, you need to adapt it to your model."""
@@ -30,16 +34,19 @@ class sHnet(Node):
         """This method is called to make a step, you need to adapt it to your model."""
         super().step(value)  # Keep this line, it triggers the parent class method.
         
-        a= self.HNET_QDH_1 - 0.2 * self.HNET_QDH_1
-        b= self.HNET_QDH_1
+        a= self.HNET_QDH_1 - 0.1 * self.HNET_QDH_1
+        b= self.HNET_QDH_1 + 0.1 * self.HNET_QDH_1
         self.HNET_QDH_1r = (b - a) * np.random.random_sample() + a
 
-        c= self.HNET_QDH_2 - 0.2 * self.HNET_QDH_1
-        d= self.HNET_QDH_2
+        c= self.HNET_QDH_2 - 0.1 * self.HNET_QDH_2
+        d= self.HNET_QDH_2 + 0.1 * self.HNET_QDH_2
         self.HNET_QDH_2r = (d - c) * np.random.random_sample() + c		
 		
 		
         self.HNET_QDH = (self.HNET_QDH_1 + self.HNET_QDH_2+self.HNET_QDH_1r + self.HNET_QDH_2r)/ 1000. * 35490./4	# kW tot
+        #self.HNET_QDH = (self.HNET_QDH_1 + self.HNET_QDH_2)/ 1000. * 35490.	# kW tot
+		
+        self.HNET_MDOTtot = self.HNET_QDH/self.cp/(self.HNET_TsSET-self.HNET_Tr) # Portata piccola perché DT alto. O ingrandisco il vicinato o riduco il sizing del base load
 		
 if __name__ == "__main__":
     node = sHnet()

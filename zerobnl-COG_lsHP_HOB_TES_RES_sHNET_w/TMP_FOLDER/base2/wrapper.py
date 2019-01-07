@@ -27,8 +27,8 @@ class MyNode(Node):
 
 		## FMU instantiation
 		start_time = 0.
-		stop_time = 450.*8.*24.  # 24 hours
-		self.step_size = 450. # 1 hour
+		stop_time = 450.*8.*24*31.  # 24 hours
+		self.step_size = 3600# 450. # 1 hour
 		self.tempo=self.step_size
 		instance_name = "trnsys_fmu_test"
 		visible = False

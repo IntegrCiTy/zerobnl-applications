@@ -21,6 +21,7 @@ class Tes(Node):
         self.TES_MDOToutD = 507.
         self.TES_ToutD = 75. 
         self.TES_ToutC = 75. # Fake for the moment 		
+        self.TES_soo = 1. # Fake for the moment 
 		#Internal variables
         self.TES_dT = 21.    
         self.TES_Capmax = 507 * 4.186 * (75 - 54) * 6	
@@ -68,7 +69,7 @@ class Tes(Node):
         else:
            self.TES_socOUT = 0 # Anything
         	
-
+        self.TES_soo = self.TES_FlagIN
 
 if __name__ == "__main__":
     node = Tes()

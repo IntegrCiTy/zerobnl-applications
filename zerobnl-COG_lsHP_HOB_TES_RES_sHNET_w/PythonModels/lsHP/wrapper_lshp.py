@@ -16,7 +16,8 @@ class lsHp(Node):
 
         #Outputs (get)
         self.LSHP_ToutL = 75.
-        self.LSHP_MDOTtot = 0.
+        LSHP_MDOTtoLOAD = 0.
+        self.LSHP_soo = 0.
         self.LSHP_MDOTtoTES = 0.
         self.LSHP_MDOTfromTES = 0.
         self.LSHP_TTESin = 75.
@@ -41,7 +42,9 @@ class lsHp(Node):
     def step(self, value):
         """This method is called to make a step, you need to adapt it to your model."""
         super().step(value)  # Keep this line, it triggers the parent class method.    
-	
+
+        self.LSHP_soo = self.LSHP_FlagIN
+		
         if self.LSHP_FlagIN > 0.5:
 		
 		   self.LSHP_MDOTtot = self.LSHP_QDH/self.LSHP_cp/(self.LSHP_ToutLset-self.LSHP_TinL)
@@ -50,15 +53,17 @@ class lsHp(Node):
 		
                self.LSHP_ToutL = self.LSHP_ToutLset
                self.LSHP_MDOTtoTES = 0.
-               self.LSHP_MDOTfromTES = self.LSHP_MDOTtot - self.mdot_bl.
+               self.LSHP_MDOTfromTES = self.LSHP_MDOTtot - self.mdot_bl
                self.LSHP_TTESin = self.LSHP_TinL 
+               LSHP_MDOTtoLOAD = self.mdot_bl
 		   
             else: #  To charge TES
 			
                self.LSHP_ToutL = self.LSHP_ToutLset
-               self.LSHP_MDOTtoTES = self.mdot_bl. - self.LSHP_MDOTtot
+               self.LSHP_MDOTtoTES = self.mdot_bl - self.LSHP_MDOTtot
                self.LSHP_MDOTfromTES = 0.
-               self.LSHP_TTESin = self.LSHP_ToutLset			
+               self.LSHP_TTESin = self.LSHP_ToutLset	
+               LSHP_MDOTtoLOAD = self.LSHP_MDOTtot			   
 		
         else:
         
@@ -66,7 +71,8 @@ class lsHp(Node):
            self.LSHP_MDOTtot = 0.
            self.LSHP_MDOTtoTES = 0.
            self.LSHP_MDOTfromTES = 0.
-           self.LSHP_TTESin = 75.          
+           self.LSHP_TTESin = 75.
+           LSHP_MDOTtoLOAD = 0.		   
       
         self.LSHP_PdotEl = (self.LSHP_MDOTtot - self.LSHP_MDOTfromTES)/self.LSHP_cop
 
